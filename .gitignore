@@ -3,12 +3,11 @@
 .RData
 .Ruserdata
 _extensions
-_freeze
-_site
-
 
 /.quarto/
 **/*.quarto_ipynb
 .httr-oauth
 .DS_Store
 .quarto
+
+clustering

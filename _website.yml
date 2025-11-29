@@ -75,5 +75,5 @@ website:
     center:  
       - text: "This Blog is made with 💜 in Quarto"
         href: "https://quarto.org"
-    background: "#008080"    
+    background: "#64748b"    
 lang: en    
