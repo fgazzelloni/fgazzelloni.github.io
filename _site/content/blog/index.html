@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This is my blog section.">
+<meta name="description" content="Section dedicated to updated content, personal reflexions, and insights on various topics related to book writing, data science, R programming, and data visualization.">
 
-<title>Blog – Federica Gazzelloni</title>
+<title>Overview – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -165,20 +165,14 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Blog – Federica Gazzelloni">
-<meta property="og:description" content="This is my blog section.">
-<meta property="og:image" content="https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/featured.png">
+<meta property="og:title" content="Overview – Federica Gazzelloni">
+<meta property="og:description" content="Section dedicated to updated content, personal reflexions, and insights on various topics related to book writing, data science, R programming, and data visualization.">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="752">
-<meta property="og:image:width" content="538">
-<meta name="twitter:title" content="Blog – Federica Gazzelloni">
-<meta name="twitter:description" content="This is my blog section.">
-<meta name="twitter:image" content="https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/featured.png">
+<meta name="twitter:title" content="Overview – Federica Gazzelloni">
+<meta name="twitter:description" content="Section dedicated to updated content, personal reflexions, and insights on various topics related to book writing, data science, R programming, and data visualization.">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:image-height" content="752">
-<meta name="twitter:image-width" content="538">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -202,21 +196,62 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/dataviz/index.html"> 
-<span class="menu-text">Data Visualization</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
+    <a class="dropdown-item" href="../../content/blog/index.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/stats/index.html"> 
-<span class="menu-text">Statistics</span></a>
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/proj/index.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/stats/index.html">
+ <span class="dropdown-text">Data Analytics</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../content/proj/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/proj/posts/hindex/index.html">
+ <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/proj/posts/rpackages/index.html">
+ <span class="dropdown-text">R Packages</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="../../content/books/index.html">
+ <span class="dropdown-text">Books Writing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/hmsid/index.html">
+ <span class="dropdown-text">HMSIDwR</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../../content/blog/index.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../content/podcasts/index.html"> 
+<span class="menu-text">Podcasts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -228,8 +263,7 @@ window.Quarto = {
     <a href="mailto:fede.gazzelloni@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://www.linkedin.com/in/federicagazzelloni/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/fgazzelloni" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://orcid.org/0000-0002-4285-611X" title="{{< ai orcid >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai orcid >}}"><i class="bi bi-"></i></a>
-    <a href="https://scholar.google.com/citations?hl=en&amp;user=Xes0-r0AAAAJ" title="{{< ai google-scholar >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai google-scholar >}}"><i class="bi bi-"></i></a>
+    <a href="https://federicagazzelloni.substack.com/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-substack"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -238,18 +272,18 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="0b4537576d43e97a0be18a08f628a632" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available for pre-order from Routledge!! <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782/">👉 Pre-order your copy</a></p>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
+      <h1 class="title">Overview</h1>
                   <div>
         <div class="description">
-          <p>This is my blog section.</p>
+          Section dedicated to updated content, personal reflexions, and insights on various topics related to book writing, data science, R programming, and data visualization.
         </div>
       </div>
                 </div>
@@ -268,7 +302,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9vaw==">book <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -276,36 +310,56 @@ window.Quarto = {
 
 
 
+<p>Welcome to my <strong>Blog</strong> section! My goal is to provide valuable information and perspectives that can help readers navigate the ever-evolving landscape of data science and programming.</p>
+<p>Here, I share my thoughts on a variety of topics, including:</p>
+<ul>
+<li><strong>Data Science</strong>: Discussions on methodologies, best practices, and emerging trends in data analysis</li>
+<li><strong>R Programming</strong>: Tutorials, code snippets, and reflections on using R for data manipulation, analysis, and visualization.</li>
+<li><strong>Data Visualization</strong>: Showcasing effective visualizations and discussing techniques for conveying complex data</li>
+</ul>
+<p>Through this blog, I aim to foster a community of learners and practitioners who are passionate about data science and programming. Whether you’re a beginner or an experienced professional, I hope you’ll find something here that sparks your interest and helps you on your journey.</p>
+<p>Feel free to explore the latest posts and join the conversation!</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Ym9vaw==" data-listing-date-sort="1750629600000" data-listing-file-modified-sort="1763767893706" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="330">
-<div class="thumbnail"><a href="../../content/blog/blog_posts/june2025_book/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1767891142121" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
+<div class="thumbnail"><a href="../../content/blog/posts/dataviz/index.html" class="no-external">
 
-<img loading="lazy" src="../../content/blog/blog_posts/june2025_book/featured.png" class="thumbnail-image">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../content/blog/blog_posts/june2025_book/index.html" class="no-external">Writing a book in R</a>
+<a href="../../content/blog/posts/dataviz/index.html" class="no-external">Data Visualizations</a>
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ym9vaw=='); return false;">book</div>
-
+<div class="delink listing-description"><a href="../../content/blog/posts/dataviz/index.html" class="no-external">
+</a><p><a href="../../content/blog/posts/dataviz/index.html" class="no-external">In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: </a><a href="https://fgazzelloni.github.io/UPDVwR/"><strong>Unlocking The Power of Data Visualization with R Website</strong></a>.</p>
 </div>
-<div class="delink listing-description"><a href="../../content/blog/blog_posts/june2025_book/index.html" class="no-external">
-In this post, I will share my experience of writing a book in R, and the challenges I faced along the way.
+</div>
+<div class="metadata">
+<a href="../../content/blog/posts/dataviz/index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1767889835707" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../../content/blog/posts/stats/index.html" class="no-external">
+
+<p class="card-img-top"><img src="posts/stats/posts/plain_vanilla/featured.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/blog/posts/stats/index.html" class="no-external">Data Analytics and Statistical Techniques</a>
+</h3>
+<div class="delink listing-description"><a href="../../content/blog/posts/stats/index.html" class="no-external">
+<p>In this section, I explore various data analytics and statistical techniques used to derive insights from data.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="../../content/blog/blog_posts/june2025_book/index.html" class="no-external">
-<div class="listing-date">
-Jun 23, 2025
-</div>
+<a href="../../content/blog/posts/stats/index.html" class="no-external">
 </a>
 </div>
 </div>
@@ -721,7 +775,7 @@ Jun 23, 2025
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2025 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="../../LICENSE.html">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="../../LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

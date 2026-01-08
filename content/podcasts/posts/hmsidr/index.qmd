@@ -1,0 +1,31 @@
+---
+title: "The New Science of Fighting Infectious Disease"
+date: '2026-01-08'
+image: featured.png
+slug: podcast-hmsidr
+toc: true
+categories:
+  - health metrics
+  - data science
+summary: "In this episode of the Health Metrics Show, we explore how data science is revolutionizing our understanding and management of infectious diseases. Join us as we discuss cutting-edge research and innovative approaches to combating global health threats."
+execute: 
+  eval: false
+---
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+## Episode Overview
+
+In this episode of the Health Metrics Show, we explore how data science is revolutionizing our understanding and management of infectious diseases. Join us as we discuss cutting-edge research and innovative approaches to combating global health threats.
+
+## Key Topics Discussed
+
+- The role of data science in tracking and predicting infectious disease outbreaks.
+- Innovative methods for data collection and analysis in epidemiology.
+- Case studies highlighting successful applications of data science in public health.
+- Future directions for research and collaboration in the field of infectious disease management.
+
+
+

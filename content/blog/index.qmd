@@ -1,8 +1,10 @@
 ---
-title: Blog
-description: "This is my blog section.\n"
+title: "Overview"
+description: "Section dedicated to updated content, personal reflexions, and insights on various topics related to book writing, data science, R programming, and data visualization."
 listing:
-  contents: blog_posts
+  contents: 
+      - posts/dataviz/index.qmd
+      - posts/stats/index.qmd
   sort: "date desc"
   type: default
   categories: true
@@ -13,3 +15,15 @@ title-block-banner: true
 page-navigation: true
 back-to-top-navigation: true
 ---
+
+Welcome to my **Blog** section! My goal is to provide valuable information and perspectives that can help readers navigate the ever-evolving landscape of data science and programming.
+
+Here, I share my thoughts on a variety of topics, including:
+
+- **Data Science**: Discussions on methodologies, best practices, and emerging trends in data analysis
+- **R Programming**: Tutorials, code snippets, and reflections on using R for data manipulation, analysis, and visualization.
+- **Data Visualization**: Showcasing effective visualizations and discussing techniques for conveying complex data
+
+Through this blog, I aim to foster a community of learners and practitioners who are passionate about data science and programming. Whether you're a beginner or an experienced professional, I hope you'll find something here that sparks your interest and helps you on your journey.
+
+Feel free to explore the latest posts and join the conversation!

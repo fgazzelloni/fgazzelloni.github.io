@@ -1,81 +1,120 @@
 [
   {
-    "listing": "/content/stats/index.html",
+    "listing": "/content/podcasts/index.html",
     "items": [
-      "/content/stats/statistics/plain_vanilla/index.html",
-      "/content/stats/statistics/rladies/index.html",
-      "/content/stats/statistics/linear_prediction/index.html",
-      "/content/stats/statistics/simpson_paradox/index.html",
-      "/content/stats/statistics/bayesian_statistics/index.html",
-      "/content/stats/statistics/predictive_modeling/index.html",
-      "/content/stats/statistics/multiple_testing/index.html"
+      "/content/podcasts/posts/hmsidr/index.html"
     ]
   },
   {
     "listing": "/content/blog/index.html",
     "items": [
-      "/content/blog/blog_posts/june2025_book/index.html"
+      "/content/blog/posts/dataviz/index.html",
+      "/content/blog/posts/stats/index.html"
+    ]
+  },
+  {
+    "listing": "/content/books/posts/hmsid/index.html",
+    "items": [
+      "/content/books/posts/hmsid/posts/012026/index.html",
+      "/content/books/posts/hmsid/posts/062025/index.html"
+    ]
+  },
+  {
+    "listing": "/content/proj/posts/hindex/index.html",
+    "items": [
+      "/content/proj/posts/hindex/posts/health_index/index.html",
+      "/content/proj/posts/hindex/posts/performance/index.html"
+    ]
+  },
+  {
+    "listing": "/content/proj/posts/rpackages/index.html",
+    "items": [
+      "/content/proj/posts/rpackages/posts/hmsidwR/index.html",
+      "/content/proj/posts/rpackages/posts/oregonfrogs/index.html"
     ]
   },
   {
     "listing": "/content/proj/index.html",
     "items": [
-      "/content/proj/projects/health_index/index.html",
-      "/content/proj/projects/hmsidwR/index.html",
-      "/content/proj/projects/performance/index.html",
-      "/content/proj/projects/oregonfrogs/index.html"
+      "/content/proj/posts/hindex/index.html",
+      "/content/proj/posts/rpackages/index.html"
     ]
   },
   {
-    "listing": "/content/dataviz/index.html",
+    "listing": "/content/books/index.html",
     "items": [
-      "/content/dataviz/data_visualization/dubois2024/challenge01/index.html",
-      "/content/dataviz/data_visualization/usecases/hiv/index.html",
-      "/content/dataviz/data_visualization/ggmap/index.html",
-      "/content/dataviz/data_visualization/usecases/malaria/index.html",
-      "/content/dataviz/data_visualization/ggstream/index.html",
-      "/content/dataviz/data_visualization/yarn/index.html",
-      "/content/dataviz/data_visualization/oregonfrogs/index.html",
-      "/content/dataviz/data_visualization/european_flights/index.html",
-      "/content/dataviz/data_visualization/Statistics/index.html",
-      "/content/dataviz/data_visualization/erasmus/index.html",
-      "/content/dataviz/data_visualization/dubois2023/index.html",
-      "/content/dataviz/data_visualization/dogbreeds/index.html",
-      "/content/dataviz/data_visualization/network/index.html"
+      "/content/books/posts/hmsid/index.html"
+    ]
+  },
+  {
+    "listing": "/content/blog/posts/dataviz/index.html",
+    "items": [
+      "/content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html",
+      "/content/blog/posts/dataviz/posts/usecases/hiv/index.html",
+      "/content/blog/posts/dataviz/posts/ggmap/index.html",
+      "/content/blog/posts/dataviz/posts/usecases/malaria/index.html",
+      "/content/blog/posts/dataviz/posts/ggstream/index.html",
+      "/content/blog/posts/dataviz/posts/yarn/index.html",
+      "/content/blog/posts/dataviz/posts/oregonfrogs/index.html",
+      "/content/blog/posts/dataviz/posts/european_flights/index.html",
+      "/content/blog/posts/dataviz/posts/Statistics/index.html",
+      "/content/blog/posts/dataviz/posts/erasmus/index.html",
+      "/content/blog/posts/dataviz/posts/dubois2023/index.html",
+      "/content/blog/posts/dataviz/posts/dogbreeds/index.html",
+      "/content/blog/posts/dataviz/posts/network/index.html"
+    ]
+  },
+  {
+    "listing": "/content/blog/posts/stats/index.html",
+    "items": [
+      "/content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "/content/blog/posts/stats/posts/rladies/index.html",
+      "/content/blog/posts/stats/posts/linear_prediction/index.html",
+      "/content/blog/posts/stats/posts/simpson_paradox/index.html",
+      "/content/blog/posts/stats/posts/bayesian_statistics/index.html",
+      "/content/blog/posts/stats/posts/predictive_modeling/index.html",
+      "/content/blog/posts/stats/posts/multiple_testing/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/content/proj/posts/rpackages/index.html",
+      "/content/proj/posts/hindex/index.html",
       "/content/proj/index.html",
-      "/content/dataviz/index.html",
+      "/content/books/posts/hmsid/index.html",
+      "/content/books/index.html",
+      "/content/blog/posts/dataviz/index.html",
+      "/content/blog/posts/stats/index.html",
       "/content/blog/index.html",
-      "/content/stats/index.html",
-      "/content/proj/projects/health_index/index.html",
-      "/content/blog/blog_posts/june2025_book/index.html",
-      "/content/stats/statistics/plain_vanilla/index.html",
-      "/content/proj/projects/hmsidwR/index.html",
-      "/content/stats/statistics/rladies/index.html",
-      "/content/stats/statistics/linear_prediction/index.html",
-      "/content/dataviz/data_visualization/dubois2024/challenge01/index.html",
-      "/content/stats/statistics/simpson_paradox/index.html",
-      "/content/dataviz/data_visualization/usecases/hiv/index.html",
-      "/content/dataviz/data_visualization/ggmap/index.html",
-      "/content/dataviz/data_visualization/usecases/malaria/index.html",
-      "/content/stats/statistics/bayesian_statistics/index.html",
-      "/content/proj/projects/performance/index.html",
-      "/content/dataviz/data_visualization/ggstream/index.html",
-      "/content/proj/projects/oregonfrogs/index.html",
-      "/content/dataviz/data_visualization/yarn/index.html",
-      "/content/dataviz/data_visualization/oregonfrogs/index.html",
-      "/content/dataviz/data_visualization/european_flights/index.html",
-      "/content/stats/statistics/predictive_modeling/index.html",
-      "/content/stats/statistics/multiple_testing/index.html",
-      "/content/dataviz/data_visualization/Statistics/index.html",
-      "/content/dataviz/data_visualization/erasmus/index.html",
-      "/content/dataviz/data_visualization/dubois2023/index.html",
-      "/content/dataviz/data_visualization/dogbreeds/index.html",
-      "/content/dataviz/data_visualization/network/index.html"
+      "/content/podcasts/index.html",
+      "/content/books/posts/hmsid/posts/012026/index.html",
+      "/content/podcasts/posts/hmsidr/index.html",
+      "/content/proj/posts/hindex/posts/health_index/index.html",
+      "/content/books/posts/hmsid/posts/062025/index.html",
+      "/content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "/content/proj/posts/rpackages/posts/hmsidwR/index.html",
+      "/content/blog/posts/stats/posts/rladies/index.html",
+      "/content/blog/posts/stats/posts/linear_prediction/index.html",
+      "/content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html",
+      "/content/blog/posts/stats/posts/simpson_paradox/index.html",
+      "/content/blog/posts/dataviz/posts/usecases/hiv/index.html",
+      "/content/blog/posts/dataviz/posts/ggmap/index.html",
+      "/content/blog/posts/dataviz/posts/usecases/malaria/index.html",
+      "/content/blog/posts/stats/posts/bayesian_statistics/index.html",
+      "/content/proj/posts/hindex/posts/performance/index.html",
+      "/content/blog/posts/dataviz/posts/ggstream/index.html",
+      "/content/proj/posts/rpackages/posts/oregonfrogs/index.html",
+      "/content/blog/posts/dataviz/posts/yarn/index.html",
+      "/content/blog/posts/dataviz/posts/oregonfrogs/index.html",
+      "/content/blog/posts/dataviz/posts/european_flights/index.html",
+      "/content/blog/posts/stats/posts/predictive_modeling/index.html",
+      "/content/blog/posts/stats/posts/multiple_testing/index.html",
+      "/content/blog/posts/dataviz/posts/Statistics/index.html",
+      "/content/blog/posts/dataviz/posts/erasmus/index.html",
+      "/content/blog/posts/dataviz/posts/dubois2023/index.html",
+      "/content/blog/posts/dataviz/posts/dogbreeds/index.html",
+      "/content/blog/posts/dataviz/posts/network/index.html"
     ]
   }
 ]

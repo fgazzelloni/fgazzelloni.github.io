@@ -12,12 +12,12 @@ Whether you're new to the field or a seasoned practitioner, this resource offers
 
 Read it online for free: 
 
-- 👉 🔗 [hmsidR](https://bookdown.org/fede_gazzelloni/hmsidR)
+- 👉 🔗 [hmsidR](https://fgazzelloni.github.io/hmsidR/)
 
 Reserve your paperback copy: 
 
 - 👉 🔗[Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782)
-- 👉 🔗[Amazon](https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/)
+- 👉 🔗[Amazon](https://amzn.to/4aHGseT)
 :::
 
 ::: {.column width="40%"}

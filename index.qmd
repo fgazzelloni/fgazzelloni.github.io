@@ -26,13 +26,13 @@ title-block-banner: true
   new TypeIt(".multipleStrings", {
       strings: [
       "Welcome to my Website 💡", 
-      "Book available to pre-order 📚", 
+      "Buy on Amazon📚", 
       "Health Metrics and the Spread of Infectious Diseases 🦠", 
       "Stay tuned for the latest developments 🔍"
       ],
       breakLines: false,
       loop: true,
-      speed: 50
+      speed: 45
   }).go();
 </script>
 ```
@@ -51,14 +51,14 @@ title-block-banner: true
     <p class="hero-description">
 This is a dedicated platform for sharing ideas, insights, resources, and projects made in R and Python programming languages. With expertise in advanced statistical methods, data modeling, and public health analytics, I focus on topics like health metrics and the dynamics of infectious diseases.
     </p>
-    <a href="https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/" 
+    <a href="https://amzn.to/4aHGseT" 
     class="cta-button">Buy my Book</a>
   </div>
 </div>
 ```
 
 
-## News: HMSID Book Is Available ONLINE and for PRE-ORDER!
+## News: Health Metrics and the Spread of Infectious Diseases — Now Published and Available Worldwide
 
 > Gazzelloni, Federica. Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R. First edition. Boca Raton, FL: CRC Press, 2025. Print.
 
@@ -66,15 +66,14 @@ This is a dedicated platform for sharing ideas, insights, resources, and project
 
 📖 Read it online for free:
 
--   🔗 [bookdown.org/fede_gazzelloni/hmsidR](https://bookdown.org/fede_gazzelloni/hmsidR/)
--   🔗 [fgazzelloni.quarto.pub/hmsidr](https://fgazzelloni.quarto.pub/hmsidr/)
+-   🔗 [https://fgazzelloni.github.io/hmsidR/](https://fgazzelloni.github.io/hmsidR/)
 
-🛒 Pre-Order your printed copy:
+🛒 Order your Hard Printed Copy:
 
--   Reserve it today from:👉 [Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782) or 👉 [Amazon](https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/)
+-   Order the printed edition:👉 [Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782) or 👉 [Amazon](https://amzn.to/4aHGseT)
 
 :::{.callout}
-> It’s been an incredible journey, and now that the book is officially printed and available for pre-order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌
+> It’s been an incredible journey, and now that the book is officially printed and available on Amazon to order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌
 
 Writing this book has been an immensely rewarding experience. I’ve spent countless hours selecting the right material and striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.
 

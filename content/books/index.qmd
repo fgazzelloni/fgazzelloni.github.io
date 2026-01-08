@@ -1,0 +1,17 @@
+---
+title: "Books Writing"
+description: "Section dedicated to my authored books on data science, R programming, and data visualization."
+listing:
+  contents: posts/hmsid/index.qmd
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+page-navigation: true
+back-to-top-navigation: true
+---
+
+

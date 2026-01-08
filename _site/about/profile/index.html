@@ -135,21 +135,62 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/dataviz/index.html"> 
-<span class="menu-text">Data Visualization</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
+    <a class="dropdown-item" href="../../content/blog/index.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/stats/index.html"> 
-<span class="menu-text">Statistics</span></a>
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/proj/index.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/stats/index.html">
+ <span class="dropdown-text">Data Analytics</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../content/proj/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/proj/posts/hindex/index.html">
+ <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/proj/posts/rpackages/index.html">
+ <span class="dropdown-text">R Packages</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="../../content/books/index.html">
+ <span class="dropdown-text">Books Writing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/hmsid/index.html">
+ <span class="dropdown-text">HMSIDwR</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/blog/index.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../../content/podcasts/index.html"> 
+<span class="menu-text">Podcasts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -161,8 +202,7 @@ cookieconsent.run({
     <a href="mailto:fede.gazzelloni@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://www.linkedin.com/in/federicagazzelloni/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/fgazzelloni" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://orcid.org/0000-0002-4285-611X" title="{{< ai orcid >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai orcid >}}"><i class="bi bi-"></i></a>
-    <a href="https://scholar.google.com/citations?hl=en&amp;user=Xes0-r0AAAAJ" title="{{< ai google-scholar >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai google-scholar >}}"><i class="bi bi-"></i></a>
+    <a href="https://federicagazzelloni.substack.com/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-substack"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -171,8 +211,8 @@ cookieconsent.run({
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="0b4537576d43e97a0be18a08f628a632" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available for pre-order from Routledge!! <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782/">👉 Pre-order your copy</a></p>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -612,7 +652,7 @@ cookieconsent.run({
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2025 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="../../LICENSE.html">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="../../LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

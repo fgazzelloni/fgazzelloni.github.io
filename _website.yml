@@ -2,7 +2,7 @@ website:
   announcement: 
     icon: balloon-heart
     dismissable: true
-    content: "**Health Metrics and the Spread of Infectious Diseases** is now available for pre-order from Routledge!! [👉 Pre-order your copy](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782/)"
+    content: "**Health Metrics and the Spread of Infectious Diseases** is now available in print from Routledge!! [👉 Order your copy](https://amzn.to/4aHGseT)"
     type: danger
     position: below-navbar
   title: "Federica Gazzelloni"
@@ -30,15 +30,28 @@ website:
     logo-alt: "me-ai2"
     collapse: true 
     left:
-      - text: Data Visualization
-        href: content/dataviz/index.qmd
-      - text: Statistics
-        href: content/stats/index.qmd
-      - text: Projects
-        href: content/proj/index.qmd
-      - text: Blog
-        href: content/blog/index.qmd  
-      - text: About
+      - text: "Blog"
+        menu:
+          - content/blog/index.qmd 
+          - text: "Data Visualization"
+            href: content/blog/posts/dataviz/index.qmd
+          - text: "Data Analytics"
+            href: content/blog/posts/stats/index.qmd
+      - text: "Projects"
+        menu:
+          - content/proj/index.qmd
+          - text: "Performance Metrics"
+            href: content/proj/posts/hindex/index.qmd
+          - text: "R Packages"
+            href: content/proj/posts/rpackages/index.qmd
+      - text: "Books"
+        menu: 
+          - content/books/index.qmd
+          - text: "HMSIDwR"
+            href: content/books/posts/hmsid/index.qmd
+      - text: "Podcasts"    
+        href: content/podcasts/index.qmd
+      - text: "About"
         href: about.qmd
     tools:    
       - icon: envelope
@@ -47,13 +60,11 @@ website:
         href: "https://www.linkedin.com/in/federicagazzelloni/" 
       - icon: github
         href: "https://github.com/fgazzelloni"
-      - text: "{{< ai orcid >}}"
-        href: "https://orcid.org/0000-0002-4285-611X"
-      - text: "{{< ai google-scholar >}}"
-        href: "https://scholar.google.com/citations?hl=en&user=Xes0-r0AAAAJ"    
+      - icon: substack
+        href: "https://federicagazzelloni.substack.com/"  
   page-footer:
     left: |
-      Copyright © 2025 Federica Gazzelloni<br>Designer & Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto & GitHub Pages | <a href="/LICENSE.md">MIT License</a>.
+      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto & GitHub Pages | <a href="/LICENSE.md">MIT License</a>.
     right: 
       - text: "{{< ai orcid >}}"
         href: "https://orcid.org/0000-0002-4285-611X"

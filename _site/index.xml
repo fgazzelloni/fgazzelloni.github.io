@@ -10,16 +10,135 @@
 <atom:link href="https://federicagazzelloni.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science Portfolio</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Fri, 31 Oct 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 07 Jan 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Hidden Math That Shapes Our Health: 5 Surprising Truths from Data Science</title>
+  <link>https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p><strong>How do we measure the health of a nation?</strong> The first number that often comes to mind is life expectancy. Japan, for example, boasts one of the world’s highest, suggesting a simple story of success. Yet, this single figure can be misleading. A long life is not the same as a healthy life, and the story of our collective well-being is far more complex than one metric can capture.</p>
+<p>Beneath the surface of headlines and familiar statistics, a sophisticated set of metrics and models gives us a much truer picture of public health. This isn’t just about how long we live, but how well we live, what truly puts us at risk, and where our health is most vulnerable. The science of health metrics moves beyond simple averages to quantify the true burden of disease.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/featured.png" class="img-fluid figure-img" alt="Health Metrics and the Spread of Infectious Diseases, Machine Learning Applications and Spatial Modelling Analysis with R - image made with AI"></p>
+<figcaption>Health Metrics - AI created image</figcaption>
+</figure>
+</div>
+<p>This article explores five of the most surprising and impactful ideas from the cutting edge of health data science. These concepts are reshaping how we understand illness, risk, and what it truly means for a population to be healthy.</p>
+<section id="its-not-just-about-how-long-we-live-but-how-well" class="level3">
+<h3 class="anchored" data-anchor-id="its-not-just-about-how-long-we-live-but-how-well">1. It’s Not Just About How Long We Live, But How Well</h3>
+<p>For decades, mortality rates were the primary way to track public health crises. But what about the millions who live for years with chronic pain, mobility issues, or mental health disorders? To capture this, experts developed a more holistic metric: the Disability-Adjusted Life Year (DALY). This is now the standard for measuring the total “burden of disease.”</p>
+<p>The DALY is a single number composed of two parts:</p>
+<ul>
+<li>Years of Life Lost (YLLs): This is the more traditional part, accounting for the years lost when someone dies prematurely.</li>
+<li>Years Lived with Disability (YLDs): This is the revolutionary component. It measures the years people live in a state of less-than-ideal health due to a disease or injury.</li>
+</ul>
+<p>The hidden math that makes this metric so powerful lies in disability weights. Each health condition, from hearing loss to severe depression, is assigned a numerical weight based on its severity. This allows scientists to mathematically quantify the impact of different illnesses, revealing a counter-intuitive truth: a very long life filled with chronic illness can represent a greater public health burden than a shorter one.</p>
+<p>By combining mortality (death) and morbidity (illness), this metric shifts the entire goal of public health. It’s no longer just about keeping people alive; it’s about maximizing the healthy, functional years they get to live—and it provides a single, powerful number to measure our success.</p>
+</section>
+<section id="we-measure-health-risks-by-imagining-a-perfect-world" class="level3">
+<h3 class="anchored" data-anchor-id="we-measure-health-risks-by-imagining-a-perfect-world">2. We Measure Health Risks by Imagining a Perfect World</h3>
+<p>How do you measure the harm caused by something like air pollution or a poor diet? It’s a surprisingly tricky question. The answer lies in a fascinating concept used by public health scientists: the Theoretical Minimum-Risk Exposure Level (TMREL).</p>
+<p>Instead of just tracking the negative effects of a risk factor, scientists first define a hypothetical, ideal scenario. They imagine a perfect world where exposure to that risk is at the absolute lowest, most plausible level. For example, what would our health look like if everyone had the optimal diet, or if air quality was pristine?</p>
+<p>The true “burden” of that risk is then calculated as the gap between our current reality and that “perfect world” scenario. This connects directly back to DALYs; the total burden of air pollution, for instance, is the difference in DALYs between our current world and one with theoretically clean air. This is a powerful reframing. It moves public health from a goal of small, incremental improvements to measuring the full potential for health that is lost due to a given risk.</p>
+</section>
+<section id="predicting-epidemics-from-hand-drawn-rules-to-ai-pattern-finding" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-epidemics-from-hand-drawn-rules-to-ai-pattern-finding">3. Predicting Epidemics: From Hand-Drawn Rules to AI Pattern-Finding</h3>
+<p>When a new virus emerges, how do scientists predict its spread? Historically, they have relied on “mechanistic models,” but a new approach driven by artificial intelligence is changing the game.</p>
+<ul>
+<li><strong>Mechanistic Models (like SIR)</strong>: Think of these as a “plumber’s blueprint.” They are “rule-based” and require knowing exactly how all the pipes (rules of transmission and recovery) are connected to predict the water flow (disease spread). The classic SIR model, for example, uses differential equations to simulate how a population moves between being Susceptible, Infected, and Recovered. These models need a deep understanding of a disease’s biology to work.</li>
+<li><strong>Machine Learning Models</strong>: These models are “empirically driven”—they are powerful pattern-finders. Imagine a mysterious box that has observed thousands of plumbing systems. It doesn’t need the blueprint; it just learns the patterns of when and where leaks are most likely to occur by analyzing massive datasets (infection rates, demographics, temperature, etc.) to find complex relationships that predict outcomes.</li>
+</ul>
+<p>The key distinction is profound and highlights a major shift in epidemiology:</p>
+<p>Mechanistic models rely on known relationships and equations, while machine learning models learn patterns from data.</p>
+<p>This is a game-changer because machine learning can uncover unexpected drivers of disease that traditional, rule-based models might completely miss, offering a powerful new tool in the fight against pandemics.</p>
+</section>
+<section id="what-we-fear-most-isnt-what-harms-us-most" class="level3">
+<h3 class="anchored" data-anchor-id="what-we-fear-most-isnt-what-harms-us-most">4. What We Fear Most Isn’t What Harms Us Most</h3>
+<p>Modern society is saturated with information about potential threats, from global pandemics and terrorism to environmental disasters. This constant exposure shapes our perception of risk, but our fears don’t always align with the statistical reality of what harms us.</p>
+<p><strong>“…fear is the most pervasive emotion of modern society…”</strong></p>
+<p>A look at how risks have evolved shows a significant shift. Historical risks were dominated by immediate threats like starvation, infectious diseases, and violent conflicts. Today, while perceived threats like pandemics capture our attention, the greatest “burden of disease” in many parts of the world comes from less dramatic but far more widespread sources.</p>
+<p>As the Global Burden of Disease study shows, modern risks are largely driven by four key categories of risk factors: Behavioral, Environmental, Occupational, and Metabolic. These include lifestyle choices like a poor diet, physical inactivity, tobacco use, and excessive alcohol consumption. Conditions like heart disease and obesity contribute massively to the global DALY count. This reveals a critical disconnect: we often fear the sudden and dramatic, but the slow, chronic, and everyday factors are what statistically cause the most harm to our collective health.</p>
+</section>
+<section id="geography-can-be-destiny-for-disease" class="level3">
+<h3 class="anchored" data-anchor-id="geography-can-be-destiny-for-disease">5. Geography Can Be Destiny for Disease</h3>
+<p>Where you live can be just as important as who you are when it comes to health risks. Modern health analysis is increasingly spatial, looking not just at who gets sick, but where outbreaks are most likely to occur.</p>
+<p>Using spatial modeling, scientists can feed data like temperature, elevation, and population density into powerful models to create detailed, geographic risk maps. These maps can identify disease “hotspots” with incredible precision.</p>
+<p>One of the sophisticated techniques used for this is Kriging. Think of it like creating a weather map: you have temperature readings from a few dozen weather stations (the known points). Kriging is the statistical method that intelligently fills in all the gaps, creating a smooth, continuous heat map of the entire region. Health officials use the same principle to map disease “hotspots” from a limited number of clinic reports. This isn’t just theoretical; the source material dedicates an entire chapter to using these spatial models to map malaria outbreaks. For public health officials, it means they can target interventions—like distributing bed nets—to the precise areas where they will save the most lives and resources, turning a map into a life-saving tool.</p>
+</section>
+</section>
+<section id="conclusion-the-power-of-a-clearer-picture" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-the-power-of-a-clearer-picture">Conclusion: The Power of a Clearer Picture</h2>
+<p>The way we measure, model, and visualize health data is becoming more powerful every year. By moving beyond simple metrics like life expectancy, we are gaining a much clearer, more honest picture of the complex challenges we face—from the quiet burden of chronic disease to the geographic patterns of an epidemic.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This clearer picture isn’t just an academic exercise; it equips us to act more effectively and equitably. As our ability to quantify the burden of disease becomes more precise, what is our collective responsibility to lighten it?</p>
+</div>
+</div>
+</div>
+<p>For those interested in diving deeper into these concepts, I highly recommend exploring the comprehensive resource: “Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modelling Analysis with R” available at <a href="https://fgazzelloni.github.io/hmsidR/">fgazzelloni.github.io/hmsidR/</a>. This book provides an in-depth look at the methodologies and theories that underpin modern health metrics, offering valuable insights for anyone passionate about public health and data science.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>health metrics</category>
+  <category>data science</category>
+  <guid>https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/</guid>
+  <pubDate>Wed, 07 Jan 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/featured.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>The New Science of Fighting Infectious Disease</title>
+  <link>https://federicagazzelloni.com/content/podcasts/posts/hmsidr/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator" width="624" height="351" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>
+<section id="episode-overview" class="level2">
+<h2 class="anchored" data-anchor-id="episode-overview">Episode Overview</h2>
+<p>In this episode of the Health Metrics Show, we explore how data science is revolutionizing our understanding and management of infectious diseases. Join us as we discuss cutting-edge research and innovative approaches to combating global health threats.</p>
+</section>
+<section id="key-topics-discussed" class="level2">
+<h2 class="anchored" data-anchor-id="key-topics-discussed">Key Topics Discussed</h2>
+<ul>
+<li>The role of data science in tracking and predicting infectious disease outbreaks.</li>
+<li>Innovative methods for data collection and analysis in epidemiology.</li>
+<li>Case studies highlighting successful applications of data science in public health.</li>
+<li>Future directions for research and collaboration in the field of infectious disease management.</li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>health metrics</category>
+  <category>data science</category>
+  <guid>https://federicagazzelloni.com/content/podcasts/posts/hmsidr/</guid>
+  <pubDate>Wed, 07 Jan 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://federicagazzelloni.com/content/podcasts/posts/hmsidr/featured.png" medium="image" type="image/png" height="70" width="144"/>
+</item>
 <item>
   <title>Health Index</title>
-  <link>https://federicagazzelloni.com/content/proj/projects/health_index/</link>
+  <link>https://federicagazzelloni.com/content/proj/posts/hindex/posts/health_index/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
 <p>Process of building an index to show the dimension of health with an index. Data used is the life expectancy at birth data from the IHME GBD 2021 <strong>Global Burden of Disease Study 2021 (GBD 2021) Mortality and Life Expectancy Forecasts 2022-2050</strong> dataset.</p>
 </div><div class="column" style="width:20%;">
-<p><img src="https://federicagazzelloni.com/content/proj/projects/health_index/featured.png" class="img-fluid"></p>
+<p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/health_index/featured.png" class="img-fluid"></p>
 </div>
 </div>
 <p>source: <a href="https://ghdx.healthdata.org/record/ihme-data/global-life-expectancy-all-cause-mortality-and-cause-specific-mortality-forecasts-2022-2050" class="uri">https://ghdx.healthdata.org/record/ihme-data/global-life-expectancy-all-cause-mortality-and-cause-specific-mortality-forecasts-2022-2050</a> you’ll need to login for accessing the data.</p>
@@ -1281,56 +1400,767 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Health</category>
   <category>Health Index</category>
-  <guid>https://federicagazzelloni.com/content/proj/projects/health_index/</guid>
+  <guid>https://federicagazzelloni.com/content/proj/posts/hindex/posts/health_index/</guid>
   <pubDate>Fri, 31 Oct 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Writing a book in R</title>
-  <link>https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="overview" class="level1">
-<h1>Overview</h1>
+  <link>https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/</link>
+  <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p>In this post, I will share my experience of writing a book in R, and the challenges I faced along the way.</p>
-<p>I will also discuss the tools I used, the process I followed, and the lessons I learned.</p>
+<p>In this post, I share my experience of writing a book entirely in R, and the challenges I faced along the way. I walk through the tools I used, the workflow I followed, and the lessons I learned while preparing a full-length technical book supported by datasets, code, and reproducible examples.</p>
+<p>It has been an incredible journey. Now that the book is fully published, I feel both the excitement of sharing it with readers and a sense that a long creative process has reached its conclusion.</p>
+<p>Below, I explain how I structured the book, organised the code, automated the rendering, and ensured the material remained reproducible from the first draft to the final version.</p>
 </div><div class="column" style="width:40%;">
-<p><img src="https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/featured.png" class="img-fluid" width="400"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/featured.png" class="img-fluid figure-img"></p>
+<figcaption>HMSIDr Book</figcaption></figure>
 </div>
 </div>
-<p>It’s been an incredible journey, and while the book is nearing its completion, I feel a mix of emotions—both the excitement of sharing it with you and a touch of sadness that this creative process is coming to an end. 😌</p>
-<p>Writing this book has been an immensely rewarding experience. I’ve spent countless hours into selecting the right material, striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.</p>
-<p>Even though the book is almost finished, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.</p>
-<p>As I reflect on this journey, I’m filled with gratitude for all the support and feedback I’ve received along the way. Your encouragement has been invaluable in shaping this book into what it is today.</p>
-<p>So, what’s next? While this project may be wrapping up, my passion for writing and sharing knowledge is far from over. Stay tuned for more updates and future projects! In the meantime, I invite you to dive into the book, explore its content, and share your thoughts. Your insights will be crucial as I make final touches and consider potential additions.</p>
-<p>Thank you for being a part of this journey. I hope the book serves as a valuable resource for your research and studies. Let’s see where this new chapter takes us!</p>
+</div>
+</section><section id="setting-up-the-project" class="level2"><h2 class="anchored" data-anchor-id="setting-up-the-project">Setting Up the Project</h2>
+<p>I started by creating a dedicated RStudio project. Keeping the book isolated in its own project was essential for reproducibility, file organisation, and version control.</p>
+<p>Create a new book project structure</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">usethis</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://usethis.r-lib.org/reference/create_package.html">create_project</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hmsid-book"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>Set up a Git repository to track changes:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Initialise git</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">`usethis::use_git()`</span></span></code></pre></div></div>
+</div>
+<p>Then I added a basic <code>Quarto/bookdown</code> structure:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_create</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hmsidwR"</span>, template <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"book"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>This generated the <code>_quarto.yml</code> file, a structure for chapters, and a place for images and data.</p>
+<p>A minimal <code>_quarto.yml</code> looked like this:</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">project<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-2">  type<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> book</span>
+<span id="cb4-3"></span>
+<span id="cb4-4">book<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-5">  title<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Health Metrics and the Spread of Infectious Diseases"</span></span>
+<span id="cb4-6">  author<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Federica Gazzelloni"</span></span>
+<span id="cb4-7">  chapters<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-8">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> index.qmd</span>
+<span id="cb4-9">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">01</span>_introduction.qmd</span>
+<span id="cb4-10">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">02</span>_data.qmd</span>
+<span id="cb4-11">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">03</span>_methods.qmd</span>
+<span id="cb4-12">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">04</span>_modeling.qmd</span>
+<span id="cb4-13">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">05</span>_spatial_analysis.qmd</span>
+<span id="cb4-14">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">06</span>_results.qmd</span>
+<span id="cb4-15">    <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">07</span>_conclusions.qmd</span>
+<span id="cb4-16"></span>
+<span id="cb4-17">format<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-18">  html<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-19">    theme<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> cosmo</span>
+<span id="cb4-20">  pdf<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-21">    documentclass<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> scrreprt</span></code></pre></div></div>
+</div>
+</div>
+</div>
+</div>
+</section><section id="managing-data-inside-an-r-package" class="level2"><h2 class="anchored" data-anchor-id="managing-data-inside-an-r-package">Managing Data Inside an R Package</h2>
+<p>To keep the workflow clean and reproducible, I organised all datasets into a companion R package (<a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a>). This meant readers could reproduce every example with:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hmsidwR"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>Loading a dataset was as simple as:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"infectious_diseases"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">infectious_diseases</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>Packaging the data required a few lines in the development workflow:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">usethis</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://usethis.r-lib.org/reference/use_data.html">use_data</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">tb_data</span>, overwrite <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>This approach saved hours of manual file handling in later stages of writing.</p>
+</section><section id="writing-chapters-with-embedded-code" class="level2"><h2 class="anchored" data-anchor-id="writing-chapters-with-embedded-code">Writing Chapters with Embedded Code</h2>
+<p>Most chapters combined narrative text with code chunks. A typical section looked like this:</p>
+</section><section id="life-expectancy-trends" class="level2"><h2 class="anchored" data-anchor-id="life-expectancy-trends">Life Expectancy Trends</h2>
+<p>We begin by exploring changes in life expectancy across countries.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">set.seed</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">04122025</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html">gho_le_hale</a></span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">indicator</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Life expectancy at birth (years)"</span>,</span>
+<span>         <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"both sexes"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">region</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">year</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/reframe.html">reframe</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>le<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">value</span>, na.rm<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">year</span>, <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">le</span>, </span>
+<span>             colour <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">region</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geomtextpath</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://allancameron.github.io/geomtextpath/reference/geom_textpath.html">geom_textline</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>label <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">region</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>, </span>
+<span>                              position <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"jitter"</span>,</span>
+<span>                              orientation <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"x"</span>,</span>
+<span>                              hjust<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,size<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>,</span>
+<span>                              show.legend <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">F</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggthemes</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="http://jrnold.github.io/ggthemes/reference/scale_economist.html">scale_color_economist</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Life Expectancy Over Time"</span>,</span>
+<span>       x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Time(year)"</span>,</span>
+<span>       y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Life expectancy at birth (years)"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>base_size <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, </span>
+<span>                base_rect_size <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>,</span>
+<span>                base_line_size <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,</span>
+<span>                accent <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"red"</span>,ink <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"grey25"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>text<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>face<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bold"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>,</span>
+<span>        axis.title <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>size<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Regions' le" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/images/le.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Regions' le">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Regions’ Life Expectancy Over Time
+</figcaption></figure>
+</div>
+<p>Keeping all figures generated directly from the code ensured:</p>
+<ul>
+<li>No manual image editing</li>
+<li>Fully up-to-date plots on each render</li>
+<li>Transparent modelling steps</li>
+</ul></section><section id="automating-rendering" class="level1"><h1>Automating Rendering</h1>
+<p>With dozens of chapters and hundreds of figures, manual rendering was not feasible. I automated it using one command:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>For more granular control (helpful when writing new sections):</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"03_methods.qmd"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span>   <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># render a single chapter</span></span></code></pre></div></div>
+</div>
+<p>Before shipping the final manuscript, I used a clean render:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_clean</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>This guaranteed that everything knitted from scratch.</p>
+<section id="version-control-and-collaboration" class="level2"><h2 class="anchored" data-anchor-id="version-control-and-collaboration">Version Control and Collaboration</h2>
+<p>Git and GitHub supported the entire project:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">usethis</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://usethis.r-lib.org/reference/use_github.html">use_github</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<p>Each chapter was committed incrementally:</p>
+<pre><code>  git add 03_methods.qmd
+  git commit -m "Expand description of spatial interpolation"
+  git push</code></pre>
+<p>Version control helped keep track of: - structure revisions - code changes - feedback from early readers - chapter reorganisations</p>
+<p>Designing Figures and Reproducible Maps</p>
+<p>Spatial chapters required more complex workflows. For example:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://r-spatial.github.io/sf/">sf</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://rspatial.org/">terra</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://github.com/r-tmap/tmap">tmap</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">world</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://rspatial.github.io/terra/reference/vect.html">vect</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span>
+<span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">tb</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">::</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span></span>
+<span></span>
+<span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://r-tmap.github.io/tmap/reference/tm_shape.html">tm_shape</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">world</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://r-tmap.github.io/tmap/reference/tm_polygons.html">tm_borders</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>fill<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"grey90"</span>,lwd<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://r-tmap.github.io/tmap/reference/tm_shape.html">tm_shape</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">tb</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://r-tmap.github.io/tmap/reference/tm_symbols.html">tm_dots</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>col <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"DALYs"</span>, </span>
+<span>          shape<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">21</span>,lwd <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>,</span>
+<span>          palette <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"matplotlib.reds"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span>  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;"><a href="https://r-tmap.github.io/tmap/reference/tm_layout.html">tm_layout</a></span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span>frame <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/images/dalys.png" class="img-fluid figure-img"></p>
+<figcaption>Dalys</figcaption></figure>
+</div>
+<p>Every map in the book was generated this way, ensuring readers could run the exact same code.</p>
+</section><section id="lessons-learned" class="level2"><h2 class="anchored" data-anchor-id="lessons-learned">Lessons Learned</h2>
+<p>Writing a technical book is both exciting and demanding. I dedicated countless hours to selecting the right material and presenting it in a way that early-career researchers could follow. One of the most difficult decisions was choosing what to include and what to leave out, always aiming for clarity over completeness.</p>
+<p>Even now that the book is published, ideas continue to appear. There is always the thought of adding more material, improving explanations, or strengthening examples. At some point, you must trust the work and release it.</p>
+<p>I am grateful for all the support I received throughout this process. The conversations, reviews, and early feedback played a key role in shaping the final version.</p>
+</section><section id="whats-next" class="level2"><h2 class="anchored" data-anchor-id="whats-next">What’s Next?</h2>
+<p>Although this project is complete, my writing plans certainly are not. I will continue developing extensions, datasets, and methodological notes. New projects are already emerging, and this experience has strengthened my commitment to open, reproducible, and accessible research.</p>
+<p>For now, I invite you to explore the book, use the examples, and share your thoughts. Your insights will help me shape future work and teaching material.</p>
+<blockquote class="blockquote">
+<p><em>“Thank you for following this journey.”</em></p>
+</blockquote>
 
 
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>book</category>
-  <guid>https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/</guid>
+  <guid>https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/</guid>
   <pubDate>Sun, 22 Jun 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/blog/blog_posts/june2025_book/featured.png" medium="image" type="image/png" height="201" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/featured.png" medium="image" type="image/png" height="201" width="144"/>
 </item>
 <item>
   <title>Understanding Plain Vanilla - from Scratch</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>In the world of artificial intelligence, understanding the fundamentals of neural networks is essential. One of the simplest yet powerful architectures is the <strong>Artificial Neural Network (ANN) with a single hidden layer, often referred to as a “plain vanilla” network</strong>. This blog post aims to provide a comprehensive guide to building such a network from scratch, focusing on key concepts like activation functions, weights, and the backpropagation algorithm outside the library boxes.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/featured.png" class="img-fluid figure-img"></p>
 <figcaption>Target vs Response</figcaption></figure>
 </div>
 </section><section id="example-of-construction-of-plain-vanilla-network-architecture" class="level2"><h2 class="anchored" data-anchor-id="example-of-construction-of-plain-vanilla-network-architecture">Example of construction of Plain vanilla network architecture</h2>
 <p>ANN’s (Artificial Neural Networks) is the simplest implementation of deep learning model architectures that mimic the human brain’s neural network. The simplest form of ANN is a single-layer network, also known as a “plain vanilla” network. This network consists of an input layer, a hidden layer, and an output layer. The hidden layer transforms the input data into a new set of features, which are then used to predict the response variable.</p>
 <center>
-<img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/images/10_02_single-layer.png" class="img-fluid" width="400">
+<img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/images/10_02_single-layer.png" class="img-fluid" width="400">
 </center>
 <p>In the image above, we have some predictors <img src="https://latex.codecogs.com/png.latex?x_i"> that are fed into the hidden layer, which then transforms them into a new set of features <img src="https://latex.codecogs.com/png.latex?h_k(x)">, which are then used to predict the response variable <img src="https://latex.codecogs.com/png.latex?y">.</p>
 <div class="cell">
@@ -1613,7 +2443,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="576"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="576"></p>
 <figcaption>Synthetic Data</figcaption></figure>
 </div>
 </div>
@@ -1991,19 +2821,19 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Sigmoid function</figcaption></figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-11-2.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-11-2.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>ReLU function</figcaption></figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-11-3.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-11-3.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>SoftPlus function</figcaption></figure>
 </div>
 </div>
@@ -2104,7 +2934,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="576"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="576"></p>
 <figcaption>Sigmoid vs ReLU</figcaption></figure>
 </div>
 </div>
@@ -2323,7 +3153,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>In this figure is shown the attempt of the ‘linear’ and ‘sigmoid’ functions to fit our original data. The final model function, able to replicate the original pattern is the result of a continous adaptation and re-calibration of the coeffcients in the model.</figcaption></figure>
 </div>
 </div>
@@ -2518,7 +3348,7 @@ font-style: inherit;">}</span></span></code></pre></div></div>
 </blockquote>
 <p>Here is a recap of the definition of derivative formula, which is applied any time the output released by the activation function is met in the network. And so, a new minimum is found. It will be more clear through the end of the post.</p>
 <center>
-<img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/images/10_derivative.png" class="img-fluid" width="400">
+<img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/images/10_derivative.png" class="img-fluid" width="400">
 </center>
 <p>So, it is fundamental to define the derivative of the activation function needed for computing the gradient. For this example, we will use the derivative of the <code>sigmoid</code> function.</p>
 <div class="cell">
@@ -3656,7 +4486,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -3779,7 +4609,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-25-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-25-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -3945,7 +4775,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/index_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/index_files/figure-html/unnamed-chunk-27-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -3966,13 +4796,13 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>modeling</category>
   <category>machine-learning</category>
   <category>artificial-neural-networks</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/</guid>
   <pubDate>Thu, 27 Jun 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/plain_vanilla/featured.png" medium="image" type="image/png" height="104" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/featured.png" medium="image" type="image/png" height="104" width="144"/>
 </item>
 <item>
   <title>hmsidwR R-package</title>
-  <link>https://federicagazzelloni.com/content/proj/projects/hmsidwR/</link>
+  <link>https://federicagazzelloni.com/content/proj/posts/rpackages/posts/hmsidwR/</link>
   <description><![CDATA[ 
 
 
@@ -3987,7 +4817,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>GITHUB: <a href="https://github.com/Fgazzelloni/hmsidwR" class="uri">https://github.com/Fgazzelloni/hmsidwR</a></p>
 <p>VIGNETTE: <a href="https://fgazzelloni.github.io/hmsidwR/" class="uri">https://fgazzelloni.github.io/hmsidwR/</a></p>
 </div><div class="column" style="width:20%;">
-<p><img src="https://federicagazzelloni.com/content/proj/projects/hmsidwR/featured.png" class="img-fluid"></p>
+<p><img src="https://federicagazzelloni.com/content/proj/posts/rpackages/posts/hmsidwR/featured.png" class="img-fluid"></p>
 </div>
 </div>
 <p><br>
@@ -4006,12 +4836,12 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>Health Metrics</category>
   <category>Data Science</category>
   <category>Machine Learning</category>
-  <guid>https://federicagazzelloni.com/content/proj/projects/hmsidwR/</guid>
+  <guid>https://federicagazzelloni.com/content/proj/posts/rpackages/posts/hmsidwR/</guid>
   <pubDate>Sat, 13 Apr 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>R-Ladies Events Stats</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/rladies/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/rladies/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
@@ -4021,7 +4851,7 @@ events &lt;- purrr::map(urlname,get_events)
 dat &lt;- dplyr::bind_rows(events)</code></pre>
 </div><div class="column" style="width:20%;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/rladies/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/rladies/featured.png" class="img-fluid figure-img"></p>
 <figcaption>RLadies Wordcloud</figcaption></figure>
 </div>
 </div>
@@ -5616,12 +6446,12 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>text-analysis</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/rladies/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/rladies/</guid>
   <pubDate>Mon, 11 Mar 2024 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How does geom_smooth() make predictions</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/linear_prediction/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
@@ -5820,7 +6650,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Deaths due to Cholera in London (1849)</figcaption></figure>
 </div>
 </div>
@@ -5949,7 +6779,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6133,7 +6963,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6261,7 +7091,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6333,7 +7163,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6399,7 +7229,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6509,7 +7339,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6727,7 +7557,7 @@ font-style: inherit;">plot</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Cholera Deaths explanined by London Districts Population (1849)</figcaption></figure>
 </div>
 </div>
@@ -6975,7 +7805,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/index_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -6989,13 +7819,13 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>modeling</category>
   <category>linear regression</category>
   <category>geom_smooth</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/linear_prediction/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/</guid>
   <pubDate>Sun, 25 Feb 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/linear_prediction/featured.png" medium="image" type="image/png" height="103" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/featured.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>#DuboisChallenge2024 Challenge 01</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/dubois2024/challenge01/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/dubois2024/challenge01/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>My contributions to the #DuboisChallenge2024.</p>
 <div class="columns">
@@ -9217,13 +10047,13 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/dubois2024/challenge01/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/dubois2024/challenge01/</guid>
   <pubDate>Sun, 04 Feb 2024 23:00:00 GMT</pubDate>
   <media:content url="https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Understanding Simpson’s Paradox: A Simple Explanation</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/simpson_paradox/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/</link>
   <description><![CDATA[ <center>
 <img src="https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif" class="img-fluid">
 </center>
@@ -9655,7 +10485,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/simpson_paradox/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -9667,17 +10497,17 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>rstats</category>
   <category>modeling</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/simpson_paradox/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/</guid>
   <pubDate>Thu, 11 Jan 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/simpson_paradox/featured.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/featured.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Epidemic transition metrics of HIV infections estimation</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/hiv/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/hiv/</link>
   <description><![CDATA[ <section id="overview" class="level1"><h1>Overview</h1>
 <p>HIV infections data is from the <code>aidsinfo.unaids.org</code>. The data contains Global values from 2010 to 2022 for <code>HIV estimate</code>, <code>HIV incidence of mortality</code>, <code>HIV prevalence</code>, and <code>HIV deaths</code>.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/hiv/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/hiv/featured.png" class="img-fluid figure-img"></p>
 <figcaption>HIV infections</figcaption></figure>
 </div>
 <p>National data for the 2010 and 2020 are included in this dataset.</p>
@@ -12032,17 +12862,17 @@ font-style: inherit;">)</span> </span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/hiv/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/hiv/</guid>
   <pubDate>Sun, 12 Nov 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How to get started with ggmap</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/ggmap/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggmap/</link>
   <description><![CDATA[ <section id="overview" class="level1"><h1>Overview</h1>
 <p>For this <code>#30DayMapChallenge 2023 Day6 - Asia</code> let’s explore the Population estimation for Regions and major Cities, from different sources.</p>
 <p>Also, we will be looking at how to get started with <a href="https://github.com/dkahle/ggmap">ggmap</a> to find the <code>geocodes</code> for the major cities in Asia.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/ggmap/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggmap/featured.png" class="img-fluid figure-img"></p>
 <figcaption>Asia Population</figcaption></figure>
 </div>
 <section id="asia-cities-and-population-by-wikipedia.org" class="level2"><h2 class="anchored" data-anchor-id="asia-cities-and-population-by-wikipedia.org">Asia Cities and Population by Wikipedia.org</h2>
@@ -13949,18 +14779,18 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/ggmap/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggmap/</guid>
   <pubDate>Mon, 06 Nov 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The case of Malaria</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/malaria/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/malaria/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <blockquote class="blockquote">
 <p>August 18, 2023 “A case of locally acquired #malaria has been confirmed in Maryland, Washington, D.C., area. Nine cases have been reported this summer in Florida and Texas, the first in the US in 20 years, according to the US Centers for Disease Control and Prevention. #epidemics” <sup>1</sup></p>
 </blockquote>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/malaria/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/malaria/featured.png" class="img-fluid figure-img"></p>
 <figcaption>The case of Malaria</figcaption></figure>
 </div>
 <p>The Malaria case is somehow a concerning case, eradicated all over the World except for some areas in the Africa’s continent, the highlight of cases of domestic origins are considered epidemics.</p>
@@ -17526,19 +18356,19 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <li id="fn2"><p>worldbank_data source: <a href="https://databank.worldbank.org/reports.aspx?source=2&amp;series=SH.MLR.INCD.P3&amp;country=#" class="uri">https://databank.worldbank.org/reports.aspx?source=2&amp;series=SH.MLR.INCD.P3&amp;country=#</a>↩︎</p></li>
 <li id="fn3"><p>worldbank_data source: <a href="https://databank.worldbank.org/reports.aspx?source=2&amp;series=SH.MLR.INCD.P3&amp;country=#" class="uri">https://databank.worldbank.org/reports.aspx?source=2&amp;series=SH.MLR.INCD.P3&amp;country=#</a>↩︎</p></li>
 </ol></section></div> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/usecases/malaria/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/malaria/</guid>
   <pubDate>Sat, 26 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Bayesian Statistics model comparison</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/bayesian_statistics/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/</link>
   <description><![CDATA[ <section id="overview" class="level1"><h1>Overview</h1>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>In this post I’ll go through some differences between <em>Bayesian statistical packages</em> in R. Bayesian statistics involves probabilities. This means that the probability of an event to occur is considered in the modeling procedure, and is mainly used in for making <strong>inferences</strong>, and can be used for an analysis of the speculation of the root cause of a phenomenon under the term of <strong>causal inference</strong>.</p>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/bayesian_statistics/featured.png" class="img-fluid figure-img" width="400"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/featured.png" class="img-fluid figure-img" width="400"></p>
 <figcaption>Bayesian Statistics</figcaption></figure>
 </div>
 </div>
@@ -18714,20 +19544,20 @@ font-style: inherit;">)</span></span></code></pre></div></div>
   <category>rstats</category>
   <category>modeling</category>
   <category>bayesian</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/bayesian_statistics/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/</guid>
   <pubDate>Tue, 21 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/bayesian_statistics/featured.png" medium="image" type="image/png" height="90" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/featured.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 <item>
   <title>Measuring Health Performance</title>
-  <link>https://federicagazzelloni.com/content/proj/projects/performance/</link>
+  <link>https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
 <p>These days measuring performance is very appropriate for many different topics. Thinking about health and the fast changing environments, including climate changes, require a ready tool for identifying possible future outcomes. On health, interesting simple metrics are used to classify the state of health of a population, so to be comparable with other near and far.</p>
 <p>Here is a spec of my latest project where I am collecting all that I learned since the start of the Covid19 pandemic on a summary of the techniques used for measuring the health status of a population when in conjunction with an extreme event. Many tools are available and ready to use for the most exceptional purpose someone might had in mind, and I had difficulties choosing one on top of the other. But, why choosing if you can combine them?</p>
 </div><div class="column" style="width:20%;">
-<p><img src="https://federicagazzelloni.com/content/proj/projects/performance/featured.png" class="img-fluid"></p>
+<p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/featured.png" class="img-fluid"></p>
 </div>
 </div>
 <p>There are three metrics that are used for the purpose of classification in the public health, the DALYs, YLLs, and the YLDs. Respectively are the <strong>Disability Adjusted Life Years</strong>, <strong>Years of Life Lost</strong>, and <strong>Years Lived with Disabilities</strong>.</p>
@@ -18927,7 +19757,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/projects/performance/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -19195,7 +20025,7 @@ background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/projects/performance/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -19496,18 +20326,18 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/proj/projects/performance/</guid>
+  <guid>https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/</guid>
   <pubDate>Mon, 13 Mar 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Retail Sales with ggstream</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/ggstream/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggstream/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This post is all about <strong>Retail Sales with ggstream</strong>, the dataset comes from <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-12-13">#TidyTuesday</a> 2022 week 50 <strong>Monthly State Retail Sales</strong>.</p>
 <p>The picture below is the result of the ggstream visualization.</p>
 <center>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/ggstream/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggstream/featured.png" class="img-fluid figure-img"></p>
 <figcaption>Retail Sales with ggstream</figcaption></figure>
 </div>
 </center>
@@ -20706,12 +21536,12 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/ggstream/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggstream/</guid>
   <pubDate>Mon, 30 Jan 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Oregon spotted a frog: Rana Pretiosa</title>
-  <link>https://federicagazzelloni.com/content/proj/projects/oregonfrogs/</link>
+  <link>https://federicagazzelloni.com/content/proj/posts/rpackages/posts/oregonfrogs/</link>
   <description><![CDATA[ <section id="updated-june-2023" class="level4"><h4 class="anchored" data-anchor-id="updated-june-2023">Updated June 2023</h4>
 </section><section id="overview" class="level1"><h1>Overview</h1>
 <div class="columns">
@@ -20719,7 +21549,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>I made a package! Looking for data to use for one of my data visualization I stomped into this data about frogs in Oregon (US) and realized that it was very interesting for making both classification and regression models. So, I wrapped the data into a package, and even if it is still a work in progress I started using it for practicing <strong>machine learning</strong> algorithms.</p>
 <p>More info about it will follow. For now this project is all about how to use <a href="https://mlr3.mlr-org.com">mlr3</a> package for analysing and predicting data. <strong>mlr3</strong> is a machine learning <strong>ecosystem</strong>, it provides a unified interface to use different machine learning models in R.</p>
 </div><div class="column" style="width:20%;">
-<p><img src="https://federicagazzelloni.com/content/proj/projects/oregonfrogs/featured.png" class="img-fluid"></p>
+<p><img src="https://federicagazzelloni.com/content/proj/posts/rpackages/posts/oregonfrogs/featured.png" class="img-fluid"></p>
 </div>
 </div>
 <p>Let’s load the libraries, and start using <strong>mlr3</strong> with <strong>oregonfrogs</strong> data!</p>
@@ -22104,17 +22934,17 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </section></section></section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Machine Learning</category>
   <category>mlr3</category>
-  <guid>https://federicagazzelloni.com/content/proj/projects/oregonfrogs/</guid>
+  <guid>https://federicagazzelloni.com/content/proj/posts/rpackages/posts/oregonfrogs/</guid>
   <pubDate>Sat, 29 Oct 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Yarn: hierarchical edge bundling visualization</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/yarn/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/yarn/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This post is all about <strong>hierarchical edge bundling visualization</strong>, the dataset comes from <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-10-11">#TidyTuesday</a> 2022 week 41 <strong>Ravelry data</strong>.</p>
 <p>The picture below is the result of the hierarchical edge bundling visualization.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/yarn/featured.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/yarn/featured.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Hierarchical Edge Bundling Visualization</figcaption></figure>
 </div>
 <p>First thing load the libraries and set the fonts:</p>
@@ -23843,17 +24673,17 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/yarn/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/yarn/</guid>
   <pubDate>Mon, 10 Oct 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Oregon Spotted a frog: Rana Pretiosa</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/oregonfrogs/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/oregonfrogs/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This #TidyTuesday week 31 is all about <strong>Oregon Spotted a frog: Rana Pretiosa</strong>.</p>
 <p>Load the {tidyverse} and the data from: <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-02">#TidyTuesday GitHub repo</a></p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/oregonfrogs/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/oregonfrogs/featured.png" class="img-fluid figure-img"></p>
 <figcaption>Oregon Spotted a Frog!</figcaption></figure>
 </div>
 <div class="cell">
@@ -24495,16 +25325,16 @@ font-style: inherit;">#        bg = "white")</span></span></code></pre></div></d
 
 
 </section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/oregonfrogs/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/oregonfrogs/</guid>
   <pubDate>Mon, 01 Aug 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>European flights</title>
-  <link>https://federicagazzelloni.com/content/dataviz/data_visualization/european_flights/</link>
+  <link>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/european_flights/</link>
   <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This #TidyTuesday week 28 is all about <strong>European flights</strong>. I was looking for a visualization that would represent the differences among countries in terms of the number of airports versus number of flights. I looked on the internet for getting some inspiration and then landed on Pintarest, where I found exactly what I was hoping for: a Sankey! First of all, <strong>What is a Sankey?</strong> The answer is clearer after you make one of your own. In short, it is a network graph connecting diffent groups with a ribbon. A few things that made me think about a lot were the requirements for the type of data to combine, the consequent label results, and the grouping.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/dataviz/data_visualization/european_flights/featured.png" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/dataviz/posts/european_flights/featured.png" class="img-fluid figure-img"></p>
 <figcaption>European Flights</figcaption></figure>
 </div>
 <div class="cell">
@@ -26108,848 +26938,8 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 
 
 </section></section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/dataviz/data_visualization/european_flights/</guid>
+  <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/european_flights/</guid>
   <pubDate>Mon, 11 Jul 2022 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Predictive modeling</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/</link>
-  <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This post is dedicated to make a comparison between <strong>Caret</strong> and <strong>TidyModels</strong> R packages. Data modelling with R pass through data preprocessing and parameters assessments to predicting an outcome. Both set of packages can be used to achieve same results, with the purpose of finding the best predictive performance for data specific models.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/featured.png" class="img-fluid figure-img"></p>
-<figcaption>Predictive modeling - TreeMap</figcaption></figure>
-</div>
-<p>The <strong>Caret</strong> package is the starting point for understanding how to manage models and produce unbiases predictions with R. As well as <strong>TidyModels</strong> meta package, it gives the opportunity to contruct a multivariate model syntax to manage several models to be applied on same set of data. <strong>TidyModels</strong> allows the use of a set of concatenated functions in partership with the <strong>TidyVerse</strong> grammar to build a structural model base which blends different models as one global model.</p>
-<p>The following is an attempt to a comparison between the two predictive model structures.</p>
-<hr></section><section id="caret-package" class="level2"><h2 class="anchored" data-anchor-id="caret-package">Caret package</h2>
-<p>The most important functions for this package, grouped by steps to modeling, are:</p>
-<ol type="1">
-<li>
-<p>Preprocessing (data cleaning/wrangling)</p>
-<ul>
-<li>preProcess()</li>
-</ul>
-</li>
-<li>
-<p>Data splitting and resampling</p>
-<ul>
-<li>createDataPartition()</li>
-</ul>
-<!-- --><ul>
-<li><p>createResample()</p></li>
-<li><p>createTimeSlices()</p></li>
-</ul>
-</li>
-<li>
-<p>Model fit and prediction</p>
-<ul>
-<li>train()</li>
-</ul>
-<!-- --><ul>
-<li>predict()</li>
-</ul>
-</li>
-<li>
-<p>Model comparison</p>
-<ul>
-<li>confusionMatrix()</li>
-</ul>
-</li>
-</ol>
-<hr></section><section id="tidymodels-meta-package" class="level1"><h1>TidyModels meta package</h1>
-<p>This <a href="https://tidymodels.tidymodels.org/">“meta package”</a> is made of a set of packages for modeling, with the support of other well known packages for data manipulation and visualization such as broom, dplyr, ggplot2, purrr, infer, modeldata, and tibble; it includes:</p>
-<ul>
-<li>recipes (a preprocessor)</li>
-<li>rsample (for resampling)</li>
-<li>parsnip (model syntax)</li>
-<li>tune and dials (optimization of hyperparameters)</li>
-<li>workflows and workflowsets (combine pre-processing steps and models)</li>
-<li>yardstick (for evaluating models)</li>
-</ul>
-<p>The most important functions for this meta package, grouped by steps to modeling, are:</p>
-<ol type="1">
-<li>
-<p>Preprocessing (data cleaning/wrangling)</p>
-<ul>
-<li><p>recipes::recipe()</p></li>
-<li><p>recipes::step_<functions>()</functions></p></li>
-</ul>
-</li>
-<li>
-<p>Data splitting and resampling</p>
-<ul>
-<li><p>rsample::initial_split()</p></li>
-<li><p>rsample::training()</p></li>
-<li><p>rsample::testing()</p></li>
-<li><p>rsample::bootstraps()</p></li>
-<li><p>rsample::vfold_cv()</p></li>
-<li><p>tune::control_resamples()</p></li>
-</ul>
-</li>
-<li>
-<p>Model fit and prediction</p>
-<ul>
-<li><p>parsnip::<model_type>() %&gt;% set_mode() %&gt;% set_engine()</model_type></p></li>
-<li><p>parsnip::extract_fit_engine()</p></li>
-<li><p>parsnip::extract_fit_parsnip()</p></li>
-<li><p>parsnip::fit() stats::predict()</p></li>
-<li><p>tune::fit_resamples()</p></li>
-</ul>
-</li>
-<li>
-<p>Model workflow</p>
-<ul>
-<li><p>workflows::workflow() %&gt;% add_model()</p></li>
-<li><p>workflows::add_formula()</p></li>
-<li><p>workflows::add_recipe()</p></li>
-<li><p>parsnip::fit()</p></li>
-<li><p>stats::predict()</p></li>
-<li><p>workflows::update_formula()</p></li>
-<li><p>workflows::add_variables() / remove_variables()</p></li>
-<li><p>workflowsets::workflow_set()</p></li>
-<li><p>workflowsets::workflow_map()</p></li>
-<li><p>workflowsets/tune::extract_workflow() / extract_recipe() / extract_fit_parsnip()</p></li>
-<li><p>tune::last_fit()</p></li>
-<li><p>workflowsets/tune::collect_metrics()</p></li>
-<li><p>workflowsets/tune::collect_predictions()</p></li>
-</ul>
-</li>
-<li>
-<p>Model comparison</p>
-<ul>
-<li><p>yardstick::conf_mat()</p></li>
-<li><p>yardstick::accuracy()</p></li>
-<li><p>yardstick::metric_set()</p></li>
-<li><p>yardstick::roc_curve()</p></li>
-<li><p>yardstick::roc_auc()</p></li>
-<li><p>yardstick::sensitivity()</p></li>
-</ul>
-</li>
-</ol>
-<hr>
-<section id="machine-learning-algorithms-in-r" class="level2"><h2 class="anchored" data-anchor-id="machine-learning-algorithms-in-r">Machine learning algorithms in R</h2>
-<ul>
-<li>Linear discriminant analysis</li>
-<li>Regression</li>
-<li>Naive Bayes</li>
-<li>Support vector machines</li>
-<li>Classification and regression trees</li>
-<li>Random forests</li>
-<li>Boosting</li>
-<li>etc.</li>
-</ul>
-<p>Resource: <a href="https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning">Practical Machine Learning</a></p>
-<hr></section><section id="caret-or-tidymodels" class="level2"><h2 class="anchored" data-anchor-id="caret-or-tidymodels">Caret or TidyModels?</h2>
-<p><a href="http://caret.r-forge.r-project.org/">Caret</a> <a href="https://www.tidymodels.org/start/models/">Tidymodels</a></p>
-<hr></section><section id="caret-example-with-spam-data" class="level2"><h2 class="anchored" data-anchor-id="caret-example-with-spam-data">Caret Example with SPAM Data</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/topepo/caret/">caret</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>; <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">kernlab</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>; <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: ggplot2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: lattice</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'kernlab'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:ggplot2':
-
-    alpha</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">inTrain</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/caret/man/createDataPartition.html">createDataPartition</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span>,</span>
-<span>                              p<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.75</span>, list<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="cn" style="color: #8f5902;
-background-color: null;
-font-style: inherit;">FALSE</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">training</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">inTrain</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">inTrain</span>,<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># dim(training)</span></span>
-<span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">32343</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">modelFit</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/caret/man/train.html">train</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">.</span>,data<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">training</span>, method<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"glm"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># modelFit</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">predictions</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">modelFit</span>,newdata<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># predictions</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/caret/man/confusionMatrix.html">confusionMatrix</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">predictions</span>,<span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Confusion Matrix and Statistics
-
-          Reference
-Prediction nonspam spam
-   nonspam     666   52
-   spam         31  401
-                                          
-               Accuracy : 0.9278          
-                 95% CI : (0.9113, 0.9421)
-    No Information Rate : 0.6061          
-    P-Value [Acc &gt; NIR] : &lt; 2e-16         
-                                          
-                  Kappa : 0.8476          
-                                          
- Mcnemar's Test P-Value : 0.02814         
-                                          
-            Sensitivity : 0.9555          
-            Specificity : 0.8852          
-         Pos Pred Value : 0.9276          
-         Neg Pred Value : 0.9282          
-             Prevalence : 0.6061          
-         Detection Rate : 0.5791          
-   Detection Prevalence : 0.6243          
-      Balanced Accuracy : 0.9204          
-                                          
-       'Positive' Class : nonspam         
-                                          </code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">table</span>,main<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Table"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section><section id="tidymodels-example-with-spam-data" class="level2"><h2 class="anchored" data-anchor-id="tidymodels-example-with-spam-data">TidyModels Example with SPAM Data</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://tidymodels.tidymodels.org">tidymodels</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching packages ────────────────────────────────────── tidymodels 1.4.1 ──</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>✔ broom        1.0.10     ✔ rsample      1.3.1 
-✔ dials        1.4.2      ✔ tailor       0.1.0 
-✔ dplyr        1.1.4      ✔ tidyr        1.3.1 
-✔ infer        1.0.9      ✔ tune         2.0.1 
-✔ modeldata    1.5.1      ✔ workflows    1.3.0 
-✔ parsnip      1.3.3      ✔ workflowsets 1.1.1 
-✔ purrr        1.2.0      ✔ yardstick    1.3.2 
-✔ recipes      1.3.1      </code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──
-✖ scales::alpha()          masks kernlab::alpha(), ggplot2::alpha()
-✖ dials::buffer()          masks kernlab::buffer()
-✖ rsample::calibration()   masks caret::calibration()
-✖ purrr::cross()           masks kernlab::cross()
-✖ purrr::discard()         masks scales::discard()
-✖ dplyr::filter()          masks stats::filter()
-✖ dplyr::lag()             masks stats::lag()
-✖ purrr::lift()            masks caret::lift()
-✖ yardstick::precision()   masks caret::precision()
-✖ yardstick::recall()      masks caret::recall()
-✖ yardstick::sensitivity() masks caret::sensitivity()
-✖ yardstick::specificity() masks caret::specificity()
-✖ recipes::step()          masks stats::step()</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://tidymodels.tidymodels.org/reference/tidymodels_prefer.html">tidymodels_prefer</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">123</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">split</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">initial_split</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span>,<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.75</span>,strata<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">training</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">training</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">split</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">testing</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">split</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">modelFit</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">logistic_reg</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">set_engine</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"glm"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%&gt;%</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">fit</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">.</span>,data<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">spam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># tidy(modelFit)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">predictions</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">modelFit</span>,new_data<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># predictions</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">pred</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">predictions</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">.pred_class</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">yardstick</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://yardstick.tidymodels.org/reference/conf_mat.html">conf_mat</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">testing</span>, truth <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">type</span>, estimate <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">pred</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>          Truth
-Prediction nonspam spam
-   nonspam     668   50
-   spam         29  404</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>modeling</category>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/</guid>
-  <pubDate>Sat, 04 Jun 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/predictive_modeling/featured.png" medium="image" type="image/png" height="89" width="144"/>
-</item>
-<item>
-  <title>Multiple Hypothesis Testing</title>
-  <link>https://federicagazzelloni.com/content/stats/statistics/multiple_testing/</link>
-  <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p><em>Multiple testing</em>, what does it means?</p>
-<p>Sometimes answering a research question means evaluating the different combinations of predictors, and this is the case when multiple hypothesis testing is made.</p>
-<p>The following are the fundamental steps for understanding how to proceed when multiple hypothesis testing is needed.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/multiple_testing/featured.png" class="img-fluid figure-img"></p>
-<figcaption>Hypothesis Testing</figcaption></figure>
-</div>
-<p>Image credits: Hypothesis Testing On Linear <code>Regression-medium.com</code></p>
-</section><section id="research-questions" class="level2"><h2 class="anchored" data-anchor-id="research-questions">Research questions</h2>
-<p>In general, hypothesis testing is made for comparing the expected values of two predictors which are the key drivers for explaining the trend of certain variables that are depending on the levels of those predictors.</p>
-<p>Going into more detail, making a real-life example, we might need to evaluate the influence of gender and age on the increase of heart diseases. Under this specification, simple questions to be answered would be:</p>
-<ul>
-<li><p>to be a female can be more or less risky in incurring heart disease?</p></li>
-<li><p>or, what is the age on average at which heart diseases start increasing?</p></li>
-</ul>
-<p>To answer these questions we need to make some assumptions:</p>
-<p>there is no gender difference in heart diseases increasing age is not a cause of heart diseases</p>
-</section><section id="hypothesis-testing" class="level2"><h2 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis testing</h2>
-<p>The first hypothesis is namely, the <strong>null hypothesis</strong> <img src="https://latex.codecogs.com/png.latex?H_%7B0%7D">, and in general, it assumes that there would be no difference in mean (expected value) between the levels of the predictors. In case the null hypothesis fails, an alternative hypothesis is considered, such as there is a difference.</p>
-<ol type="1">
-<li>Null hypothesis <img src="https://latex.codecogs.com/png.latex?H_%7B0%7D">: the difference in mean equals zero</li>
-<li>Alternative hypothesis <img src="https://latex.codecogs.com/png.latex?H_%7Ba%7D">: the difference in mean is not zero</li>
-</ol>
-<p>This is the starting point of making a hypothesis testing, then more variables can be tested, excluded, or kept whether there is a difference in the mean or not. And, so we are talking of multiple testing of hypothesis.</p>
-<section id="steps-to-hypothesis-testing" class="level3"><h3 class="anchored" data-anchor-id="steps-to-hypothesis-testing">Steps to hypothesis testing</h3>
-<ol type="1">
-<li>Define the null and alternative hypothesis</li>
-<li>Construct a test statistic against the null hypothesis</li>
-<li>Compute a p-value to quantify the probability to obtain a value that is the same or more extreme than the test statistic under the null hypothesis</li>
-<li>Decide whether to reject the null hypothesis</li>
-</ol></section><section id="step-back-to-modeling" class="level3"><h3 class="anchored" data-anchor-id="step-back-to-modeling">Step back to modeling</h3>
-<p>Let’s hypothesize that we are investigating the root cause of heart diseases. To be simplistic we hypothesize that only gender and age are the key drivers for high blood pressure, the cause of the disease.</p>
-<p>How would you make a model for answering this question?</p>
-<p>As an example, we use the <strong>heart_disease</strong> dataset from the {cheese} package, and to begin our investigation we consider two predictors <strong>Age</strong> and <strong>Sex</strong>.</p>
-<p><strong>Model function</strong>: <img src="https://latex.codecogs.com/png.latex?y=%5Cbeta_%7B0%7D+%5Cbeta_%7B1%7Dx_%7B1%7D+%5Cbeta_%7B2%7Dx_%7B2%7D%5Cepsilon"></p>
-<p><strong>Hypothesis</strong>:</p>
-<ol type="1">
-<li>
-<img src="https://latex.codecogs.com/png.latex?%5Cbeta_%7Bi%7D"> equals to zero</li>
-<li>there is no difference between the mean blood pressure in female and male groups.</li>
-</ol>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://zajichek.github.io/cheese/">cheese</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">cheese</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://zajichek.github.io/cheese/reference/heart_disease.html">heart_disease</a></span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">head</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 9
-    Age Sex    ChestPain           BP Cholesterol BloodSugar MaximumHR
-  &lt;dbl&gt; &lt;fct&gt;  &lt;fct&gt;            &lt;dbl&gt;       &lt;dbl&gt; &lt;lgl&gt;          &lt;dbl&gt;
-1    63 Male   Typical angina     145         233 TRUE             150
-2    67 Male   Asymptomatic       160         286 FALSE            108
-3    67 Male   Asymptomatic       120         229 FALSE            129
-4    37 Male   Non-anginal pain   130         250 FALSE            187
-5    41 Female Atypical angina    130         204 FALSE            172
-6    56 Male   Atypical angina    120         236 FALSE            178
-# ℹ 2 more variables: ExerciseInducedAngina &lt;fct&gt;, HeartDisease &lt;fct&gt;</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">heart_disease</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">HeartDisease</span>,fill<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,color<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"white"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">geom_histogram</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>stat<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"count"</span>,position <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"dodge"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>fill<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Sex"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/scale_brewer.html">scale_fill_brewer</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_test</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/stats/statistics/multiple_testing/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-</section><section id="resources" class="level3"><h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<ul>
-<li>
-<a href="https://cran.r-project.org/web/packages/cheese/vignettes/cheese.html">HeartDisease</a> dataset</li>
-<li><a href="https://www.gs.washington.edu/academics/courses/akey/56008/lecture/lecture10.pdf">Multiple Testing - Washington</a></li>
-</ul>
-
-
-</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/stats/statistics/multiple_testing/</guid>
-  <pubDate>Thu, 19 May 2022 22:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/stats/statistics/multiple_testing/featured.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 </channel>
 </rss>

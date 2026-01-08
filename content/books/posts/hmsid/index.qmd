@@ -1,0 +1,37 @@
+---
+title: "Health Metrics and the Spread of Infectious Diseases (HMSID)"
+description: "A comprehensive resource on health metrics and infectious disease spread."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+page-navigation: true
+back-to-top-navigation: true
+---
+
+## Overview
+
+[[**"Health Metrics and the Spread of Infectious Diseases (HMSID): Machine Learning Applications and Spatial Modelling Analysis with R"**]{.underline}](https://amzn.to/45CxJXV) is a comprehensive resource that delves into the critical aspects of health metrics and the dynamics of infectious disease spread. This book provides valuable insights for public health professionals, epidemiologists, and researchers interested in understanding and managing infectious diseases.
+
+## Key Features
+
+-   **In-depth Analysis**: The book offers a thorough examination of various health metrics used to monitor and evaluate the spread of infectious diseases.
+-   **Case Studies**: Real-world case studies illustrate the application of health metrics in tracking and controlling disease outbreaks.
+-   **Data Visualization**: The book emphasizes the importance of data visualization in interpreting health metrics and communicating findings effectively.
+- **Spatial Modelling**: It explores spatial modelling techniques to analyze the geographical spread of infectious diseases.
+-   **Practical Applications**: It provides practical guidance on how to implement health metrics in public health strategies and policies.
+
+## Target Audience
+
+This book is ideal for public health officials, epidemiologists, healthcare professionals, and students in the fields of public health and epidemiology who seek to enhance their understanding of health metrics and infectious disease dynamics.
+
+## Availability
+
+[[**"Health Metrics and the Spread of Infectious Diseases (HMSID)"**]{.underline}](https://amzn.to/45CxJXV) is available for purchase on major online platforms and bookstores. For more information, please visit the [publisher's website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782).
+
+\

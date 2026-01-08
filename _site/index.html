@@ -202,21 +202,62 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./content/dataviz/index.html"> 
-<span class="menu-text">Data Visualization</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
+    <a class="dropdown-item" href="./content/blog/index.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./content/stats/index.html"> 
-<span class="menu-text">Statistics</span></a>
+        <li>
+    <a class="dropdown-item" href="./content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./content/proj/index.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="./content/blog/posts/stats/index.html">
+ <span class="dropdown-text">Data Analytics</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./content/proj/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/proj/posts/hindex/index.html">
+ <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/proj/posts/rpackages/index.html">
+ <span class="dropdown-text">R Packages</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="./content/books/index.html">
+ <span class="dropdown-text">Books Writing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/books/posts/hmsid/index.html">
+ <span class="dropdown-text">HMSIDwR</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./content/blog/index.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./content/podcasts/index.html"> 
+<span class="menu-text">Podcasts</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -228,8 +269,7 @@ window.Quarto = {
     <a href="mailto:fede.gazzelloni@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://www.linkedin.com/in/federicagazzelloni/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/fgazzelloni" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://orcid.org/0000-0002-4285-611X" title="{{< ai orcid >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai orcid >}}"><i class="bi bi-"></i></a>
-    <a href="https://scholar.google.com/citations?hl=en&amp;user=Xes0-r0AAAAJ" title="{{< ai google-scholar >}}" class="quarto-navigation-tool px-1" aria-label="{{< ai google-scholar >}}"><i class="bi bi-"></i></a>
+    <a href="https://federicagazzelloni.substack.com/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-substack"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -238,8 +278,8 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="0b4537576d43e97a0be18a08f628a632" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available for pre-order from Routledge!! <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782/">👉 Pre-order your copy</a></p>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -265,13 +305,13 @@ window.Quarto = {
   new TypeIt(".multipleStrings", {
       strings: [
       "Welcome to my Website 💡", 
-      "Book available to pre-order 📚", 
+      "Buy on Amazon📚", 
       "Health Metrics and the Spread of Infectious Diseases 🦠", 
       "Stay tuned for the latest developments 🔍"
       ],
       breakLines: false,
       loop: true,
-      speed: 50
+      speed: 45
   }).go();
 </script>
 </div>
@@ -284,11 +324,11 @@ window.Quarto = {
     <p class="hero-description">
 This is a dedicated platform for sharing ideas, insights, resources, and projects made in R and Python programming languages. With expertise in advanced statistical methods, data modeling, and public health analytics, I focus on topics like health metrics and the dynamics of infectious diseases.
     </p>
-    <a href="https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/" class="cta-button">Buy my Book</a>
+    <a href="https://amzn.to/4aHGseT" class="cta-button">Buy my Book</a>
   </div>
 </div>
-<section id="news-hmsid-book-is-available-online-and-for-pre-order" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="news-hmsid-book-is-available-online-and-for-pre-order">News: HMSID Book Is Available ONLINE and for PRE-ORDER!</h2>
+<section id="news-health-metrics-and-the-spread-of-infectious-diseases-now-published-and-available-worldwide" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="news-health-metrics-and-the-spread-of-infectious-diseases-now-published-and-available-worldwide">News: Health Metrics and the Spread of Infectious Diseases — Now Published and Available Worldwide</h2>
 <blockquote class="blockquote">
 <p>Gazzelloni, Federica. Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R. First edition. Boca Raton, FL: CRC Press, 2025. Print.</p>
 </blockquote>
@@ -296,12 +336,11 @@ This is a dedicated platform for sharing ideas, insights, resources, and project
 <h3 class="anchored" data-anchor-id="explore-the-online-and-printed-versions">🎉 Explore the Online and Printed Versions</h3>
 <p>📖 Read it online for free:</p>
 <ul>
-<li>🔗 <a href="https://bookdown.org/fede_gazzelloni/hmsidR/">bookdown.org/fede_gazzelloni/hmsidR</a></li>
-<li>🔗 <a href="https://fgazzelloni.quarto.pub/hmsidr/">fgazzelloni.quarto.pub/hmsidr</a></li>
+<li>🔗 <a href="https://fgazzelloni.github.io/hmsidR/">https://fgazzelloni.github.io/hmsidR/</a></li>
 </ul>
-<p>🛒 Pre-Order your printed copy:</p>
+<p>🛒 Order your Hard Printed Copy:</p>
 <ul>
-<li>Reserve it today from:👉 <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Routledge Website</a> or 👉 <a href="https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/">Amazon</a></li>
+<li>Order the printed edition:👉 <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Routledge Website</a> or 👉 <a href="https://amzn.to/4aHGseT">Amazon</a></li>
 </ul>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
@@ -310,7 +349,7 @@ This is a dedicated platform for sharing ideas, insights, resources, and project
 </div>
 <div class="callout-body-container">
 <blockquote class="blockquote">
-<p>It’s been an incredible journey, and now that the book is officially printed and available for pre-order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌</p>
+<p>It’s been an incredible journey, and now that the book is officially printed and available on Amazon to order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌</p>
 </blockquote>
 <p>Writing this book has been an immensely rewarding experience. I’ve spent countless hours selecting the right material and striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.</p>
 <p>Even though the book is now published, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.</p>
@@ -345,16 +384,16 @@ This is a dedicated platform for sharing ideas, insights, resources, and project
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1763767893801" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./content/proj/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767896826785" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/proj/posts/rpackages/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="content/proj/projects/health_index/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="content/proj/posts/rpackages/posts/hmsidwR/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Projects
+R-Packages
 </h5>
 <div class="card-text listing-description delink">
-<p>This is my blog section about my on-going projects.</p>
+<p>In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.</p>
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -364,16 +403,16 @@ Projects
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1763767893801" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
-<a href="./content/dataviz/index.html" class="quarto-grid-link">
-</a><div class="quarto-grid-item card h-100 card-left"><a href="./content/dataviz/index.html" class="quarto-grid-link">
-<p class="card-img-top"><img src="content/dataviz/data_visualization/usecases/hiv/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
-</a><div class="card-body post-contents"><a href="./content/dataviz/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767896741385" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./content/proj/posts/hindex/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="content/proj/posts/hindex/posts/health_index/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Unlocking The Power of Data Visualization with R
+Health Index Projects
 </h5>
-</a><div class="card-text listing-description delink"><a href="./content/dataviz/index.html" class="quarto-grid-link">
-</a><p><a href="./content/dataviz/index.html" class="quarto-grid-link">For a full experience, please visit: </a><a href="https://bookdown.org/fede_gazzelloni/UPDVwR/" class="uri">https://bookdown.org/fede_gazzelloni/UPDVwR/</a></p>
+<div class="card-text listing-description delink">
+<p>In this section I share my projects and resources related to health index Performance and Metrics</p>
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -381,18 +420,18 @@ Unlocking The Power of Data Visualization with R
 </div>
 </div>
 </div>
+</div></a>
 </div>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1763767893706" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./content/blog/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1767896636089" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+<a href="./content/proj/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="content/blog/blog_posts/june2025_book/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="content/proj/posts/hindex/posts/health_index/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Blog
+Overview
 </h5>
 <div class="card-text listing-description delink">
-<p>This is my blog section.</p>
+<p>Section dedicated to projects and resources related to health index Performance and Metrics</p>
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -814,7 +853,7 @@ Blog
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2025 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="./LICENSE.html">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="./LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

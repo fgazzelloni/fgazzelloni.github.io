@@ -1,8 +1,10 @@
 ---
-title: Projects
-description: "This is my blog section about my on-going projects.\n"
+title: "Overview"
+description: "Section dedicated to projects and resources related to health index Performance and Metrics"
 listing:
-  contents: projects
+  contents: 
+      - posts/hindex/index.qmd
+      - posts/rpackages/index.qmd
   sort: "date desc"
   type: default
   categories: true
@@ -13,3 +15,16 @@ title-block-banner: true
 page-navigation: true
 back-to-top-navigation: true
 ---
+
+Welcome to the **Projects** section! Here, I showcase a variety of projects and resources that I've worked on, focusing on health index performance and metrics.
+
+In this section, you'll find:
+
+- **Health Index Projects**: Detailed explorations of health index performance, including methodologies, analyses, and findings.
+- **R Packages**: A collection of R packages that I've developed or contributed to, along with documentation and usage examples.
+
+Feel free to explore the projects and resources available here. Whether you're interested in health metrics or looking for useful R packages, I hope you'll find something valuable that can aid you in your own work or studies.
+
+Dive in and discover the insights and tools I've created!
+
+
