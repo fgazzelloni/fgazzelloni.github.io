@@ -129,7 +129,8 @@ slug: podcast-{episode_slug}
 toc: true
 categories:
 {categories_yaml}
-summary: "{description}"
+summary: |
+  {description}
 execute: 
   eval: false
 ---
