@@ -46,7 +46,6 @@ jobs:
           mkdir -p content/podcasts/posts
       
       - name: Fetch podcasts
-        continue-on-error: false
         run: Rscript scripts/fetch-podcasts.R
       
       - name: Check for changes
