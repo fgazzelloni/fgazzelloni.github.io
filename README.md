@@ -16,6 +16,17 @@ This site serves as a central hub for:
 
 The website is built using [Quarto](https://quarto.org/), styled with custom CSS, and deployed via GitHub Pages.
 
+## 🎙️ Automated Podcast Integration
+
+This repository includes an automated system for fetching podcast episodes from Spotify and creating blog posts:
+
+- **GitHub Actions workflow** runs daily to check for new episodes
+- **R script** fetches episodes via Spotify API and generates Quarto posts
+- Each episode gets its own formatted post with cover image
+- Posts are automatically committed and published
+
+For setup instructions, see [`scripts/README.md`](scripts/README.md) or [`IMPLEMENTATION_SUMMARY.md`](IMPLEMENTATION_SUMMARY.md).
+
 ## 🛠️ How to Use or Contribute
 
 If you're interested in contributing or adapting this site structure for your own work:
