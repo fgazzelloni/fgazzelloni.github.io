@@ -33,25 +33,52 @@ jobs:
           pip install -r scripts/requirements.txt
       
       - name: Fetch podcast episodes
+        id: fetch
         run: |
-          python scripts/fetch_podcasts.py
+          python scripts/fetch_podcasts.py | tee fetch_output.log
+          echo "Log saved to fetch_output.log"
       
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet content/podcasts/posts/ scripts/.podcast_state.json || echo "changes=true" >> $GITHUB_OUTPUT
+          if git diff --quiet content/podcasts/posts/ scripts/.podcast_state.json 2>/dev/null; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in podcast posts"
+          fi
       
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Count new episodes
+          NEW_EPISODES=$(git diff --name-only content/podcasts/posts/ | grep "index.qmd" | wc -l)
+          
           git add content/podcasts/posts/
           git add scripts/.podcast_state.json
-          git commit -m "feat: add new podcast episodes [automated]"
+          git commit -m "feat: add ${NEW_EPISODES} new podcast episode(s) [automated]"
           git push
+          
+          echo "✓ Pushed ${NEW_EPISODES} new episode(s) to repository"
+          
+          # Add to workflow summary
+          echo "## 📻 Podcast Episodes Added" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Successfully added **${NEW_EPISODES}** new episode(s) to the repository." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "New episodes:" >> $GITHUB_STEP_SUMMARY
+          git diff HEAD~1 --name-only content/podcasts/posts/ | grep "index.qmd" | sed 's|content/podcasts/posts/||' | sed 's|/index.qmd||' | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
       
       - name: No changes
         if: steps.check_changes.outputs.changes != 'true'
         run: |
-          echo "No new podcast episodes found."
+          echo "✓ No new podcast episodes found."
+          
+          # Add to workflow summary
+          echo "## 📻 Podcast Episodes" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "No new episodes found. All episodes are up to date." >> $GITHUB_STEP_SUMMARY

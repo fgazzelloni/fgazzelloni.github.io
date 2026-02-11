@@ -20,7 +20,11 @@ import xml.etree.ElementTree as ET
 
 # Configuration
 SPOTIFY_SHOW_ID = "43CSCODQFQkZ05u3Up5OD6"
-RSS_FEED_URL = f"https://anchor.fm/s/{SPOTIFY_SHOW_ID}/podcast/rss"
+# Try multiple RSS feed URLs as Spotify/Anchor may use different formats
+RSS_FEED_URLS = [
+    f"https://anchor.fm/s/{SPOTIFY_SHOW_ID}/podcast/rss",
+    f"https://podcasters.spotify.com/pod/show/{SPOTIFY_SHOW_ID}/feed",
+]
 POSTS_DIR = Path("content/podcasts/posts")
 STATE_FILE = Path("scripts/.podcast_state.json")
 
@@ -50,16 +54,25 @@ def save_state(state):
 
 def fetch_rss_feed():
     """Fetch and parse the podcast RSS feed."""
-    print(f"Fetching RSS feed from: {RSS_FEED_URL}")
-    try:
-        response = requests.get(RSS_FEED_URL, timeout=30)
-        response.raise_for_status()
-        return ET.fromstring(response.content)
-    except requests.RequestException as e:
-        print(f"Error fetching RSS feed: {e}")
-        print("\nNote: This error may occur in sandboxed environments with limited internet access.")
-        print("The script will work correctly in GitHub Actions with full internet access.")
-        sys.exit(1)
+    print("Attempting to fetch RSS feed from multiple sources...")
+    
+    for i, url in enumerate(RSS_FEED_URLS, 1):
+        print(f"  Attempt {i}/{len(RSS_FEED_URLS)}: {url}")
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            print(f"  ✓ Successfully fetched from: {url}")
+            return ET.fromstring(response.content)
+        except requests.RequestException as e:
+            print(f"  ✗ Failed: {e}")
+            if i < len(RSS_FEED_URLS):
+                print(f"  Trying next URL...")
+            continue
+    
+    print("\nError: Could not fetch RSS feed from any source.")
+    print("\nNote: This error may occur in sandboxed environments with limited internet access.")
+    print("The script will work correctly in GitHub Actions with full internet access.")
+    sys.exit(1)
 
 
 def extract_episode_info(item):
