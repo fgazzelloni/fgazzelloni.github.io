@@ -11,3 +11,9 @@ _extensions
 .quarto
 
 clustering
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
