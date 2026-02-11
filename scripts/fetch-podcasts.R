@@ -22,7 +22,16 @@ create_slug <- function(title) {
     str_replace_all("[^a-z0-9\\s-]", "") %>%  # Remove special characters
     str_replace_all("\\s+", "-") %>%          # Replace spaces with hyphens
     str_replace_all("-+", "-") %>%             # Replace multiple hyphens with single
-    str_trim()                                 # Trim whitespace
+    str_trim() %>%                             # Trim whitespace
+    str_remove("^-+") %>%                      # Remove leading hyphens
+    str_remove("-+$")                          # Remove trailing hyphens
+  
+  # Validate slug has minimum length
+  if (nchar(slug) < 3) {
+    # Fallback to generic slug with timestamp
+    slug <- paste0("episode-", format(Sys.time(), "%Y%m%d%H%M%S"))
+  }
+  
   return(slug)
 }
 
@@ -86,6 +95,9 @@ create_episode_post <- function(episode, episode_dir) {
   }
   episode_id <- episode$id
   
+  # Create slug for this episode
+  episode_slug <- create_slug(title)
+  
   # Create categories
   categories <- extract_categories(description)
   categories_yaml <- paste0("  - ", categories, collapse = "\n")
@@ -95,8 +107,9 @@ create_episode_post <- function(episode, episode_dir) {
   
   # Generate key topics from description
   # Simple approach: extract sentences that look like topics
-  sentences <- str_split(description, "\\.")[[1]] %>% str_trim()
-  key_topics <- head(sentences[nchar(sentences) > 20], 3)
+  # Split on period followed by space to avoid splitting on abbreviations
+  sentences <- str_split(description, "\\.\\s+")[[1]] %>% str_trim()
+  key_topics <- head(sentences[nchar(sentences) > 20 & nchar(sentences) < 200], 3)
   if (length(key_topics) == 0) {
     key_topics <- c("Data-driven insights", "Health metrics analysis", "Innovative approaches to public health")
   }
@@ -107,7 +120,7 @@ create_episode_post <- function(episode, episode_dir) {
 title: "{title}"
 date: \'{date}\'
 image: featured.png
-slug: podcast-{create_slug(title)}
+slug: podcast-{episode_slug}
 toc: true
 categories:
 {categories_yaml}
