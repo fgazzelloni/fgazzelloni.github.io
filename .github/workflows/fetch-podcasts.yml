@@ -13,9 +13,10 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
@@ -28,31 +29,41 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
       
-      - name: Query dependencies
-        run: |
-          install.packages('remotes')
-          saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
-          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
-        shell: Rscript {0}
-        
       - name: Cache R packages
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+          key: ${{ runner.os }}-r-4.3-packages-${{ hashFiles('scripts/fetch-podcasts.R') }}
+          restore-keys: ${{ runner.os }}-r-4.3-packages-
       
       - name: Install R packages
         run: |
           install.packages(c("httr", "xml2", "stringr", "glue", "fs"))
         shell: Rscript {0}
       
+      - name: Create directories if they don't exist
+        run: |
+          mkdir -p content/podcasts/posts
+      
       - name: Fetch podcasts
         run: Rscript scripts/fetch-podcasts.R
       
-      - name: Commit and push changes
+      - name: Check for changes
+        id: check_changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add content/podcasts/posts/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Add new podcast episodes [automated]" && git push)
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "🎙️ Add new podcast episodes [automated]"
+          git push
