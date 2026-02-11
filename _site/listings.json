@@ -10,7 +10,7 @@
   {
     "listing": "/content/podcasts/index.html",
     "items": [
-      "/content/podcasts/posts/hmsidr/index.html"
+      "/content/podcasts/posts/hmsidr-2026-01-08/index.html"
     ]
   },
   {
@@ -43,9 +43,7 @@
   {
     "listing": "/content/books/index.html",
     "items": [
-      "/content/books/posts/hmsid/index.html",
-      "/content/books/posts/hmsid/posts/012026/index.html",
-      "/content/books/posts/hmsid/posts/062025/index.html"
+      "/content/books/posts/hmsid/index.html"
     ]
   },
   {
@@ -92,7 +90,7 @@
       "/content/rpackages/index.html",
       "/content/rpackages/posts/typeR/index.html",
       "/content/books/posts/hmsid/posts/012026/index.html",
-      "/content/podcasts/posts/hmsidr/index.html",
+      "/content/podcasts/posts/hmsidr-2026-01-08/index.html",
       "/content/proj/posts/hindex/posts/health_index/index.html",
       "/content/books/posts/hmsid/posts/062025/index.html",
       "/content/blog/posts/stats/posts/plain_vanilla/index.html",

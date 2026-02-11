@@ -9,7 +9,7 @@
 <link>https://federicagazzelloni.com/</link>
 <atom:link href="https://federicagazzelloni.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science Portfolio</description>
-<generator>quarto-1.8.25</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Thu, 15 Jan 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Announcing {typeR}: simulate live typing of R scripts</title>
@@ -255,7 +255,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </item>
 <item>
   <title>The New Science of Fighting Infectious Disease</title>
-  <link>https://federicagazzelloni.com/content/podcasts/posts/hmsidr/</link>
+  <link>https://federicagazzelloni.com/content/podcasts/posts/hmsidr-2026-01-08/</link>
   <description><![CDATA[ 
 
 
@@ -275,6 +275,10 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <li>Case studies highlighting successful applications of data science in public health.</li>
 <li>Future directions for research and collaboration in the field of infectious disease management.</li>
 </ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>As we continue to face global health challenges, the integration of data science into infectious disease research and management is more crucial than ever. By leveraging data-driven insights, we can enhance our ability to respond to outbreaks and improve public health outcomes worldwide.</p>
 
 
 </section>
@@ -282,9 +286,9 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>health metrics</category>
   <category>data science</category>
-  <guid>https://federicagazzelloni.com/content/podcasts/posts/hmsidr/</guid>
+  <guid>https://federicagazzelloni.com/content/podcasts/posts/hmsidr-2026-01-08/</guid>
   <pubDate>Wed, 07 Jan 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/podcasts/posts/hmsidr/featured.png" medium="image" type="image/png" height="70" width="144"/>
+  <media:content url="https://federicagazzelloni.com/content/podcasts/posts/hmsidr-2026-01-08/featured.png" medium="image" type="image/png" height="70" width="144"/>
 </item>
 <item>
   <title>Health Index</title>

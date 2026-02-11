@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="In this section, I explore various data analytics and statistical techniques used to derive insights from data.">
 
-<title>Data Analytics and Statistical Techniques – Federica Gazzelloni</title>
+<title>implementation_summary – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,31 +23,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<link href="../../../../images/logo-website-removebg.png" rel="icon" type="image/png">
-<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-d8fff2e7d1f54d21ada73d4c2a5595e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/logo-website-removebg.png" rel="icon" type="image/png">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d8fff2e7d1f54d21ada73d4c2a5595e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -134,65 +102,28 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Data Analytics and Statistical Techniques – Federica Gazzelloni">
-<meta property="og:description" content="In this section, I explore various data analytics and statistical techniques used to derive insights from data.">
-<meta property="og:image" content="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/featured.png">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Federica Gazzelloni">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="980">
-<meta property="og:image:width" content="1362">
-<meta name="twitter:title" content="Data Analytics and Statistical Techniques – Federica Gazzelloni">
-<meta name="twitter:description" content="In this section, I explore various data analytics and statistical techniques used to derive insights from data.">
-<meta name="twitter:image" content="https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/featured.png">
+<meta name="twitter:title" content="Federica Gazzelloni">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:image-height" content="980">
-<meta name="twitter:image-width" content="1362">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
-    <img src="../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
+    <img src="./images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
     </a>
   </div>
@@ -208,15 +139,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
-    <a class="dropdown-item" href="../../../../content/blog/index.html">
+    <a class="dropdown-item" href="./content/blog/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/blog/posts/dataviz/index.html">
+    <a class="dropdown-item" href="./content/blog/posts/dataviz/index.html">
  <span class="dropdown-text">Data Visualization</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/blog/posts/stats/index.html">
+    <a class="dropdown-item" href="./content/blog/posts/stats/index.html">
  <span class="dropdown-text">Data Analytics</span></a>
   </li>  
     </ul>
@@ -227,19 +158,19 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">    
         <li>
-    <a class="dropdown-item" href="../../../../content/rpackages/index.html">
+    <a class="dropdown-item" href="./content/rpackages/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/rpackages/posts/oregonfrogs/index.html">
+    <a class="dropdown-item" href="./content/rpackages/posts/oregonfrogs/index.html">
  <span class="dropdown-text">oregonfrogs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/rpackages/posts/hmsidwR/index.html">
+    <a class="dropdown-item" href="./content/rpackages/posts/hmsidwR/index.html">
  <span class="dropdown-text">hmsidwR</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/rpackages/posts/typeR/index.html">
+    <a class="dropdown-item" href="./content/rpackages/posts/typeR/index.html">
  <span class="dropdown-text">typeR</span></a>
   </li>  
     </ul>
@@ -250,17 +181,17 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
         <li>
-    <a class="dropdown-item" href="../../../../content/books/index.html">
+    <a class="dropdown-item" href="./content/books/index.html">
  <span class="dropdown-text">Books Writing</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/books/posts/hmsid/index.html">
+    <a class="dropdown-item" href="./content/books/posts/hmsid/index.html">
  <span class="dropdown-text">HMSIDwR</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../content/podcasts/index.html"> 
+    <a class="nav-link" href="./content/podcasts/index.html"> 
 <span class="menu-text">Podcasts</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -269,17 +200,17 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="../../../../content/proj/index.html">
+    <a class="dropdown-item" href="./content/proj/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/proj/posts/hindex/index.html">
+    <a class="dropdown-item" href="./content/proj/posts/hindex/index.html">
  <span class="dropdown-text">Performance Metrics</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -302,250 +233,176 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Data Analytics and Statistical Techniques</h1>
-                  <div>
-        <div class="description">
-          In this section, I explore various data analytics and statistical techniques used to derive insights from data.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="YXJ0aWZpY2lhbC1uZXVyYWwtbmV0d29ya3M=">artificial-neural-networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmF5ZXNpYW4=">bayesian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VvbV9zbW9vdGg=">geom_smooth <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGluZWFyJTIwcmVncmVzc2lvbg==">linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZS1sZWFybmluZw==">machine-learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWxpbmc=">modeling <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cnN0YXRz">rstats <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dGV4dC1hbmFseXNpcw==">text-analysis <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section id="implementation-summary-automated-spotify-podcast-fetching" class="level1">
+<h1>Implementation Summary: Automated Spotify Podcast Fetching</h1>
+<section id="what-was-implemented" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-implemented">✅ What Was Implemented</h2>
+<p>This implementation provides a complete automated system for fetching podcast episodes from Spotify and creating properly formatted Quarto blog posts.</p>
+<section id="files-created" class="level3">
+<h3 class="anchored" data-anchor-id="files-created">Files Created</h3>
+<ol type="1">
+<li><strong><code>.github/workflows/fetch-podcasts.yml</code></strong> (42 lines)
+<ul>
+<li>GitHub Actions workflow for automation</li>
+<li>Runs daily at midnight UTC</li>
+<li>Can be manually triggered via workflow_dispatch</li>
+<li>Installs R and required packages</li>
+<li>Executes the fetch script with Spotify credentials</li>
+<li>Commits and pushes new episodes automatically</li>
+<li><strong>Security</strong>: Includes explicit permissions (contents: write)</li>
+</ul></li>
+<li><strong><code>scripts/fetch-podcasts.R</code></strong> (243 lines)
+<ul>
+<li>Complete R script for fetching and processing episodes</li>
+<li>Features:
+<ul>
+<li>Spotify API authentication via spotifyr</li>
+<li>Fetches up to 50 episodes from show ID: 43CSCODQFQkZ05u3Up5OD6</li>
+<li>Duplicate detection (checks existing folders)</li>
+<li>URL-friendly slug generation with validation</li>
+<li>Automatic category extraction from descriptions</li>
+<li>Key topics extraction from episode descriptions</li>
+<li>Episode cover image downloading</li>
+<li>Comprehensive error handling and logging</li>
+</ul></li>
+<li><strong>Quality improvements</strong>:
+<ul>
+<li>Slug validation with fallback for edge cases</li>
+<li>Improved sentence tokenization for key topics</li>
+<li>Pre-computed slugs (not in template)</li>
+</ul></li>
+</ul></li>
+<li><strong><code>scripts/README.md</code></strong> (219 lines)
+<ul>
+<li>Complete documentation including:
+<ul>
+<li>Step-by-step setup instructions for Spotify API</li>
+<li>GitHub Secrets configuration guide</li>
+<li>How the system works</li>
+<li>File structure explanation</li>
+<li>Example post format</li>
+<li>Troubleshooting guide</li>
+<li>Local testing instructions</li>
+<li>Customization options</li>
+</ul></li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">🎯 Features</h2>
+<section id="automation" class="level3">
+<h3 class="anchored" data-anchor-id="automation">Automation</h3>
+<ul>
+<li><strong>Daily scheduled runs</strong> at midnight UTC</li>
+<li><strong>Manual triggering</strong> via GitHub Actions UI</li>
+<li><strong>Automatic commits and pushes</strong> of new episodes</li>
+<li><strong>Smart duplicate detection</strong> prevents re-adding episodes</li>
+</ul>
+</section>
+<section id="episode-processing" class="level3">
+<h3 class="anchored" data-anchor-id="episode-processing">Episode Processing</h3>
+<ul>
+<li><strong>Matches existing format exactly</strong> (see <code>content/podcasts/posts/hmsidr/</code>)</li>
+<li><strong>Generates proper YAML frontmatter</strong> with all required fields</li>
+<li><strong>Creates episode-specific Spotify embeds</strong> (not show-level)</li>
+<li><strong>Downloads cover images</strong> as <code>featured.png</code></li>
+<li><strong>Extracts categories</strong> from episode descriptions</li>
+<li><strong>Generates key topics</strong> automatically</li>
+</ul>
+</section>
+<section id="quality-security" class="level3">
+<h3 class="anchored" data-anchor-id="quality-security">Quality &amp; Security</h3>
+<ul>
+<li>✅ Code review completed and feedback addressed</li>
+<li>✅ Security scan passed (CodeQL)</li>
+<li>✅ Explicit workflow permissions set</li>
+<li>✅ Comprehensive error handling</li>
+<li>✅ Detailed logging for debugging</li>
+</ul>
+</section>
+</section>
+<section id="next-steps-for-repository-owner" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps-for-repository-owner">📋 Next Steps for Repository Owner</h2>
+<section id="configure-spotify-api-credentials" class="level3">
+<h3 class="anchored" data-anchor-id="configure-spotify-api-credentials">1. Configure Spotify API Credentials</h3>
+<p>Follow the instructions in <code>scripts/README.md</code>:</p>
+<ol type="1">
+<li>Create a Spotify app at https://developer.spotify.com/dashboard</li>
+<li>Get your Client ID and Client Secret</li>
+<li>Add to GitHub Secrets:
+<ul>
+<li><code>SPOTIFY_CLIENT_ID</code></li>
+<li><code>SPOTIFY_CLIENT_SECRET</code></li>
+</ul></li>
+</ol>
+</section>
+<section id="test-the-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="test-the-workflow">2. Test the Workflow</h3>
+<p>Option A: Wait for automatic run (next midnight UTC) Option B: Manually trigger: 1. Go to Actions tab 2. Select “Fetch Spotify Podcasts” 3. Click “Run workflow”</p>
+</section>
+<section id="verify-results" class="level3">
+<h3 class="anchored" data-anchor-id="verify-results">3. Verify Results</h3>
+<p>After running: 1. Check Actions logs for any errors 2. Look for new folders in <code>content/podcasts/posts/</code> 3. Build the site to see new episodes listed 4. Verify episode pages render correctly</p>
+</section>
+</section>
+<section id="expected-output" class="level2">
+<h2 class="anchored" data-anchor-id="expected-output">📊 Expected Output</h2>
+<p>When the workflow runs successfully, you’ll see:</p>
+<pre><code>content/podcasts/posts/
+├── hmsidr/                    (existing)
+│   ├── index.qmd
+│   └── featured.png
+├── new-episode-title/         (new)
+│   ├── index.qmd
+│   └── featured.png
+└── another-episode/           (new)
+    ├── index.qmd
+    └── featured.png</code></pre>
+<p>Each <code>index.qmd</code> will contain: - YAML frontmatter matching the <code>hmsidr</code> format - Episode-specific Spotify embed - Episode overview section - Key topics discussed section</p>
+</section>
+<section id="customization" class="level2">
+<h2 class="anchored" data-anchor-id="customization">🔧 Customization</h2>
+<p>All customizable settings are documented in <code>scripts/README.md</code>, including: - Show ID (to fetch different podcasts) - Episode limit (default: 50) - Categories extraction logic - Embed iframe styling - File naming conventions</p>
+</section>
+<section id="benefits" class="level2">
+<h2 class="anchored" data-anchor-id="benefits">✨ Benefits</h2>
+<ol type="1">
+<li><strong>Time Savings</strong>: No manual episode post creation needed</li>
+<li><strong>Consistency</strong>: All posts follow the same format</li>
+<li><strong>Up-to-date</strong>: Automatically checks for new episodes daily</li>
+<li><strong>Maintainable</strong>: Clear documentation and error handling</li>
+<li><strong>Secure</strong>: Follows GitHub Actions security best practices</li>
+</ol>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">🐛 Troubleshooting</h2>
+<p>If issues arise: 1. Check GitHub Actions logs (Actions tab) 2. Verify Spotify credentials are set correctly 3. Review <code>scripts/README.md</code> troubleshooting section 4. Test locally by running: <code>Rscript scripts/fetch-podcasts.R</code></p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">📝 Notes</h2>
+<ul>
+<li>The Quarto listing on <code>content/podcasts/index.qmd</code> will automatically show new episodes</li>
+<li>Episodes are identified by slug, not by ID, to prevent duplicates</li>
+<li>Images are optional - posts will be created even if image download fails</li>
+<li>The workflow uses R 4.3.x for automatic patch updates while maintaining compatibility</li>
+</ul>
 
 
+</section>
+</section>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cnN0YXRzJTJDbW9kZWxpbmclMkNtYWNoaW5lLWxlYXJuaW5nJTJDYXJ0aWZpY2lhbC1uZXVyYWwtbmV0d29ya3M=" data-listing-date-sort="1719525600000" data-listing-file-modified-sort="1763767893825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2468">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/plain_vanilla/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/plain_vanilla/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/plain_vanilla/index.html" class="no-external">Understanding Plain Vanilla - from Scratch</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cnN0YXRz'); return false;">rstats</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9kZWxpbmc='); return false;">modeling</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZS1sZWFybmluZw=='); return false;">machine-learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YXJ0aWZpY2lhbC1uZXVyYWwtbmV0d29ya3M='); return false;">artificial-neural-networks</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/plain_vanilla/index.html" class="no-external">
-In the world of artificial intelligence, understanding the fundamentals of neural networks is essential. One of the simplest yet powerful architectures is the <strong>Artificial…</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/plain_vanilla/index.html" class="no-external">
-<div class="listing-date">
-Jun 28, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dGV4dC1hbmFseXNpcw==" data-listing-date-sort="1710198000000" data-listing-file-modified-sort="1763767893827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/rladies/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/rladies/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/rladies/index.html" class="no-external">R-Ladies Events Stats</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGV4dC1hbmFseXNpcw=='); return false;">text-analysis</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/rladies/index.html" class="no-external">
-Let’s scrap the R-Ladies chapters events from Meetup.com We can use the meetupr package.
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/rladies/index.html" class="no-external">
-<div class="listing-date">
-Mar 12, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cnN0YXRzJTJDbW9kZWxpbmclMkNsaW5lYXIlMjByZWdyZXNzaW9uJTJDZ2VvbV9zbW9vdGg=" data-listing-date-sort="1708902000000" data-listing-file-modified-sort="1763767893820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1162">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/linear_prediction/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/linear_prediction/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/linear_prediction/index.html" class="no-external">How does geom_smooth() make predictions</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cnN0YXRz'); return false;">rstats</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9kZWxpbmc='); return false;">modeling</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGluZWFyJTIwcmVncmVzc2lvbg=='); return false;">linear regression</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Z2VvbV9zbW9vdGg='); return false;">geom_smooth</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/linear_prediction/index.html" class="no-external">
-<strong>Linear regression</strong> is a statistical technique used to represent the linear relationship between a response <span class="math inline">\((y)\)</span> and a predictor <span class="math inline">\((x)\)</span>.
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/linear_prediction/index.html" class="no-external">
-<div class="listing-date">
-Feb 26, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cnN0YXRzJTJDbW9kZWxpbmc=" data-listing-date-sort="1705014000000" data-listing-file-modified-sort="1763767893827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/simpson_paradox/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/simpson_paradox/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/simpson_paradox/index.html" class="no-external">Understanding Simpson’s Paradox: A Simple Explanation</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cnN0YXRz'); return false;">rstats</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9kZWxpbmc='); return false;">modeling</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/simpson_paradox/index.html" class="no-external">
-<code>Simpson's Paradox</code> is a statistical phenomenon where a trend appears in different groups of data but disappears or reverses when these groups are combined. This paradox…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/simpson_paradox/index.html" class="no-external">
-<div class="listing-date">
-Jan 12, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="cnN0YXRzJTJDbW9kZWxpbmclMkNiYXllc2lhbg==" data-listing-date-sort="1679439600000" data-listing-file-modified-sort="1763767893818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="36" data-listing-word-count-sort="7092">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/bayesian_statistics/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/bayesian_statistics/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/bayesian_statistics/index.html" class="no-external">Bayesian Statistics model comparison</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cnN0YXRz'); return false;">rstats</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9kZWxpbmc='); return false;">modeling</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YmF5ZXNpYW4='); return false;">bayesian</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/bayesian_statistics/index.html" class="no-external">
-In this post I’ll go through some differences between <em>Bayesian statistical packages</em> in R. Bayesian statistics involves probabilities. This means that the probability of an…<strong></strong><strong></strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/bayesian_statistics/index.html" class="no-external">
-<div class="listing-date">
-Mar 22, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="bW9kZWxpbmc=" data-listing-date-sort="1654380000000" data-listing-file-modified-sort="1763767893826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="737">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/predictive_modeling/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/predictive_modeling/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/predictive_modeling/index.html" class="no-external">Predictive modeling</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9kZWxpbmc='); return false;">modeling</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/predictive_modeling/index.html" class="no-external">
-This post is dedicated to make a comparison between <strong>Caret</strong> and <strong>TidyModels</strong> R packages. Data modelling with R pass through data preprocessing and parameters assessments to…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/predictive_modeling/index.html" class="no-external">
-<div class="listing-date">
-Jun 5, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1652997600000" data-listing-file-modified-sort="1763767893820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
-<div class="thumbnail"><a href="../../../../content/blog/posts/stats/posts/multiple_testing/index.html" class="no-external">
-
-<img loading="lazy" src="../../../../content/blog/posts/stats/posts/multiple_testing/featured.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/stats/posts/multiple_testing/index.html" class="no-external">Multiple Hypothesis Testing</a>
-</h3>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/stats/posts/multiple_testing/index.html" class="no-external">
-<em>Multiple testing</em>, what does it means?
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/stats/posts/multiple_testing/index.html" class="no-external">
-<div class="listing-date">
-May 20, 2022
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -955,7 +812,7 @@ May 20, 2022
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="../../../../LICENSE.html">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto &amp; GitHub Pages | <a href="./LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -1008,7 +865,7 @@ May 20, 2022
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../../../index.xml">
+    <a class="nav-link" href="./index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
@@ -1021,5 +878,5 @@ May 20, 2022
 
 
 
-<script src="../../../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

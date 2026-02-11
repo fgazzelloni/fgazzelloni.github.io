@@ -476,6 +476,69 @@
     "text": "MIT License\nCopyright (c) 2026 fgazzelloni.github.io authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "IMPLEMENTATION_SUMMARY.html",
+    "href": "IMPLEMENTATION_SUMMARY.html",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "This implementation provides a complete automated system for fetching podcast episodes from Spotify and creating properly formatted Quarto blog posts.\n\n\n\n.github/workflows/fetch-podcasts.yml (42 lines)\n\nGitHub Actions workflow for automation\nRuns daily at midnight UTC\nCan be manually triggered via workflow_dispatch\nInstalls R and required packages\nExecutes the fetch script with Spotify credentials\nCommits and pushes new episodes automatically\nSecurity: Includes explicit permissions (contents: write)\n\nscripts/fetch-podcasts.R (243 lines)\n\nComplete R script for fetching and processing episodes\nFeatures:\n\nSpotify API authentication via spotifyr\nFetches up to 50 episodes from show ID: 43CSCODQFQkZ05u3Up5OD6\nDuplicate detection (checks existing folders)\nURL-friendly slug generation with validation\nAutomatic category extraction from descriptions\nKey topics extraction from episode descriptions\nEpisode cover image downloading\nComprehensive error handling and logging\n\nQuality improvements:\n\nSlug validation with fallback for edge cases\nImproved sentence tokenization for key topics\nPre-computed slugs (not in template)\n\n\nscripts/README.md (219 lines)\n\nComplete documentation including:\n\nStep-by-step setup instructions for Spotify API\nGitHub Secrets configuration guide\nHow the system works\nFile structure explanation\nExample post format\nTroubleshooting guide\nLocal testing instructions\nCustomization options\n\n\n\n\n\n\n\n\n\n\nDaily scheduled runs at midnight UTC\nManual triggering via GitHub Actions UI\nAutomatic commits and pushes of new episodes\nSmart duplicate detection prevents re-adding episodes\n\n\n\n\n\nMatches existing format exactly (see content/podcasts/posts/hmsidr/)\nGenerates proper YAML frontmatter with all required fields\nCreates episode-specific Spotify embeds (not show-level)\nDownloads cover images as featured.png\nExtracts categories from episode descriptions\nGenerates key topics automatically\n\n\n\n\n\n✅ Code review completed and feedback addressed\n✅ Security scan passed (CodeQL)\n✅ Explicit workflow permissions set\n✅ Comprehensive error handling\n✅ Detailed logging for debugging\n\n\n\n\n\n\n\nFollow the instructions in scripts/README.md:\n\nCreate a Spotify app at https://developer.spotify.com/dashboard\nGet your Client ID and Client Secret\nAdd to GitHub Secrets:\n\nSPOTIFY_CLIENT_ID\nSPOTIFY_CLIENT_SECRET\n\n\n\n\n\nOption A: Wait for automatic run (next midnight UTC) Option B: Manually trigger: 1. Go to Actions tab 2. Select “Fetch Spotify Podcasts” 3. Click “Run workflow”\n\n\n\nAfter running: 1. Check Actions logs for any errors 2. Look for new folders in content/podcasts/posts/ 3. Build the site to see new episodes listed 4. Verify episode pages render correctly\n\n\n\n\nWhen the workflow runs successfully, you’ll see:\ncontent/podcasts/posts/\n├── hmsidr/                    (existing)\n│   ├── index.qmd\n│   └── featured.png\n├── new-episode-title/         (new)\n│   ├── index.qmd\n│   └── featured.png\n└── another-episode/           (new)\n    ├── index.qmd\n    └── featured.png\nEach index.qmd will contain: - YAML frontmatter matching the hmsidr format - Episode-specific Spotify embed - Episode overview section - Key topics discussed section\n\n\n\nAll customizable settings are documented in scripts/README.md, including: - Show ID (to fetch different podcasts) - Episode limit (default: 50) - Categories extraction logic - Embed iframe styling - File naming conventions\n\n\n\n\nTime Savings: No manual episode post creation needed\nConsistency: All posts follow the same format\nUp-to-date: Automatically checks for new episodes daily\nMaintainable: Clear documentation and error handling\nSecure: Follows GitHub Actions security best practices\n\n\n\n\nIf issues arise: 1. Check GitHub Actions logs (Actions tab) 2. Verify Spotify credentials are set correctly 3. Review scripts/README.md troubleshooting section 4. Test locally by running: Rscript scripts/fetch-podcasts.R\n\n\n\n\nThe Quarto listing on content/podcasts/index.qmd will automatically show new episodes\nEpisodes are identified by slug, not by ID, to prevent duplicates\nImages are optional - posts will be created even if image download fails\nThe workflow uses R 4.3.x for automatic patch updates while maintaining compatibility"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#what-was-implemented",
+    "href": "IMPLEMENTATION_SUMMARY.html#what-was-implemented",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "This implementation provides a complete automated system for fetching podcast episodes from Spotify and creating properly formatted Quarto blog posts.\n\n\n\n.github/workflows/fetch-podcasts.yml (42 lines)\n\nGitHub Actions workflow for automation\nRuns daily at midnight UTC\nCan be manually triggered via workflow_dispatch\nInstalls R and required packages\nExecutes the fetch script with Spotify credentials\nCommits and pushes new episodes automatically\nSecurity: Includes explicit permissions (contents: write)\n\nscripts/fetch-podcasts.R (243 lines)\n\nComplete R script for fetching and processing episodes\nFeatures:\n\nSpotify API authentication via spotifyr\nFetches up to 50 episodes from show ID: 43CSCODQFQkZ05u3Up5OD6\nDuplicate detection (checks existing folders)\nURL-friendly slug generation with validation\nAutomatic category extraction from descriptions\nKey topics extraction from episode descriptions\nEpisode cover image downloading\nComprehensive error handling and logging\n\nQuality improvements:\n\nSlug validation with fallback for edge cases\nImproved sentence tokenization for key topics\nPre-computed slugs (not in template)\n\n\nscripts/README.md (219 lines)\n\nComplete documentation including:\n\nStep-by-step setup instructions for Spotify API\nGitHub Secrets configuration guide\nHow the system works\nFile structure explanation\nExample post format\nTroubleshooting guide\nLocal testing instructions\nCustomization options"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#features",
+    "href": "IMPLEMENTATION_SUMMARY.html#features",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "Daily scheduled runs at midnight UTC\nManual triggering via GitHub Actions UI\nAutomatic commits and pushes of new episodes\nSmart duplicate detection prevents re-adding episodes\n\n\n\n\n\nMatches existing format exactly (see content/podcasts/posts/hmsidr/)\nGenerates proper YAML frontmatter with all required fields\nCreates episode-specific Spotify embeds (not show-level)\nDownloads cover images as featured.png\nExtracts categories from episode descriptions\nGenerates key topics automatically\n\n\n\n\n\n✅ Code review completed and feedback addressed\n✅ Security scan passed (CodeQL)\n✅ Explicit workflow permissions set\n✅ Comprehensive error handling\n✅ Detailed logging for debugging"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#next-steps-for-repository-owner",
+    "href": "IMPLEMENTATION_SUMMARY.html#next-steps-for-repository-owner",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "Follow the instructions in scripts/README.md:\n\nCreate a Spotify app at https://developer.spotify.com/dashboard\nGet your Client ID and Client Secret\nAdd to GitHub Secrets:\n\nSPOTIFY_CLIENT_ID\nSPOTIFY_CLIENT_SECRET\n\n\n\n\n\nOption A: Wait for automatic run (next midnight UTC) Option B: Manually trigger: 1. Go to Actions tab 2. Select “Fetch Spotify Podcasts” 3. Click “Run workflow”\n\n\n\nAfter running: 1. Check Actions logs for any errors 2. Look for new folders in content/podcasts/posts/ 3. Build the site to see new episodes listed 4. Verify episode pages render correctly"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#expected-output",
+    "href": "IMPLEMENTATION_SUMMARY.html#expected-output",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "When the workflow runs successfully, you’ll see:\ncontent/podcasts/posts/\n├── hmsidr/                    (existing)\n│   ├── index.qmd\n│   └── featured.png\n├── new-episode-title/         (new)\n│   ├── index.qmd\n│   └── featured.png\n└── another-episode/           (new)\n    ├── index.qmd\n    └── featured.png\nEach index.qmd will contain: - YAML frontmatter matching the hmsidr format - Episode-specific Spotify embed - Episode overview section - Key topics discussed section"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#customization",
+    "href": "IMPLEMENTATION_SUMMARY.html#customization",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "All customizable settings are documented in scripts/README.md, including: - Show ID (to fetch different podcasts) - Episode limit (default: 50) - Categories extraction logic - Embed iframe styling - File naming conventions"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#benefits",
+    "href": "IMPLEMENTATION_SUMMARY.html#benefits",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "Time Savings: No manual episode post creation needed\nConsistency: All posts follow the same format\nUp-to-date: Automatically checks for new episodes daily\nMaintainable: Clear documentation and error handling\nSecure: Follows GitHub Actions security best practices"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#troubleshooting",
+    "href": "IMPLEMENTATION_SUMMARY.html#troubleshooting",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "If issues arise: 1. Check GitHub Actions logs (Actions tab) 2. Verify Spotify credentials are set correctly 3. Review scripts/README.md troubleshooting section 4. Test locally by running: Rscript scripts/fetch-podcasts.R"
+  },
+  {
+    "objectID": "IMPLEMENTATION_SUMMARY.html#notes",
+    "href": "IMPLEMENTATION_SUMMARY.html#notes",
+    "title": "Implementation Summary: Automated Spotify Podcast Fetching",
+    "section": "",
+    "text": "The Quarto listing on content/podcasts/index.qmd will automatically show new episodes\nEpisodes are identified by slug, not by ID, to prevent duplicates\nImages are optional - posts will be created even if image download fails\nThe workflow uses R 4.3.x for automatic patch updates while maintaining compatibility"
+  },
+  {
     "objectID": "content/proj/posts/hindex/posts/performance/index.html",
     "href": "content/proj/posts/hindex/posts/performance/index.html",
     "title": "Measuring Health Performance",
@@ -522,7 +585,7 @@
     "href": "content/books/index.html",
     "title": "Books Writing",
     "section": "",
-    "text": "Health Metrics and the Spread of Infectious Diseases (HMSID)\n\n\nA comprehensive resource on health metrics and infectious disease spread.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Hidden Math That Shapes Our Health: 5 Surprising Truths from Data Science\n\n\n\nhealth metrics\n\ndata science\n\n\n\n\n\n\n\n\n\nJan 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWriting a book in R\n\n\n\nbook\n\n\n\n\n\n\n\n\n\nJun 23, 2025\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Health Metrics and the Spread of Infectious Diseases (HMSID)\n\n\nA comprehensive resource on health metrics and infectious disease spread.\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "content/blog/posts/dataviz/posts/ggstream/index.html",
@@ -763,18 +826,25 @@
     "text": "Understanding Plain Vanilla - from Scratch\n\n\n\nrstats\n\nmodeling\n\nmachine-learning\n\nartificial-neural-networks\n\n\n\n\n\n\n\n\n\nJun 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nR-Ladies Events Stats\n\n\n\ntext-analysis\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow does geom_smooth() make predictions\n\n\n\nrstats\n\nmodeling\n\nlinear regression\n\ngeom_smooth\n\n\n\n\n\n\n\n\n\nFeb 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Simpson’s Paradox: A Simple Explanation\n\n\n\nrstats\n\nmodeling\n\n\n\n\n\n\n\n\n\nJan 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBayesian Statistics model comparison\n\n\n\nrstats\n\nmodeling\n\nbayesian\n\n\n\n\n\n\n\n\n\nMar 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive modeling\n\n\n\nmodeling\n\n\n\n\n\n\n\n\n\nJun 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nMultiple Hypothesis Testing\n\n\n\n\n\n\n\n\nMay 20, 2022\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "content/podcasts/posts/hmsidr/index.html#episode-overview",
-    "href": "content/podcasts/posts/hmsidr/index.html#episode-overview",
+    "objectID": "content/podcasts/posts/hmsidr-2026-01-08/index.html#episode-overview",
+    "href": "content/podcasts/posts/hmsidr-2026-01-08/index.html#episode-overview",
     "title": "The New Science of Fighting Infectious Disease",
     "section": "Episode Overview",
     "text": "Episode Overview\nIn this episode of the Health Metrics Show, we explore how data science is revolutionizing our understanding and management of infectious diseases. Join us as we discuss cutting-edge research and innovative approaches to combating global health threats."
   },
   {
-    "objectID": "content/podcasts/posts/hmsidr/index.html#key-topics-discussed",
-    "href": "content/podcasts/posts/hmsidr/index.html#key-topics-discussed",
+    "objectID": "content/podcasts/posts/hmsidr-2026-01-08/index.html#key-topics-discussed",
+    "href": "content/podcasts/posts/hmsidr-2026-01-08/index.html#key-topics-discussed",
     "title": "The New Science of Fighting Infectious Disease",
     "section": "Key Topics Discussed",
     "text": "Key Topics Discussed\n\nThe role of data science in tracking and predicting infectious disease outbreaks.\nInnovative methods for data collection and analysis in epidemiology.\nCase studies highlighting successful applications of data science in public health.\nFuture directions for research and collaboration in the field of infectious disease management."
+  },
+  {
+    "objectID": "content/podcasts/posts/hmsidr-2026-01-08/index.html#conclusion",
+    "href": "content/podcasts/posts/hmsidr-2026-01-08/index.html#conclusion",
+    "title": "The New Science of Fighting Infectious Disease",
+    "section": "Conclusion",
+    "text": "Conclusion\nAs we continue to face global health challenges, the integration of data science into infectious disease research and management is more crucial than ever. By leveraging data-driven insights, we can enhance our ability to respond to outbreaks and improve public health outcomes worldwide."
   },
   {
     "objectID": "content/rpackages/posts/typeR/index.html#why-i-built-typer",
