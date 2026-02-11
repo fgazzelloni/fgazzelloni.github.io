@@ -1,0 +1,30 @@
+---
+title: "Valuing Human Life in a Spreadsheet"
+date: '2026-02-09'
+image: featured.png
+slug: podcast-valuing-human-life-in-a-spreadsheet
+toc: true
+categories:
+  - health metrics
+  - data science
+summary: |
+  <p>Life expectancies, simulated data and health metrics in a fascinating discussion about how to apply raw data to wel estimated formula. </p>
+
+execute: 
+  eval: false
+---
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+## Episode Overview
+
+<p>Life expectancies, simulated data and health metrics in a fascinating discussion about how to apply raw data to wel estimated formula. </p>
+
+
+## Key Topics Discussed
+
+- <p>Life expectancies, simulated data and health metrics in a fascinating discussion about how to apply raw data to wel estimated formula
+
+

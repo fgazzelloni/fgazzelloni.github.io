@@ -1,0 +1,32 @@
+---
+title: "Bills of Mortality to AI"
+date: '2026-02-08'
+image: featured.png
+slug: podcast-bills-of-mortality-to-ai
+toc: true
+categories:
+  - health metrics
+  - data science
+summary: |
+  <p><strong>17th Century: The Bills of Mortality.</strong> John Graunt, the "father of demography," uses London's weekly death records to identify the first statistical patterns in human longevity and disease.</p>
+
+execute: 
+  eval: false
+---
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+## Episode Overview
+
+<p><strong>17th Century: The Bills of Mortality.</strong> John Graunt, the "father of demography," uses London's weekly death records to identify the first statistical patterns in human longevity and disease.</p>
+
+
+## Key Topics Discussed
+
+- Data-driven insights
+- Health metrics analysis
+- Innovative approaches to public health
+
+

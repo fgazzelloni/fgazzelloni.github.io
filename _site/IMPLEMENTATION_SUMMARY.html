@@ -243,58 +243,67 @@ cookieconsent.run({
 
 
 
-<section id="implementation-summary-automated-spotify-podcast-fetching" class="level1">
-<h1>Implementation Summary: Automated Spotify Podcast Fetching</h1>
+<section id="implementation-summary-automated-rss-podcast-fetching" class="level1">
+<h1>Implementation Summary: Automated RSS Podcast Fetching</h1>
 <section id="what-was-implemented" class="level2">
 <h2 class="anchored" data-anchor-id="what-was-implemented">✅ What Was Implemented</h2>
-<p>This implementation provides a complete automated system for fetching podcast episodes from Spotify and creating properly formatted Quarto blog posts.</p>
-<section id="files-created" class="level3">
-<h3 class="anchored" data-anchor-id="files-created">Files Created</h3>
+<p>This implementation provides a complete automated system for fetching podcast episodes from an RSS feed and creating properly formatted Quarto blog posts.</p>
+<section id="files-updated" class="level3">
+<h3 class="anchored" data-anchor-id="files-updated">Files Updated</h3>
 <ol type="1">
-<li><strong><code>.github/workflows/fetch-podcasts.yml</code></strong> (42 lines)
+<li><strong><code>.github/workflows/fetch-podcasts.yml</code></strong>
 <ul>
 <li>GitHub Actions workflow for automation</li>
 <li>Runs daily at midnight UTC</li>
 <li>Can be manually triggered via workflow_dispatch</li>
-<li>Installs R and required packages</li>
-<li>Executes the fetch script with Spotify credentials</li>
+<li>Installs R and required packages (httr, xml2, stringr, glue, fs)</li>
+<li>Executes the fetch script without requiring credentials</li>
 <li>Commits and pushes new episodes automatically</li>
 <li><strong>Security</strong>: Includes explicit permissions (contents: write)</li>
+<li><strong>Simplified</strong>: No API credentials needed</li>
 </ul></li>
-<li><strong><code>scripts/fetch-podcasts.R</code></strong> (243 lines)
+<li><strong><code>scripts/fetch-podcasts.R</code></strong>
 <ul>
-<li>Complete R script for fetching and processing episodes</li>
+<li>Complete R script for fetching and processing episodes from RSS feed</li>
 <li>Features:
 <ul>
-<li>Spotify API authentication via spotifyr</li>
-<li>Fetches up to 50 episodes from show ID: 43CSCODQFQkZ05u3Up5OD6</li>
+<li>RSS feed parsing using xml2 package</li>
+<li>Fetches all episodes from RSS feed at https://anchor.fm/s/10dab65b8/podcast/rss</li>
 <li>Duplicate detection (checks existing folders)</li>
 <li>URL-friendly slug generation with validation</li>
 <li>Automatic category extraction from descriptions</li>
 <li>Key topics extraction from episode descriptions</li>
-<li>Episode cover image downloading</li>
+<li>Episode cover image downloading from RSS iTunes image or media thumbnail</li>
 <li>Comprehensive error handling and logging</li>
 </ul></li>
 <li><strong>Quality improvements</strong>:
 <ul>
-<li>Slug validation with fallback for edge cases</li>
-<li>Improved sentence tokenization for key topics</li>
-<li>Pre-computed slugs (not in template)</li>
+<li>No authentication required</li>
+<li>Direct RSS parsing without API rate limits</li>
+<li>Extracts episode IDs from Spotify URLs when available in RSS</li>
+<li>Falls back to show-level embeds if episode ID not available</li>
 </ul></li>
 </ul></li>
-<li><strong><code>scripts/README.md</code></strong> (219 lines)
+<li><strong><code>scripts/README.md</code></strong>
 <ul>
-<li>Complete documentation including:
+<li>Updated documentation including:
 <ul>
-<li>Step-by-step setup instructions for Spotify API</li>
-<li>GitHub Secrets configuration guide</li>
-<li>How the system works</li>
+<li>RSS feed configuration instructions</li>
+<li>Removed all Spotify API setup steps</li>
+<li>Removed GitHub Secrets configuration</li>
+<li>How the RSS-based system works</li>
 <li>File structure explanation</li>
 <li>Example post format</li>
-<li>Troubleshooting guide</li>
+<li>Troubleshooting guide for RSS feeds</li>
 <li>Local testing instructions</li>
 <li>Customization options</li>
 </ul></li>
+</ul></li>
+<li><strong><code>IMPLEMENTATION_SUMMARY.md</code></strong> (this file)
+<ul>
+<li>Updated to reflect RSS-based implementation</li>
+<li>Removed Spotify API references</li>
+<li>Updated features and benefits</li>
 </ul></li>
 </ol>
 </section>
@@ -308,15 +317,17 @@ cookieconsent.run({
 <li><strong>Manual triggering</strong> via GitHub Actions UI</li>
 <li><strong>Automatic commits and pushes</strong> of new episodes</li>
 <li><strong>Smart duplicate detection</strong> prevents re-adding episodes</li>
+<li><strong>No authentication required</strong> - uses public RSS feed</li>
 </ul>
 </section>
 <section id="episode-processing" class="level3">
 <h3 class="anchored" data-anchor-id="episode-processing">Episode Processing</h3>
 <ul>
+<li><strong>Parses standard RSS 2.0 feed</strong> with full metadata extraction</li>
 <li><strong>Matches existing format exactly</strong> (see <code>content/podcasts/posts/hmsidr/</code>)</li>
 <li><strong>Generates proper YAML frontmatter</strong> with all required fields</li>
-<li><strong>Creates episode-specific Spotify embeds</strong> (not show-level)</li>
-<li><strong>Downloads cover images</strong> as <code>featured.png</code></li>
+<li><strong>Creates Spotify embeds</strong> (episode-specific when available, otherwise show-level)</li>
+<li><strong>Downloads cover images</strong> from RSS feed (iTunes or media thumbnail)</li>
 <li><strong>Extracts categories</strong> from episode descriptions</li>
 <li><strong>Generates key topics</strong> automatically</li>
 </ul>
@@ -324,9 +335,9 @@ cookieconsent.run({
 <section id="quality-security" class="level3">
 <h3 class="anchored" data-anchor-id="quality-security">Quality &amp; Security</h3>
 <ul>
-<li>✅ Code review completed and feedback addressed</li>
-<li>✅ Security scan passed (CodeQL)</li>
-<li>✅ Explicit workflow permissions set</li>
+<li>✅ Simplified workflow with no credentials needed</li>
+<li>✅ More reliable (no API rate limits or authentication issues)</li>
+<li>✅ Standard RSS parsing using xml2 package</li>
 <li>✅ Comprehensive error handling</li>
 <li>✅ Detailed logging for debugging</li>
 </ul>
@@ -334,22 +345,15 @@ cookieconsent.run({
 </section>
 <section id="next-steps-for-repository-owner" class="level2">
 <h2 class="anchored" data-anchor-id="next-steps-for-repository-owner">📋 Next Steps for Repository Owner</h2>
-<section id="configure-spotify-api-credentials" class="level3">
-<h3 class="anchored" data-anchor-id="configure-spotify-api-credentials">1. Configure Spotify API Credentials</h3>
-<p>Follow the instructions in <code>scripts/README.md</code>:</p>
-<ol type="1">
-<li>Create a Spotify app at https://developer.spotify.com/dashboard</li>
-<li>Get your Client ID and Client Secret</li>
-<li>Add to GitHub Secrets:
-<ul>
-<li><code>SPOTIFY_CLIENT_ID</code></li>
-<li><code>SPOTIFY_CLIENT_SECRET</code></li>
-</ul></li>
-</ol>
+<section id="verify-rss-feed-url" class="level3">
+<h3 class="anchored" data-anchor-id="verify-rss-feed-url">1. Verify RSS Feed URL</h3>
+<p>The script is configured to use:</p>
+<pre><code>https://anchor.fm/s/10dab65b8/podcast/rss</code></pre>
+<p>If this URL needs to be changed: 1. Edit <code>scripts/fetch-podcasts.R</code> 2. Update the <code>RSS_FEED_URL</code> variable 3. Commit the change</p>
 </section>
 <section id="test-the-workflow" class="level3">
 <h3 class="anchored" data-anchor-id="test-the-workflow">2. Test the Workflow</h3>
-<p>Option A: Wait for automatic run (next midnight UTC) Option B: Manually trigger: 1. Go to Actions tab 2. Select “Fetch Spotify Podcasts” 3. Click “Run workflow”</p>
+<p>Option A: Wait for automatic run (next midnight UTC) Option B: Manually trigger: 1. Go to Actions tab 2. Select “Fetch RSS Podcasts” 3. Click “Run workflow”</p>
 </section>
 <section id="verify-results" class="level3">
 <h3 class="anchored" data-anchor-id="verify-results">3. Verify Results</h3>
@@ -373,21 +377,23 @@ cookieconsent.run({
 </section>
 <section id="customization" class="level2">
 <h2 class="anchored" data-anchor-id="customization">🔧 Customization</h2>
-<p>All customizable settings are documented in <code>scripts/README.md</code>, including: - Show ID (to fetch different podcasts) - Episode limit (default: 50) - Categories extraction logic - Embed iframe styling - File naming conventions</p>
+<p>All customizable settings are documented in <code>scripts/README.md</code>, including: - RSS feed URL (to use a different podcast feed) - Show ID (for Spotify embeds) - Categories extraction logic - Embed iframe styling - File naming conventions</p>
 </section>
 <section id="benefits" class="level2">
 <h2 class="anchored" data-anchor-id="benefits">✨ Benefits</h2>
 <ol type="1">
+<li><strong>Simplified Setup</strong>: No API credentials or authentication needed</li>
+<li><strong>More Reliable</strong>: No API rate limits or authentication expiration issues</li>
 <li><strong>Time Savings</strong>: No manual episode post creation needed</li>
 <li><strong>Consistency</strong>: All posts follow the same format</li>
 <li><strong>Up-to-date</strong>: Automatically checks for new episodes daily</li>
 <li><strong>Maintainable</strong>: Clear documentation and error handling</li>
-<li><strong>Secure</strong>: Follows GitHub Actions security best practices</li>
+<li><strong>Portable</strong>: Works with any podcast RSS feed, not just Spotify</li>
 </ol>
 </section>
 <section id="troubleshooting" class="level2">
 <h2 class="anchored" data-anchor-id="troubleshooting">🐛 Troubleshooting</h2>
-<p>If issues arise: 1. Check GitHub Actions logs (Actions tab) 2. Verify Spotify credentials are set correctly 3. Review <code>scripts/README.md</code> troubleshooting section 4. Test locally by running: <code>Rscript scripts/fetch-podcasts.R</code></p>
+<p>If issues arise: 1. Check GitHub Actions logs (Actions tab) 2. Verify RSS feed URL is correct and publicly accessible 3. Test RSS feed in an online validator 4. Review <code>scripts/README.md</code> troubleshooting section 5. Test locally by running: <code>Rscript scripts/fetch-podcasts.R</code></p>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">📝 Notes</h2>
@@ -396,6 +402,7 @@ cookieconsent.run({
 <li>Episodes are identified by slug, not by ID, to prevent duplicates</li>
 <li>Images are optional - posts will be created even if image download fails</li>
 <li>The workflow uses R 4.3.x for automatic patch updates while maintaining compatibility</li>
+<li>RSS feeds are more stable and don’t require maintaining API credentials</li>
 </ul>
 
 

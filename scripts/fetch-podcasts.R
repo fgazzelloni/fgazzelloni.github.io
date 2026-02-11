@@ -9,6 +9,7 @@ library(xml2)
 library(stringr)
 library(glue)
 library(fs)
+library(magick)
 
 # Configuration
 RSS_FEED_URL <- "https://anchor.fm/s/10dab65b8/podcast/rss"
@@ -66,17 +67,20 @@ extract_categories <- function(description) {
 }
 
 # Function to download image from URL
+# Simplified function using magick
 download_image <- function(image_url, output_path) {
   tryCatch({
-    response <- GET(image_url, timeout(30))
-    if (status_code(response) == 200) {
-      writeBin(content(response, "raw"), output_path)
-      cat(glue("✓ Downloaded image to {output_path}\n"))
-      return(TRUE)
-    } else {
-      cat(glue("✗ Failed to download image: HTTP {status_code(response)}\n"))
-      return(FALSE)
-    }
+    cat(glue("  → Downloading image from {image_url}\n"))
+    
+    # Download and convert using magick
+    img <- image_read(image_url)
+    
+    # Convert to PNG format regardless of source format
+    image_write(img, path = output_path, format = "png")
+    
+    cat(glue("✓ Downloaded and converted image to {output_path}\n"))
+    return(TRUE)
+    
   }, error = function(e) {
     cat(glue("✗ Error downloading image: {e$message}\n"))
     return(FALSE)
