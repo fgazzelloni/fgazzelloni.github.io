@@ -1,68 +1,47 @@
-# Automated Spotify Podcast Fetching
+# Automated RSS Podcast Fetching
 
-This directory contains the automation system that fetches new podcast episodes from Spotify and creates properly formatted Quarto posts.
+This directory contains the automation system that fetches new podcast episodes from an RSS feed and creates properly formatted Quarto posts.
 
 ## Overview
 
 The system consists of:
 - **GitHub Actions Workflow** (`.github/workflows/fetch-podcasts.yml`) - Runs daily to check for new episodes
-- **R Script** (`scripts/fetch-podcasts.R`) - Fetches episodes from Spotify API and creates post files
+- **R Script** (`scripts/fetch-podcasts.R`) - Fetches episodes from RSS feed and creates post files
 
 ## Setup Instructions
 
-### 1. Get Spotify API Credentials
+### 1. RSS Feed Configuration
 
-To use the Spotify API, you need to create a Spotify application and get your credentials:
+The podcast RSS feed is configured in the R script:
+```r
+RSS_FEED_URL <- "https://anchor.fm/s/10dab65b8/podcast/rss"
+```
 
-1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Log in with your Spotify account
-3. Click "Create App"
-4. Fill in the app details:
-   - **App Name**: "Podcast Episode Fetcher" (or any name you prefer)
-   - **App Description**: "Automated fetching of podcast episodes"
-   - **Redirect URI**: `http://localhost:8888/callback` (required but not used)
-   - Accept the terms and conditions
-5. Click "Create"
-6. On your app's dashboard, you'll see:
-   - **Client ID** - Copy this value
-   - **Client Secret** - Click "Show Client Secret" and copy this value
+To change this to a different RSS feed:
+1. Open `scripts/fetch-podcasts.R`
+2. Update the `RSS_FEED_URL` variable with your podcast's RSS feed URL
+3. Most podcast hosting platforms (Anchor, Spotify for Podcasters, Buzzsprout, etc.) provide RSS feeds
 
-### 2. Configure GitHub Secrets
-
-Add your Spotify credentials as GitHub repository secrets:
-
-1. Go to your GitHub repository
-2. Navigate to **Settings** → **Secrets and variables** → **Actions**
-3. Click "New repository secret"
-4. Add the following secrets:
-   - **Name**: `SPOTIFY_CLIENT_ID`  
-     **Value**: [Your Client ID from Spotify]
-   - **Name**: `SPOTIFY_CLIENT_SECRET`  
-     **Value**: [Your Client Secret from Spotify]
-
-### 3. Required R Packages
+### 2. Required R Packages
 
 The script uses the following R packages (automatically installed by the workflow):
 
 - `httr` - HTTP requests
-- `jsonlite` - JSON parsing
-- `spotifyr` - Spotify API wrapper
+- `xml2` - XML/RSS parsing
 - `stringr` - String manipulation
 - `glue` - String templating
 - `fs` - File system operations
 
-### 4. Configuration
+### 3. Configuration
 
-The podcast show ID is configured in the R script. The default is:
+The podcast show ID for Spotify embeds is configured in the R script:
 ```r
 SHOW_ID <- "43CSCODQFQkZ05u3Up5OD6"
 ```
 
-To change this to a different show:
-1. Open `scripts/fetch-podcasts.R`
-2. Update the `SHOW_ID` variable with your show's Spotify ID
-3. To find a show ID, go to the show on Spotify web, the URL will be:
-   `https://open.spotify.com/show/[SHOW_ID]`
+This is used to create Spotify embed iframes. To find your show ID:
+1. Go to your show on Spotify web
+2. The URL will be: `https://open.spotify.com/show/[SHOW_ID]`
 
 ## How It Works
 
@@ -73,7 +52,7 @@ The GitHub Actions workflow runs automatically every day at midnight UTC. It:
 1. Checks out the repository
 2. Sets up R environment
 3. Installs required packages
-4. Runs the fetch script with Spotify credentials
+4. Runs the fetch script to parse the RSS feed
 5. Commits and pushes any new episodes found
 
 ### Manual Triggering
@@ -81,7 +60,7 @@ The GitHub Actions workflow runs automatically every day at midnight UTC. It:
 You can also manually trigger the workflow:
 
 1. Go to **Actions** tab in your GitHub repository
-2. Select "Fetch Spotify Podcasts" workflow
+2. Select "Fetch RSS Podcasts" workflow
 3. Click "Run workflow"
 4. Select the branch and click "Run workflow"
 
@@ -89,17 +68,18 @@ You can also manually trigger the workflow:
 
 For each new episode, the script:
 
-1. Fetches episode metadata from Spotify API
-2. Generates a URL-friendly slug from the episode title
-3. Checks if the episode already exists (by slug)
-4. If new, creates a folder: `content/podcasts/posts/[slug]/`
-5. Generates an `index.qmd` file with:
+1. Fetches the RSS feed from the configured URL
+2. Parses the XML to extract episode metadata
+3. Generates a URL-friendly slug from the episode title
+4. Checks if the episode already exists (by slug)
+5. If new, creates a folder: `content/podcasts/posts/[slug]/`
+6. Generates an `index.qmd` file with:
    - YAML frontmatter (title, date, categories, summary, etc.)
-   - Spotify embed iframe
+   - Spotify embed iframe (if episode ID is available in RSS)
    - Episode overview section
    - Key topics section
-6. Downloads the episode cover image as `featured.png`
-7. Commits the new files to the repository
+7. Downloads the episode cover image as `featured.png` (from RSS iTunes image or media thumbnail)
+8. Commits the new files to the repository
 
 ### Duplicate Prevention
 
@@ -159,8 +139,8 @@ execute:
 ### Workflow Fails
 
 1. **Check GitHub Actions logs**: Go to Actions tab and view the workflow run
-2. **Verify secrets are set**: Ensure `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` are configured
-3. **Test API credentials**: Try authenticating manually with your credentials
+2. **Verify RSS feed is accessible**: Make sure the RSS feed URL is correct and publicly accessible
+3. **Test RSS feed format**: Ensure the feed follows RSS 2.0 standard format
 
 ### No New Episodes Added
 
@@ -169,12 +149,13 @@ This is normal if there are no new episodes since the last run. The script will 
 ⊙ No new episodes to add.
 ```
 
-### Authentication Errors
+### RSS Feed Parsing Errors
 
-If you see authentication errors:
-1. Verify your Spotify API credentials are correct
-2. Make sure the app is not in "Development Mode" (which has user limits)
-3. Check that the credentials in GitHub Secrets match your Spotify app
+If you see parsing errors:
+1. Verify your RSS feed URL is correct
+2. Check that the feed is publicly accessible (not password-protected)
+3. Ensure the feed follows standard RSS 2.0 format
+4. Test the feed in an RSS reader to verify it's valid
 
 ### Image Download Failures
 
@@ -189,16 +170,10 @@ To test the script locally before running in GitHub Actions:
 
 1. Install R and required packages:
    ```r
-   install.packages(c("httr", "jsonlite", "spotifyr", "stringr", "glue", "fs"))
+   install.packages(c("httr", "xml2", "stringr", "glue", "fs"))
    ```
 
-2. Set environment variables:
-   ```bash
-   export SPOTIFY_CLIENT_ID="your_client_id"
-   export SPOTIFY_CLIENT_SECRET="your_client_secret"
-   ```
-
-3. Run the script:
+2. Run the script:
    ```bash
    Rscript scripts/fetch-podcasts.R
    ```
@@ -228,5 +203,5 @@ To customize the Spotify embed iframe:
 
 For issues or questions:
 1. Check the GitHub Actions workflow logs
-2. Review the Spotify API documentation: https://developer.spotify.com/documentation/web-api
-3. Check the spotifyr package documentation: https://github.com/charlie86/spotifyr
+2. Verify the RSS feed is valid using an online RSS validator
+3. Check the xml2 package documentation: https://xml2.r-lib.org/
