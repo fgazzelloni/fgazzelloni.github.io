@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.">
+<meta name="dcterms.date" content="2024-04-14">
 
-<title>R-Packages – Federica Gazzelloni</title>
+<title>hmsidwR R-package – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../../">
 <link href="../../../../images/logo-website-removebg.png" rel="icon" type="image/png">
-<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -76,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -134,51 +103,28 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="R-Packages – Federica Gazzelloni">
-<meta property="og:description" content="In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.">
+<meta property="og:title" content="hmsidwR R-package – Federica Gazzelloni">
+<meta property="og:description" content="Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R">
+<meta property="og:image" content="https://federicagazzelloni.com/content/rpackages/posts/hmsidwR/featured.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="R-Packages – Federica Gazzelloni">
-<meta name="twitter:description" content="In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.">
+<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="500">
+<meta name="twitter:title" content="hmsidwR R-package – Federica Gazzelloni">
+<meta name="twitter:description" content="Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R">
+<meta name="twitter:image" content="https://federicagazzelloni.com/content/rpackages/posts/hmsidwR/featured.png">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="500">
+<meta name="twitter:image-width" content="500">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -197,10 +143,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Blog</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
     <a class="dropdown-item" href="../../../../content/blog/index.html">
  <span class="dropdown-text">Overview</span></a>
@@ -216,21 +162,25 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-packages" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R Packages</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">    
         <li>
-    <a class="dropdown-item" href="../../../../content/proj/index.html">
+    <a class="dropdown-item" href="../../../../content/rpackages/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/proj/posts/hindex/index.html">
- <span class="dropdown-text">Performance Metrics</span></a>
+    <a class="dropdown-item" href="../../../../content/rpackages/posts/oregonfrogs/index.html">
+ <span class="dropdown-text">oregonfrogs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../content/proj/posts/rpackages/index.html">
- <span class="dropdown-text">R Packages</span></a>
+    <a class="dropdown-item" href="../../../../content/rpackages/posts/hmsidwR/index.html">
+ <span class="dropdown-text">hmsidwR</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../content/rpackages/posts/typeR/index.html">
+ <span class="dropdown-text">typeR</span></a>
   </li>  
     </ul>
   </li>
@@ -253,6 +203,21 @@ window.Quarto = {
     <a class="nav-link" href="../../../../content/podcasts/index.html"> 
 <span class="menu-text">Podcasts</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../../../content/proj/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../content/proj/posts/hindex/index.html">
+ <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../../about.html"> 
 <span class="menu-text">About</span></a>
@@ -277,114 +242,69 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">R-Packages</h1>
-                  <div>
-        <div class="description">
-          In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YSUyMFNjaWVuY2U=">Data Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGVhbHRoJTIwTWV0cmljcw==">Health Metrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWxyMw==">mlr3 <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">hmsidwR R-package</h1>
+<p class="subtitle lead">Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Health Metrics</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Machine Learning</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta column-page">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 14, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="SGVhbHRoJTIwTWV0cmljcyUyQ0RhdGElMjBTY2llbmNlJTJDTWFjaGluZSUyMExlYXJuaW5n" data-listing-date-sort="1713045600000" data-listing-file-modified-sort="1763767893804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="326">
-<div class="thumbnail"><a href="../../../../content/proj/posts/rpackages/posts/hmsidwR/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/hmsidwR/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/proj/posts/rpackages/posts/hmsidwR/index.html" class="no-external">hmsidwR R-package</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/proj/posts/rpackages/posts/hmsidwR/index.html" class="no-external">Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('SGVhbHRoJTIwTWV0cmljcw=='); return false;">Health Metrics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFNjaWVuY2U='); return false;">Data Science</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/proj/posts/rpackages/posts/hmsidwR/index.html" class="no-external">
-This is the package that covers all datasets used in the <strong>Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis…</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/proj/posts/rpackages/posts/hmsidwR/index.html" class="no-external">
-<div class="listing-date">
-Apr 14, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDbWxyMw==" data-listing-date-sort="1667080800000" data-listing-file-modified-sort="1763767893812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1260">
-<div class="thumbnail"><a href="../../../../content/proj/posts/rpackages/posts/oregonfrogs/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/oregonfrogs/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/proj/posts/rpackages/posts/oregonfrogs/index.html" class="no-external">Oregon spotted a frog: Rana Pretiosa</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/proj/posts/rpackages/posts/oregonfrogs/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWxyMw=='); return false;">mlr3</div>
-
-</div>
-<div class="delink listing-description"><a href="../../../../content/proj/posts/rpackages/posts/oregonfrogs/index.html" class="no-external">
-I made a package! Looking for data to use for one of my data visualization I stomped into this data about frogs in Oregon (US) and realized that it was very interesting for…<strong></strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/proj/posts/rpackages/posts/oregonfrogs/index.html" class="no-external">
-<div class="listing-date">
-Oct 30, 2022
-</div>
-</a>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p>This is the package that covers all datasets used in the <strong>Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R</strong> book.</p>
+<p>BOOK: <a href="https://bookdown.org/fede_gazzelloni/hmsidR/" class="uri">https://bookdown.org/fede_gazzelloni/hmsidR/</a></p>
+<p>GITHUB: <a href="https://github.com/Fgazzelloni/hmsidwR" class="uri">https://github.com/Fgazzelloni/hmsidwR</a></p>
+<p>VIGNETTE: <a href="https://fgazzelloni.github.io/hmsidwR/" class="uri">https://fgazzelloni.github.io/hmsidwR/</a></p>
+</div><div class="column" style="width:20%;">
+<p><img src="featured.png" class="img-fluid"></p>
 </div>
 </div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<p><br>
+“It’s been an incredible journey, and while the book is nearing its completion, I feel a mix of emotions—both the excitement of sharing it with you and a touch of sadness that this creative process is coming to an end. 😌</p>
+<p>Writing this book has been an immensely rewarding experience. I’ve spent countless hours into selecting the right material, striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.</p>
+<p>Even though the book is almost finished, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.</p>
+<p>As I reflect on this journey, I’m filled with gratitude for all the support and feedback I’ve received along the way. <em>Your encouragement has been invaluable in shaping this book into what it is today.</em></p>
+<p>So, what’s next? While this project may be wrapping up, my passion for writing and sharing knowledge is far from over. Stay tuned for more updates and future projects! In the meantime, I invite you to dive into the book, explore its content, and share your thoughts. Your insights will be crucial as I make final touches and consider potential additions.</p>
+<p>Thank you for being a part of this journey. I hope the book serves as a valuable resource for your research and studies. Let’s see where this new chapter takes us!</p>
+<p>Happy learning! 🤓📚✨”</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

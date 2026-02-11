@@ -1,0 +1,55 @@
+---
+title: "Overview"
+description: "In this section I share my R packages that I have developed or contributed to along with documentation and usage examples."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+page-navigation: true
+back-to-top-navigation: true
+---
+
+Over time, a number of small R tools I developed for my own work have turned into packages that I now share publicly. To make them easier to find and explore, I have added a dedicated R Packages section to my website.
+
+This section brings together the public R packages I have developed with links to their documentation, source code, and examples of use. The aim is not only to list packages, but to provide context: [why they exist]{.underline}, [what problems they address]{.underline}, and [how they fit into real analytical workflows]{.underline}.
+
+## What you will find here
+
+The R Packages section includes:
+
+-   Package names and short descriptions, to quickly understand the purpose of each project
+-   Links to CRAN and/or GitHub repositories, for installation and source code access
+-   Key features, highlighting the main ideas and design choices behind each package
+-   Documentation, vignettes, and tutorials, where available, to support practical use
+-   Ongoing updates, as packages evolve, new features are added, or new projects are released
+
+All packages are presented in one place to make exploration straightforward and transparent.
+
+## Why a dedicated section
+
+**Open-source** work is often scattered across repositories, issues, and releases. While GitHub and CRAN are essential platforms, they are not always the easiest entry point for understanding why a package exists or how it is meant to be used.
+
+This dedicated section provides a more coherent view of my work as an R developer, linking technical tools back to the teaching, research, and communication contexts in which they were created. It also reflects a broader commitment to reproducibility, clarity, and sharing reusable solutions with the community.
+
+## Selected packages
+
+The tab currently features packages covering different aspects of data analysis and development, for example:
+
+-   `{oregonfrogs}`: A package for analyzing and visualizing Oregon frog population data.
+-   `{hmsidwR}`: Tools for health metrics data collection as long as extra tools for unzipping data and for spatial interpolation using inverse distance weighting.
+-   `{typeR}`: A package providing utilities for working with type-safe data structures in R providing live coding simulations.
+
+Additional packages and updates will appear as projects mature or are made public.
+
+You can explore the full list directly on the website by visiting the R Packages section.
+
+⸻
+
+This space will continue to grow over time. If you use any of these packages, have suggestions, or would like to discuss potential improvements or collaborations, feel free to get in touch via the contact page or GitHub.
+
+Thank you for following and supporting my work in the R ecosystem.

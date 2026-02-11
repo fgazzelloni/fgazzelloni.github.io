@@ -203,10 +203,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Blog</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Data</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">    
         <li>
     <a class="dropdown-item" href="./content/blog/index.html">
  <span class="dropdown-text">Overview</span></a>
@@ -222,21 +222,25 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-packages" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">R Packages</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">    
         <li>
-    <a class="dropdown-item" href="./content/proj/index.html">
+    <a class="dropdown-item" href="./content/rpackages/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/proj/posts/hindex/index.html">
- <span class="dropdown-text">Performance Metrics</span></a>
+    <a class="dropdown-item" href="./content/rpackages/posts/oregonfrogs/index.html">
+ <span class="dropdown-text">oregonfrogs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./content/proj/posts/rpackages/index.html">
- <span class="dropdown-text">R Packages</span></a>
+    <a class="dropdown-item" href="./content/rpackages/posts/hmsidwR/index.html">
+ <span class="dropdown-text">hmsidwR</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/rpackages/posts/typeR/index.html">
+ <span class="dropdown-text">typeR</span></a>
   </li>  
     </ul>
   </li>
@@ -259,6 +263,21 @@ window.Quarto = {
     <a class="nav-link" href="./content/podcasts/index.html"> 
 <span class="menu-text">Podcasts</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./content/proj/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./content/proj/posts/hindex/index.html">
+ <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -384,26 +403,7 @@ This is a dedicated platform for sharing ideas, insights, resources, and project
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767896826785" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./content/proj/posts/rpackages/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="content/proj/posts/rpackages/posts/hmsidwR/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-R-Packages
-</h5>
-<div class="card-text listing-description delink">
-<p>In this section I share my R packages that I have developed or contributed to along with documentation and usage examples.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1767896741385" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1767896741385" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./content/proj/posts/hindex/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="content/proj/posts/hindex/posts/health_index/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
@@ -422,7 +422,7 @@ Health Index Projects
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1767896636089" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1768587557684" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <a href="./content/proj/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="content/proj/posts/hindex/posts/health_index/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
@@ -432,6 +432,25 @@ Overview
 </h5>
 <div class="card-text listing-description delink">
 <p>Section dedicated to projects and resources related to health index Performance and Metrics</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1767898234173" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
+<a href="./content/books/posts/hmsid/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="content/books/posts/hmsid/posts/012026/featured.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Health Metrics and the Spread of Infectious Diseases (HMSID)
+</h5>
+<div class="card-text listing-description delink">
+<p>A comprehensive resource on health metrics and infectious disease spread.</p>
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">

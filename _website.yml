@@ -30,20 +30,22 @@ website:
     logo-alt: "me-ai2"
     collapse: true 
     left:
-      - text: "Blog"
+      - text: "Data"
         menu:
           - content/blog/index.qmd 
           - text: "Data Visualization"
             href: content/blog/posts/dataviz/index.qmd
           - text: "Data Analytics"
             href: content/blog/posts/stats/index.qmd
-      - text: "Projects"
+      - text: "R Packages"
         menu:
-          - content/proj/index.qmd
-          - text: "Performance Metrics"
-            href: content/proj/posts/hindex/index.qmd
-          - text: "R Packages"
-            href: content/proj/posts/rpackages/index.qmd
+          - content/rpackages/index.qmd
+          - text: "oregonfrogs"
+            href: content/rpackages/posts/oregonfrogs/index.qmd
+          - text: "hmsidwR"
+            href: content/rpackages/posts/hmsidwR/index.qmd
+          - text: "typeR"
+            href: content/rpackages/posts/typeR/index.qmd  
       - text: "Books"
         menu: 
           - content/books/index.qmd
@@ -51,6 +53,11 @@ website:
             href: content/books/posts/hmsid/index.qmd
       - text: "Podcasts"    
         href: content/podcasts/index.qmd
+      - text: "Projects"
+        menu:
+          - content/proj/index.qmd
+          - text: "Performance Metrics"
+            href: content/proj/posts/hindex/index.qmd  
       - text: "About"
         href: about.qmd
     tools:    

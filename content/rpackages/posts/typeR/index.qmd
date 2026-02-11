@@ -1,0 +1,127 @@
+---
+title: 'Announcing {typeR}: simulate live typing of R scripts'
+description: "A tiny R package that types out an .R file character-by-character for demos, teaching, and video recordings."
+date: 2026-01-16
+excerpt: 
+images: 
+series: package
+tags: 
+  - rstats
+  - rpackage
+  - teaching
+  - demo
+categories: 
+layout: single
+page-layout: full
+execute: 
+  eval: false
+---
+
+#### Updated January 2026
+
+# Overview
+
+::::: columns
+::: {.column width="80%"}
+I’m excited to announce the release of my new R package, **{typeR}**! This tiny utility allows you to simulate live typing of R scripts directly in the console, making it perfect for teaching, live coding demos, and recording videos where you want code to appear progressively.
+
+## Why I built {typeR}
+
+When teaching or **recording short demos**, I often want code to appear as if it is being typed live — without actually typing in real time.
+
+Screen sharing is not always ideal: text can be small, the pace can be uneven, and the viewer cannot easily copy what they see. On the other hand, showing the full script at once removes the “step-by-step” feel that helps learners follow the logic.
+:::
+
+::: {.column width="20%"}
+![typeR logo](featured.png)
+:::
+
+::::::
+
+
+So I built **{typeR}**: a small utility package that **prints an R script to the console with a typing effect**, character by character, with a configurable delay.
+
+## What {typeR} does
+
+Given a path to an `.R` file, `typeR()`:
+
+- reads the file line-by-line
+- prints each line character-by-character
+- waits a small amount of time between characters (`delay`)
+- moves to a new line and continues
+
+This is useful for:
+
+- live coding demos (when you want to control pacing)
+- teaching sessions (small scripts, narrated step-by-step)
+- recording short videos or GIFs where you want code to “appear”
+- workshops where you want to reveal code progressively
+
+## Quick start
+
+Create a small script:
+
+```r
+writeLines(
+  c(
+    "# Demo script",
+    "x <- 1:10",
+    "y <- x * 2",
+    "plot(x, y)"
+  ),
+  "demo_script.R"
+)
+```
+Then use `typeR()` to simulate typing it out:
+```{r}
+library(typeR)
+
+typeR("demo_script.R", delay = 0.03)
+```
+
+
+This will print the script to the console, character-by-character, with a 0.03 second delay between characters.
+
+:::{.callout-note appearance="simple"}
+Tips:
+
+- Use a slightly larger delay (e.g. 0.06–0.12) for live narration.
+- Use a smaller delay (e.g. 0.01–0.03) for short clips / GIFs.
+:::
+
+## Design notes
+
+Internally, the package separates:
+
+- a small helper that handles the typing logic
+- the user-facing `typeR()` function that validates inputs and reads the file
+
+This keeps the public API simple while keeping the core behaviour easy to maintain.
+
+## Installation
+
+If you are installing from GitHub:
+```{r}
+# install.packages("devtools")
+devtools::install_github("fgazzelloni/typeR")
+```
+
+## Roadmap (small and realistic)
+
+I want to keep {typeR} lightweight, but a few improvements are natural next steps:
+
+- better handling of tabs / indentation across consoles
+- an option to print to a connection (useful for capturing output cleanly)
+- a minimal vignette with “teaching/recording” workflows
+
+## Feedback and contributions
+
+If you try `{typeR}` and it fits your teaching or demo workflow, I’d love to hear:
+
+- where it worked well
+- where the pacing feels off
+- which platform/IDE you were using (RStudio, Positron, terminal, etc.)
+
+If you want to contribute, open an issue with a short reproducible example and the expected behaviour.
+
+
