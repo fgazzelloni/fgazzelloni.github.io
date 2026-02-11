@@ -194,7 +194,14 @@ parse_rss_feed <- function(rss_url) {
       
       # Parse publication date (RSS 2.0 format: "Tue, 08 Jan 2026 10:00:00 GMT")
       pub_date <- tryCatch({
-        as.Date(strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S", tz = "GMT"))
+        # Try to parse RFC 2822 date format
+        parsed <- strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S", tz = "GMT")
+        if (is.na(parsed)) {
+          # If parsing fails, return current date
+          Sys.Date()
+        } else {
+          as.Date(parsed)
+        }
       }, error = function(e) {
         # Fallback to current date if parsing fails
         Sys.Date()
@@ -210,13 +217,13 @@ parse_rss_feed <- function(rss_url) {
       
       # Extract iTunes image if available
       image_url <- tryCatch({
-        # Try itunes:image first
-        itunes_image <- xml_find_first(item, ".//itunes:image")
+        # Try itunes:image first (using local-name to avoid namespace issues)
+        itunes_image <- xml_find_first(item, ".//*[local-name()='image' and namespace-uri()='http://www.itunes.com/dtds/podcast-1.0.dtd']")
         if (!is.na(itunes_image)) {
           xml_attr(itunes_image, "href")
         } else {
-          # Try media:thumbnail
-          media_thumb <- xml_find_first(item, ".//media:thumbnail")
+          # Try media:thumbnail (using local-name)
+          media_thumb <- xml_find_first(item, ".//*[local-name()='thumbnail']")
           if (!is.na(media_thumb)) {
             xml_attr(media_thumb, "url")
           } else {
@@ -232,7 +239,12 @@ parse_rss_feed <- function(rss_url) {
         link <- xml_text(xml_find_first(item, ".//link"))
         if (grepl("spotify.com/episode/", link)) {
           # Extract episode ID from Spotify URL
-          str_match(link, "episode/([a-zA-Z0-9]+)")[1, 2]
+          match_result <- str_match(link, "episode/([a-zA-Z0-9]+)")
+          if (!is.na(match_result[1, 1])) {
+            match_result[1, 2]
+          } else {
+            ""
+          }
         } else {
           ""
         }
