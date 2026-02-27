@@ -9,7 +9,7 @@ website:
   description: "Data Science Portfolio"  
   favicon: "images/logo-website-removebg.png"
   site-url: "https://federicagazzelloni.com"
-  repo-url: "https://github.com/Fgazzelloni/fgazzelloni.github.io"
+  repo-url: "https://github.com/fgazzelloni/fgazzelloni.github.io"
   repo-actions: [issue]
   cookie-consent:
     type: express
@@ -71,7 +71,7 @@ website:
         href: "https://federicagazzelloni.substack.com/"  
   page-footer:
     left: |
-      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: <a href="https://github.com/Fgazzelloni">Federica Gazzelloni</a><br>Powered by: Quarto & GitHub Pages | <a href="/LICENSE.md">MIT License</a>.
+      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: <a href="https://github.com/fgazzelloni">Federica Gazzelloni</a><br>Powered by: [DataMetricus](https://datametricus.com) | <a href="/LICENSE.md">MIT License</a>.
     right: 
       - text: "{{< ai orcid >}}"
         href: "https://orcid.org/0000-0002-4285-611X"
