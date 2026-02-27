@@ -1,0 +1,32 @@
+---
+title: "The Accounting of Human Suffering"
+date: '2026-02-26'
+image: featured.png
+slug: podcast-the-accounting-of-human-suffering
+toc: true
+categories:
+  - health metrics
+  - data science
+  - public health
+summary: |
+  <p><strong>&quot;The Accounting of Human Suffering&quot;</strong> refers to the core mission of health metrics to <strong>quantify the total human toll</strong> of diseases, injuries, and risk factors. This process is centered on the <strong>Disability-Adjusted Life Year (DALY)</strong>, a composite metric that measures one lost year of healthy life.</p><p>The discussion involves two primary pillars: <strong>morbidity and mortality</strong>. <strong>Years of Life Lost (YLLs)</strong> are calculated by comparing the age at death to a <strong>standard life expectancy</strong> to measure the impact of premature death. <strong>Years Lived with Disability (YLDs)</strong> are determined by multiplying the <strong>prevalence of a condition</strong> by a specific <strong>disability weight</strong>, which represents the <strong>severity of health loss</strong> on a scale from 0 to 1.</p><p>Key technical &quot;ingredients&quot; for this accounting include <strong>standardized life tables</strong>, <strong>mortality rates</strong>, and <strong>incidence vs. prevalence</strong> data. The sources emphasize that these metrics provide a <strong>standardized language</strong> to compare the burden of diverse conditions—such as the immediate mortality of a <strong>stroke</strong> versus the long-term impact of <strong>chronic respiratory disease</strong>—across different global populations.</p><p>Ultimately, this accounting is used to identify <strong>health priorities</strong>, evaluate the effectiveness of interventions, and guide <strong>public health policy</strong> to achieve greater <strong>global health equity</strong>. The discussion also extends to emerging metrics like <strong>Well-being-Adjusted Health Expectancy (WAHE)</strong>, which incorporate <strong>happiness, life satisfaction, and social connectedness</strong> into the traditional clinical framework.</p>
+
+execute: 
+  eval: false
+---
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator" width="624" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+## Episode Overview
+
+<p><strong>&quot;The Accounting of Human Suffering&quot;</strong> refers to the core mission of health metrics to <strong>quantify the total human toll</strong> of diseases, injuries, and risk factors. This process is centered on the <strong>Disability-Adjusted Life Year (DALY)</strong>, a composite metric that measures one lost year of healthy life.</p><p>The discussion involves two primary pillars: <strong>morbidity and mortality</strong>. <strong>Years of Life Lost (YLLs)</strong> are calculated by comparing the age at death to a <strong>standard life expectancy</strong> to measure the impact of premature death. <strong>Years Lived with Disability (YLDs)</strong> are determined by multiplying the <strong>prevalence of a condition</strong> by a specific <strong>disability weight</strong>, which represents the <strong>severity of health loss</strong> on a scale from 0 to 1.</p><p>Key technical &quot;ingredients&quot; for this accounting include <strong>standardized life tables</strong>, <strong>mortality rates</strong>, and <strong>incidence vs. prevalence</strong> data. The sources emphasize that these metrics provide a <strong>standardized language</strong> to compare the burden of diverse conditions—such as the immediate mortality of a <strong>stroke</strong> versus the long-term impact of <strong>chronic respiratory disease</strong>—across different global populations.</p><p>Ultimately, this accounting is used to identify <strong>health priorities</strong>, evaluate the effectiveness of interventions, and guide <strong>public health policy</strong> to achieve greater <strong>global health equity</strong>. The discussion also extends to emerging metrics like <strong>Well-being-Adjusted Health Expectancy (WAHE)</strong>, which incorporate <strong>happiness, life satisfaction, and social connectedness</strong> into the traditional clinical framework.</p>
+
+
+## Key Topics Discussed
+
+- <strong>Years of Life Lost (YLLs)</strong> are calculated by comparing the age at death to a <strong>standard life expectancy</strong> to measure the impact of premature death
+- prevalence</strong> data
+
+

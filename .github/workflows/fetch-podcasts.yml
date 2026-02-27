@@ -38,7 +38,7 @@ jobs:
       
       - name: Install R packages
         run: |
-          install.packages(c("httr", "xml2", "stringr", "glue", "fs"))
+          install.packages(c("httr", "xml2", "stringr", "glue", "fs","magick"))
         shell: Rscript {0}
       
       - name: Create directories if they don't exist
