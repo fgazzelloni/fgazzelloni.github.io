@@ -9,5 +9,4 @@ _extensions
 .httr-oauth
 .DS_Store
 .quarto
-scripts
 clustering
