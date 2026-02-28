@@ -10,6 +10,7 @@
   {
     "listing": "/content/podcasts/index.html",
     "items": [
+      "/content/podcasts/posts/the-accounting-of-human-suffering/index.html",
       "/content/podcasts/posts/valuing-human-life-in-a-spreadsheet/index.html",
       "/content/podcasts/posts/from-plague-bills-to-predictive-algorithms/index.html",
       "/content/podcasts/posts/bills-of-mortality-to-ai/index.html",
@@ -17,15 +18,36 @@
     ]
   },
   {
-    "listing": "/content/blog/posts/stats/index.html",
+    "listing": "/content/blog/index.html",
     "items": [
-      "/content/blog/posts/stats/posts/plain_vanilla/index.html",
-      "/content/blog/posts/stats/posts/rladies/index.html",
-      "/content/blog/posts/stats/posts/linear_prediction/index.html",
-      "/content/blog/posts/stats/posts/simpson_paradox/index.html",
-      "/content/blog/posts/stats/posts/bayesian_statistics/index.html",
-      "/content/blog/posts/stats/posts/predictive_modeling/index.html",
-      "/content/blog/posts/stats/posts/multiple_testing/index.html"
+      "/content/blog/posts/dataviz/index.html",
+      "/content/blog/posts/stats/index.html"
+    ]
+  },
+  {
+    "listing": "/content/books/posts/hmsid/index.html",
+    "items": [
+      "/content/books/posts/hmsid/posts/012026/index.html",
+      "/content/books/posts/hmsid/posts/062025/index.html"
+    ]
+  },
+  {
+    "listing": "/content/proj/posts/hindex/index.html",
+    "items": [
+      "/content/proj/posts/hindex/posts/health_index/index.html",
+      "/content/proj/posts/hindex/posts/performance/index.html"
+    ]
+  },
+  {
+    "listing": "/content/proj/index.html",
+    "items": [
+      "/content/proj/posts/hindex/index.html"
+    ]
+  },
+  {
+    "listing": "/content/books/index.html",
+    "items": [
+      "/content/books/posts/hmsid/index.html"
     ]
   },
   {
@@ -47,36 +69,15 @@
     ]
   },
   {
-    "listing": "/content/books/index.html",
+    "listing": "/content/blog/posts/stats/index.html",
     "items": [
-      "/content/books/posts/hmsid/index.html"
-    ]
-  },
-  {
-    "listing": "/content/proj/index.html",
-    "items": [
-      "/content/proj/posts/hindex/index.html"
-    ]
-  },
-  {
-    "listing": "/content/proj/posts/hindex/index.html",
-    "items": [
-      "/content/proj/posts/hindex/posts/health_index/index.html",
-      "/content/proj/posts/hindex/posts/performance/index.html"
-    ]
-  },
-  {
-    "listing": "/content/books/posts/hmsid/index.html",
-    "items": [
-      "/content/books/posts/hmsid/posts/012026/index.html",
-      "/content/books/posts/hmsid/posts/062025/index.html"
-    ]
-  },
-  {
-    "listing": "/content/blog/index.html",
-    "items": [
-      "/content/blog/posts/dataviz/index.html",
-      "/content/blog/posts/stats/index.html"
+      "/content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "/content/blog/posts/stats/posts/rladies/index.html",
+      "/content/blog/posts/stats/posts/linear_prediction/index.html",
+      "/content/blog/posts/stats/posts/simpson_paradox/index.html",
+      "/content/blog/posts/stats/posts/bayesian_statistics/index.html",
+      "/content/blog/posts/stats/posts/predictive_modeling/index.html",
+      "/content/blog/posts/stats/posts/multiple_testing/index.html"
     ]
   },
   {
@@ -91,6 +92,7 @@
       "/content/blog/index.html",
       "/content/podcasts/index.html",
       "/content/rpackages/index.html",
+      "/content/podcasts/posts/the-accounting-of-human-suffering/index.html",
       "/content/podcasts/posts/valuing-human-life-in-a-spreadsheet/index.html",
       "/content/podcasts/posts/from-plague-bills-to-predictive-algorithms/index.html",
       "/content/podcasts/posts/bills-of-mortality-to-ai/index.html",
