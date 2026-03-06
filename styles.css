@@ -1,22 +1,47 @@
-/* css styles */
-/* Cleaned CSS: Hero, Cards, Footer */
-/* Hero Section */
+/* ----------------------------------------------------------
+   GLOBAL BANNER + NAVBAR FIXES
+---------------------------------------------------------- */
+
+/* Scrolling Banner */
+.scrolling-banner {
+  background-color: #64748b;  /* #007a79; #fbd8da;  */
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin-top: -1rem !important;
+  padding: 0rem !important;  /* slight breathing room */
+}
+
+
+/* Remove padding and margins applied by Quarto layout */
+.page-full,
+.page-layout-custom {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+main.content {
+  padding-top: 0 !important;
+}
+
+/* ----------------------------------------------------------
+   HERO SECTION
+---------------------------------------------------------- */
 
 .hero-section {
-  position: relative; /* Needed for absolute positioning inside */
-  padding-top: 1rem;  /* Make sure there's enough top padding */
-  /* min-height: 90vh;*/
+  position: relative;
+  padding-top: 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: 0rem;
 }
 
-/*logo on the homepage*/
 .hero-logo-fixed {
   position: absolute;
-  top: -1rem; /* Push down more if needed */
+  top: -2rem;
   left: 0rem;
   max-height: 250px;
   width: auto;
@@ -24,20 +49,31 @@
 
 .hero-content {
   max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-title {
+  text-align: center;
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: auto;
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
+/* ----------------------------------------------------------
+   CTA BUTTON
+---------------------------------------------------------- */
 
-/* Call to Action Button - become a member button*/
 .cta-button {
   display: inline-block;
   background: rgb(248, 216, 217);
   padding: 1rem 2rem;
+  margin-bottom: 1rem !important;
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
@@ -50,77 +86,84 @@
   transform: translateY(-2px);
 }
 
+/* ----------------------------------------------------------
+   NAVBAR DESKTOP
+---------------------------------------------------------- */
+/* Remove border under navbar */
+
+.navbar {
+  border-bottom: none !important;
+  background-color: #31374b; /*#007a79;*/
+  padding: 0rem;
+  width: 100%; 
+}
+  
 .navbar .navbar-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   width: 100%;
-  text-align: center;
 }
+
+.navbar-nav .nav-item {
+    font-size: 1.2rem;
+    font-palette: white !important; 
+  }
 
 .navbar-brand img {
-  max-height: 100px; /* or even 30px if needed */
-  }
-
-
-@media (max-width: 768px) {
-  /* Logo tweaks */
-.hero-logo-fixed {
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  max-height: 200px;
+  max-height: 100px;
 }
 
-  /* Push hero content down so it doesn't overlap logo */
-.hero-content {
-    margin-top: 7rem;
+/* ----------------------------------------------------------
+   NAVBAR MOBILE
+---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  /* Adjust logo for mobile */
+  .hero-logo-fixed {
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 200px;
   }
 
-  /* Navbar layout fixes my website */
-.navbar {
+  /* Prevent overlap between logo and hero text */
+  .hero-content {
+    margin-top: 10rem;
+  }
+
+  /* Navbar restructuring */
+  .navbar {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 1rem;
-    width: 200%;
+    padding: 0rem;
+    width: 100%; 
   }
   
-.navbar .navbar-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-}
-
-.navbar-brand img {
-  max-height: 40px; /* or even 30px if needed */
+  .navbar .navbar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
   }
 
-/*.navbar-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    align-items: center;
-    width: 100%;
-  }*/
+  .navbar-brand img {
+    max-height: 40px;
+  }
 
-.navbar-nav .nav-item {/* controls the navbar tabs location when folded*/
+  /* Nav links when folded */
+  .navbar-nav .nav-item {
     width: 100%;
     text-align: left;
-    /* change the size and bold text*/
     font-size: 1.2rem;
     font-weight: bold;
   }
 
-.navbar-nav .nav-link {
+  .navbar-nav .nav-link {
     display: block;
-    padding: 0.75rem 1rem;
+    padding: 0rem;
     width: 100%;
   }
-
-
-
 }
-
-
 
