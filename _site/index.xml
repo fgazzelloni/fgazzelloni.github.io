@@ -357,7 +357,7 @@ We move from John Graunt’s 17th-century Bills of Mortality, through modern bur
 </div>
 <p>So I built <strong>{typeR}</strong>: a small utility package that <strong>prints an R script to the console with a typing effect</strong>, character by character, with a configurable delay.</p>
 <section id="what-typer-does" class="level2"><h2 class="anchored" data-anchor-id="what-typer-does">What {typeR} does</h2>
-<p>Given a path to an <code>.R</code> file, <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code>:</p>
+<p>Given a path to an <code>.R</code> file, <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code>:</p>
 <ul>
 <li>reads the file line-by-line</li>
 <li>prints each line character-by-character</li>
@@ -403,7 +403,7 @@ font-style: inherit;">"demo_script.R"</span></span>
 <span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
-<p>Then use <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> to simulate typing it out:</p>
+<p>Then use <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> to simulate typing it out:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
@@ -418,7 +418,7 @@ font-style: inherit;">)</span></span>
 <span></span>
 <span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -449,7 +449,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>Internally, the package separates:</p>
 <ul>
 <li>a small helper that handles the typing logic</li>
-<li>the user-facing <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
+<li>the user-facing <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
 </ul>
 <p>This keeps the public API simple while keeping the core behaviour easy to maintain.</p>
 </section><section id="installation" class="level2"><h2 class="anchored" data-anchor-id="installation">Installation</h2>
@@ -1189,7 +1189,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/getunz.html">getunz</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/getunz.html">getunz</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -2172,7 +2172,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/gho_le_hale.html">gho_le_hale</a></span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html">gho_le_hale</a></span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu" style="color: #4758AB;
@@ -2545,7 +2545,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/idDALY_map_data.html">idDALY_map_data</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span>
 <span><span class="va" style="color: #111111;
@@ -2558,7 +2558,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/idDALY_map_data.html">idDALY_map_data</a></span></span>
+font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span></span>
 <span></span>
 <span><span class="fu" style="color: #4758AB;
 background-color: null;

@@ -312,7 +312,7 @@ cookieconsent.run({
 </div>
 <p>So I built <strong>{typeR}</strong>: a small utility package that <strong>prints an R script to the console with a typing effect</strong>, character by character, with a configurable delay.</p>
 <section id="what-typer-does" class="level2"><h2 class="anchored" data-anchor-id="what-typer-does">What {typeR} does</h2>
-<p>Given a path to an <code>.R</code> file, <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code>:</p>
+<p>Given a path to an <code>.R</code> file, <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code>:</p>
 <ul>
 <li>reads the file line-by-line</li>
 <li>prints each line character-by-character</li>
@@ -336,11 +336,11 @@ cookieconsent.run({
 <span>  <span class="op">)</span>,</span>
 <span>  <span class="st">"demo_script.R"</span></span>
 <span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Then use <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> to simulate typing it out:</p>
+<p>Then use <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> to simulate typing it out:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://Fgazzelloni.github.io/typeR/">typeR</a></span><span class="op">)</span></span>
 <span></span>
-<span><span class="fu"><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR</a></span><span class="op">(</span><span class="st">"demo_script.R"</span>, delay <span class="op">=</span> <span class="fl">0.03</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span><span class="fu"><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR</a></span><span class="op">(</span><span class="st">"demo_script.R"</span>, delay <span class="op">=</span> <span class="fl">0.03</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>This will print the script to the console, character-by-character, with a 0.03 second delay between characters.</p>
 <div class="callout callout-style-simple callout-note">
@@ -361,7 +361,7 @@ cookieconsent.run({
 <p>Internally, the package separates:</p>
 <ul>
 <li>a small helper that handles the typing logic</li>
-<li>the user-facing <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
+<li>the user-facing <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
 </ul>
 <p>This keeps the public API simple while keeping the core behaviour easy to maintain.</p>
 </section><section id="installation" class="level2"><h2 class="anchored" data-anchor-id="installation">Installation</h2>
