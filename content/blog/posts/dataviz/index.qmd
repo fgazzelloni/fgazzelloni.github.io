@@ -4,7 +4,6 @@ description: "In this section, I showcase a curated collection of my favorite da
 listing:
   contents: posts
   sort: "date desc"
-  type: default
   categories: true
   sort-ui: false
   filter-ui: false

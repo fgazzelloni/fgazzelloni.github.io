@@ -30,13 +30,15 @@ website:
     logo-alt: "me-ai2"
     collapse: true 
     left:
-      - text: "Data"
+      - text: "Blog"
         menu:
           - content/blog/index.qmd 
           - text: "Data Visualization"
             href: content/blog/posts/dataviz/index.qmd
           - text: "Data Analytics"
             href: content/blog/posts/stats/index.qmd
+          - text: "Actuarial Science"
+            href: content/blog/posts/actuarial/index.qmd
       - text: "R Packages"
         menu:
           - content/rpackages/index.qmd
@@ -71,7 +73,7 @@ website:
         href: "https://federicagazzelloni.substack.com/"  
   page-footer:
     left: |
-      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: <a href="https://github.com/fgazzelloni">Federica Gazzelloni</a><br>Powered by: [DataMetricus](https://datametricus.github.io) | <a href="/LICENSE.md">MIT License</a>.
+      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: [Federica Gazzelloni](https://federicagazzelloni.com)<br>Powered by: [DataMetricus](https://datametricus.github.io) | <a href="/LICENSE.md">MIT License</a>.
     right: 
       - text: "{{< ai orcid >}}"
         href: "https://orcid.org/0000-0002-4285-611X"

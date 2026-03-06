@@ -10,7 +10,182 @@
 <atom:link href="https://federicagazzelloni.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Data Science Portfolio</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 25 Feb 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 04 Mar 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Understanding Risk Assessments</title>
+  <link>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/riskassessments/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Risk assessments are at the core of actuarial science, providing the foundation for informed decision-making in uncertain environments. This post explores the key concepts, methodologies, and applications of risk assessments.</p>
+<section id="what-is-risk-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-risk-assessment">What is Risk Assessment?</h3>
+<p>Risk assessment involves identifying, analyzing, and evaluating potential risks that could impact an organization or project. By quantifying these risks, actuaries and decision-makers can develop strategies to mitigate or manage them effectively.</p>
+</section>
+<section id="key-components-of-risk-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="key-components-of-risk-assessment">Key Components of Risk Assessment</h3>
+<ol type="1">
+<li><strong>Risk Identification</strong>: Recognizing potential risks and their sources.</li>
+<li><strong>Risk Analysis</strong>: Measuring the likelihood and impact of each risk.</li>
+<li><strong>Risk Evaluation</strong>: Prioritizing risks based on their significance.</li>
+<li><strong>Risk Mitigation</strong>: Developing strategies to reduce or eliminate risks.</li>
+</ol>
+</section>
+<section id="tools-and-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-and-techniques">Tools and Techniques</h3>
+<ul>
+<li><strong>Probability Models</strong>: Using statistical methods to estimate the likelihood of events.</li>
+<li><strong>Scenario Analysis</strong>: Exploring different outcomes based on varying assumptions.</li>
+<li><strong>Stress Testing</strong>: Assessing the impact of extreme scenarios on financial stability.</li>
+</ul>
+</section>
+<section id="real-world-applications" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-applications">Real-World Applications</h3>
+<ul>
+<li><strong>Insurance</strong>: Calculating premiums and reserves based on risk profiles.</li>
+<li><strong>Finance</strong>: Evaluating investment risks and portfolio performance.</li>
+<li><strong>Healthcare</strong>: Assessing risks in patient care and medical treatments.</li>
+</ul>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>Risk assessments are essential for navigating uncertainty and making data-driven decisions. By leveraging actuarial science principles, organizations can better prepare for potential challenges and seize opportunities with confidence.</p>
+<p>Stay tuned for more insights on risk management and related topics. Feel free to share your thoughts or questions in the comments!</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Risk Management</category>
+  <category>Decision Making</category>
+  <guid>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/riskassessments/</guid>
+  <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Actuarial Executive Career Roadmap</title>
+  <link>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/career-roadmap/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Actuarial Executive Career Roadmap: From Technical Mastery to Strategic Leadership</p>
+<p>The role of the actuary is undergoing a seismic shift. For decades, the profession’s value was anchored in retrospective analysis—calculating historical solvency and managing the painstaking precision of mortality tables. Today, in an AI-saturated market where automated systems can handle volume but lack judgment, the “technical-only” path has become a career dead end. To survive and thrive, the modern risk leader must pivot from a focus on historical solvency to forward-looking strategic resilience.</p>
+<p>A Modern Risk Leader synthesizes deep quantitative rigor with executive-level narrative building. This transition is best exemplified by the career of Mark Griffin, whose trajectory moved from a dual foundation in actuarial and computer science at the University of Waterloo to pivotal executive roles at Goldman Sachs and Morgan Stanley. To follow this path, you must bridge the gap between “the basement” of computation and the boardroom of strategy.</p>
+<section id="the-strategic-mindset-shift" class="level3">
+<h3 class="anchored" data-anchor-id="the-strategic-mindset-shift">The Strategic Mindset Shift</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Traditional Actuarial Focus</th>
+<th>Executive Risk Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Calculating Tables: Retrospective focus on historical solvency.</td>
+<td>Interpreting Narratives: Forward-looking focus on strategic scripts.</td>
+</tr>
+<tr class="even">
+<td>Mainframe Thinking: Slow-moving, centralized, detail-oriented tasks.</td>
+<td>Strategic Agility: Rapid adaptation to disruption and “screwy software.”</td>
+</tr>
+<tr class="odd">
+<td>Decimal Precision: Obsession with accuracy to the fifth decimal.</td>
+<td>Narrative Accuracy: Trading decimal precision for strategic “signal” detection.</td>
+</tr>
+<tr class="even">
+<td>Model Trust: Treating the IT system as infallible “gospel.”</td>
+<td>Professional Intuition: Applying the “smell test” to automated results.</td>
+</tr>
+</tbody>
+</table>
+<p>This roadmap serves as your bridge between these two worlds, transforming you from a generator of data into an architect of corporate survival.</p>
+<hr>
+</section>
+<section id="beyond-the-spreadsheet-transitioning-from-calculation-to-narrative" class="level3">
+<h3 class="anchored" data-anchor-id="beyond-the-spreadsheet-transitioning-from-calculation-to-narrative">1. Beyond the Spreadsheet: Transitioning from Calculation to Narrative</h3>
+<p>In the executive suite, communication is not a “soft skill”—it is the primary instrument of leadership. While data provides the foundation, leadership is exercised through the interpretation of that data for stakeholders who lack your technical background. You must move beyond the “black box” to tell the story of the risk.</p>
+<p>High-level risk reasoning requires a philosophical grounding that transcends mathematics. Prominent actuarial textbooks often cite the 19th-century philosopher John Ruskin, reminding the profession that the human element is central to the plot of risk management. A leader does not simply report a probability; they provide a narrative that accounts for institutional pressure, human behavior, and ultimate responsibility.</p>
+<section id="narrative-competencies-for-the-executive-suite" class="level4">
+<h4 class="anchored" data-anchor-id="narrative-competencies-for-the-executive-suite">Narrative Competencies for the Executive Suite</h4>
+<ol type="1">
+<li><strong>Translating Governance Failures</strong>: You must explain complex events—like the UK Post Office Scandal—not as mere IT glitches, but as failures in governance where a “black box” was trusted over human judgment.</li>
+<li><strong>Contextualizing the Script</strong>: Pivot from presenting numbers in a vacuum to explaining why they matter to the organization’s long-term script.</li>
+<li><strong>Synthesizing Diversity of Risk</strong>: Boards require an understanding of how disparate elements—Climate Risk, Interest Rate shifts, and AI—interplay to create systemic crises.</li>
+</ol>
+<p>As models become more complex, the human ability to verify, interpret, and narrate their output becomes the organization’s most critical safeguard.</p>
+<hr>
+</section>
+</section>
+<section id="the-intuition-safeguard-developing-the-smell-test-for-ai" class="level3">
+<h3 class="anchored" data-anchor-id="the-intuition-safeguard-developing-the-smell-test-for-ai">2. The Intuition Safeguard: Developing the “Smell Test” for AI</h3>
+<p>The greatest strategic risk facing modern firms is “blind trust” in automated systems. While AI is invaluable for exploration—scraping data and identifying heat maps—it is not yet reliable for production. The danger of software hallucinations and model errors makes professional intuition the final line of defense against insolvency.</p>
+<p>The UK Post Office Scandal provides a haunting case study: the failure was not just “screwy software,” but the “IT system as gospel” fallacy. Because the system was treated as infallible, the organization ignored human intuition, leading to catastrophic consequences, including jail sentences and suicides. A risk leader’s value lies in their ability to “smell” when a result is wrong, even when the model insists it is correct. This “Smell Test” is the primary justification for an executive salary in an automated age.</p>
+<section id="the-risk-leaders-model-audit-ai-llm-commands" class="level4">
+<h4 class="anchored" data-anchor-id="the-risk-leaders-model-audit-ai-llm-commands">The Risk Leader’s Model Audit (AI &amp; LLM Commands)</h4>
+<ul>
+<li><strong>Identify Hallucinations</strong>: Audit AI-generated outputs for “hallucinated cases” or logical-sounding data that lacks a factual basis.</li>
+<li><strong>The Zero-Probability Trap</strong>: Ensure the model hasn’t set the probability of an event to zero. (Remember: A Bayesian update cannot move a “zero” off of zero; always leave room for the impossible).</li>
+<li><strong>Historical Stress-Testing</strong>: Validate results against precedents like the 1918 Pandemic or the 1980s interest rate spikes.</li>
+<li><strong>Black Box Deconstruction</strong>: Demand visibility into the “math” behind the result. Do not allow a “friendly Excel spreadsheet” to mask an opaque and unverified calculation engine.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="architecting-the-corporate-nervous-system" class="level3">
+<h3 class="anchored" data-anchor-id="architecting-the-corporate-nervous-system">3. Architecting the Corporate “Nervous System”</h3>
+<p>A Chief Risk Officer’s (CRO) value is found in their ability to monitor leading indicators that exist outside official accounting books. To achieve this, you must architect a corporate “Nervous System.”</p>
+<p>This system tracks 20 to 100 non-standard metrics—the “canaries in the coal mine.” These indicators are often hidden in unofficial silos, “shoe-box spreadsheets,” or fragmented departmental data that the core accounting system ignores. While AI can scrape numbers, the leader must determine which numbers represent a true signal of disruption and which are merely noise.</p>
+<section id="the-metric-hierarchy-for-risk-leadership" class="level4">
+<h4 class="anchored" data-anchor-id="the-metric-hierarchy-for-risk-leadership">The Metric Hierarchy for Risk Leadership</h4>
+<p><strong>Tier 1: External Disruptors (Primary Focus)</strong> - Climate Risk (The transition to a green economy). - Interest Rate Volatility. - Regulatory “Arms Race” (Navigating the shift between US distributed state-level regulation and European centralization).</p>
+<p><strong>Tier 2: Internal Leading Indicators</strong> - Customer satisfaction trends and employee sentiment. - Metrics hidden in departmental “shoe-box” spreadsheets.</p>
+<p><strong>Tier 3: Lagging Indicators (Standard Reporting)</strong> - Statutory and GAAP accounting results.</p>
+<p>Connecting these silos is how you demonstrate executive value, proving you understand the company’s health better than the standard reporting systems.</p>
+<hr>
+</section>
+</section>
+<section id="strategic-agility-navigating-disruption-as-competitive-advantage" class="level3">
+<h3 class="anchored" data-anchor-id="strategic-agility-navigating-disruption-as-competitive-advantage">4. Strategic Agility: Navigating Disruption as Competitive Advantage</h3>
+<p>The role of a risk leader is not to prevent disruption, but to position the company to thrive within it. This requires an “Open Mind” philosophy. In periods of massive change—like the 1980s interest rate spike or the 2020 pandemic—a senior executive with 20 years of experience often has “zero more experience” than a junior analyst. In these moments, experience can actually be a disadvantage if it anchors you to an obsolete environment.</p>
+<section id="the-three-pillars-of-career-agility" class="level4">
+<h4 class="anchored" data-anchor-id="the-three-pillars-of-career-agility">The Three Pillars of Career Agility</h4>
+<ul>
+<li><strong>Continuous Unlearning</strong>: Moving beyond the “10th exam” to pursue cross-disciplinary knowledge in Investment Strategy, Climate Science, and Computer Science.</li>
+<li><strong>Global Regulatory Perspective</strong>: Understanding the strategic differences between the centralized systems of Europe and Canada (which offer a critical mass of expertise) and the distributed federalism of the US (where state-level regulators like NY and FL provide consumer protection and diverse power bases).</li>
+<li><strong>Exploration vs.&nbsp;Production</strong>: Utilizing AI to explore data sets while maintaining the “Author Mindset” to refine and take responsibility for the final production output.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-implementation-plan-your-12-month-leadership-transition" class="level3">
+<h3 class="anchored" data-anchor-id="the-implementation-plan-your-12-month-leadership-transition">5. The Implementation Plan: Your 12-Month Leadership Transition</h3>
+<p>Transitioning to the boardroom requires unlearning the habit of fifth-decimal precision in favor of strategic authority.</p>
+<ul>
+<li><strong>Phase 1: Narrative Mastery (Months 1-3)</strong> Stop presenting spreadsheets; start presenting scripts. Pivot from quantitative isolation to strategic integration by testing how your data interpretations resonate with non-technical stakeholders.</li>
+<li><strong>Phase 2: Network Expansion (Months 4-6)</strong> Build the “Nervous System.” Identify the “shoe-box” spreadsheets in marketing, IT, and customer service. Break down departmental silos to find your leading indicators.</li>
+<li><strong>Phase 3: Intuition Calibration (Months 7-9)</strong> Study “Disaster Collections”—historical failures like the Equitable Life UK collapse or the CDO square meltdown. Use these to sharpen your “smell test” for model governance.</li>
+<li><strong>Phase 4: Strategic Positioning (Months 10-12)</strong> Adopt the “Author Mindset.” Move from being the person who calculates the tables to the authority who writes the script for the organization’s future.</li>
+</ul>
+<hr>
+<p><strong>Final Thought</strong>: The journey from the basement to the boardroom is the journey from Calculating the Tables to Writing the Script. By mastering narrative, intuition, and systemic thinking, you become the indispensable architect of your organization’s resilience.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Leadership</category>
+  <category>Career Development</category>
+  <guid>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/career-roadmap/</guid>
+  <pubDate>Wed, 04 Mar 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Accounting of Human Suffering</title>
   <link>https://federicagazzelloni.com/content/podcasts/posts/the-accounting-of-human-suffering/</link>
@@ -182,7 +357,7 @@ We move from John Graunt’s 17th-century Bills of Mortality, through modern bur
 </div>
 <p>So I built <strong>{typeR}</strong>: a small utility package that <strong>prints an R script to the console with a typing effect</strong>, character by character, with a configurable delay.</p>
 <section id="what-typer-does" class="level2"><h2 class="anchored" data-anchor-id="what-typer-does">What {typeR} does</h2>
-<p>Given a path to an <code>.R</code> file, <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code>:</p>
+<p>Given a path to an <code>.R</code> file, <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code>:</p>
 <ul>
 <li>reads the file line-by-line</li>
 <li>prints each line character-by-character</li>
@@ -228,7 +403,7 @@ font-style: inherit;">"demo_script.R"</span></span>
 <span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
-<p>Then use <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> to simulate typing it out:</p>
+<p>Then use <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> to simulate typing it out:</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
 background-color: null;
@@ -243,7 +418,7 @@ font-style: inherit;">)</span></span>
 <span></span>
 <span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -274,7 +449,7 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 <p>Internally, the package separates:</p>
 <ul>
 <li>a small helper that handles the typing logic</li>
-<li>the user-facing <code><a href="https://Fgazzelloni.github.io/typeR/reference/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
+<li>the user-facing <code><a href="https://rdrr.io/pkg/typeR/man/typeR.html">typeR()</a></code> function that validates inputs and reads the file</li>
 </ul>
 <p>This keeps the public API simple while keeping the core behaviour easy to maintain.</p>
 </section><section id="installation" class="level2"><h2 class="anchored" data-anchor-id="installation">Installation</h2>
@@ -1014,7 +1189,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/getunz.html">getunz</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/getunz.html">getunz</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span><span class="st" style="color: #20794D;
 background-color: null;
@@ -1997,7 +2172,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html">gho_le_hale</a></span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/gho_le_hale.html">gho_le_hale</a></span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu" style="color: #4758AB;
@@ -2230,7 +2405,7 @@ font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
-<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Regions' le">
+<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Regions' le" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/images/le.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Regions' le">
 </div>
@@ -2370,7 +2545,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/idDALY_map_data.html">idDALY_map_data</a></span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span>
 <span><span class="va" style="color: #111111;
@@ -2383,7 +2558,7 @@ font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">::</span><span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span></span>
+font-style: inherit;"><a href="https://rdrr.io/pkg/hmsidwR/man/idDALY_map_data.html">idDALY_map_data</a></span></span>
 <span></span>
 <span><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -18696,1976 +18871,6 @@ font-style: inherit;">)</span></span></code></pre></div></div>
 </ol></section></div> ]]></description>
   <guid>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/malaria/</guid>
   <pubDate>Sat, 26 Aug 2023 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bayesian Statistics model comparison</title>
-  <link>https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/</link>
-  <description><![CDATA[ <section id="overview" class="level1"><h1>Overview</h1>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p>In this post I’ll go through some differences between <em>Bayesian statistical packages</em> in R. Bayesian statistics involves probabilities. This means that the probability of an event to occur is considered in the modeling procedure, and is mainly used in for making <strong>inferences</strong>, and can be used for an analysis of the speculation of the root cause of a phenomenon under the term of <strong>causal inference</strong>.</p>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/featured.png" class="img-fluid figure-img" width="400"></p>
-<figcaption>Bayesian Statistics</figcaption></figure>
-</div>
-</div>
-</div>
-<p>In more details, when Bayesian statistics is performed, the response variable is tested against (causal) predictors with the application of suited <strong>prior</strong> distributions, and the use of the <strong>likelihood function</strong>, to finally produce a <strong>posterior</strong> distribution which should be as much as possible close to the real future outcome of the response variable distribution.</p>
-<p>The <strong>prior distribution</strong> is the starting point; it is the probability distribution on which the future outcome is linked to, such as the probability to have a <em>Girl</em> given the probability to have had a <em>Boy</em>.</p>
-<p><img src="https://latex.codecogs.com/png.latex?P(%20%5Ctext%7B%20Girl%20%7D%20%7C%20%5Ctext%7B%20Boy%20%7D)"></p>
-<p>The probability to have had a <em>Boy</em> is the <strong>prior</strong>, while the conditional probability to have a <em>Girl</em> is the posterior.</p>
-<p>Briefly, here is a comparison between different R packages that use <em>Bayesian inference</em> for the calculation of the model probability distribution of the <em>posterior</em>.</p>
-<p>The <strong>Stan</strong> model engine, for model replication and prediction is used in conjunction with the <strong>Montecarlo simulation</strong> technique for the best model solution. The <em>Stan</em> model engine is applied in the following packages:</p>
-<ul>
-<li>brms</li>
-<li>rstanarm</li>
-<li>rethinking</li>
-<li>MCMCglmm</li>
-</ul>
-<p>All of these packages adapt and adjust different model options for a modeling procedure which is the result of the best combination of efficiency to increase productivity and effectiveness, to identify and remove unnecessary steps, automate repetitive tasks, and utilize the most suitable software tools.</p>
-<p>This is the original source code that I have updated: <a href="https://www.jstatsoft.org/article/view/v080i01" class="uri">https://www.jstatsoft.org/article/view/v080i01</a></p>
-<blockquote class="blockquote">
-<p>A wide range of distributions and link functions are supported, allowing users to fit - among others - linear, robust linear, binomial, Poisson, survival, ordinal, zero-inflated, hurdle, and even non-linear models all in a multilevel context. (The Brms package)</p>
-</blockquote>
-<p>Loading required packages</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/paul-buerkner/brms">"brms"</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> </span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;"><a href="https://mc-stan.org/rstanarm/">"rstanarm"</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"rethinking"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> </span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/jarrodhadfield/MCMCglmm">"MCMCglmm"</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>  </span></code></pre></div></div>
-</div>
-<p>Helper function to better compute the effective sample size</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_size</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">function</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>  <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/methods/is.html">is</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"brmsfit"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">fit</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">else</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/methods/is.html">is</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"stanreg"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">stanfit</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">else</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/methods/is.html">is</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"ulam"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">@</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">stanfit</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">else</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/methods/is.html">is</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"stanfit"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">else</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/methods/is.html">is</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"MCMCglmm"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/cbind.html">cbind</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Sol</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">x</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">VCV</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span> <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">else</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span></span>
-<span>    <span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/stop.html">stop</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"invalid input"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span></span>
-<span>  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># call an internal function of rstan</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/apply.html">apply</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">samples</span>, MARGIN <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, FUN <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">rstan</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">:::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">ess_rfun</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span></span></code></pre></div></div>
-</div>
-<section id="compare-efficiency-between-packages" class="level3"><h3 class="anchored" data-anchor-id="compare-efficiency-between-packages">Compare efficiency between packages</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># only used for Stan packages</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">iter</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">6000</span>  </span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">warmup</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1000</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">chains</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">adapt_delta</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.8</span></span>
-<span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># only used for MCMCglmm</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">nitt</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">35000</span>  </span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">burnin</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10000</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">thin</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># leads to 5000 posterior samples</span></span></code></pre></div></div>
-</div>
-</section><section id="dyestuff" class="level2"><h2 class="anchored" data-anchor-id="dyestuff">Dyestuff</h2>
-<section id="brms" class="level3"><h3 class="anchored" data-anchor-id="brms">brms</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">prior_dye_brms</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://paulbuerkner.com/brms/reference/set_prior.html">set_prior</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"normal(0, 2000)"</span>, class <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Intercept"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>                    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://paulbuerkner.com/brms/reference/set_prior.html">set_prior</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"cauchy(0, 50)"</span>, class <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sd"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>                    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://paulbuerkner.com/brms/reference/set_prior.html">set_prior</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"cauchy(0, 50)"</span>, class <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sigma"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_brms</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://paulbuerkner.com/brms/reference/brm.html">brm</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Yield</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, </span>
-<span>                data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">lme4</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/lme4/man/Dyestuff.html">Dyestuff</a></span>, </span>
-<span>                prior <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">prior_dye_brms</span>, </span>
-<span>                chains <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_brms</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/system.time.html">system.time</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/capture.output.html">capture.output</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_brms</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/update.html">update</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_brms</span>, </span>
-<span>                     iter <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">iter</span>, </span>
-<span>                     warmup <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">warmup</span>, </span>
-<span>                     chains <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">chains</span>,</span>
-<span>                     control <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>adapt_delta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">adapt_delta</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># summary(dye_brms)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_brms</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">eff_size</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_brms</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_brms</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span></code></pre></div></div>
-</div>
-</section><section id="rstanarm" class="level3"><h3 class="anchored" data-anchor-id="rstanarm">rstanarm</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_rstanarm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/system.time.html">system.time</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/capture.output.html">capture.output</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rstanarm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://mc-stan.org/rstanarm/reference/stan_glmer.html">stan_glmer</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Yield</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">lme4</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/lme4/man/Dyestuff.html">Dyestuff</a></span>,</span>
-<span>                             prior_intercept <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://mc-stan.org/rstanarm/reference/priors.html">normal</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2000</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>                             iter <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">iter</span>, warmup <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">warmup</span>, chains <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">chains</span>,</span>
-<span>                             adapt_delta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">adapt_delta</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># summary(dye_rstanarm)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_rstanarm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">eff_size</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rstanarm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_rstanarm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span></code></pre></div></div>
-</div>
-</section><section id="rethinking" class="level3"><h3 class="anchored" data-anchor-id="rethinking">rethinking</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">d</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">lme4</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/lme4/man/Dyestuff.html">Dyestuff</a></span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dat</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  Yield <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">d</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Yield</span>,</span>
-<span>  Batch <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">d</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_flist</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/list.html">alist</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Yield</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eta</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sigma</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eta</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">a</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">a_Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span>,</span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">a</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>,<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2000</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">a_Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sd_Batch</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sigma</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Cauchy.html">dcauchy</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">50</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sd_Batch</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Cauchy.html">dcauchy</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">50</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rethinking</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ulam</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_flist</span>, </span>
-<span>                       data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dat</span>, </span>
-<span>                       chains<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>,</span>
-<span>                       cores <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span>,</span>
-<span>                       sample <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
-background-color: null;
-font-style: inherit;">TRUE</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_rethinking</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/system.time.html">system.time</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/capture.output.html">capture.output</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rethinking</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/update.html">update</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rethinking</span>,</span>
-<span>       iter <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">iter</span>, </span>
-<span>       warmup <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">warmup</span>, </span>
-<span>       chains <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">chains</span>,</span>
-<span>       control <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>adapt_delta <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">adapt_delta</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># summary(dye_rethinking)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_rethinking</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">eff_size</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_rethinking</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_rethinking</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span></code></pre></div></div>
-</div>
-</section><section id="mcmcglmm" class="level3"><h3 class="anchored" data-anchor-id="mcmcglmm">MCMCglmm</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_MCMCglmm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/system.time.html">system.time</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/capture.output.html">capture.output</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>  <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_MCMCglmm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/MCMCglmm/man/MCMCglmm.html">MCMCglmm</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Yield</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, </span>
-<span>                           random <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">Batch</span>, data <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">lme4</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/lme4/man/Dyestuff.html">Dyestuff</a></span>, </span>
-<span>                           thin <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">thin</span>, nitt <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">nitt</span>, burnin <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">burnin</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># summary(dye_MCMCglmm)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_MCMCglmm</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">eff_size</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dye_MCMCglmm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">time_dye_MCMCglmm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span></code></pre></div></div>
-</div>
-</section><section id="efficiency" class="level3"><h3 class="anchored" data-anchor-id="efficiency">Efficiency</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>brms <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_brms</span>, </span>
-<span>        rstanarm <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_rstanarm</span>, </span>
-<span>        rethinking <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_rethinking</span>, </span>
-<span>        MCMCglmm <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">eff_dye_MCMCglmm</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-</div>
-<table class="caption-top table">
-<thead><tr class="header">
-<th>brms</th>
-<th>rstanarm</th>
-<th>rethinking</th>
-<th>MCMCglmm</th>
-</tr></thead>
-<tbody><tr class="odd">
-<td>559.55398</td>
-<td>202.97177</td>
-<td>3660.71429</td>
-<td>34.11514</td>
-</tr></tbody>
-</table>
-
-
-</section></section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>rstats</category>
-  <category>modeling</category>
-  <category>bayesian</category>
-  <guid>https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/</guid>
-  <pubDate>Tue, 21 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/featured.png" medium="image" type="image/png" height="90" width="144"/>
-</item>
-<item>
-  <title>Measuring Health Performance</title>
-  <link>https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/</link>
-  <description><![CDATA[ <section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<div class="columns">
-<div class="column" style="width:80%;">
-<p>These days measuring performance is very appropriate for many different topics. Thinking about health and the fast changing environments, including climate changes, require a ready tool for identifying possible future outcomes. On health, interesting simple metrics are used to classify the state of health of a population, so to be comparable with other near and far.</p>
-<p>Here is a spec of my latest project where I am collecting all that I learned since the start of the Covid19 pandemic on a summary of the techniques used for measuring the health status of a population when in conjunction with an extreme event. Many tools are available and ready to use for the most exceptional purpose someone might had in mind, and I had difficulties choosing one on top of the other. But, why choosing if you can combine them?</p>
-</div><div class="column" style="width:20%;">
-<p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/featured.png" class="img-fluid"></p>
-</div>
-</div>
-<p>There are three metrics that are used for the purpose of classification in the public health, the DALYs, YLLs, and the YLDs. Respectively are the <strong>Disability Adjusted Life Years</strong>, <strong>Years of Life Lost</strong>, and <strong>Years Lived with Disabilities</strong>.</p>
-<p>Before going into the calculation detail, the definition of <strong>good health and well being</strong> is required.</p>
-<p>The <a href="https://bit.ly/3mU4tbJ">WHO</a> constitution states:</p>
-<blockquote class="blockquote">
-<p>“Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.”</p>
-</blockquote>
-<p>An important implication of this definition is that mental health is more than just the absence of mental disorders or disabilities.</p>
-<p>Let’s load the {hmsidwR} package, still at its very early stages; a development version can be installed from GitHub:</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">devtools</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Fgazzelloni/hmsidwR"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-</div>
-<p>It contains some interesting datasets:</p>
-<p>The Global life tables: <strong>Glifetables</strong>. A dataset provided by the <strong>World Health Organization (WHO)</strong>. <a href="https://apps.who.int/gho/data/">Global Health Observatory data repository</a></p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">?</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">hmsidwR</span></span></code></pre></div></div>
-</div>
-<p>And the Germany lung cancer: <strong>Germany_lungc</strong>. A dataset provided by the <strong>Institute for Health Metrics and Evaluation (IHME)</strong>. <a href="https://bit.ly/3YMfol8">GBD Results</a></p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">hmsidwR</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://fgazzelloni.github.io/hmsidwR/reference/germany_lungc.html">germany_lungc</a></span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">head</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 8
-  age   sex    prevalence prev_upper prev_lower    dx dx_uppe dx_lower
-  &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;
-1 10-14 male         0.08       0.13       0.05 0.322   0.461    0.217
-2 10-14 female       0.18       0.32       0.09 0.457   0.761    0.248
-3 10-14 both         0.13       0.22       0.07 0.779   1.21     0.468
-4 15-19 male         0.48       0.77       0.29 1.27    1.75     0.916
-5 15-19 female       0.9        1.52       0.5  1.56    2.46     0.941
-6 15-19 both         0.68       1.02       0.44 2.83    3.88     2.07 </code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">germany_lungc</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">age</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dx</span>, fill <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_bar.html">geom_col</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/scale_discrete.html">scale_x_discrete</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>breaks <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"35-39"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"65-69"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"85+"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggthemes</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="http://jrnold.github.io/ggthemes/reference/scale_fivethirtyeight.html">scale_fill_fivethirtyeight</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggthemes</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="http://jrnold.github.io/ggthemes/reference/theme_fivethirtyeight.html">theme_fivethirtyeight</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Germany lung cancer -2019"</span>,</span>
-<span>       caption <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Vis: fgazzelloni|DataSource: IHME"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The combination of this to piece of information, the life expectancy and the expected value of lung cancer cases, in proportion of the Germany population, are combined by age class and divided by sex to obtain the YLLs, the numbers of years of life lost.</p>
-<p>In this case for Germany data is available from the age class 10-14, if we would like to improve this analysis it required some missing value imputation, through data feature engineering.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">yll</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">germany_lungc</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">full_join</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>    <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">gho_lifetables</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>      <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">year</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2019</span>,</span>
-<span>             <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">indicator</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"ex"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>      <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/rename.html">rename</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>life_expectancy <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">value</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>    by <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"age"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sex"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">age</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/reframe.html">reframe</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>yll <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">dx</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">life_expectancy</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">yll</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">yll</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 3
-  age   sex      yll
-  &lt;chr&gt; &lt;chr&gt;  &lt;dbl&gt;
-1 10-14 both    51.7
-2 10-14 female  31.5
-3 10-14 male    20.6
-4 15-19 both   174. 
-5 15-19 female  99.7
-6 15-19 male    75.4</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">yll</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">age</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">yll</span>, fill <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_bar.html">geom_col</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/scale_discrete.html">scale_x_discrete</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>breaks <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"35-39"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"65-69"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"85+"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggthemes</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="http://jrnold.github.io/ggthemes/reference/scale_fivethirtyeight.html">scale_fill_fivethirtyeight</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggthemes</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="http://jrnold.github.io/ggthemes/reference/theme_fivethirtyeight.html">theme_fivethirtyeight</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"YLL - Germany lung cancer -2019"</span>,</span>
-<span>       caption <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Vis: fgazzelloni|DataSource: IHME &amp; WHO"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>To build the YLDs, the numbers of years lived with a disability due to a disease or injury, we need more data: the <strong>prevalence</strong>, and the <strong>disability weights</strong>.</p>
-<p>source:</p>
-<ul>
-<li><a href="https://ghdx.healthdata.org/record/ihme-data/gbd-2019-disability-weights">disability weights</a></li>
-</ul>
-<p>Then, the sum of the YLL and the YLD provides the overall value of the DALY which is the key metric used to state the health of a population, and it is used to make comparisons among population of different countries, as well as begin used to provide a comprehensive assessment of the impact of disease and injury on a population, and help prioritize public health interventions and evaluate the effectiveness of public health programs.</p>
-<p>Let’s now have a look at how <strong>infectious diseases</strong> can affect the DALYs. The COVID-19 pandemic has had a significant impact on DALYs metrics worldwide.</p>
-<p>Still results are not fully available, but several of the risk factors and non-communicable diseases (NCDs) highlighted by the GBD study, including obesity, diabetes, and cardiovascular disease, are associated with increased risk of serious illness and death from COVID-19, and so, as a consequence linked with an increase of the overall level of DALYs. See <a href="https://www.healthdata.org/news-release/lancet-latest-global-disease-estimates-reveal-perfect-storm-rising-chronic-diseases-and">The Lancet: Latest global disease estimates reveal perfect storm of rising chronic diseases and public health failures fuelling COVID-19 pandemic</a></p>
-<p>COVID-19 is expected to show clearly that it has been the leading cause of global DALYs in 2020.</p>
-<p>More information on the level of findings are in this interesting article: <a href="https://doi.org/10.1016/S0140-6736(20)30925-9" class="uri">https://doi.org/10.1016/S0140-6736(20)30925-9</a> on the Lancet by the <strong>GBD collaborator team</strong>.</p>
-<section id="global-impact-of-selected-infectious-disease-on-dalys" class="level3"><h3 class="anchored" data-anchor-id="global-impact-of-selected-infectious-disease-on-dalys">Global impact of selected infectious disease on DALYs</h3>
-<p>Looking at the Global impact of some infectious diseases, such as: Ebola.</p>
-<p>The impact of Ebola on DALYs in 2019 can be assessed by comparing the number of DALYs due to Ebola in 2019 to the DALYs caused by other diseases or conditions during the same period.</p>
-<p>According to the Global Health Data Exchange (GHDx), the estimated global DALY rate for Ebola virus disease in 2019 was 0.0005, which is relatively low compared to other leading causes of DALYs, such as cardiovascular diseases, lower respiratory infections, and neonatal disorders. See <a href="https://bit.ly/40dboLg">IHME Ebola — Level 3 cause</a></p>
-<p>Import data on global burden of disease (GBD) for a given year, here I already downloaded the cvs file and save it as RData.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Subset data to only include </span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">df_dalys_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">df_gbd_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">location_name</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Global"</span>,</span>
-<span>         <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex_name</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Both"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">contains</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"_id"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">df_dalys_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/count.html">count</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">age_name</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 19 × 3
-   age_name        val     n
-   &lt;chr&gt;         &lt;dbl&gt; &lt;int&gt;
- 1 1-4 years    24933.     1
- 2 10-14 years   8994.     1
- 3 15-19 years  12520.     1
- 4 20-24 years  15651.     1
- 5 25-29 years  17288.     1
- 6 30-34 years  19457.     1
- 7 35-39 years  22626.     1
- 8 40-44 years  26218.     1
- 9 45-49 years  30105.     1
-10 5-9 years     9136.     1
-11 50-54 years  36694.     1
-12 55-59 years  45169.     1
-13 60-64 years  55901.     1
-14 65-69 years  67373.     1
-15 70-74 years  83145.     1
-16 75-79 years  99766.     1
-17 80-84       123203.     1
-18 85+ years   151604.     1
-19 &lt;1 year     256548.     1</code></pre>
-</div>
-</div>
-<p>Let’s have a look at the <strong>DALYs rates</strong> and consider the average value by 5 years range, then calculate the total DALYs for all ages in 2019.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">avg_dalys_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">df_dalys_2019</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">avg_dalys_2019</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 58227.96</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">total_dalys_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">df_dalys_2019</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">total_dalys_2019</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1106331</code></pre>
-</div>
-</div>
-<p>Import data on infectious diseases, and select Global, Ebola, both sex.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">ebola_global_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">infectious_diseases</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">location_name</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Global"</span>,</span>
-<span>         <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">sex_name</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Both"</span>,</span>
-<span>         <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cause_name</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Ebola"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">contains</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"_id"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Calculate total COVID-19 DALYs for 2019</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">total_ebola_global_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span></span>
-<span>  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">ebola_global_2019</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">val</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Calculate the percentage change in DALYs due to COVID-19</span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">percent_change_dalys</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">total_ebola_global_2019</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">total_dalys_2019</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">100</span>,<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Print the percentage change in DALYs due to COVID-19</span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Total impact of Ebola virus Globally on DALYs rates in 2019:"</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">percent_change_dalys</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"%"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Total impact of Ebola virus Globally on DALYs rates in 2019: 0.0037 %</code></pre>
-</div>
-</div>
-<p>However, the impact of Ebola on DALYs is more significant in certain African regions, it accounts for the whole population. For example, during the 2014-2016, the Ebola outbreak in West Africa caused an estimated 11,000 deaths and 261,000 DALYs lost.</p>
-<p>Overall, while the global impact of Ebola on DALYs in 2019 was relatively low, it is still an important health concern in areas where outbreaks occur, and efforts to prevent and control the disease are crucial to reducing its impact on affected populations.</p>
-
-
-</section></section><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://federicagazzelloni.com/content/proj/posts/hindex/posts/performance/</guid>
-  <pubDate>Mon, 13 Mar 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

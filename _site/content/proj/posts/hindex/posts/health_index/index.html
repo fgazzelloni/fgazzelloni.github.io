@@ -184,10 +184,10 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Data</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Blog</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-data">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">
 <li>
     <a class="dropdown-item" href="../../../../../../content/blog/index.html">
  <span class="dropdown-text">Overview</span></a>
@@ -199,6 +199,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../../../../../content/blog/posts/stats/index.html">
  <span class="dropdown-text">Data Analytics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/blog/posts/actuarial/index.html">
+ <span class="dropdown-text">Actuarial Science</span></a>
   </li>  
     </ul>
 </li>
@@ -401,7 +405,7 @@ window.Quarto = {
 </div>
 </section><section id="from-results-healthdata-website-yll-and-yld-by-age-standardized" class="level4"><h4 class="anchored" data-anchor-id="from-results-healthdata-website-yll-and-yld-by-age-standardized">From results healthdata website yll and yld by age standardized</h4>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">yll_yld2022_raw</span> <span class="op">&lt;-</span> <span class="fu">hmsidwR</span><span class="fu">::</span><span class="fu"><a href="https://fgazzelloni.github.io/hmsidwR/reference/getunz.html">getunz</a></span><span class="op">(</span><span class="st">"https://dl.healthdata.org:443/gbd-api-2023-public/7bae287bc4f06482be6332f797f3ebc2_files/IHME-GBD_2023_DATA-7bae287b-1.zip"</span><span class="op">)</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">yll_yld2022_raw</span> <span class="op">&lt;-</span> <span class="fu">hmsidwR</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/hmsidwR/man/getunz.html">getunz</a></span><span class="op">(</span><span class="st">"https://dl.healthdata.org:443/gbd-api-2023-public/7bae287bc4f06482be6332f797f3ebc2_files/IHME-GBD_2023_DATA-7bae287b-1.zip"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">yll_yld2022</span> <span class="op">&lt;-</span> <span class="va">yll_yld2022_raw</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span>location_name<span class="op">=</span><span class="va">location</span>,</span>
@@ -886,7 +890,7 @@ health_dim_index = (LE_scaled + HALE_scaled + (1 - YLL_scaled) + (1 - YLD_scaled
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://github.com/fgazzelloni">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../../../LICENSE.html">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../../../LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

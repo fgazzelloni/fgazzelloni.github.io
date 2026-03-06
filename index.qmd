@@ -28,7 +28,7 @@ title-block-banner: true
       "Welcome to my Website 💡", 
       "Buy on Amazon📚", 
       "Health Metrics and the Spread of Infectious Diseases 🦠", 
-      "Stay tuned for the latest developments 🔍"
+      "New book in progress: Mortality 🔍 Analytics - more info coming soon 🔥"
       ],
       breakLines: false,
       loop: true,
