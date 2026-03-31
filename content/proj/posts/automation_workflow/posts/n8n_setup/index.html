@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="dcterms.date" content="2024-01-12">
-<title>Understanding Simpson’s Paradox: A Simple Explanation – Federica Gazzelloni</title>
+
+<meta name="dcterms.date" content="2026-03-31">
+<meta name="description" content="A practical guide to building a free automation workflow using n8n on Oracle Cloud Free Tier. Learn how to set up infrastructure, build your first workflow, and design a foundation you can expand into AI assistants.">
+
+<title>Building Your First Automation Assistant for Free with n8n and Oracle Cloud – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,6 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
@@ -77,7 +82,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../../../site_libs/bootstrap/bootstrap-d8fff2e7d1f54d21ada73d4c2a5595e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -103,13 +109,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script><script type="text/plain" cookie-consent="tracking">
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
+
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-119NQB71C8', { 'anonymize_ip': true});
-</script><script type="text/javascript" charset="UTF-8">
+</script>
+
+<script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"headline",
@@ -124,30 +135,39 @@ cookieconsent.run({
 "language":"en"
   });
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+
+
 <link rel="stylesheet" href="../../../../../../styles.css">
-<meta property="og:title" content="Understanding Simpson’s Paradox: A Simple Explanation – Federica Gazzelloni">
-<meta property="og:description" content="Data Science Portfolio">
-<meta property="og:image" content="https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/featured.png">
+<meta property="og:title" content="Building Your First Automation Assistant for Free with n8n and Oracle Cloud – Federica Gazzelloni">
+<meta property="og:description" content="A practical guide to building a free automation workflow using n8n on Oracle Cloud Free Tier. Learn how to set up infrastructure, build your first workflow, and design a foundation you can expand into AI assistants.">
+<meta property="og:image" content="https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/featured.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:width" content="1800">
-<meta name="twitter:title" content="Understanding Simpson’s Paradox: A Simple Explanation – Federica Gazzelloni">
-<meta name="twitter:description" content="Data Science Portfolio">
-<meta name="twitter:image" content="https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/featured.png">
+<meta property="og:image:height" content="337">
+<meta property="og:image:width" content="480">
+<meta name="twitter:title" content="Building Your First Automation Assistant for Free with n8n and Oracle Cloud – Federica Gazzelloni">
+<meta name="twitter:description" content="A practical guide to building a free automation workflow using n8n on Oracle Cloud Free Tier. Learn how to set up infrastructure, build your first workflow, and design a foundation you can expand into AI assistants.">
+<meta name="twitter:image" content="https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/featured.png">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:image-height" content="1200">
-<meta name="twitter:image-width" content="1800">
+<meta name="twitter:image-height" content="337">
+<meta name="twitter:image-width" content="480">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="nav-fixed fullcontent quarto-light">
+
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content"><img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content"></a>
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
     </a>
@@ -158,12 +178,12 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item dropdown ">
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Blog</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/blog/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
@@ -180,13 +200,13 @@ cookieconsent.run({
  <span class="dropdown-text">Actuarial Science</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-packages" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">R Packages</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/rpackages/index.html">
  <span class="dropdown-text">Overview</span></a>
   </li>  
@@ -203,13 +223,13 @@ cookieconsent.run({
  <span class="dropdown-text">typeR</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Books</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/books/index.html">
  <span class="dropdown-text">Books Writing</span></a>
   </li>  
@@ -218,7 +238,7 @@ cookieconsent.run({
  <span class="dropdown-text">HMSIDwR</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../../../../content/podcasts/index.html"> 
 <span class="menu-text">Podcasts</span></a>
@@ -227,8 +247,8 @@ cookieconsent.run({
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Projects</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/proj/index.html">
  <span class="dropdown-text">Projects Overview</span></a>
   </li>  
@@ -241,13 +261,13 @@ cookieconsent.run({
  <span class="dropdown-text">Automation Workflow</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
     <a href="mailto:fede.gazzelloni@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://www.linkedin.com/in/federicagazzelloni/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
@@ -260,34 +280,81 @@ cookieconsent.run({
 </a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav><div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden">
-<i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
-</div>
-<i class="bi bi-x-lg quarto-announcement-action"></i>
-</div>
-</header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-idea-start-simple-and-expand" id="toc-the-idea-start-simple-and-expand" class="nav-link" data-scroll-target="#the-idea-start-simple-and-expand">The Idea: Start Simple and Expand</a></li>
+  <li><a href="#why-n8n-and-oracle-cloud-free-tier" id="toc-why-n8n-and-oracle-cloud-free-tier" class="nav-link" data-scroll-target="#why-n8n-and-oracle-cloud-free-tier">Why n8n and Oracle Cloud Free Tier?</a>
+  <ul class="collapse">
+  <li><a href="#n8n" id="toc-n8n" class="nav-link" data-scroll-target="#n8n">n8n</a></li>
+  <li><a href="#oracle-cloud-free-tier" id="toc-oracle-cloud-free-tier" class="nav-link" data-scroll-target="#oracle-cloud-free-tier">Oracle Cloud Free Tier</a></li>
+  </ul></li>
+  <li><a href="#architecture-overview" id="toc-architecture-overview" class="nav-link" data-scroll-target="#architecture-overview">Architecture Overview</a></li>
+  <li><a href="#step-by-step-guide" id="toc-step-by-step-guide" class="nav-link" data-scroll-target="#step-by-step-guide">Step-by-Step Guide</a>
+  <ul class="collapse">
+  <li><a href="#step-1-creating-the-server" id="toc-step-1-creating-the-server" class="nav-link" data-scroll-target="#step-1-creating-the-server">Step 1: Creating the Server</a></li>
+  <li><a href="#step-2-installing-docker" id="toc-step-2-installing-docker" class="nav-link" data-scroll-target="#step-2-installing-docker">Step 2: Installing Docker</a></li>
+  <li><a href="#step-3-creating-persistent-storage" id="toc-step-3-creating-persistent-storage" class="nav-link" data-scroll-target="#step-3-creating-persistent-storage">Step 3: Creating Persistent Storage</a></li>
+  <li><a href="#step-4-running-n8n" id="toc-step-4-running-n8n" class="nav-link" data-scroll-target="#step-4-running-n8n">Step 4: Running n8n</a></li>
+  <li><a href="#step-5-adding-swap-for-stability" id="toc-step-5-adding-swap-for-stability" class="nav-link" data-scroll-target="#step-5-adding-swap-for-stability">Step 5: Adding Swap for Stability</a></li>
+  </ul></li>
+  <li><a href="#building-the-first-workflow" id="toc-building-the-first-workflow" class="nav-link" data-scroll-target="#building-the-first-workflow">Building the First Workflow</a>
+  <ul class="collapse">
+  <li><a href="#workflow-structure" id="toc-workflow-structure" class="nav-link" data-scroll-target="#workflow-structure">Workflow Structure</a></li>
+  <li><a href="#key-design-lessons" id="toc-key-design-lessons" class="nav-link" data-scroll-target="#key-design-lessons">Key Design Lessons</a></li>
+  </ul></li>
+  <li><a href="#disaster-recovery" id="toc-disaster-recovery" class="nav-link" data-scroll-target="#disaster-recovery">Disaster Recovery</a></li>
+  <li><a href="#expanding-the-system" id="toc-expanding-the-system" class="nav-link" data-scroll-target="#expanding-the-system">Expanding the System</a></li>
+  <li><a href="#final-workflow-visualization" id="toc-final-workflow-visualization" class="nav-link" data-scroll-target="#final-workflow-visualization">Final Workflow Visualization</a></li>
+  <li><a href="#final-advice" id="toc-final-advice" class="nav-link" data-scroll-target="#final-advice">Final Advice</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Understanding Simpson’s Paradox: A Simple Explanation</h1>
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Building Your First Automation Assistant for Free with n8n and Oracle Cloud</h1>
+<p class="subtitle lead">A practical step-by-step guide to setting up your first personal automation system</p>
   <div class="quarto-categories">
-    <div class="quarto-category">rstats</div>
-    <div class="quarto-category">modeling</div>
+    <div class="quarto-category">automation</div>
+    <div class="quarto-category">ai</div>
+    <div class="quarto-category">workflows</div>
+    <div class="quarto-category">infrastructure</div>
+    <div class="quarto-category">n8n</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    A practical guide to building a free automation workflow using n8n on Oracle Cloud Free Tier. Learn how to set up infrastructure, build your first workflow, and design a foundation you can expand into AI assistants.
+  </div>
+</div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 12, 2024</p>
+      <p class="date">March 31, 2026</p>
     </div>
   </div>
   
@@ -296,109 +363,201 @@ cookieconsent.run({
   
 
 
-</header><center>
-<img src="https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif" class="img-fluid">
-</center>
-<p><code>Simpson's Paradox</code> is a statistical phenomenon where a trend appears in different groups of data but disappears or reverses when these groups are combined. This paradox highlights the importance of considering confounding variables and understanding the causal relationship between variables.</p>
-<section id="example-scenario-work-environment" class="level3"><h3 class="anchored" data-anchor-id="example-scenario-work-environment">Example Scenario: Work Environment</h3>
-<p>Let’s consider a hypothetical work environment where the number of women (W) is greater than the number of men (M). However, when looking at the distribution of managerial positions (P), it seems that more men occupy higher-level positions compared to women.</p>
-<p>Now, suppose there’s a characteristic Z, representing gender, and you suspect it might influence the choice of assigning a managerial position (P) because a specific time dedicated to a critical task (T) is primarily marketed toward men (M).</p>
-<p>To illustrate this paradox, we’ll create synthetic data in R.</p>
-<section id="install-and-load-necessary-library" class="level4"><h4 class="anchored" data-anchor-id="install-and-load-necessary-library">Install and load necessary library</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section><section id="set-seed-for-reproducibility" class="level4"><h4 class="anchored" data-anchor-id="set-seed-for-reproducibility">Set seed for reproducibility</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op">(</span><span class="fl">123</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section><section id="generate-synthetic-data" class="level4"><h4 class="anchored" data-anchor-id="generate-synthetic-data">Generate synthetic data</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">n</span> <span class="op">&lt;-</span> <span class="fl">1000</span>  <span class="co"># Number of employees </span></span>
-<span><span class="va">W</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Uniform.html">runif</a></span><span class="op">(</span><span class="va">n</span>, <span class="fl">200</span>, <span class="fl">800</span><span class="op">)</span><span class="op">)</span>  <span class="co"># Number of women</span></span>
-<span><span class="va">M</span> <span class="op">&lt;-</span> <span class="va">n</span> <span class="op">-</span> <span class="va">W</span>  <span class="co"># Number of men</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section><section id="assign-managerial-positions-based-on-gender-and-a-confounding-variable" class="level4"><h4 class="anchored" data-anchor-id="assign-managerial-positions-based-on-gender-and-a-confounding-variable">Assign managerial positions based on gender and a confounding variable</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">P_W</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Uniform.html">runif</a></span><span class="op">(</span><span class="va">W</span>, <span class="fl">0</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span>  <span class="co"># 0 for no managerial position, 1 for managerial position for women</span></span>
-<span><span class="va">P_M</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Uniform.html">runif</a></span><span class="op">(</span><span class="va">M</span>, <span class="fl">0.2</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span>  <span class="co"># Higher chance of managerial position for men due to confounding variable</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section><section id="create-a-data-frame" class="level4"><h4 class="anchored" data-anchor-id="create-a-data-frame">Create a data frame</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">w</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op">(</span>gender<span class="op">=</span><span class="st">"Women"</span>,count<span class="op">=</span><span class="va">W</span>,manager<span class="op">=</span><span class="va">P_W</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">m</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op">(</span>gender<span class="op">=</span><span class="st">"Men"</span>,count<span class="op">=</span><span class="va">M</span>,manager<span class="op">=</span><span class="va">P_M</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/cbind.html">rbind</a></span><span class="op">(</span><span class="va">w</span>,<span class="va">m</span><span class="op">)</span></span>
-<span><span class="va">data</span><span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span><span class="va">head</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 3
-  gender count manager
-  &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;
-1 Women    373       0
-2 Women    673       1
-3 Women    445       0
-4 Women    730       1
-5 Women    764       1
-6 Women    227       0</code></pre>
-</div>
-</div>
-</section><section id="display-the-initial-summary" class="level4"><h4 class="anchored" data-anchor-id="display-the-initial-summary">Display the initial summary</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>    gender              count        manager      
- Length:2000        Min.   :200   Min.   :0.0000  
- Class :character   1st Qu.:352   1st Qu.:0.0000  
- Mode  :character   Median :500   Median :1.0000  
-                    Mean   :500   Mean   :0.5615  
-                    3rd Qu.:648   3rd Qu.:1.0000  
-                    Max.   :800   Max.   :1.0000  </code></pre>
-</div>
-</div>
-<p>In this example, we have created a dataset with a larger number of women, but the chance of obtaining a managerial position for men is influenced by a confounding variable. Now, let’s examine the paradox.</p>
-</section></section><section id="calculate-the-proportion-of-managerial-positions-for-each-gender" class="level3"><h3 class="anchored" data-anchor-id="calculate-the-proportion-of-managerial-positions-for-each-gender">Calculate the proportion of managerial positions for each gender</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">proportion_table</span> <span class="op">&lt;-</span> <span class="va">data</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">gender</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span>proportion <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">manager</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<section id="display-the-proportions" class="level4"><h4 class="anchored" data-anchor-id="display-the-proportions">Display the proportions</h4>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">proportion_table</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 2
-  gender proportion
-  &lt;chr&gt;       &lt;dbl&gt;
-1 Men         0.626
-2 Women       0.497</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></span>
-<span><span class="va">proportion_table</span><span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">gender</span>,<span class="va">proportion</span>,fill<span class="op">=</span><span class="va">gender</span><span class="op">)</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_bar.html">geom_col</a></span><span class="op">(</span>color<span class="op">=</span><span class="st">"white"</span>,show.legend <span class="op">=</span> <span class="cn">F</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_viridis.html">scale_fill_viridis_d</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Proportion of Managers by Gender"</span>,</span>
-<span>       subtitle <span class="op">=</span> <span class="st">"Example of the Simpson's Paradox"</span>,</span>
-<span>       x<span class="op">=</span><span class="st">""</span>,</span>
-<span>       caption <span class="op">=</span> <span class="st">"Data: Syntetic | Graphics: Federica Gazzelloni"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/coord_fixed.html">coord_equal</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu">ggthemes</span><span class="fu">::</span><span class="fu"><a href="http://jrnold.github.io/ggthemes/reference/theme_pander.html">theme_pander</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span>plot.caption <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>hjust <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>In this scenario, when examining the proportion of managerial positions within each gender group, it might appear that men have a higher chance. However, when we consider the entire dataset, we may find the opposite due to the confounding variable.</p>
-<p>The key takeaway is that understanding causation is crucial, and Simpson’s Paradox emphasizes the need to consider confounding factors when interpreting data.</p>
+</header>
 
 
-</section></section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<section id="why-build-a-personal-automation-system" class="level3">
+<h3 class="anchored" data-anchor-id="why-build-a-personal-automation-system">Why build a personal automation system?</h3>
+<p>Many people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.</p>
+<p>But what really changes productivity is not a single tool. It is building a <strong>small system</strong> that works for you every day.</p>
+</section>
+</div><div class="column" style="width:40%;">
+<p><img src="featured.png" class="img-fluid" style="width:90.0%"></p>
+</div>
+</div>
+<p>Automation can start with simple tasks like collecting signals, filtering information, and sending daily briefings. This article demonstrates how to build a <strong>first automation assistant</strong> using free infrastructure, creating a stable base for future expansion.</p>
+</section>
+<section id="the-idea-start-simple-and-expand" class="level2">
+<h2 class="anchored" data-anchor-id="the-idea-start-simple-and-expand">The Idea: Start Simple and Expand</h2>
+<p>The first workflow we build is intentionally basic:</p>
+<ul>
+<li><strong>RSS feeds → filter articles → combine sources → send one daily email</strong></li>
+</ul>
+<p>This teaches three fundamental ideas behind automation systems:</p>
+<ol type="1">
+<li><strong>Signal ingestion</strong></li>
+<li><strong>Signal processing</strong></li>
+<li><strong>Signal delivery</strong></li>
+</ol>
+<p>Once this works, you can expand to include AI summaries, social media automation, research monitoring, and more.</p>
+</section>
+<section id="why-n8n-and-oracle-cloud-free-tier" class="level2">
+<h2 class="anchored" data-anchor-id="why-n8n-and-oracle-cloud-free-tier">Why n8n and Oracle Cloud Free Tier?</h2>
+<section id="n8n" class="level3">
+<h3 class="anchored" data-anchor-id="n8n">n8n</h3>
+<p><a href="https://n8n.io">n8n</a> is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself. This means:</p>
+<ul>
+<li>No subscription required</li>
+<li>Full control</li>
+<li>Unlimited workflows</li>
+<li>No vendor lock-in</li>
+</ul>
+</section>
+<section id="oracle-cloud-free-tier" class="level3">
+<h3 class="anchored" data-anchor-id="oracle-cloud-free-tier">Oracle Cloud Free Tier</h3>
+<p>Oracle offers a generous free infrastructure tier, including:</p>
+<ul>
+<li>Always free virtual machines</li>
+<li>1GB RAM instances</li>
+<li>Free storage</li>
+<li>Public IP</li>
+<li>Continuous availability</li>
+</ul>
+<p>This is ideal for small automation servers.</p>
+</section>
+</section>
+<section id="architecture-overview" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-overview">Architecture Overview</h2>
+<p>The system we create looks like this:</p>
+<ol type="1">
+<li><strong>Infrastructure layer</strong>: Oracle VM</li>
+<li><strong>Operating system</strong>: Ubuntu</li>
+<li><strong>Container runtime</strong>: Docker</li>
+<li><strong>Automation engine</strong>: n8n</li>
+<li><strong>Workflows</strong></li>
+</ol>
+<p>This layered approach ensures simplicity and predictability.</p>
+</section>
+<section id="step-by-step-guide" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-guide">Step-by-Step Guide</h2>
+<section id="step-1-creating-the-server" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-creating-the-server">Step 1: Creating the Server</h3>
+<ol type="1">
+<li><p>Choose Ubuntu 22.04 (Always Free eligible, 1GB RAM).</p></li>
+<li><p>Connect using SSH:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-i</span> KEY ubuntu@SERVER_IP</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Update the system:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update <span class="kw">&amp;&amp;</span> <span class="fu">sudo</span> apt upgrade <span class="at">-y</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ol>
+</section>
+<section id="step-2-installing-docker" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-installing-docker">Step 2: Installing Docker</h3>
+<ol type="1">
+<li><p>Install Docker:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install docker.io <span class="at">-y</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Enable Docker:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> systemctl start docker</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> systemctl enable docker</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Add your user to the Docker group:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> usermod <span class="at">-aG</span> docker ubuntu</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">newgrp</span> docker</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ol>
+</section>
+<section id="step-3-creating-persistent-storage" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-creating-persistent-storage">Step 3: Creating Persistent Storage</h3>
+<ol type="1">
+<li><p>Create a folder for persistent data:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ~/n8n_data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This folder will store workflows, credentials, settings, and users.</p></li>
+</ol>
+</section>
+<section id="step-4-running-n8n" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-running-n8n">Step 4: Running n8n</h3>
+<ol type="1">
+<li><p>Launch n8n:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> <span class="dt">\</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>--name n8n <span class="dt">\</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>-p 5678:5678 <span class="dt">\</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>-v ~/n8n_data:/home/node/.n8n <span class="dt">\</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>--restart unless-stopped <span class="dt">\</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>docker.n8n.io/n8nio/n8n</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Access n8n at <strong>http://SERVER_IP:5678</strong>.</p></li>
+</ol>
+</section>
+<section id="step-5-adding-swap-for-stability" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-adding-swap-for-stability">Step 5: Adding Swap for Stability</h3>
+<ol type="1">
+<li><p>Create a swap file:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> fallocate <span class="at">-l</span> 2G /swapfile</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> chmod 600 /swapfile</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> mkswap /swapfile</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> swapon /swapfile</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p>Make it persistent:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">'/swapfile none swap sw 0 0'</span> <span class="kw">|</span> <span class="fu">sudo</span> tee <span class="at">-a</span> /etc/fstab</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ol>
+</section>
+</section>
+<section id="building-the-first-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="building-the-first-workflow">Building the First Workflow</h2>
+<p>The first workflow collects articles daily from sources like AI news, the R ecosystem, and research updates. It limits each source to 3 items, combines them, and sends one email.</p>
+<section id="workflow-structure" class="level3">
+<h3 class="anchored" data-anchor-id="workflow-structure">Workflow Structure</h3>
+<ol type="1">
+<li><strong>Schedule trigger</strong></li>
+<li><strong>RSS reader</strong></li>
+<li><strong>Limit</strong></li>
+<li><strong>Merge</strong></li>
+<li><strong>Format</strong></li>
+<li><strong>Aggregate</strong></li>
+<li><strong>Email</strong></li>
+</ol>
+</section>
+<section id="key-design-lessons" class="level3">
+<h3 class="anchored" data-anchor-id="key-design-lessons">Key Design Lessons</h3>
+<ul>
+<li><strong>Limit early</strong>: Apply limits to each source before merging.</li>
+<li><strong>Merge streams before reporting</strong>: Combine feeds before aggregation.</li>
+<li><strong>Aggregate only once</strong>: Filter and format data before aggregation.</li>
+</ul>
+</section>
+</section>
+<section id="disaster-recovery" class="level2">
+<h2 class="anchored" data-anchor-id="disaster-recovery">Disaster Recovery</h2>
+<p>Backup the <code>~/n8n_data</code> folder to ensure system recovery:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tar</span> <span class="at">-czf</span> n8n_backup.tar.gz ~/n8n_data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>To restore:</p>
+<ol type="1">
+<li>Create a new VM.</li>
+<li>Install Docker.</li>
+<li>Restore the folder.</li>
+<li>Restart the container.</li>
+</ol>
+<p><strong>Recovery time: about five minutes.</strong></p>
+</section>
+<section id="expanding-the-system" class="level2">
+<h2 class="anchored" data-anchor-id="expanding-the-system">Expanding the System</h2>
+<p>Once the foundation is stable, you can expand to include:</p>
+<ul>
+<li>AI summaries of articles</li>
+<li>Generating LinkedIn post ideas</li>
+<li>Tracking competitors</li>
+<li>Monitoring research papers</li>
+<li>Creating personal learning feeds</li>
+</ul>
+</section>
+<section id="final-workflow-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="final-workflow-visualization">Final Workflow Visualization</h2>
+<p>Below is a visual representation of the final workflow described in this post. This image illustrates the steps involved in the automation process:</p>
+<p><img src="images/n8n-workflow.png" class="img-fluid" style="width:100.0%"></p>
+</section>
+<section id="final-advice" class="level2">
+<h2 class="anchored" data-anchor-id="final-advice">Final Advice</h2>
+<ul>
+<li>Start simple.</li>
+<li>Keep it stable.</li>
+<li>Expand gradually.</li>
+</ul>
+<p>Automation grows best through iteration. Build one workflow, improve it, and then add more.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -804,22 +963,23 @@ cookieconsent.run({
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../../../LICENSE.html">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
 <p>This Blog is made with 💜 in Quarto</p>
 </a>
   </li>  
 </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0000-0002-4285-611X">
 <p><i class="ai  ai-orcid" aria-label="orcid"></i></p>
 </a>
@@ -865,9 +1025,11 @@ cookieconsent.run({
     </a>
   </li>  
 </ul>
-</div>
+    </div>
   </div>
 </footer>
+
+
 
 
 <script src="../../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
