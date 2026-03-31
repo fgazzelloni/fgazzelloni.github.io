@@ -1,6 +1,6 @@
 ---
-title: "Health Index Projects"
-description: "In this section I share my projects and resources related to health index Performance and Metrics"
+title: "Performance and Metrics"
+description: "In this section I share my ongoing projects and resources related to Health Index and Performance Metrics"
 listing:
   contents: posts
   sort: "date desc"

@@ -2,14 +2,15 @@
 title: "Health Index"
 excerpt: "Machine learning models"
 date: 2025-11-01
-draft: false
 images:
 series:
 categories: 
   - Health
   - Health Index
-layout: single
+layout: custom
 page-layout: full
+toc: true
+toc-location: left
 execute: 
   eval: false
 ---
@@ -18,11 +19,11 @@ execute:
 ## Overview
 
 :::: columns
-::: {.column width="80%"}
+::: {.column width="60%"}
 Process of building an index to show the dimension of health with an index. Data used is the life expectancy at birth data from the IHME GBD 2021 **Global Burden of Disease Study 2021 (GBD 2021) Mortality and Life Expectancy Forecasts 2022-2050** dataset.
 :::
 
-::: {.column width="20%"}
+::: {.column width="40%"}
 ![](featured.png)
 :::
 ::::

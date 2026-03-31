@@ -1,12 +1,10 @@
 ---
-title: "Overview"
-description: "Section dedicated to projects and resources related to health index Performance and Metrics"
+title: "Projects Overview"
+description: "Explore the latest projects and resources on AI Automation and Performance Metrics."
 listing:
-  contents: 
-      - posts/hindex/index.qmd
-      - posts/rpackages/index.qmd
+  contents: posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: false
@@ -16,15 +14,18 @@ page-navigation: true
 back-to-top-navigation: true
 ---
 
-Welcome to the **Projects** section! Here, I showcase a variety of projects and resources that I've worked on, focusing on health index performance and metrics.
+# Welcome to the Projects Section
 
-In this section, you'll find:
+Explore a variety of projects and resources that focus on **AI Automation**, **Performance Metrics**, and other innovative topics. This section is designed to provide insights, tools, and methodologies that can inspire and support your work.
 
-- **Health Index Projects**: Detailed explorations of health index performance, including methodologies, analyses, and findings.
+### What You'll Find Here:
 
+- **AI Automation Workflows**: Streamlined processes and tools for automation.
+- **Performance Metrics Analysis**: In-depth studies and findings on performance evaluation.
+- **Innovative Solutions**: Creative approaches to solving complex problems.
 
-Feel free to explore the projects and resources available here. I hope you'll find something valuable that can aid you in your own work or studies.
+### Latest Posts
 
-Dive in and discover the insights and tools I've created!
+Below, you'll find the most recent posts from the Projects section, displayed in a grid layout for easy navigation. Click on any post to dive deeper into the details and insights.
 
 

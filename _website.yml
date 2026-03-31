@@ -59,7 +59,9 @@ website:
         menu:
           - content/proj/index.qmd
           - text: "Performance Metrics"
-            href: content/proj/posts/hindex/index.qmd  
+            href: content/proj/posts/performance_metrics/index.qmd 
+          - text: "Automation Workflow"
+            href: content/proj/posts/automation_workflow/index.qmd
       - text: "About"
         href: about.qmd
     tools:    

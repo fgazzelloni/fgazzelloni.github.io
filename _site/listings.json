@@ -52,14 +52,24 @@
   {
     "listing": "/content/proj/index.html",
     "items": [
-      "/content/proj/posts/hindex/index.html"
+      "/content/proj/posts/performance_metrics/index.html",
+      "/content/proj/posts/automation_workflow/index.html",
+      "/content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
+      "/content/proj/posts/performance_metrics/posts/health_index/index.html",
+      "/content/proj/posts/performance_metrics/posts/performance/index.html"
     ]
   },
   {
-    "listing": "/content/proj/posts/hindex/index.html",
+    "listing": "/content/proj/posts/performance_metrics/index.html",
     "items": [
-      "/content/proj/posts/hindex/posts/health_index/index.html",
-      "/content/proj/posts/hindex/posts/performance/index.html"
+      "/content/proj/posts/performance_metrics/posts/health_index/index.html",
+      "/content/proj/posts/performance_metrics/posts/performance/index.html"
+    ]
+  },
+  {
+    "listing": "/content/proj/posts/automation_workflow/index.html",
+    "items": [
+      "/content/proj/posts/automation_workflow/posts/n8n_setup/index.html"
     ]
   },
   {
@@ -91,7 +101,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/proj/posts/hindex/index.html",
+      "/content/proj/posts/performance_metrics/index.html",
+      "/content/proj/posts/automation_workflow/index.html",
       "/content/proj/index.html",
       "/content/books/posts/hmsid/index.html",
       "/content/books/index.html",
@@ -101,6 +112,7 @@
       "/content/blog/index.html",
       "/content/podcasts/index.html",
       "/content/rpackages/index.html",
+      "/content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
       "/content/blog/posts/actuarial/posts/riskassessments/index.html",
       "/content/blog/posts/actuarial/posts/career-roadmap/index.html",
       "/content/podcasts/posts/the-accounting-of-human-suffering/index.html",
@@ -110,7 +122,7 @@
       "/content/rpackages/posts/typeR/index.html",
       "/content/books/posts/hmsid/posts/012026/index.html",
       "/content/podcasts/posts/the-new-science-of-fighting-infectious-disease/index.html",
-      "/content/proj/posts/hindex/posts/health_index/index.html",
+      "/content/proj/posts/performance_metrics/posts/health_index/index.html",
       "/content/books/posts/hmsid/posts/062025/index.html",
       "/content/blog/posts/stats/posts/plain_vanilla/index.html",
       "/content/rpackages/posts/hmsidwR/index.html",
@@ -122,7 +134,7 @@
       "/content/blog/posts/dataviz/posts/ggmap/index.html",
       "/content/blog/posts/dataviz/posts/usecases/malaria/index.html",
       "/content/blog/posts/stats/posts/bayesian_statistics/index.html",
-      "/content/proj/posts/hindex/posts/performance/index.html",
+      "/content/proj/posts/performance_metrics/posts/performance/index.html",
       "/content/blog/posts/dataviz/posts/ggstream/index.html",
       "/content/rpackages/posts/oregonfrogs/index.html",
       "/content/blog/posts/dataviz/posts/yarn/index.html",

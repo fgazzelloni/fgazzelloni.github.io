@@ -153,20 +153,20 @@ window.Quarto = {
 </script><link rel="stylesheet" href="../../../../../../styles.css">
 <meta property="og:title" content="Health Index – Federica Gazzelloni">
 <meta property="og:description" content="Data Science Portfolio">
-<meta property="og:image" content="https://federicagazzelloni.com/content/proj/posts/hindex/posts/health_index/featured.png">
+<meta property="og:image" content="https://federicagazzelloni.com/content/proj/posts/performance_metrics/posts/health_index/featured.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="360">
 <meta property="og:image:width" content="480">
 <meta name="twitter:title" content="Health Index – Federica Gazzelloni">
 <meta name="twitter:description" content="Data Science Portfolio">
-<meta name="twitter:image" content="https://federicagazzelloni.com/content/proj/posts/hindex/posts/health_index/featured.png">
+<meta name="twitter:image" content="https://federicagazzelloni.com/content/proj/posts/performance_metrics/posts/health_index/featured.png">
 <meta name="twitter:creator" content="@fgazzelloni">
 <meta name="twitter:image-height" content="360">
 <meta name="twitter:image-width" content="480">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
@@ -258,8 +258,12 @@ window.Quarto = {
  <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../../../content/proj/posts/hindex/index.html">
+    <a class="dropdown-item" href="../../../../../../content/proj/posts/performance_metrics/index.html">
  <span class="dropdown-text">Performance Metrics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/proj/posts/automation_workflow/index.html">
+ <span class="dropdown-text">Automation Workflow</span></a>
   </li>  
     </ul>
 </li>
@@ -289,10 +293,25 @@ window.Quarto = {
 </div>
 </header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+   
+  <ul>
+<li>
+<a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+<li><a href="#load-libraries-and-data" id="toc-load-libraries-and-data" class="nav-link" data-scroll-target="#load-libraries-and-data">Load Libraries and Data</a></li>
+  <li><a href="#reference-scenario-life-expectancy-at-birth-2022" id="toc-reference-scenario-life-expectancy-at-birth-2022" class="nav-link" data-scroll-target="#reference-scenario-life-expectancy-at-birth-2022">Reference scenario life expectancy at birth 2022</a></li>
+  <li><a href="#combine-female-and-male-le" id="toc-combine-female-and-male-le" class="nav-link" data-scroll-target="#combine-female-and-male-le">Combine female and male le</a></li>
+  <li><a href="#combine-all-data" id="toc-combine-all-data" class="nav-link" data-scroll-target="#combine-all-data">Combine all data</a></li>
+  </ul>
+</li>
+  </ul><div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Health Index</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Health</div>
@@ -302,7 +321,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-right">
 
     
     <div>
@@ -319,7 +338,7 @@ window.Quarto = {
 
 </header><section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
-<div class="column" style="width:80%;">
+<div class="column" style="width:60%;">
 <p>Process of building an index to show the dimension of health with an index. Data used is the life expectancy at birth data from the IHME GBD 2021 <strong>Global Burden of Disease Study 2021 (GBD 2021) Mortality and Life Expectancy Forecasts 2022-2050</strong> dataset.</p>
 </div><div class="column" style="width:20%;">
 <p><img src="featured.png" class="img-fluid"></p>
@@ -900,7 +919,7 @@ health_dim_index = (LE_scaled + HALE_scaled + (1 - YLL_scaled) + (1 - YLD_scaled
 </a>
   </li>  
 </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
 <li class="nav-item">
