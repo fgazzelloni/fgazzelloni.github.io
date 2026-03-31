@@ -329,18 +329,25 @@
     "text": "Welcome to the Projects Section\nExplore a variety of projects and resources that focus on AI Automation, Performance Metrics, and other innovative topics. This section is designed to provide insights, tools, and methodologies that can inspire and support your work.\n\nWhat You’ll Find Here:\n\nAI Automation Workflows: Streamlined processes and tools for automation.\nPerformance Metrics Analysis: In-depth studies and findings on performance evaluation.\nInnovative Solutions: Creative approaches to solving complex problems.\n\n\n\nLatest Posts\nBelow, you’ll find the most recent posts from the Projects section, displayed in a grid layout for easy navigation. Click on any post to dive deeper into the details and insights.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPerformance and Metrics\n\n\nIn this section I share my ongoing projects and resources related to Health Index and Performance Metrics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAutomation Workflow\n\n\nExplore the automation workflows and tools to streamline your processes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Your First Automation Assistant for Free with n8n and Oracle Cloud\n\n\n\nautomation\n\nai\n\nworkflows\n\ninfrastructure\n\nn8n\n\n\n\nA practical guide to building a free automation workflow using n8n on Oracle Cloud Free Tier. Learn how to set up infrastructure, build your first workflow, and design a…\n\n\n\n\n\n\nMar 31, 2026\n\n\n\n\n\n\n\n\n\n\n\nHealth Index\n\n\n\nHealth\n\nHealth Index\n\n\n\n\n\n\n\n\n\n\nNov 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Health Performance\n\n\n\n\n\n\n\n\n\nMar 14, 2023\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-build-a-personal-automation-system",
-    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-build-a-personal-automation-system",
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "Why build a personal automation system?",
-    "text": "Why build a personal automation system?\nMany people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.\nBut what really changes productivity is not a single tool. It is building a small system that works for you every day.\nSomething simple like:\n\ncollecting signals\nfiltering information\nsending a short daily briefing\npreparing ideas for writing or research\n\nThis is exactly how analysts, consultants, and research teams operate. The difference is that today we can build a lightweight version of this for ourselves.\nIn this article I show how to build a first automation assistant using only free infrastructure. The goal is not sophistication. The goal is to create a stable base you can expand later."
+    "section": "",
+    "text": "Many people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.\nBut what really changes productivity is not a single tool. It is building a small system that works for you every day.\n\n\n\n\n\nAutomation can start with simple tasks like collecting signals, filtering information, and sending daily briefings. This article demonstrates how to build a first automation assistant using free infrastructure, creating a stable base for future expansion."
+  },
+  {
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#overview",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#overview",
+    "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
+    "section": "",
+    "text": "Many people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.\nBut what really changes productivity is not a single tool. It is building a small system that works for you every day.\n\n\n\n\n\nAutomation can start with simple tasks like collecting signals, filtering information, and sending daily briefings. This article demonstrates how to build a first automation assistant using free infrastructure, creating a stable base for future expansion."
   },
   {
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#the-idea-start-simple-and-expand",
     "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#the-idea-start-simple-and-expand",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "The idea: start simple and expand",
-    "text": "The idea: start simple and expand\nThe first workflow we build is intentionally basic:\nRSS feeds\n→ filter articles\n→ combine sources\n→ send one daily email\nThis may look simple, but it teaches the three fundamental ideas behind all automation systems:\nSignal ingestion\nSignal processing\nSignal delivery\nOnce this works, you can add:\n\nAI summaries\nsocial media automation\nresearch monitoring\nlead tracking\ntraining content generation\n\nThe important part is the structure."
+    "section": "The Idea: Start Simple and Expand",
+    "text": "The Idea: Start Simple and Expand\nThe first workflow we build is intentionally basic:\n\nRSS feeds → filter articles → combine sources → send one daily email\n\nThis teaches three fundamental ideas behind automation systems:\n\nSignal ingestion\nSignal processing\nSignal delivery\n\nOnce this works, you can expand to include AI summaries, social media automation, research monitoring, and more."
   },
   {
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-n8n",
@@ -361,7 +368,7 @@
     "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#the-architecture-we-are-building",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
     "section": "The architecture we are building",
-    "text": "The architecture we are building\nThe system we create looks like this:\nOracle VM\n→ Ubuntu\n→ Docker\n→ n8n\n→ workflows\nVisually:\nInfrastructure layer\nOperating system\nContainer runtime\nAutomation engine\nWorkflows\nThis layered approach makes recovery simple and predictable."
+    "text": "The architecture we are building\nThe system we create looks like this:\nOracle VM\n→ Ubuntu\n→ Docker\n→ n8n\n→ workflows\nVisually:\n\nInfrastructure layer\n\nOperating system\n\nContainer runtime\n\nAutomation engine\n\nWorkflows\n\nThis layered approach makes recovery simple and predictable."
   },
   {
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#step-1-creating-the-server",
@@ -402,8 +409,8 @@
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#building-the-first-workflow",
     "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#building-the-first-workflow",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "Building the first workflow",
-    "text": "Building the first workflow\nThe goal of the first workflow is simple:\nCollect a few articles daily from:\n\nAI news\nR ecosystem\nInfectious disease research\n\nLimit each source to 3 items.\nCombine everything.\nSend one email.\nThe workflow structure becomes:\nSchedule trigger → RSS reader → Limit → Merge → Format → Aggregate → Email\nThis teaches a very important automation principle:\n\n“Always structure before adding complexity.”\n\nKey design lessons from the workflow\nThree ideas matter more than the tools.\nLimit early\nWe limit each RSS source individually.\nNot:\nMerge → Limit\nBut:\nLimit → Merge\nThis preserves balance between sources.\nMerge streams before reporting\nMultiple feeds must be merged before aggregation.\nOtherwise each source behaves independently.\nAggregate only once\nAggregation should happen only after filtering and formatting.\nThis produces one clean output.\nWhat this simple workflow already teaches\nEven a basic pipeline like this introduces real concepts used in larger systems:\n\nData ingestion\nFiltering\nQuota allocation\nStream merging\nData transformation\nReport generation\n\nThese are exactly the same concepts used in:\n\nData engineering\nResearch monitoring\nRisk analytics\nAI pipelines\n\nThe scale changes. The logic does not.\nDisaster recovery mindset\nOne of the most important lessons when building infrastructure is this:\nServers fail. Systems break. Humans make mistakes.\nSo we design for recovery.\nIn this setup only one thing really matters:\n~/n8n_data\nIf this folder survives, the system survives.\nBackup takes seconds:\ntar -czf n8n_backup.tar.gz ~/n8n_data\nIf disaster happens:\n\nCreate new VM\nInstall Docker\nRestore folder\nRestart container\n\nRecovery time: about five minutes.\nThis is why containerized systems are powerful."
+    "section": "Building the First Workflow",
+    "text": "Building the First Workflow\nThe first workflow collects articles daily from sources like AI news, the R ecosystem, and research updates. It limits each source to 3 items, combines them, and sends one email.\n\nWorkflow Structure\n\nSchedule trigger\nRSS reader\nLimit\nMerge\nFormat\nAggregate\nEmail\n\n\n\nKey Design Lessons\n\nLimit early: Apply limits to each source before merging.\nMerge streams before reporting: Combine feeds before aggregation.\nAggregate only once: Filter and format data before aggregation."
   },
   {
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-start-this-way-instead-of-using-saas-automation",
@@ -416,8 +423,8 @@
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#final-advice",
     "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#final-advice",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "Final advice",
-    "text": "Final advice\nDo not try to build everything at once.\nBuild:\n\none workflow\nthen improve it\nthen add one more\n\nAutomation grows best through iteration.\n\nStart simple.\nKeep it stable.\nExpand gradually.\n\nThat is how systems become reliable."
+    "section": "Final Advice",
+    "text": "Final Advice\n\nStart simple.\nKeep it stable.\nExpand gradually.\n\nAutomation grows best through iteration. Build one workflow, improve it, and then add more."
   },
   {
     "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#closing-thought",
@@ -1127,17 +1134,45 @@
     "text": "News: Health Metrics and the Spread of Infectious Diseases — Now Published and Available Worldwide\n\nGazzelloni, Federica. Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R. First edition. Boca Raton, FL: CRC Press, 2025. Print.\n\n\n🎉 Explore the Online and Printed Versions\n📖 Read it online for free:\n\n🔗 https://fgazzelloni.github.io/hmsidR/\n\n🛒 Order your Hard Printed Copy:\n\nOrder the printed edition:👉 Routledge Website or 👉 Amazon\n\n\n\n\n\n\n\n\nIt’s been an incredible journey, and now that the book is officially printed and available on Amazon to order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌\n\nWriting this book has been an immensely rewarding experience. I’ve spent countless hours selecting the right material and striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.\nEven though the book is now published, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.\n\nAs I reflect on this journey, I’m filled with gratitude for all the support and feedback I’ve received along the way. Your encouragement has been invaluable in shaping this book into what it is today.\n\nSo, what’s next? While this project may be wrapping up, my passion for writing and sharing knowledge is far from over. Stay tuned for more updates and future projects! In the meantime, I invite you to dive into the book, explore its content, and share your thoughts. Your insights will be crucial as I continue to learn and grow.\nThank you for being a part of this journey. I hope the book serves as a valuable resource for your research and studies. Let’s see where this new chapter takes us!\nHappy reading! 📚✨\n\n\n\n\n  SUBSCRIBE\n    Subscribe for the latest tutorials and insights in Data Science and R Programming!\n    \n    \n    \n     \n\n\n\nLatest content"
   },
   {
-    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
-    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-n8n-and-oracle-cloud-free-tier",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#why-n8n-and-oracle-cloud-free-tier",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "",
-    "text": "Many people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.\nBut what really changes productivity is not a single tool. It is building a small system that works for you every day.\n\n\n\n\n\nSomething simple like:\n\ncollecting signals\nfiltering information\nsending a short daily briefing\npreparing ideas for writing or research\n\nThis is exactly how analysts, consultants, and research teams operate. The difference is that today we can build a lightweight version of this for ourselves.\nIn this article I show how to build a first automation assistant using only free infrastructure. The goal is not sophistication. The goal is to create a stable base you can expand later."
+    "section": "Why n8n and Oracle Cloud Free Tier?",
+    "text": "Why n8n and Oracle Cloud Free Tier?\n\nn8n\nn8n is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself. This means:\n\nNo subscription required\nFull control\nUnlimited workflows\nNo vendor lock-in\n\n\n\nOracle Cloud Free Tier\nOracle offers a generous free infrastructure tier, including:\n\nAlways free virtual machines\n1GB RAM instances\nFree storage\nPublic IP\nContinuous availability\n\nThis is ideal for small automation servers."
   },
   {
-    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#overview",
-    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#overview",
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#architecture-overview",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#architecture-overview",
     "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
-    "section": "",
-    "text": "Many people start exploring AI and automation by trying tools individually. They test a chatbot. They try an API. They read about agents.\nBut what really changes productivity is not a single tool. It is building a small system that works for you every day.\n\n\n\n\n\nSomething simple like:\n\ncollecting signals\nfiltering information\nsending a short daily briefing\npreparing ideas for writing or research\n\nThis is exactly how analysts, consultants, and research teams operate. The difference is that today we can build a lightweight version of this for ourselves.\nIn this article I show how to build a first automation assistant using only free infrastructure. The goal is not sophistication. The goal is to create a stable base you can expand later."
+    "section": "Architecture Overview",
+    "text": "Architecture Overview\nThe system we create looks like this:\n\nInfrastructure layer: Oracle VM\nOperating system: Ubuntu\nContainer runtime: Docker\nAutomation engine: n8n\nWorkflows\n\nThis layered approach ensures simplicity and predictability."
+  },
+  {
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#step-by-step-guide",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#step-by-step-guide",
+    "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
+    "section": "Step-by-Step Guide",
+    "text": "Step-by-Step Guide\n\nStep 1: Creating the Server\n\nChoose Ubuntu 22.04 (Always Free eligible, 1GB RAM).\nConnect using SSH:\nssh -i KEY ubuntu@SERVER_IP\nUpdate the system:\nsudo apt update && sudo apt upgrade -y\n\n\n\nStep 2: Installing Docker\n\nInstall Docker:\nsudo apt install docker.io -y\nEnable Docker:\nsudo systemctl start docker\nsudo systemctl enable docker\nAdd your user to the Docker group:\nsudo usermod -aG docker ubuntu\nnewgrp docker\n\n\n\nStep 3: Creating Persistent Storage\n\nCreate a folder for persistent data:\nmkdir -p ~/n8n_data\nThis folder will store workflows, credentials, settings, and users.\n\n\n\nStep 4: Running n8n\n\nLaunch n8n:\ndocker run -d \\\n--name n8n \\\n-p 5678:5678 \\\n-v ~/n8n_data:/home/node/.n8n \\\n--restart unless-stopped \\\ndocker.n8n.io/n8nio/n8n\nAccess n8n at http://SERVER_IP:5678.\n\n\n\nStep 5: Adding Swap for Stability\n\nCreate a swap file:\nsudo fallocate -l 2G /swapfile\nsudo chmod 600 /swapfile\nsudo mkswap /swapfile\nsudo swapon /swapfile\nMake it persistent:\necho '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab"
+  },
+  {
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#disaster-recovery",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#disaster-recovery",
+    "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
+    "section": "Disaster Recovery",
+    "text": "Disaster Recovery\nBackup the ~/n8n_data folder to ensure system recovery:\ntar -czf n8n_backup.tar.gz ~/n8n_data\nTo restore:\n\nCreate a new VM.\nInstall Docker.\nRestore the folder.\nRestart the container.\n\nRecovery time: about five minutes."
+  },
+  {
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#expanding-the-system",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#expanding-the-system",
+    "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
+    "section": "Expanding the System",
+    "text": "Expanding the System\nOnce the foundation is stable, you can expand to include:\n\nAI summaries of articles\nGenerating LinkedIn post ideas\nTracking competitors\nMonitoring research papers\nCreating personal learning feeds"
+  },
+  {
+    "objectID": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#final-workflow-visualization",
+    "href": "content/proj/posts/automation_workflow/posts/n8n_setup/index.html#final-workflow-visualization",
+    "title": "Building Your First Automation Assistant for Free with n8n and Oracle Cloud",
+    "section": "Final Workflow Visualization",
+    "text": "Final Workflow Visualization\nBelow is a visual representation of the final workflow described in this post. This image illustrates the steps involved in the automation process:"
   }
 ]

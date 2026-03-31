@@ -32,110 +32,72 @@
 <p><img src="https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/featured.png" class="img-fluid" style="width:90.0%"></p>
 </div>
 </div>
-<p>Something simple like:</p>
-<ul>
-<li>collecting signals</li>
-<li>filtering information</li>
-<li>sending a short daily briefing</li>
-<li>preparing ideas for writing or research</li>
-</ul>
-<p>This is exactly how analysts, consultants, and research teams operate. The difference is that today we can build a lightweight version of this for ourselves.</p>
-<p>In this article I show how to build a <strong>first automation assistant</strong> using only free infrastructure. The goal is not sophistication. The goal is to create a stable base you can expand later.</p>
+<p>Automation can start with simple tasks like collecting signals, filtering information, and sending daily briefings. This article demonstrates how to build a <strong>first automation assistant</strong> using free infrastructure, creating a stable base for future expansion.</p>
 </section>
 <section id="the-idea-start-simple-and-expand" class="level2">
-<h2 class="anchored" data-anchor-id="the-idea-start-simple-and-expand">The idea: start simple and expand</h2>
+<h2 class="anchored" data-anchor-id="the-idea-start-simple-and-expand">The Idea: Start Simple and Expand</h2>
 <p>The first workflow we build is intentionally basic:</p>
-<p>RSS feeds<br>
-→ filter articles<br>
-→ combine sources<br>
-→ send one daily email</p>
-<p>This may look simple, but it teaches the three fundamental ideas behind all automation systems:</p>
-<p><strong>Signal ingestion</strong><br>
-<strong>Signal processing</strong><br>
-<strong>Signal delivery</strong></p>
-<p>Once this works, you can add:</p>
 <ul>
-<li>AI summaries</li>
-<li>social media automation</li>
-<li>research monitoring</li>
-<li>lead tracking</li>
-<li>training content generation</li>
+<li><strong>RSS feeds → filter articles → combine sources → send one daily email</strong></li>
 </ul>
-<p>The important part is the structure.</p>
+<p>This teaches three fundamental ideas behind automation systems:</p>
+<ol type="1">
+<li><strong>Signal ingestion</strong></li>
+<li><strong>Signal processing</strong></li>
+<li><strong>Signal delivery</strong></li>
+</ol>
+<p>Once this works, you can expand to include AI summaries, social media automation, research monitoring, and more.</p>
 </section>
-<section id="why-n8n" class="level2">
-<h2 class="anchored" data-anchor-id="why-n8n">Why n8n?</h2>
-<p><a href="https://n8n.io">n8n</a> is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself.</p>
-<p>This means:</p>
+<section id="why-n8n-and-oracle-cloud-free-tier" class="level2">
+<h2 class="anchored" data-anchor-id="why-n8n-and-oracle-cloud-free-tier">Why n8n and Oracle Cloud Free Tier?</h2>
+<section id="n8n" class="level3">
+<h3 class="anchored" data-anchor-id="n8n">n8n</h3>
+<p><a href="https://n8n.io">n8n</a> is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself. This means:</p>
 <ul>
-<li>no subscription required</li>
-<li>full control</li>
-<li>unlimited workflows</li>
-<li>no vendor lock-in</li>
+<li>No subscription required</li>
+<li>Full control</li>
+<li>Unlimited workflows</li>
+<li>No vendor lock-in</li>
 </ul>
-<p>For learning automation, this is ideal.</p>
 </section>
-<section id="why-oracle-cloud-free-tier" class="level2">
-<h2 class="anchored" data-anchor-id="why-oracle-cloud-free-tier">Why Oracle Cloud Free Tier?</h2>
-<p>Oracle offers a surprisingly generous free infrastructure tier that includes:</p>
+<section id="oracle-cloud-free-tier" class="level3">
+<h3 class="anchored" data-anchor-id="oracle-cloud-free-tier">Oracle Cloud Free Tier</h3>
+<p>Oracle offers a generous free infrastructure tier, including:</p>
 <ul>
 <li>Always free virtual machines</li>
 <li>1GB RAM instances</li>
-<li>free storage</li>
-<li>public IP</li>
-<li>continuous availability</li>
+<li>Free storage</li>
+<li>Public IP</li>
+<li>Continuous availability</li>
 </ul>
-<p>For small automation servers this is more than enough.</p>
-<p>The important question is:</p>
-<p><strong>Why choose the 1GB VM?</strong></p>
-<p>Because our goal is not performance. It is stability and cost control.</p>
-<p>A 1GB VM is enough for:</p>
-<ul>
-<li>n8n</li>
-<li>small workflows</li>
-<li>RSS ingestion</li>
-<li>email automation</li>
-<li>simple AI integrations</li>
-</ul>
-<p>And it forces good engineering discipline:</p>
-<ul>
-<li>lightweight workflows</li>
-<li>efficient pipelines</li>
-<li>minimal overhead</li>
-</ul>
-<p>In other words:</p>
-<p>Small infrastructure encourages clean design.</p>
+<p>This is ideal for small automation servers.</p>
 </section>
-<section id="the-architecture-we-are-building" class="level2">
-<h2 class="anchored" data-anchor-id="the-architecture-we-are-building">The architecture we are building</h2>
+</section>
+<section id="architecture-overview" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-overview">Architecture Overview</h2>
 <p>The system we create looks like this:</p>
-<p>Oracle VM<br>
-→ Ubuntu<br>
-→ Docker<br>
-→ n8n<br>
-→ workflows</p>
-<p>Visually:</p>
-<p>Infrastructure layer<br>
-Operating system<br>
-Container runtime<br>
-Automation engine<br>
-Workflows</p>
-<p>This layered approach makes recovery simple and predictable.</p>
+<ol type="1">
+<li><strong>Infrastructure layer</strong>: Oracle VM</li>
+<li><strong>Operating system</strong>: Ubuntu</li>
+<li><strong>Container runtime</strong>: Docker</li>
+<li><strong>Automation engine</strong>: n8n</li>
+<li><strong>Workflows</strong></li>
+</ol>
+<p>This layered approach ensures simplicity and predictability.</p>
 </section>
-<section id="step-1-creating-the-server" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-creating-the-server">Step 1 — Creating the server</h2>
-<p>We start by creating an Oracle Cloud VM:</p>
-<p>Choose:</p>
-<p>Ubuntu 22.04<br>
-Always Free eligible<br>
-1GB RAM</p>
-<p>Once created we connect using SSH:</p>
+<section id="step-by-step-guide" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-guide">Step-by-Step Guide</h2>
+<section id="step-1-creating-the-server" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-creating-the-server">Step 1: Creating the Server</h3>
+<ol type="1">
+<li><p>Choose Ubuntu 22.04 (Always Free eligible, 1GB RAM).</p></li>
+<li><p>Connect using SSH:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ssh</span> <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">-i</span> KEY ubuntu@SERVER_IP</span></code></pre></div></div>
-<p>After connecting we update the system:</p>
+font-style: inherit;">-i</span> KEY ubuntu@SERVER_IP</span></code></pre></div></div></li>
+<li><p>Update the system:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> apt update <span class="kw" style="color: #003B4F;
@@ -145,33 +107,26 @@ font-style: inherit;">&amp;&amp;</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> apt upgrade <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">-y</span></span></code></pre></div></div>
-<p>This is standard practice before installing anything.</p>
+font-style: inherit;">-y</span></span></code></pre></div></div></li>
+</ol>
 </section>
-<section id="step-2-installing-docker" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-installing-docker">Step 2 — Installing Docker</h2>
-<p>Instead of installing n8n directly, we run it inside Docker.</p>
-<p>This has major advantages:</p>
-<ul>
-<li>isolation</li>
-<li>easy upgrades</li>
-<li>easy recovery</li>
-<li>reproducibility</li>
-</ul>
-<p>Install Docker:</p>
+<section id="step-2-installing-docker" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-installing-docker">Step 2: Installing Docker</h3>
+<ol type="1">
+<li><p>Install Docker:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> apt install docker.io <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">-y</span></span></code></pre></div></div>
-<p>Enable it:</p>
+font-style: inherit;">-y</span></span></code></pre></div></div></li>
+<li><p>Enable Docker:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> systemctl start docker</span>
 <span id="cb4-2"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">sudo</span> systemctl enable docker</span></code></pre></div></div>
-<p>Allow your user:</p>
+font-style: inherit;">sudo</span> systemctl enable docker</span></code></pre></div></div></li>
+<li><p>Add your user to the Docker group:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> usermod <span class="at" style="color: #657422;
@@ -179,34 +134,25 @@ background-color: null;
 font-style: inherit;">-aG</span> docker ubuntu</span>
 <span id="cb5-2"><span class="ex" style="color: null;
 background-color: null;
-font-style: inherit;">newgrp</span> docker</span></code></pre></div></div>
-<p>At this point Docker is ready.</p>
+font-style: inherit;">newgrp</span> docker</span></code></pre></div></div></li>
+</ol>
 </section>
-<section id="step-3-creating-persistent-storage" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-creating-persistent-storage">Step 3 — Creating persistent storage</h2>
-<p>This is the most important design decision.</p>
-<p>We create a folder:</p>
+<section id="step-3-creating-persistent-storage" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-creating-persistent-storage">Step 3: Creating Persistent Storage</h3>
+<ol type="1">
+<li><p>Create a folder for persistent data:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">mkdir</span> <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">-p</span> ~/n8n_data</span></code></pre></div></div>
-<section id="why" class="level3">
-<h3 class="anchored" data-anchor-id="why">Why?</h3>
-<p>Because containers are disposable. Data is not.</p>
-<p>This folder will contain:</p>
-<ul>
-<li>workflows</li>
-<li>credentials</li>
-<li>settings</li>
-<li>users</li>
-</ul>
-<p>If you protect this folder, you protect the system.</p>
+<p>This folder will store workflows, credentials, settings, and users.</p></li>
+</ol>
 </section>
-</section>
-<section id="step-4-running-n8n" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-running-n8n">Step 4 — Running n8n</h2>
-<p>Now we launch n8n:</p>
+<section id="step-4-running-n8n" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-running-n8n">Step 4: Running n8n</h3>
+<ol type="1">
+<li><p>Launch n8n:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">docker</span> run <span class="at" style="color: #657422;
@@ -226,24 +172,14 @@ font-style: inherit;">\</span></span>
 <span id="cb7-5">--restart unless-stopped <span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">\</span></span>
-<span id="cb7-6">docker.n8n.io/n8nio/n8n</span></code></pre></div></div>
-<p>This means:</p>
-<ul>
-<li>Run container</li>
-<li>Expose port</li>
-<li>Mount storage</li>
-<li>Auto restart</li>
-</ul>
-<p>We then access:</p>
-<p><strong>http://SERVER_IP:5678</strong></p>
-<p>Create the admin user and activate the community license.</p>
-<p>Now the automation platform is ready.</p>
+<span id="cb7-6">docker.n8n.io/n8nio/n8n</span></code></pre></div></div></li>
+<li><p>Access n8n at <strong>http://SERVER_IP:5678</strong>.</p></li>
+</ol>
 </section>
-<section id="step-5-making-a-small-vm-stable" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-making-a-small-vm-stable">Step 5 — Making a small VM stable</h2>
-<p>A <strong>1GB VM</strong> can occasionally run out of memory. The simplest fix is adding swap.</p>
-<section id="create-swap" class="level3">
-<h3 class="anchored" data-anchor-id="create-swap">Create swap:</h3>
+<section id="step-5-adding-swap-for-stability" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-adding-swap-for-stability">Step 5: Adding Swap for Stability</h3>
+<ol type="1">
+<li><p>Create a swap file:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> fallocate <span class="at" style="color: #657422;
@@ -257,8 +193,8 @@ background-color: null;
 font-style: inherit;">sudo</span> mkswap /swapfile</span>
 <span id="cb8-4"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">sudo</span> swapon /swapfile</span></code></pre></div></div>
-<p>Make persistent:</p>
+font-style: inherit;">sudo</span> swapon /swapfile</span></code></pre></div></div></li>
+<li><p>Make it persistent:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">echo</span> <span class="st" style="color: #20794D;
@@ -270,144 +206,75 @@ font-style: inherit;">|</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sudo</span> tee <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">-a</span> /etc/fstab</span></code></pre></div></div>
-<p>This dramatically improves stability.</p>
+font-style: inherit;">-a</span> /etc/fstab</span></code></pre></div></div></li>
+</ol>
 </section>
 </section>
 <section id="building-the-first-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="building-the-first-workflow">Building the first workflow</h2>
-<p>The goal of the first workflow is simple:</p>
-<p>Collect a few articles daily from:</p>
+<h2 class="anchored" data-anchor-id="building-the-first-workflow">Building the First Workflow</h2>
+<p>The first workflow collects articles daily from sources like AI news, the R ecosystem, and research updates. It limits each source to 3 items, combines them, and sends one email.</p>
+<section id="workflow-structure" class="level3">
+<h3 class="anchored" data-anchor-id="workflow-structure">Workflow Structure</h3>
+<ol type="1">
+<li><strong>Schedule trigger</strong></li>
+<li><strong>RSS reader</strong></li>
+<li><strong>Limit</strong></li>
+<li><strong>Merge</strong></li>
+<li><strong>Format</strong></li>
+<li><strong>Aggregate</strong></li>
+<li><strong>Email</strong></li>
+</ol>
+</section>
+<section id="key-design-lessons" class="level3">
+<h3 class="anchored" data-anchor-id="key-design-lessons">Key Design Lessons</h3>
 <ul>
-<li>AI news</li>
-<li>R ecosystem</li>
-<li>Infectious disease research</li>
+<li><strong>Limit early</strong>: Apply limits to each source before merging.</li>
+<li><strong>Merge streams before reporting</strong>: Combine feeds before aggregation.</li>
+<li><strong>Aggregate only once</strong>: Filter and format data before aggregation.</li>
 </ul>
-<p>Limit each source to 3 items.</p>
-<p>Combine everything.</p>
-<p>Send one email.</p>
-<p>The workflow structure becomes:</p>
-<p>Schedule trigger → RSS reader → Limit → Merge → Format → Aggregate → Email</p>
-<p>This teaches a very important automation principle:</p>
-<blockquote class="blockquote">
-<p>“Always structure before adding complexity.”</p>
-</blockquote>
-<p>Key design lessons from the workflow</p>
-<p>Three ideas matter more than the tools.</p>
-<p>Limit early</p>
-<p>We limit each RSS source individually.</p>
-<p>Not:</p>
-<p>Merge → Limit</p>
-<p>But:</p>
-<p>Limit → Merge</p>
-<p>This preserves balance between sources.</p>
-<p>Merge streams before reporting</p>
-<p>Multiple feeds must be merged before aggregation.</p>
-<p>Otherwise each source behaves independently.</p>
-<p>Aggregate only once</p>
-<p>Aggregation should happen only after filtering and formatting.</p>
-<p>This produces one clean output.</p>
-<p>What this simple workflow already teaches</p>
-<p>Even a basic pipeline like this introduces real concepts used in larger systems:</p>
-<ul>
-<li>Data ingestion</li>
-<li>Filtering</li>
-<li>Quota allocation</li>
-<li>Stream merging</li>
-<li>Data transformation</li>
-<li>Report generation</li>
-</ul>
-<p>These are exactly the same concepts used in:</p>
-<ul>
-<li>Data engineering</li>
-<li>Research monitoring</li>
-<li>Risk analytics</li>
-<li>AI pipelines</li>
-</ul>
-<p>The scale changes. The logic does not.</p>
-<p>Disaster recovery mindset</p>
-<p>One of the most important lessons when building infrastructure is this:</p>
-<p>Servers fail. Systems break. Humans make mistakes.</p>
-<p>So we design for recovery.</p>
-<p>In this setup only one thing really matters:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">~/n8n_data</span></span></code></pre></div></div>
-<p>If this folder survives, the system survives.</p>
-<p>Backup takes seconds:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><span class="fu" style="color: #4758AB;
+</section>
+</section>
+<section id="disaster-recovery" class="level2">
+<h2 class="anchored" data-anchor-id="disaster-recovery">Disaster Recovery</h2>
+<p>Backup the <code>~/n8n_data</code> folder to ensure system recovery:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">tar</span> <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">-czf</span> n8n_backup.tar.gz ~/n8n_data</span></code></pre></div></div>
-<p>If disaster happens:</p>
-<ul>
-<li>Create new VM</li>
-<li>Install Docker</li>
-<li>Restore folder</li>
-<li>Restart container</li>
-</ul>
+<p>To restore:</p>
+<ol type="1">
+<li>Create a new VM.</li>
+<li>Install Docker.</li>
+<li>Restore the folder.</li>
+<li>Restart the container.</li>
+</ol>
 <p><strong>Recovery time: about five minutes.</strong></p>
-<p>This is why containerized systems are powerful.</p>
 </section>
-<section id="why-start-this-way-instead-of-using-saas-automation" class="level2">
-<h2 class="anchored" data-anchor-id="why-start-this-way-instead-of-using-saas-automation">Why start this way instead of using SaaS automation?</h2>
-<p>Because building your own small system teaches:</p>
+<section id="expanding-the-system" class="level2">
+<h2 class="anchored" data-anchor-id="expanding-the-system">Expanding the System</h2>
+<p>Once the foundation is stable, you can expand to include:</p>
 <ul>
-<li>How workflows really operate</li>
-<li>How data moves</li>
-<li>How failures happen</li>
-<li>How to recover</li>
+<li>AI summaries of articles</li>
+<li>Generating LinkedIn post ideas</li>
+<li>Tracking competitors</li>
+<li>Monitoring research papers</li>
+<li>Creating personal learning feeds</li>
 </ul>
-<p>And it removes cost pressure while learning.</p>
-<p>Later you can always connect:</p>
-<ul>
-<li>OpenAI</li>
-<li>GitHub</li>
-<li>Google Drive</li>
-<li>Notion</li>
-<li>APIs</li>
-</ul>
-<p>But the foundation remains yours.</p>
-<p>What you can build next</p>
-<p>Once this works, natural expansions include:</p>
-<p>Adding AI summaries of articles.</p>
-<p>Generating daily LinkedIn post ideas.</p>
-<p>Tracking competitors.</p>
-<p>Monitoring research papers.</p>
-<p>Creating personal learning feeds.</p>
-<p>The first workflow is not the goal.</p>
-<p>It is the foundation.</p>
+</section>
+<section id="final-workflow-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="final-workflow-visualization">Final Workflow Visualization</h2>
+<p>Below is a visual representation of the final workflow described in this post. This image illustrates the steps involved in the automation process:</p>
+<p><img src="https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/images/n8n-workflow.png" class="img-fluid" style="width:100.0%"></p>
 </section>
 <section id="final-advice" class="level2">
-<h2 class="anchored" data-anchor-id="final-advice">Final advice</h2>
-<p>Do not try to build everything at once.</p>
-<p>Build:</p>
-<ul>
-<li>one workflow</li>
-<li>then improve it</li>
-<li>then add one more</li>
-</ul>
-<p>Automation grows best through iteration.</p>
+<h2 class="anchored" data-anchor-id="final-advice">Final Advice</h2>
 <ul>
 <li>Start simple.</li>
 <li>Keep it stable.</li>
 <li>Expand gradually.</li>
 </ul>
-<p>That is how systems become reliable.</p>
-</section>
-<section id="closing-thought" class="level2">
-<h2 class="anchored" data-anchor-id="closing-thought">Closing thought</h2>
-<p>Automation is often presented as something complex or futuristic. In reality it starts with something very simple:</p>
-<ul>
-<li>Collect information.</li>
-<li>Structure it.</li>
-<li>Deliver it.</li>
-</ul>
-<p>From there, intelligence can be added.</p>
-<p>And that is exactly what we built here.</p>
-<p>⸻</p>
-<p>Future articles may expand this setup toward AI-assisted research workflows and personal knowledge systems.</p>
+<p>Automation grows best through iteration. Build one workflow, improve it, and then add more.</p>
 
 
 </section>
@@ -1060,7 +927,7 @@ Buy your hardcover here: <a href="https://amzn.to/3N7zZjH" target="_blank" rel="
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>Process of building an index to show the dimension of health with an index. Data used is the life expectancy at birth data from the IHME GBD 2021 <strong>Global Burden of Disease Study 2021 (GBD 2021) Mortality and Life Expectancy Forecasts 2022-2050</strong> dataset.</p>
-</div><div class="column" style="width:20%;">
+</div><div class="column" style="width:40%;">
 <p><img src="https://federicagazzelloni.com/content/proj/posts/performance_metrics/posts/health_index/featured.png" class="img-fluid"></p>
 </div>
 </div>
@@ -2815,7 +2682,7 @@ font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span></span></code></pre></div></div>
 </div>
-<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Regions' le" data-fig-align="center">
+<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Regions' le">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/images/le.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Regions' le">
 </div>

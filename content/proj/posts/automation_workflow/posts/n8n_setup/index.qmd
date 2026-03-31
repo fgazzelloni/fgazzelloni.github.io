@@ -37,426 +37,195 @@ But what really changes productivity is not a single tool. It is building a **sm
 :::
 ::::
 
+Automation can start with simple tasks like collecting signals, filtering information, and sending daily briefings. This article demonstrates how to build a **first automation assistant** using free infrastructure, creating a stable base for future expansion.
 
-
-Something simple like:
-
-- collecting signals
-- filtering information
-- sending a short daily briefing
-- preparing ideas for writing or research
-
-This is exactly how analysts, consultants, and research teams operate. The difference is that today we can build a lightweight version of this for ourselves.
-
-In this article I show how to build a **first automation assistant** using only free infrastructure. The goal is not sophistication. The goal is to create a stable base you can expand later.
-
-## The idea: start simple and expand
+## The Idea: Start Simple and Expand
 
 The first workflow we build is intentionally basic:
 
-RSS feeds  
-→ filter articles  
-→ combine sources  
-→ send one daily email
+- **RSS feeds → filter articles → combine sources → send one daily email**
 
-This may look simple, but it teaches the three fundamental ideas behind all automation systems:
+This teaches three fundamental ideas behind automation systems:
 
-**Signal ingestion**  
-**Signal processing**  
-**Signal delivery**
+1. **Signal ingestion**
+2. **Signal processing**
+3. **Signal delivery**
 
-Once this works, you can add:
+Once this works, you can expand to include AI summaries, social media automation, research monitoring, and more.
 
-- AI summaries
-- social media automation
-- research monitoring
-- lead tracking
-- training content generation
+## Why n8n and Oracle Cloud Free Tier?
 
-The important part is the structure.
+### n8n
+[n8n](https://n8n.io) is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself. This means:
 
-## Why n8n?
+- No subscription required
+- Full control
+- Unlimited workflows
+- No vendor lock-in
 
-[n8n](https://n8n.io) is an open workflow automation tool similar to Zapier or Make, but with one crucial difference: you can host it yourself.
-
-This means:
-
-- no subscription required
-- full control
-- unlimited workflows
-- no vendor lock-in
-
-For learning automation, this is ideal.
-
-## Why Oracle Cloud Free Tier?
-
-Oracle offers a surprisingly generous free infrastructure tier that includes:
+### Oracle Cloud Free Tier
+Oracle offers a generous free infrastructure tier, including:
 
 - Always free virtual machines
 - 1GB RAM instances
-- free storage
-- public IP
-- continuous availability
+- Free storage
+- Public IP
+- Continuous availability
 
-For small automation servers this is more than enough.
+This is ideal for small automation servers.
 
-The important question is:
-
-**Why choose the 1GB VM?**
-
-Because our goal is not performance. It is stability and cost control.
-
-A 1GB VM is enough for:
-
-- n8n
-- small workflows
-- RSS ingestion
-- email automation
-- simple AI integrations
-
-And it forces good engineering discipline:
-
-- lightweight workflows
-- efficient pipelines
-- minimal overhead
-
-In other words:
-
-Small infrastructure encourages clean design.
-
-## The architecture we are building
+## Architecture Overview
 
 The system we create looks like this:
 
-Oracle VM  
-→ Ubuntu  
-→ Docker  
-→ n8n  
-→ workflows
+1. **Infrastructure layer**: Oracle VM
+2. **Operating system**: Ubuntu
+3. **Container runtime**: Docker
+4. **Automation engine**: n8n
+5. **Workflows**
 
-Visually:
+This layered approach ensures simplicity and predictability.
 
-Infrastructure layer  
-Operating system  
-Container runtime  
-Automation engine  
-Workflows
+## Step-by-Step Guide
 
-This layered approach makes recovery simple and predictable.
+### Step 1: Creating the Server
 
-## Step 1 — Creating the server
+1. Choose Ubuntu 22.04 (Always Free eligible, 1GB RAM).
+2. Connect using SSH:
 
-We start by creating an Oracle Cloud VM:
+   ```bash
+   ssh -i KEY ubuntu@SERVER_IP
+   ```
 
-Choose:
+3. Update the system:
 
-Ubuntu 22.04  
-Always Free eligible  
-1GB RAM  
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
 
-Once created we connect using SSH:
+### Step 2: Installing Docker
 
-```bash
-ssh -i KEY ubuntu@SERVER_IP
-```
+1. Install Docker:
 
-After connecting we update the system:
+   ```bash
+   sudo apt install docker.io -y
+   ```
 
-```bash
-sudo apt update && sudo apt upgrade -y
-```
+2. Enable Docker:
 
-This is standard practice before installing anything.
+   ```bash
+   sudo systemctl start docker
+   sudo systemctl enable docker
+   ```
 
-## Step 2 — Installing Docker
+3. Add your user to the Docker group:
 
-Instead of installing n8n directly, we run it inside Docker.
+   ```bash
+   sudo usermod -aG docker ubuntu
+   newgrp docker
+   ```
 
-This has major advantages:
+### Step 3: Creating Persistent Storage
 
-- isolation
-- easy upgrades
-- easy recovery
-- reproducibility
+1. Create a folder for persistent data:
 
-Install Docker:
+   ```bash
+   mkdir -p ~/n8n_data
+   ```
 
-```bash
-sudo apt install docker.io -y
-```
+   This folder will store workflows, credentials, settings, and users.
 
-Enable it:
+### Step 4: Running n8n
 
-```bash
-sudo systemctl start docker
-sudo systemctl enable docker
-```
+1. Launch n8n:
 
-Allow your user:
+   ```bash
+   docker run -d \
+   --name n8n \
+   -p 5678:5678 \
+   -v ~/n8n_data:/home/node/.n8n \
+   --restart unless-stopped \
+   docker.n8n.io/n8nio/n8n
+   ```
 
-```bash
-sudo usermod -aG docker ubuntu
-newgrp docker
-```
+2. Access n8n at **http://SERVER_IP:5678**.
 
-At this point Docker is ready.
+### Step 5: Adding Swap for Stability
 
-## Step 3 — Creating persistent storage
+1. Create a swap file:
 
-This is the most important design decision.
+   ```bash
+   sudo fallocate -l 2G /swapfile
+   sudo chmod 600 /swapfile
+   sudo mkswap /swapfile
+   sudo swapon /swapfile
+   ```
 
-We create a folder:
+2. Make it persistent:
 
-```bash
-mkdir -p ~/n8n_data
-```
+   ```bash
+   echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+   ```
 
-### Why?
+## Building the First Workflow
 
-Because containers are disposable. Data is not.
+The first workflow collects articles daily from sources like AI news, the R ecosystem, and research updates. It limits each source to 3 items, combines them, and sends one email.
 
-This folder will contain:
+### Workflow Structure
 
-- workflows
-- credentials
-- settings
-- users
+1. **Schedule trigger**
+2. **RSS reader**
+3. **Limit**
+4. **Merge**
+5. **Format**
+6. **Aggregate**
+7. **Email**
 
-If you protect this folder, you protect the system.
+### Key Design Lessons
 
-## Step 4 — Running n8n
+- **Limit early**: Apply limits to each source before merging.
+- **Merge streams before reporting**: Combine feeds before aggregation.
+- **Aggregate only once**: Filter and format data before aggregation.
 
-Now we launch n8n:
+## Disaster Recovery
 
-```bash
-docker run -d \
---name n8n \
--p 5678:5678 \
--v ~/n8n_data:/home/node/.n8n \
---restart unless-stopped \
-docker.n8n.io/n8nio/n8n
-```
-
-This means:
-
-- Run container
-- Expose port
-- Mount storage
-- Auto restart
-
-We then access:
-
-**http://SERVER_IP:5678**
-
-Create the admin user and activate the community license.
-
-Now the automation platform is ready.
-
-## Step 5 — Making a small VM stable
-
-A **1GB VM** can occasionally run out of memory. The simplest fix is adding swap.
-
-### Create swap:
-
-```bash
-sudo fallocate -l 2G /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-```
-
-Make persistent:
-
-```bash
-echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-```
-
-This dramatically improves stability.
-
-## Building the first workflow
-
-The goal of the first workflow is simple:
-
-Collect a few articles daily from:
-
-- AI news
-- R ecosystem
-- Infectious disease research
-
-Limit each source to 3 items.
-
-Combine everything.
-
-Send one email.
-
-The workflow structure becomes:
-
-Schedule trigger
-→ RSS reader
-→ Limit
-→ Merge
-→ Format
-→ Aggregate
-→ Email
-
-This teaches a very important automation principle:
-
-> "Always structure before adding complexity."
-
-Key design lessons from the workflow
-
-Three ideas matter more than the tools.
-
-Limit early
-
-We limit each RSS source individually.
-
-Not:
-
-Merge → Limit
-
-But:
-
-Limit → Merge
-
-This preserves balance between sources.
-
-Merge streams before reporting
-
-Multiple feeds must be merged before aggregation.
-
-Otherwise each source behaves independently.
-
-Aggregate only once
-
-Aggregation should happen only after filtering and formatting.
-
-This produces one clean output.
-
-What this simple workflow already teaches
-
-Even a basic pipeline like this introduces real concepts used in larger systems:
-
-- Data ingestion
-- Filtering
-- Quota allocation
-- Stream merging
-- Data transformation
-- Report generation
-
-These are exactly the same concepts used in:
-
-- Data engineering
-- Research monitoring
-- Risk analytics
-- AI pipelines
-
-The scale changes. The logic does not.
-
-Disaster recovery mindset
-
-One of the most important lessons when building infrastructure is this:
-
-Servers fail. Systems break. Humans make mistakes.
-
-So we design for recovery.
-
-In this setup only one thing really matters:
-
-```bash
-~/n8n_data
-```
-
-If this folder survives, the system survives.
-
-Backup takes seconds:
+Backup the `~/n8n_data` folder to ensure system recovery:
 
 ```bash
 tar -czf n8n_backup.tar.gz ~/n8n_data
 ```
 
-If disaster happens:
+To restore:
 
-- Create new VM
-- Install Docker
-- Restore folder
-- Restart container
+1. Create a new VM.
+2. Install Docker.
+3. Restore the folder.
+4. Restart the container.
 
 **Recovery time: about five minutes.**
 
-This is why containerized systems are powerful.
+## Expanding the System
 
-## Why start this way instead of using SaaS automation?
+Once the foundation is stable, you can expand to include:
 
-Because building your own small system teaches:
+- AI summaries of articles
+- Generating LinkedIn post ideas
+- Tracking competitors
+- Monitoring research papers
+- Creating personal learning feeds
 
-- How workflows really operate
-- How data moves
-- How failures happen
-- How to recover
+## Final Workflow Visualization
 
-And it removes cost pressure while learning.
+Below is a visual representation of the final workflow described in this post. This image illustrates the steps involved in the automation process:
 
-Later you can always connect:
+![](images/n8n-workflow.png){width=100%}
 
-- OpenAI
-- GitHub
-- Google Drive
-- Notion
-- APIs
-
-But the foundation remains yours.
-
-What you can build next
-
-Once this works, natural expansions include:
-
-Adding AI summaries of articles.
-
-Generating daily LinkedIn post ideas.
-
-Tracking competitors.
-
-Monitoring research papers.
-
-Creating personal learning feeds.
-
-The first workflow is not the goal.
-
-It is the foundation.
-
-## Final advice
-
-Do not try to build everything at once.
-
-Build:
-
-- one workflow
-- then improve it
-- then add one more
-
-Automation grows best through iteration.
+## Final Advice
 
 - Start simple.
 - Keep it stable.
 - Expand gradually.
 
-That is how systems become reliable.
-
-## Closing thought
-
-Automation is often presented as something complex or futuristic. In reality it starts with something very simple:
-
-- Collect information.
-- Structure it.
-- Deliver it.
-
-From there, intelligence can be added.
-
-And that is exactly what we built here.
-
-⸻
-
-Future articles may expand this setup toward AI-assisted research workflows and personal knowledge systems.
+Automation grows best through iteration. Build one workflow, improve it, and then add more.
 
 
