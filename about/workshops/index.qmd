@@ -1,7 +1,11 @@
 ---
 title: "Workshops"
-description: "Selected workshops taught by Federica Gazzelloni for organizations including the CDC, University of Washington, and Helmholtz."
+description: "The Carpentries and R-Ladies workshops and talks taught by Federica Gazzelloni."
 ---
+
+## The Carpentries
+
+Selected workshops delivered for the CDC, the University of Washington and NNLM, and the Helmholtz Information & Data Science Academy.
 
 ### CDC Centers for Disease Control
 
@@ -46,3 +50,9 @@ Date: February 12-13 2024 \| Helmholtz Online
 Website: <https://macrobiotus.github.io/2024-02-12-helmholtz-online/>
 
 EtherPad: <https://pad.carpentries.org/2024-02-12-helmholtz-online>
+
+## R-Ladies Workshops and Talks
+
+Selected tutorials, workshops, and talks delivered for R-Ladies chapters, including events organised by R-Ladies Rome and collaborations with other chapters.
+
+{{< include ../rladies/_rladies-body.qmd >}}

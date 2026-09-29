@@ -3,7 +3,7 @@ title: "About"
 image: images/profile.png
 image-alt: "Federica Gazzelloni"
 cap-location: bottom
-description: "Thanks for stopping by and exploring my journey!"
+description: "Professional profile of Federica Gazzelloni, statistician, actuary, data scientist, author, and instructor."
 page-layout: full
 title-block-banner: true
 page-navigation: true
@@ -38,32 +38,4 @@ about:
       href: https://scholar.google.com/citations?hl=en&user=Xes0-r0AAAAJ
 ---
 
-:::: panel-tabset
-## About
-
-{{< include about/profile/index.qmd >}}
-
-## Book
-
-{{< include about/book/index.qmd >}}
-
-## Workshops
-
-{{< include about/workshops/index.qmd >}}
-
-## Talks
-
-::: {style="margin-top: 10px; face: bold;font-size: 2em; color: #343a40;"}
-List of my talks
-:::
-
-{{< include about/talks/index.qmd >}}
-
-## R-Ladies
-
-{{< include about/rladies/index.qmd >}}
-
-## Papers
-
-{{< include about/papers/index.qmd >}}
-::::
+{{< include about/profile/_profile-body.qmd >}}

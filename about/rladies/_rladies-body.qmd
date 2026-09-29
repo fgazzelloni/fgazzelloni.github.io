@@ -1,0 +1,77 @@
+###
+
+> Sharing the mission with the open source community
+
+### `R-Ladies DC`
+
+**Date**: September 2022
+
+**Abstract**: This tutorial is meant for people new to spatial analysis and modeling with RStudio but comfortable in making simple data visualization with ggplot2. In this video, you will learn how to make a map with RStudio, and how to use data modeling for making spatial model analysis.
+
+**Material**: It is helpful to have the following R packages installed beforehand: {tidyverse}, {ggthemes}, {maptools}, {ggmap}, {sf}, {spocc}, {dismo}, {SpatialEpi}, and {oregonfrogs} dataset from
+
+`remotes::install_github("fgazzelloni/oregonfrogs")`
+
+-   GitHub Repo: <https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R>
+-   Book: <https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R>
+
+{{< video https://www.youtube.com/watch?v=oYRnA-8ncPU >}}
+
+------------------------------------------------------------------------
+
+### `R-Ladies NYC & R-Ladies Rome`
+
+**Date**: April 2023
+
+**Abstract**: In this video, you will learn about Modeling infectious diseases with R using both deterministic and Bayesian SIR model methods. We will explore both Deterministic and Bayesian SIR model methods, and learn how to use the well-known SIR model to understand how epidemics unfold and how to prevent their spread.
+
+This video is perfect for students of science, healthcare professionals, or anyone who wants to gain a deeper understanding of how to use R for Modeling infectious diseases.
+
+**Agenda**:
+
+-   Introduction presentation of the Chapters and R-Ladies Global action
+-   SIR model with R - quick intro assessment (Speaker Federica Gazzelloni)
+-   Bayesian workflow for disease transmission (Speaker Jacqueline Buros)
+-   Q&A session
+
+**Material**:
+
+-   GitHub Repo: <https://github.com/Fgazzelloni/sir-model-with-R/>
+
+{{< video https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s >}}
+
+------------------------------------------------------------------------
+
+### `R-Ladies Cambridge`
+
+**Date**: March 2024
+
+**Abstract**: In this video, you'll learn how to use `{ggplot2}` to replicate one of the ongoing #DuboisChallenge2024 plates. The original plates are part of W.E.B. Du Bois's legacy from back in 1900, showcased at the Paris Exposition. I'll be using modern tools such as R. We'll explore the colors used in the plates and delve into the intricacies of the challenge by understanding the perspective of hand-made graphs in the **'Duboisian' style**.
+
+**Material**:
+
+-   GitHub Repo: <https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R>
+-   WebSite Collection: <https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/>
+
+{{< video https://www.youtube.com/watch?v=YdzLoshrsI4 >}}
+
+------------------------------------------------------------------------
+
+### `R-Ladies NYC & R-Ladies Rome`
+
+**Date**: June 2024
+
+**Abstract**: In this video, you'll learn how to make a website in `R` with `Quarto.` We'll explore the basics of `Quarto` and how to publish a website. The tutorial is designed to be accessible to beginners, with no prior experience required. By the end of the session, you will have a fully functional website that you can use to showcase your projects and achievements.
+
+**Material**:
+
+-   Github repository: <https://github.com/Fgazzelloni/building_a_website_in_r>
+-   Final version of the Website: <https://fgazzelloni.quarto.pub/my-website-in-r–quarto/>
+
+{{< video https://www.youtube.com/watch?v=KVMwJvoM9CE >}}
+
+**Resources**:
+
+-   Quarto Docs: <https://quarto.org/docs/websites/>
+-   CSS customization for your website: <https://www.w3schools.com/css/>
+-   Background image (change - “pink” with your favorite pick): <https://www.pexels.com/search/pink/>

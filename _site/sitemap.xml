@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/profile/</loc>
-    <lastmod>2026-05-03T10:05:36.074Z</lastmod>
+    <lastmod>2026-09-29T10:43:14.481Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/book/</loc>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about.html</loc>
-    <lastmod>2025-11-21T23:31:33.703Z</lastmod>
+    <lastmod>2026-09-29T10:43:14.294Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/papers/</loc>
@@ -118,11 +118,11 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/rladies/</loc>
-    <lastmod>2026-05-03T10:05:36.315Z</lastmod>
+    <lastmod>2026-09-29T10:43:57.080Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/workshops/</loc>
-    <lastmod>2026-05-03T10:05:36.254Z</lastmod>
+    <lastmod>2026-09-29T10:43:14.327Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/</loc>
@@ -215,5 +215,13 @@
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/posts/typeR/</loc>
     <lastmod>2026-05-03T15:39:13.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/</loc>
+    <lastmod>2026-05-03T15:17:04.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/about/workshops/</loc>
+    <lastmod>2026-09-29T10:43:14.327Z</lastmod>
   </url>
 </urlset>
