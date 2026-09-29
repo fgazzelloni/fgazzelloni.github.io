@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="dcterms.date" content="2025-06-23">
 <meta name="description" content="Behind-the-scenes workflow for writing a technical health metrics book in R with Quarto, reproducible code, and package data.">
+
 <title>Writing a book in R – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
@@ -56,6 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
@@ -78,7 +82,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../../../site_libs/bootstrap/bootstrap-d8fff2e7d1f54d21ada73d4c2a5595e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -104,13 +109,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script><script type="text/plain" cookie-consent="tracking">
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
+
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-119NQB71C8', { 'anonymize_ip': true});
-</script><script type="text/javascript" charset="UTF-8">
+</script>
+
+<script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"headline",
@@ -125,7 +135,11 @@ cookieconsent.run({
 "language":"en"
   });
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+
+
 <link rel="stylesheet" href="../../../../../../styles.css">
 <meta property="og:title" content="Writing a book in R – Federica Gazzelloni">
 <meta property="og:description" content="Behind-the-scenes workflow for writing a technical health metrics book in R with Quarto, reproducible code, and package data.">
@@ -143,13 +157,18 @@ cookieconsent.run({
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/">
 </head>
+
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content"><img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content"></a>
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
     </a>
@@ -160,101 +179,77 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Blog</span>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/proj/index.html">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/rpackages/index.html">
+ <span class="dropdown-text">R Packages</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshops</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops">    
+        <li>
+    <a class="dropdown-item" href="../../../../../../about/workshops/index.html#the-carpentries">
+ <span class="dropdown-text">The Carpentries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../../about/workshops/index.html#r-ladies-workshops-and-talks">
+ <span class="dropdown-text">R-Ladies Workshops and Talks</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Writing</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/blog/index.html">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../../../content/blog/posts/dataviz/index.html">
- <span class="dropdown-text">Data Visualization</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/blog/posts/stats/index.html">
- <span class="dropdown-text">Data Analytics</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/blog/posts/actuarial/index.html">
- <span class="dropdown-text">Actuarial Science</span></a>
-  </li>  
-    </ul>
-</li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-r-packages" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">R Packages</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-r-packages">
-<li>
-    <a class="dropdown-item" href="../../../../../../content/rpackages/index.html">
- <span class="dropdown-text">R Packages for Health Metrics, Data Visualization, and Teaching</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/rpackages/posts/oregonfrogs/index.html">
- <span class="dropdown-text">oregonfrogs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/rpackages/posts/hmsidwR/index.html">
- <span class="dropdown-text">hmsidwR</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/rpackages/posts/typeR/index.html">
- <span class="dropdown-text">typeR</span></a>
-  </li>  
-    </ul>
-</li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Books</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">
-<li>
     <a class="dropdown-item" href="../../../../../../content/books/index.html">
- <span class="dropdown-text">Books on Health Metrics, R, and Data Science</span></a>
+ <span class="dropdown-text">Books</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../../../content/books/posts/hmsid/index.html">
- <span class="dropdown-text">HMSIDwR</span></a>
+    <a class="dropdown-item" href="../../../../../../about/papers/index.html">
+ <span class="dropdown-text">Papers</span></a>
   </li>  
     </ul>
-</li>
-  <li class="nav-item">
-    <a class="nav-link" href="../../../../../../content/podcasts/index.html"> 
-<span class="menu-text">Podcasts</span></a>
-  </li>  
+  </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-media" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Media</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">
-<li>
-    <a class="dropdown-item" href="../../../../../../content/proj/index.html">
- <span class="dropdown-text">Projects in AI Automation and Performance Metrics</span></a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-media">    
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/podcasts/index.html">
+ <span class="dropdown-text">Podcasts</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../../../content/proj/posts/performance_metrics/index.html">
- <span class="dropdown-text">Performance Metrics</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../../../../content/proj/posts/automation_workflow/index.html">
- <span class="dropdown-text">Automation Workflow</span></a>
+    <a class="dropdown-item" href="../../../../../../about/talks/index.html">
+ <span class="dropdown-text">Talks</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
-    <a href="mailto:fede.gazzelloni@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://www.linkedin.com/in/federicagazzelloni/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com/fgazzelloni" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://federicagazzelloni.substack.com/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-substack"></i></a>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -262,18 +257,21 @@ cookieconsent.run({
 </a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav><div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden">
-<i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
-</div>
-<i class="bi bi-x-lg quarto-announcement-action"></i>
-</div>
-</header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Writing a book in R</h1>
   <div class="quarto-categories">
     <div class="quarto-category">book</div>
@@ -302,7 +300,11 @@ cookieconsent.run({
   
 
 
-</header><section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
+</header>
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>In this post, I share my experience of writing a book entirely in R, and the challenges I faced along the way. I walk through the tools I used, the workflow I followed, and the lessons I learned while preparing a full-length technical book supported by datasets, code, and reproducible examples.</p>
@@ -310,25 +312,29 @@ cookieconsent.run({
 <p>Below, I explain how I structured the book, organised the code, automated the rendering, and ensured the material remained reproducible from the first draft to the final version.</p>
 </div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="featured.png" class="img-fluid figure-img"></p>
-<figcaption>HMSIDr Book</figcaption></figure>
+<figure class="figure">
+<p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>HMSIDr Book</figcaption>
+</figure>
 </div>
 </div>
 </div>
-</section><section id="setting-up-the-project" class="level2"><h2 class="anchored" data-anchor-id="setting-up-the-project">Setting Up the Project</h2>
+</section>
+<section id="setting-up-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-the-project">Setting Up the Project</h2>
 <p>I started by creating a dedicated RStudio project. Keeping the book isolated in its own project was essential for reproducibility, file organisation, and version control.</p>
 <p>Create a new book project structure</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/create_package.html">create_project</a></span><span class="op">(</span><span class="st">"hmsid-book"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_project</span>(<span class="st">"hmsid-book"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Set up a Git repository to track changes:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Initialise git</span></span>
-<span><span class="va">`usethis::use_git()`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialise git</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="st">`</span><span class="at">usethis::use_git()</span><span class="st">`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Then I added a basic <code>Quarto/bookdown</code> structure:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">quarto</span><span class="fu">::</span><span class="fu">quarto_create</span><span class="op">(</span><span class="st">"hmsidwR"</span>, template <span class="op">=</span> <span class="st">"book"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_create</span>(<span class="st">"hmsidwR"</span>, <span class="at">template =</span> <span class="st">"book"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>This generated the <code>_quarto.yml</code> file, a structure for chapters, and a place for images and data.</p>
 <p>A minimal <code>_quarto.yml</code> looked like this:</p>
@@ -364,85 +370,98 @@ cookieconsent.run({
 </div>
 </div>
 </div>
-</section><section id="managing-data-inside-an-r-package" class="level2"><h2 class="anchored" data-anchor-id="managing-data-inside-an-r-package">Managing Data Inside an R Package</h2>
-<p>To keep the workflow clean and reproducible, I organised all datasets into a companion R package (<a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a>). This meant readers could reproduce every example with:</p>
+</section>
+<section id="managing-data-inside-an-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="managing-data-inside-an-r-package">Managing Data Inside an R Package</h2>
+<p>To keep the workflow clean and reproducible, I organised all datasets into a companion R package (<code>{hmsidwR}</code>). This meant readers could reproduce every example with:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"hmsidwR"</span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a></span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"hmsidwR"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(hmsidwR)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Loading a dataset was as simple as:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"infectious_diseases"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">infectious_diseases</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"infectious_diseases"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(infectious_diseases)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Packaging the data required a few lines in the development workflow:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_data.html">use_data</a></span><span class="op">(</span><span class="va">tb_data</span>, overwrite <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_data</span>(tb_data, <span class="at">overwrite =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>This approach saved hours of manual file handling in later stages of writing.</p>
-</section><section id="writing-chapters-with-embedded-code" class="level2"><h2 class="anchored" data-anchor-id="writing-chapters-with-embedded-code">Writing Chapters with Embedded Code</h2>
+</section>
+<section id="writing-chapters-with-embedded-code" class="level2">
+<h2 class="anchored" data-anchor-id="writing-chapters-with-embedded-code">Writing Chapters with Embedded Code</h2>
 <p>Most chapters combined narrative text with code chunks. A typical section looked like this:</p>
-</section><section id="life-expectancy-trends" class="level2"><h2 class="anchored" data-anchor-id="life-expectancy-trends">Life Expectancy Trends</h2>
+</section>
+<section id="life-expectancy-trends" class="level2">
+<h2 class="anchored" data-anchor-id="life-expectancy-trends">Life Expectancy Trends</h2>
 <p>We begin by exploring changes in life expectancy across countries.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/Fgazzelloni/hmsidwR">hmsidwR</a></span><span class="op">)</span></span>
-<span><span class="va">set.seed</span><span class="op">=</span><span class="fl">04122025</span></span>
-<span><span class="fu">hmsidwR</span><span class="fu">::</span><span class="va"><a href="https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html">gho_le_hale</a></span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">indicator</span><span class="op">==</span><span class="st">"Life expectancy at birth (years)"</span>,</span>
-<span>         <span class="va">sex</span><span class="op">==</span><span class="st">"both sexes"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">region</span>, <span class="va">year</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/reframe.html">reframe</a></span><span class="op">(</span>le<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">value</span>, na.rm<span class="op">=</span><span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">le</span>, </span>
-<span>             colour <span class="op">=</span> <span class="va">region</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">geomtextpath</span><span class="fu">::</span><span class="fu"><a href="https://allancameron.github.io/geomtextpath/reference/geom_textpath.html">geom_textline</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>label <span class="op">=</span> <span class="va">region</span><span class="op">)</span>, </span>
-<span>                              position <span class="op">=</span> <span class="st">"jitter"</span>,</span>
-<span>                              orientation <span class="op">=</span> <span class="st">"x"</span>,</span>
-<span>                              hjust<span class="op">=</span><span class="fl">0</span>,size<span class="op">=</span><span class="fl">3</span>,</span>
-<span>                              show.legend <span class="op">=</span> <span class="cn">F</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">ggthemes</span><span class="fu">::</span><span class="fu"><a href="http://jrnold.github.io/ggthemes/reference/scale_economist.html">scale_color_economist</a></span><span class="op">(</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Life Expectancy Over Time"</span>,</span>
-<span>       x<span class="op">=</span><span class="st">"Time(year)"</span>,</span>
-<span>       y<span class="op">=</span><span class="st">"Life expectancy at birth (years)"</span><span class="op">)</span><span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span>base_size <span class="op">=</span> <span class="fl">14</span>, </span>
-<span>                base_rect_size <span class="op">=</span> <span class="fl">0.2</span>,</span>
-<span>                base_line_size <span class="op">=</span> <span class="fl">1</span>,</span>
-<span>                accent <span class="op">=</span> <span class="st">"red"</span>,ink <span class="op">=</span> <span class="st">"grey25"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span>text<span class="op">=</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>face<span class="op">=</span><span class="st">"bold"</span><span class="op">)</span>,</span>
-<span>        axis.title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>size<span class="op">=</span><span class="fl">9</span><span class="op">)</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(hmsidwR)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>set.seed<span class="ot">=</span><span class="dv">04122025</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>hmsidwR<span class="sc">::</span>gho_le_hale <span class="sc">%&gt;%</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(indicator<span class="sc">==</span><span class="st">"Life expectancy at birth (years)"</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>         sex<span class="sc">==</span><span class="st">"both sexes"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(region, year) <span class="sc">%&gt;%</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reframe</span>(<span class="at">le=</span><span class="fu">mean</span>(value, <span class="at">na.rm=</span><span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(year, le, </span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>             <span class="at">colour =</span> region)) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  geomtextpath<span class="sc">::</span><span class="fu">geom_textline</span>(<span class="fu">aes</span>(<span class="at">label =</span> region), </span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>                              <span class="at">position =</span> <span class="st">"jitter"</span>,</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>                              <span class="at">orientation =</span> <span class="st">"x"</span>,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>                              <span class="at">hjust=</span><span class="dv">0</span>,<span class="at">size=</span><span class="dv">3</span>,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>                              <span class="at">show.legend =</span> F) <span class="sc">+</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  ggthemes<span class="sc">::</span><span class="fu">scale_color_economist</span>()<span class="sc">+</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Life Expectancy Over Time"</span>,</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">x=</span><span class="st">"Time(year)"</span>,</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span><span class="st">"Life expectancy at birth (years)"</span>)<span class="sc">+</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">14</span>, </span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>                <span class="at">base_rect_size =</span> <span class="fl">0.2</span>,</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>                <span class="at">base_line_size =</span> <span class="dv">1</span>,</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>                <span class="at">accent =</span> <span class="st">"red"</span>,<span class="at">ink =</span> <span class="st">"grey25"</span>) <span class="sc">+</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text=</span><span class="fu">element_text</span>(<span class="at">face=</span><span class="st">"bold"</span>),</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">9</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Regions' le">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="fig-le" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Regions' le" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/le.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Regions' le">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-le-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Regions’ Life Expectancy Over Time
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 <p>Keeping all figures generated directly from the code ensured:</p>
 <ul>
 <li>No manual image editing</li>
 <li>Fully up-to-date plots on each render</li>
 <li>Transparent modelling steps</li>
-</ul></section><section id="automating-rendering" class="level2"><h2 class="anchored" data-anchor-id="automating-rendering">Automating Rendering</h2>
+</ul>
+</section>
+<section id="automating-rendering" class="level2">
+<h2 class="anchored" data-anchor-id="automating-rendering">Automating Rendering</h2>
 <p>With dozens of chapters and hundreds of figures, manual rendering was not feasible. I automated it using one command:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">quarto</span><span class="fu">::</span><span class="fu"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>For more granular control (helpful when writing new sections):</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">quarto</span><span class="fu">::</span><span class="fu"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op">(</span><span class="st">"03_methods.qmd"</span><span class="op">)</span>   <span class="co"># render a single chapter</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>(<span class="st">"03_methods.qmd"</span>)   <span class="co"># render a single chapter</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Before shipping the final manuscript, I used a clean render:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">quarto</span><span class="fu">::</span><span class="fu">quarto_clean</span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu">quarto</span><span class="fu">::</span><span class="fu"><a href="https://quarto-dev.github.io/quarto-r/reference/quarto_render.html">quarto_render</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_clean</span>()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>quarto<span class="sc">::</span><span class="fu">quarto_render</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>This guaranteed that everything knitted from scratch.</p>
-</section><section id="version-control-and-collaboration" class="level2"><h2 class="anchored" data-anchor-id="version-control-and-collaboration">Version Control and Collaboration</h2>
+</section>
+<section id="version-control-and-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-and-collaboration">Version Control and Collaboration</h2>
 <p>Git and GitHub supported the entire project:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_github.html">use_github</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_github</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Each chapter was committed incrementally:</p>
 <pre><code>  git add 03_methods.qmd
@@ -452,31 +471,37 @@ Figure&nbsp;1: Regions’ Life Expectancy Over Time
 <p>Designing Figures and Reproducible Maps</p>
 <p>Spatial chapters required more complex workflows. For example:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://r-spatial.github.io/sf/">sf</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rspatial.org/">terra</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/r-tmap/tmap">tmap</a></span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">world</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/vect.html">vect</a></span><span class="op">(</span><span class="fu">hmsidwR</span><span class="fu">::</span><span class="va"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span><span class="op">)</span></span>
-<span><span class="va">tb</span> <span class="op">&lt;-</span> <span class="fu">hmsidwR</span><span class="fu">::</span><span class="va"><a href="https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html">idDALY_map_data</a></span></span>
-<span></span>
-<span><span class="fu"><a href="https://r-tmap.github.io/tmap/reference/tm_shape.html">tm_shape</a></span><span class="op">(</span><span class="va">world</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://r-tmap.github.io/tmap/reference/tm_polygons.html">tm_borders</a></span><span class="op">(</span>fill<span class="op">=</span><span class="st">"grey90"</span>,lwd<span class="op">=</span><span class="fl">0.5</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://r-tmap.github.io/tmap/reference/tm_shape.html">tm_shape</a></span><span class="op">(</span><span class="va">tb</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://r-tmap.github.io/tmap/reference/tm_symbols.html">tm_dots</a></span><span class="op">(</span>col <span class="op">=</span> <span class="st">"DALYs"</span>, </span>
-<span>          shape<span class="op">=</span><span class="fl">21</span>,lwd <span class="op">=</span> <span class="fl">0.1</span>,</span>
-<span>          palette <span class="op">=</span> <span class="st">"matplotlib.reds"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://r-tmap.github.io/tmap/reference/tm_layout.html">tm_layout</a></span><span class="op">(</span>frame <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tmap)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> <span class="fu">vect</span>(hmsidwR<span class="sc">::</span>idDALY_map_data)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>tb <span class="ot">&lt;-</span> hmsidwR<span class="sc">::</span>idDALY_map_data</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(world) <span class="sc">+</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_borders</span>(<span class="at">fill=</span><span class="st">"grey90"</span>,<span class="at">lwd=</span><span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_shape</span>(tb) <span class="sc">+</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_dots</span>(<span class="at">col =</span> <span class="st">"DALYs"</span>, </span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>          <span class="at">shape=</span><span class="dv">21</span>,<span class="at">lwd =</span> <span class="fl">0.1</span>,</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>          <span class="at">palette =</span> <span class="st">"matplotlib.reds"</span>) <span class="sc">+</span></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tm_layout</span>(<span class="at">frame =</span> <span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="images/dalys.png" class="img-fluid figure-img"></p>
-<figcaption>Dalys</figcaption></figure>
+<figure class="figure">
+<p><img src="images/dalys.png" class="img-fluid figure-img"></p>
+<figcaption>Dalys</figcaption>
+</figure>
 </div>
 <p>Every map in the book was generated this way, ensuring readers could run the exact same code.</p>
-</section><section id="lessons-learned" class="level2"><h2 class="anchored" data-anchor-id="lessons-learned">Lessons Learned</h2>
+</section>
+<section id="lessons-learned" class="level2">
+<h2 class="anchored" data-anchor-id="lessons-learned">Lessons Learned</h2>
 <p>Writing a technical book is both exciting and demanding. I dedicated countless hours to selecting the right material and presenting it in a way that early-career researchers could follow. One of the most difficult decisions was choosing what to include and what to leave out, always aiming for clarity over completeness.</p>
 <p>Even now that the book is published, ideas continue to appear. There is always the thought of adding more material, improving explanations, or strengthening examples. At some point, you must trust the work and release it.</p>
 <p>I am grateful for all the support I received throughout this process. The conversations, reviews, and early feedback played a key role in shaping the final version.</p>
-</section><section id="whats-next" class="level2"><h2 class="anchored" data-anchor-id="whats-next">What’s Next?</h2>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next?</h2>
 <p>Although this project is complete, my writing plans certainly are not. I will continue developing extensions, datasets, and methodological notes. New projects are already emerging, and this experience has strengthened my commitment to open, reproducible, and accessible research.</p>
 <p>For now, I invite you to explore the book, use the examples, and share your thoughts. Your insights will help me shape future work and teaching material.</p>
 <blockquote class="blockquote">
@@ -484,7 +509,10 @@ Figure&nbsp;1: Regions’ Life Expectancy Over Time
 </blockquote>
 
 
-</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -890,22 +918,23 @@ Figure&nbsp;1: Regions’ Life Expectancy Over Time
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../../../LICENSE.md">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
 <p>This Blog is made with 💜 in Quarto</p>
 </a>
   </li>  
 </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0000-0002-4285-611X">
 <p><i class="ai  ai-orcid" aria-label="orcid"></i></p>
 </a>
@@ -951,9 +980,11 @@ Figure&nbsp;1: Regions’ Life Expectancy Over Time
     </a>
   </li>  
 </ul>
-</div>
+    </div>
   </div>
 </footer>
+
+
 
 
 <script src="../../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
