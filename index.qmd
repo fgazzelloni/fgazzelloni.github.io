@@ -1,10 +1,20 @@
 ---
 description: "Federica Gazzelloni shares health metrics, infectious disease analytics, R workflows, AI automation, actuarial science, books, podcasts, and teaching resources."
 listing:
-  contents: content
+  id: recent-work
+  contents:
+    - "content/blog/posts/*/posts/**/index.qmd"
+    - "content/books/posts/*/posts/**/index.qmd"
+    - "content/proj/posts/*/posts/**/index.qmd"
+    - "content/podcasts/posts/*/index.qmd"
+    - "content/rpackages/posts/*/index.qmd"
   sort: "date desc"
   type: grid
-  image-height: "200"
+  grid-columns: 3
+  image-height: "200px"
+  fields: [image, title, description, date]
+  max-description-length: 115
+  date-format: "D MMM YYYY"
   max-items: 3
   page-size: 3
   categories: false
@@ -102,25 +112,45 @@ title-block-banner: false
 </section>
 ```
 
+::: {.column-page}
+::: {.home-lower}
+
 ```{=html}
-<div class="hero-content">
-  <center><a href="https://www.youtube.com/@federicagazzelloni" class="cta-button">SUBSCRIBE</a>
-    <p class="hero-subtitle" style="font-size: 1.5rem;">Subscribe for the latest tutorials and insights in Data Science and R Programming!</p>
-    <video width="60%" height="auto" autoplay loop muted playsinline>
-    <source src="images/welcome-video.mp4" type="video/mp4">
-    </video>
-     </center>
-</div>
+<section class="home-latest" aria-labelledby="recent-work-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-eyebrow">Recent work</p>
+      <h2 id="recent-work-title">Ideas, code, and practical guides</h2>
+      <p>Explore the latest from my writing, research, and analytical workflows.</p>
+    </div>
+    <a class="home-text-link" href="content/blog/">Browse the blog <span aria-hidden="true">→</span></a>
+  </div>
 ```
 
-
-
-:::: column-page
-::: {style="margin-top: 10px; font-size: 3em;  font-weight: bold; text-align: center; background-color: #343a40; color: white;"}
-Latest content
+::: {#recent-work}
 :::
-::::
 
+```{=html}
+</section>
 
+<section class="home-learning" aria-labelledby="home-learning-title">
+  <div class="home-learning__content">
+    <p class="home-eyebrow">Learn with me</p>
+    <h2 id="home-learning-title">From an idea to a working example</h2>
+    <p>Follow along with R tutorials, health metrics, and data science workflows. Watch a video or explore the recordings and materials from my workshops.</p>
+    <div class="home-learning__links">
+      <a class="book-button book-button--primary" href="https://www.youtube.com/@federicagazzelloni">Watch on YouTube <span aria-hidden="true">↗</span></a>
+      <a class="home-text-link" href="about/workshops/">Explore workshops <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <video class="home-learning__video" controls preload="none" playsinline aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo-highres-cutout.png">
+    <source src="images/welcome-video.mp4" type="video/mp4">
+    <p><a href="https://www.youtube.com/@federicagazzelloni">Watch my videos on YouTube.</a></p>
+  </video>
+</section>
+```
+
+:::
+:::
 
 <link rel="me" href="https://fosstodon.org/@fgazzelloni">

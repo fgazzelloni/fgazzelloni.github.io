@@ -3,6 +3,7 @@ title: "Building Your First Automation Assistant for Free with n8n and Oracle Cl
 subtitle: "A practical step-by-step guide to setting up your first personal automation system"
 excerpt: "Automation"
 date: 2026-03-31
+image: featured.png
 description: "Step-by-step n8n and Oracle Cloud Free Tier guide for building a personal automation assistant, RSS workflow, and AI-ready automation base."
 images:
 series:

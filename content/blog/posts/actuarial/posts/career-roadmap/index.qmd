@@ -2,6 +2,7 @@
 title: "The Actuarial Executive Career Roadmap"
 description: "From Technical Mastery to Strategic Leadership"
 date: 2026-03-05
+image: featured.png
 categories:
   - Leadership
   - Career Development

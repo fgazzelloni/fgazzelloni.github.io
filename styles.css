@@ -43,6 +43,36 @@
   .book-actions { flex-direction: column; }
 }
 
+/* Homepage recent work and learning */
+.home-lower { width: 100%; max-width: 1120px; margin: 2.5rem auto 3rem; }
+.home-section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem 2rem; margin-bottom: 1.5rem; }
+.home-eyebrow { margin: 0 0 0.6rem; color: #264e60; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+.home-section-heading h2, .home-learning h2 { margin: 0 0 0.75rem; padding: 0; border: 0; color: #263043; font-size: clamp(1.55rem, 2.5vw, 2rem); line-height: 1.2; }
+.home-section-heading p:last-child { margin: 0; max-width: 620px; color: #536473; }
+.home-text-link { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; color: #264e60; font-weight: 600; text-underline-offset: 0.2em; }
+.home-latest .quarto-listing { padding-bottom: 0; }
+.home-latest .quarto-grid-item { border: 1px solid #dce3e8; border-radius: 8px; overflow: hidden; background: #fff; transition: border-color 150ms ease; }
+.home-latest .quarto-grid-item:hover { border-color: #264e60; }
+.home-latest .card-img-top { margin-bottom: 0; background: #f3f6f8; }
+.home-latest .card-img-top .thumbnail-image { width: 100%; object-fit: contain; }
+.home-latest .card-body { padding: 1.1rem; }
+.home-latest .listing-title { color: #263043; font-size: 1.1rem; line-height: 1.35; }
+.home-latest .listing-description { color: #536473; font-size: 0.95rem; line-height: 1.5; }
+.home-latest .listing-date { color: #536473; font-size: 0.8rem; }
+.home-learning { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); align-items: center; gap: 2rem; margin-top: 2.5rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid #dce3e8; border-radius: 8px; background: #f3f6f8; }
+.home-learning__content > p:not(.home-eyebrow) { margin-bottom: 1.25rem; color: #536473; line-height: 1.6; }
+.home-learning__links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.65rem 1.25rem; }
+.home-learning__links .book-button { gap: 0.5rem; }
+.home-learning__video { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 6px; background: #263043; object-fit: contain; }
+.home-lower a:focus-visible, .home-learning__video:focus-visible { outline: 3px solid #a34b23; outline-offset: 4px; }
+@media (max-width: 700px) {
+  .home-learning { grid-template-columns: 1fr; gap: 1.5rem; }
+  .home-lower { margin-top: 2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-latest .quarto-grid-item { transition: none; }
+}
+
 /* Data visualisation portfolio and favourite projects */
 .dataviz-page { max-width: 1200px; margin-inline: auto; }
 .dataviz-hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); padding: clamp(1.25rem, 3vw, 2.5rem); margin: 1rem 0 1.5rem; background: #193b49; color: #fff; border-radius: 12px; }
@@ -63,7 +93,8 @@
 .dataviz-collections a { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 44px; color: #264e60; font-weight: 600; text-underline-offset: 0.2em; }
 .dataviz-page .quarto-grid-item { border: 1px solid #dce3e8; border-radius: 8px; overflow: hidden; box-shadow: none; }
 .dataviz-page .listing-item-img-placeholder { background: #f3f6f8; }
-.dataviz-page .card-img-top { object-fit: contain; background: #f3f6f8; }
+.dataviz-page .card-img-top { margin-bottom: 0; background: #f3f6f8; }
+.dataviz-page .card-img-top .thumbnail-image { width: 100%; object-fit: contain; }
 .dataviz-page .listing-title { font-size: 1.1rem; line-height: 1.35; }
 .dataviz-page .listing-description { color: #536473; font-size: 0.95rem; }
 .dataviz-page a:focus-visible { outline: 3px solid #a34b23; outline-offset: 4px; }

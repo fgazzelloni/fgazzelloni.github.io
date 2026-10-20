@@ -2,6 +2,7 @@
 title: "Understanding Risk Assessments"
 description: "A comprehensive guide to evaluating and mitigating risks using actuarial science principles."
 date: 2026-03-05
+image: featured.png
 categories:
   - Risk Management
   - Decision Making

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T15:16:18.394Z</lastmod>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/posts/oregonfrogs/</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/</loc>
-    <lastmod>2026-05-03T12:51:35.103Z</lastmod>
+    <lastmod>2026-10-20T15:40:27.623Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/</loc>
@@ -86,11 +86,11 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/</loc>
-    <lastmod>2026-05-03T15:53:29.213Z</lastmod>
+    <lastmod>2026-10-20T15:21:54.417Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/career-roadmap/</loc>
-    <lastmod>2026-03-06T08:26:49.657Z</lastmod>
+    <lastmod>2026-10-20T15:40:27.180Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/</loc>
@@ -218,15 +218,19 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T15:16:18.394Z</lastmod>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/riskassessments/</loc>
+    <lastmod>2026-10-20T15:44:21.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/</loc>
+    <lastmod>2026-03-05T13:08:58.006Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T15:16:18.394Z</lastmod>
-  </url>
-  <url>
-    <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/</loc>
-    <lastmod>2026-10-20T15:21:54.417Z</lastmod>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/</loc>
@@ -234,18 +238,14 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T15:16:18.394Z</lastmod>
-  </url>
-  <url>
-    <loc>https://federicagazzelloni.com/about/workshops/</loc>
-    <lastmod>2026-10-20T15:16:18.886Z</lastmod>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T15:16:18.394Z</lastmod>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
   </url>
   <url>
-    <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/</loc>
-    <lastmod>2026-10-20T15:21:54.417Z</lastmod>
+    <loc>https://federicagazzelloni.com/</loc>
+    <lastmod>2026-10-20T15:40:26.704Z</lastmod>
   </url>
 </urlset>
