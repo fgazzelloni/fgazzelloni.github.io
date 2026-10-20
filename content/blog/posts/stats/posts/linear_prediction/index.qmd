@@ -11,7 +11,7 @@ categories:
   - geom_smooth
 summary: "William Farr's Data on Cholera in London, 1849 is used to digg into a linear model output and compared with that made by geom_smooth(method='lm')"
 execute: 
-  eval: true
+  eval: false
 ---
 
 ## Overview

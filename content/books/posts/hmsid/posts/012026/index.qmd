@@ -89,4 +89,4 @@ This clearer picture isn't just an academic exercise; it equips us to act more e
 :::
 
 For those interested in diving deeper into these concepts, I highly recommend exploring the comprehensive resource: "Health Metrics and the Spread of Infectious Diseases
-Machine Learning Applications and Spatial Modelling Analysis with R" available at [fgazzelloni.github.io/hmsidR/](https://fgazzelloni.github.io/hmsidR/). This book provides an in-depth look at the methodologies and theories that underpin modern health metrics, offering valuable insights for anyone passionate about public health and data science.
+Machine Learning Applications and Spatial Modelling Analysis with R" available at [the online book](https://federicagazzelloni.com/hmsidR/). This book provides an in-depth look at the methodologies and theories that underpin modern health metrics, offering valuable insights for anyone passionate about public health and data science.

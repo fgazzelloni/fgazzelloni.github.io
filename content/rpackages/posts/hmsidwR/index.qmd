@@ -21,7 +21,7 @@ page-layout: full
 ::: {.column width="80%"}
 This is the package that covers all datasets used in the **Health Metrics and the Spread of Infectious Diseases: Machine Learning Application and Spatial Modelling Analysis with R** book.
 
-BOOK: <https://bookdown.org/fede_gazzelloni/hmsidR/>
+BOOK: <https://federicagazzelloni.com/hmsidR/>
 
 GITHUB: <https://github.com/Fgazzelloni/hmsidwR>
 

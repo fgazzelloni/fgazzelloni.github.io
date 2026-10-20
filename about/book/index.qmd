@@ -3,6 +3,8 @@ title: "Health Metrics Book"
 description: "Overview of Health Metrics and the Spread of Infectious Diseases, Federica Gazzelloni's book on machine learning applications and spatial modelling analysis with R."
 ---
 
+[Book overview, code, data, and related articles](/content/books/posts/hmsid/index.qmd)
+
 ### Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R
 
 Discover the fascinating world of health metrics and infectious disease analysis with our manual! 
@@ -17,9 +19,9 @@ Whether you're new to the field or a seasoned practitioner, this resource offers
 
 Read it online for free: 
 
-- 👉 🔗 [hmsidR](https://fgazzelloni.github.io/hmsidR/)
+- 👉 🔗 [hmsidR](https://federicagazzelloni.com/hmsidR/)
 
-Reserve your paperback copy: 
+Buy the printed edition:
 
 - 👉 🔗[Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782)
 - 👉 🔗[Amazon](https://amzn.to/4aHGseT)

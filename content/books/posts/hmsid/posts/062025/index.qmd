@@ -241,3 +241,22 @@ Although this project is complete, my writing plans certainly are not. I will co
 For now, I invite you to explore the book, use the examples, and share your thoughts. Your insights will help me shape future work and teaching material.
 
 > *"Thank you for following this journey."*
+
+
+## Reflections on publication {#publication-reflections}
+
+> It’s been an incredible journey, and now that the book is officially printed and available on Amazon to order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌
+
+Writing this book has been an immensely rewarding experience. I’ve spent countless hours selecting the right material and striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.
+
+Even though the book is now published, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.
+
+> As I reflect on this journey, I’m filled with gratitude for all the support and feedback I’ve received along the way. Your encouragement has been invaluable in shaping this book into what it is today.
+
+So, what’s next? While this project may be wrapping up, my passion for writing and sharing knowledge is far from over. Stay tuned for more updates and future projects! In the meantime, I invite you to dive into the book, explore its content, and share your thoughts. Your insights will be crucial as I continue to learn and grow.
+
+Thank you for being a part of this journey. I hope the book serves as a valuable resource for your research and studies. Let’s see where this new chapter takes us!
+
+**Happy reading! 📚✨**
+
+[Read the book online](https://federicagazzelloni.com/hmsidR/) · [About the book and resources](../../index.qmd)

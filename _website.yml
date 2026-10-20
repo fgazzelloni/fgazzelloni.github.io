@@ -36,6 +36,8 @@ website:
             href: content/proj/index.qmd
           - text: "R Packages"
             href: content/rpackages/index.qmd
+          - text: "Data Visualization"
+            href: content/blog/posts/dataviz/index.qmd
       - text: "Workshops"
         menu:
           - text: "The Carpentries"

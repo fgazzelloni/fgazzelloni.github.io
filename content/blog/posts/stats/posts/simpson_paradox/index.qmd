@@ -9,7 +9,7 @@ categories:
   - modeling
 summary: "The key to resolving Simpson’s Paradox is to recognise that the question “is men or women the best choise of the next managerial postion” is a causal one."
 execute: 
-  eval: true
+  eval: false
 ---
 
 <center>![](https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif)</center>

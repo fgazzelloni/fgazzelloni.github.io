@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A comprehensive resource on health metrics and infectious disease spread.">
+<meta name="description" content="Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.">
 
-<title>Health Metrics and the Spread of Infectious Diseases (HMSID) – Federica Gazzelloni</title>
+<title>Health Metrics and the Spread of Infectious Diseases – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,20 +79,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-related-articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-related-articles'] = new List('listing-related-articles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,24 +165,24 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Health Metrics and the Spread of Infectious Diseases (HMSID) – Federica Gazzelloni">
-<meta property="og:description" content="A comprehensive resource on health metrics and infectious disease spread.">
-<meta property="og:image" content="https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/featured.png">
+<meta property="og:title" content="Health Metrics and the Spread of Infectious Diseases – Federica Gazzelloni">
+<meta property="og:description" content="Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.">
+<meta property="og:image" content="https://federicagazzelloni.com/images/book_cover.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="571">
-<meta property="og:image:width" content="1024">
-<meta name="twitter:title" content="Health Metrics and the Spread of Infectious Diseases (HMSID) – Federica Gazzelloni">
-<meta name="twitter:description" content="A comprehensive resource on health metrics and infectious disease spread.">
-<meta name="twitter:image" content="https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/featured.png">
+<meta property="og:image:height" content="988">
+<meta property="og:image:width" content="722">
+<meta name="twitter:title" content="Health Metrics and the Spread of Infectious Diseases – Federica Gazzelloni">
+<meta name="twitter:description" content="Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.">
+<meta name="twitter:image" content="https://federicagazzelloni.com/images/book_cover.png">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:image-height" content="571">
-<meta name="twitter:image-width" content="1024">
+<meta name="twitter:image-height" content="988">
+<meta name="twitter:image-width" content="722">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://federicagazzelloni.com/content/books/posts/hmsid/">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -215,6 +215,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../../../content/rpackages/index.html">
  <span class="dropdown-text">R Packages</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
     </ul>
   </li>
@@ -289,18 +293,19 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Health Metrics and the Spread of Infectious Diseases (HMSID)</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Health Metrics and the Spread of Infectious Diseases</h1>
+            <p class="subtitle lead">Machine Learning Applications and Spatial Modelling Analysis with R</p>
                   <div>
         <div class="description">
-          A comprehensive resource on health metrics and infectious disease spread.
+          Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.
         </div>
       </div>
                 </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
       
     
@@ -308,49 +313,65 @@ window.Quarto = {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ym9vaw==">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHNjaWVuY2U=">data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGVhbHRoJTIwbWV0cmljcw==">health metrics <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p><a href="https://amzn.to/45CxJXV"><u><strong>“Health Metrics and the Spread of Infectious Diseases (HMSID): Machine Learning Applications and Spatial Modelling Analysis with R”</strong></u></a> is a comprehensive resource that delves into the critical aspects of health metrics and the dynamics of infectious disease spread. This book provides valuable insights for public health professionals, epidemiologists, and researchers interested in understanding and managing infectious diseases.</p>
+<section class="book-feature" aria-label="About the book">
+  <img class="book-feature__cover" src="../../../../images/book_cover.png" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni">
+  <div>
+    <p class="book-feature__eyebrow">Federica Gazzelloni · First edition · 2025</p>
+    <p>A practical guide to health metrics and infectious disease analysis with R. The book brings together metric calculations, machine learning, data visualisation, and spatial modelling, with applications to COVID-19 and malaria.</p>
+    <div class="book-actions" aria-label="Read or buy the book">
+      <a class="book-button book-button--primary" href="https://federicagazzelloni.com/hmsidR/">Read online — free</a>
+      <a class="book-button" href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Buy the printed edition</a>
+    </div>
+    <p class="book-feature__note">The printed edition is also available on <a href="https://amzn.to/4aHGseT">Amazon</a>.</p>
+  </div>
 </section>
-<section id="key-features" class="level2">
-<h2 class="anchored" data-anchor-id="key-features">Key Features</h2>
+<section id="what-you-will-learn" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-will-learn">What you will learn</h2>
 <ul>
-<li><strong>In-depth Analysis</strong>: The book offers a thorough examination of various health metrics used to monitor and evaluate the spread of infectious diseases.</li>
-<li><strong>Case Studies</strong>: Real-world case studies illustrate the application of health metrics in tracking and controlling disease outbreaks.</li>
-<li><strong>Data Visualization</strong>: The book emphasizes the importance of data visualization in interpreting health metrics and communicating findings effectively.</li>
-<li><strong>Spatial Modelling</strong>: It explores spatial modelling techniques to analyze the geographical spread of infectious diseases.</li>
-<li><strong>Practical Applications</strong>: It provides practical guidance on how to implement health metrics in public health strategies and policies.</li>
+<li><strong>Health metrics:</strong> Calculate and interpret Disability Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs).</li>
+<li><strong>Machine learning:</strong> Explore predictive models and their application to health data.</li>
+<li><strong>Data visualisation:</strong> Communicate patterns and model results through charts and maps.</li>
+<li><strong>Spatial modelling:</strong> Investigate geographical patterns in health outcomes and infectious diseases.</li>
+<li><strong>Case studies:</strong> Follow R examples using COVID-19 and malaria data.</li>
 </ul>
 </section>
-<section id="target-audience" class="level2">
-<h2 class="anchored" data-anchor-id="target-audience">Target Audience</h2>
-<p>This book is ideal for public health officials, epidemiologists, healthcare professionals, and students in the fields of public health and epidemiology who seek to enhance their understanding of health metrics and infectious disease dynamics.</p>
+<section id="who-it-is-for" class="level2">
+<h2 class="anchored" data-anchor-id="who-it-is-for">Who it is for</h2>
+<p>The book is written for researchers, data scientists, public health professionals, and students working with health data. Basic R knowledge will help you follow the code; familiarity with statistics and epidemiology is useful.</p>
 </section>
-<section id="availability" class="level2">
-<h2 class="anchored" data-anchor-id="availability">Availability</h2>
-<p><a href="https://amzn.to/45CxJXV"><u><strong>“Health Metrics and the Spread of Infectious Diseases (HMSID)”</strong></u></a> is available for purchase on major online platforms and bookstores. For more information, please visit the <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">publisher’s website</a>.</p>
-<p><br>
-</p>
-
-
-
+<section id="code-and-data" class="level2">
+<h2 class="anchored" data-anchor-id="code-and-data">Code and data</h2>
+<ul>
+<li><a href="../../../../content/rpackages/posts/hmsidwR/index.html">Companion R package: hmsidwR</a> — an introduction to the datasets and tools supporting the book.</li>
+<li><a href="https://fgazzelloni.github.io/hmsidwR/">Package documentation</a> — reference material and examples.</li>
+<li><a href="https://github.com/Fgazzelloni/hmsidwR">Package source code on GitHub</a> — source files and issue reporting.</li>
+<li><a href="../../../../content/books/posts/hmsid/posts/062025/index.html">Writing a book in R</a> — the writing workflow and reflections on publication.</li>
+</ul>
 </section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<section id="publication-and-citation" class="level2">
+<h2 class="anchored" data-anchor-id="publication-and-citation">Publication and citation</h2>
+<p><strong>First edition · CRC Press / Chapman &amp; Hall · 2025</strong></p>
+<blockquote class="blockquote">
+<p>Gazzelloni, Federica. (2025). <em>Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R</em>. CRC Press.</p>
+</blockquote>
+<p>See the <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">publisher’s page</a> for available formats and ISBN details.</p>
+</section>
+<section id="related-articles-and-updates" class="level2">
+<h2 class="anchored" data-anchor-id="related-articles-and-updates">Related articles and updates</h2>
+<div id="listing-related-articles" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="aGVhbHRoJTIwbWV0cmljcyUyQ2RhdGElMjBzY2llbmNl" data-listing-date-sort="1767826800000" data-listing-file-modified-sort="1777812695396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1425">
+<div class="quarto-post image-right" data-index="0" data-categories="aGVhbHRoJTIwbWV0cmljcyUyQ2RhdGElMjBzY2llbmNl" data-listing-date-sort="1767826800000" data-listing-file-modified-sort="1792500001624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1427">
 <div class="thumbnail"><a href="../../../../content/books/posts/hmsid/posts/012026/index.html" class="no-external">
 
 <img loading="lazy" src="../../../../content/books/posts/hmsid/posts/012026/featured.png" class="thumbnail-image">
@@ -360,13 +381,6 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="../../../../content/books/posts/hmsid/posts/012026/index.html" class="no-external">The Hidden Math That Shapes Our Health: 5 Surprising Truths from Data Science</a>
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoJTIwbWV0cmljcw=='); return false;">health metrics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHNjaWVuY2U='); return false;">data science</div>
-
-</div>
 <div class="delink listing-description"><a href="../../../../content/books/posts/hmsid/posts/012026/index.html" class="no-external">
 <p>Health metrics article explaining DALYs, risk exposure, epidemic prediction, AI models, spatial analysis, and public health data science.</p>
 </a></div>
@@ -379,7 +393,7 @@ Jan 8, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Ym9vaw==" data-listing-date-sort="1750629600000" data-listing-file-modified-sort="1777822753014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1031">
+<div class="quarto-post image-right" data-index="1" data-categories="Ym9vaw==" data-listing-date-sort="1750629600000" data-listing-file-modified-sort="1792500001620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1338">
 <div class="thumbnail"><a href="../../../../content/books/posts/hmsid/posts/062025/index.html" class="no-external">
 
 <img loading="lazy" src="../../../../content/books/posts/hmsid/posts/062025/featured.png" class="thumbnail-image">
@@ -389,11 +403,6 @@ Jan 8, 2026
 <h3 class="no-anchor listing-title">
 <a href="../../../../content/books/posts/hmsid/posts/062025/index.html" class="no-external">Writing a book in R</a>
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ym9vaw=='); return false;">book</div>
-
-</div>
 <div class="delink listing-description"><a href="../../../../content/books/posts/hmsid/posts/062025/index.html" class="no-external">
 <p>Behind-the-scenes workflow for writing a technical health metrics book in R with Quarto, reproducible code, and package data.</p>
 </a></div>
@@ -408,7 +417,13 @@ Jun 23, 2025
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -1,37 +1,65 @@
 ---
-title: "Health Metrics and the Spread of Infectious Diseases (HMSID)"
-description: "A comprehensive resource on health metrics and infectious disease spread."
+title: "Health Metrics and the Spread of Infectious Diseases"
+subtitle: "Machine Learning Applications and Spatial Modelling Analysis with R"
+description: "Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles."
+image: /images/book_cover.png
 listing:
+  id: related-articles
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
+page-layout: article
 title-block-banner: true
 page-navigation: true
 back-to-top-navigation: true
 ---
 
-## Overview
+```{=html}
+<section class="book-feature" aria-label="About the book">
+  <img class="book-feature__cover" src="/images/book_cover.png" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" />
+  <div>
+    <p class="book-feature__eyebrow">Federica Gazzelloni · First edition · 2025</p>
+    <p>A practical guide to health metrics and infectious disease analysis with R. The book brings together metric calculations, machine learning, data visualisation, and spatial modelling, with applications to COVID-19 and malaria.</p>
+    <div class="book-actions" aria-label="Read or buy the book">
+      <a class="book-button book-button--primary" href="https://federicagazzelloni.com/hmsidR/">Read online — free</a>
+      <a class="book-button" href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Buy the printed edition</a>
+    </div>
+    <p class="book-feature__note">The printed edition is also available on <a href="https://amzn.to/4aHGseT">Amazon</a>.</p>
+  </div>
+</section>
+```
 
-[[**"Health Metrics and the Spread of Infectious Diseases (HMSID): Machine Learning Applications and Spatial Modelling Analysis with R"**]{.underline}](https://amzn.to/45CxJXV) is a comprehensive resource that delves into the critical aspects of health metrics and the dynamics of infectious disease spread. This book provides valuable insights for public health professionals, epidemiologists, and researchers interested in understanding and managing infectious diseases.
+## What you will learn
 
-## Key Features
+- **Health metrics:** Calculate and interpret Disability Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs).
+- **Machine learning:** Explore predictive models and their application to health data.
+- **Data visualisation:** Communicate patterns and model results through charts and maps.
+- **Spatial modelling:** Investigate geographical patterns in health outcomes and infectious diseases.
+- **Case studies:** Follow R examples using COVID-19 and malaria data.
 
--   **In-depth Analysis**: The book offers a thorough examination of various health metrics used to monitor and evaluate the spread of infectious diseases.
--   **Case Studies**: Real-world case studies illustrate the application of health metrics in tracking and controlling disease outbreaks.
--   **Data Visualization**: The book emphasizes the importance of data visualization in interpreting health metrics and communicating findings effectively.
-- **Spatial Modelling**: It explores spatial modelling techniques to analyze the geographical spread of infectious diseases.
--   **Practical Applications**: It provides practical guidance on how to implement health metrics in public health strategies and policies.
+## Who it is for
 
-## Target Audience
+The book is written for researchers, data scientists, public health professionals, and students working with health data. Basic R knowledge will help you follow the code; familiarity with statistics and epidemiology is useful.
 
-This book is ideal for public health officials, epidemiologists, healthcare professionals, and students in the fields of public health and epidemiology who seek to enhance their understanding of health metrics and infectious disease dynamics.
+## Code and data
 
-## Availability
+- [Companion R package: hmsidwR](/content/rpackages/posts/hmsidwR/index.qmd) — an introduction to the datasets and tools supporting the book.
+- [Package documentation](https://fgazzelloni.github.io/hmsidwR/) — reference material and examples.
+- [Package source code on GitHub](https://github.com/Fgazzelloni/hmsidwR) — source files and issue reporting.
+- [Writing a book in R](posts/062025/index.qmd) — the writing workflow and reflections on publication.
 
-[[**"Health Metrics and the Spread of Infectious Diseases (HMSID)"**]{.underline}](https://amzn.to/45CxJXV) is available for purchase on major online platforms and bookstores. For more information, please visit the [publisher's website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782).
+## Publication and citation
 
-\
+**First edition · CRC Press / Chapman & Hall · 2025**
+
+> Gazzelloni, Federica. (2025). *Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R*. CRC Press.
+
+See the [publisher’s page](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782) for available formats and ISBN details.
+
+## Related articles and updates
+
+::: {#related-articles}
+:::

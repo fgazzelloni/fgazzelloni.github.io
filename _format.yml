@@ -14,7 +14,7 @@ format:
     footnotes-hover: true
     code-copy: true
     code-overflow: wrap
-    code-link: true
+    code-link: false
     back-to-top-navigation: true 
     page-navigation: true
     #title-block-banner: true

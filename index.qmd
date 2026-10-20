@@ -46,7 +46,7 @@ title-block-banner: false
     </p>
     <div class="landing-actions" aria-label="Primary homepage actions">
       <a href="content/proj/posts/automation_workflow/" class="landing-button landing-button--primary">Explore AI Workflows</a>
-      <a href="content/books/posts/hmsid/" class="landing-button">Read the Book</a>
+      <a href="https://federicagazzelloni.com/hmsidR/" class="landing-button">Read the Book</a>
       <a href="about/workshops/" class="landing-button">Workshops &amp; Talks</a>
     </div>
   </div>
@@ -68,8 +68,8 @@ title-block-banner: false
     <strong>Build repeatable systems for research, monitoring, and decision support.</strong>
   </a>
   <a href="content/books/posts/hmsid/" class="landing-pathway">
-    <span>Health Metrics</span>
-    <strong>Explore infectious disease analytics, burden of disease, and spatial modelling.</strong>
+    <span>About the book</span>
+    <strong>Explore Health Metrics and the Spread of Infectious Diseases, with code, data, and related articles.</strong>
   </a>
   <a href="content/blog/posts/stats/" class="landing-pathway">
     <span>R &amp; Statistical Modelling</span>
@@ -80,36 +80,23 @@ title-block-banner: false
 
 :::
 
-## News: Health Metrics and the Spread of Infectious Diseases — Now Published and Available Worldwide
-
-> Gazzelloni, Federica. Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R. First edition. Boca Raton, FL: CRC Press, 2025. Print.
-
-### 🎉 Explore the Online and Printed Versions
-
-📖 Read it online for free:
-
--   🔗 [https://fgazzelloni.github.io/hmsidR/](https://fgazzelloni.github.io/hmsidR/)
-
-🛒 Order your Hard Printed Copy:
-
--   Order the printed edition:👉 [Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782) or 👉 [Amazon](https://amzn.to/4aHGseT)
-
-:::{.callout}
-> It’s been an incredible journey, and now that the book is officially printed and available on Amazon to order, I feel a mix of emotions—both the excitement of sharing it with you and a touch of nostalgia as this creative process comes to a close. 😌
-
-Writing this book has been an immensely rewarding experience. I’ve spent countless hours selecting the right material and striving to present it in a way that’s accessible and helpful for early-career researchers and students. One of the biggest challenges was deciding what to include and what to leave out, constantly refining the content to ensure it’s both comprehensive and easy to follow.
-
-Even though the book is now published, my mind is still buzzing with ideas. There’s always that lingering thought of what else could be added to make it even better. But at some point, you have to step back and trust that what you’ve created will serve its purpose. And now, it’s time to see how it will resonate with you, the readers.
-
-> As I reflect on this journey, I’m filled with gratitude for all the support and feedback I’ve received along the way. Your encouragement has been invaluable in shaping this book into what it is today.
-
-So, what’s next? While this project may be wrapping up, my passion for writing and sharing knowledge is far from over. Stay tuned for more updates and future projects! In the meantime, I invite you to dive into the book, explore its content, and share your thoughts. Your insights will be crucial as I continue to learn and grow.
-
-Thank you for being a part of this journey. I hope the book serves as a valuable resource for your research and studies. Let’s see where this new chapter takes us!
-
-**Happy reading! 📚✨**
-:::
-
+```{=html}
+<section class="book-feature" aria-labelledby="featured-book-title">
+  <a href="content/books/posts/hmsid/" aria-label="About Health Metrics and the Spread of Infectious Diseases">
+    <img class="book-feature__cover" src="images/book_cover.png" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" loading="lazy" />
+  </a>
+  <div>
+    <p class="book-feature__eyebrow">Featured book · CRC Press · 2025</p>
+    <h2 id="featured-book-title">Health Metrics and the Spread of Infectious Diseases</h2>
+    <p>Learn to calculate health metrics, apply machine learning, and explore spatial patterns with practical R examples.</p>
+    <div class="book-actions" aria-label="Featured book links">
+      <a class="book-button book-button--primary" href="https://federicagazzelloni.com/hmsidR/">Read online — free</a>
+      <a class="book-button" href="content/books/posts/hmsid/">About the book &amp; resources</a>
+    </div>
+    <p class="book-feature__note">Available in print from <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Routledge</a>. Read about <a href="content/books/posts/hmsid/posts/062025/#publication-reflections">the writing journey</a>.</p>
+  </div>
+</section>
+```
 
 ```{=html}
 <div class="hero-content">

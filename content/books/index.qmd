@@ -14,10 +14,8 @@ page-navigation: true
 back-to-top-navigation: true
 ---
 
-This books section presents authored work by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization. It gives readers a structured path from the website's articles and tutorials into longer-form technical resources.
+Explore my books and their companion code, datasets, and articles. Open a book overview for publication details and resources, or go straight to the free online edition.
 
-## Start with the book resources
+[Read Health Metrics and the Spread of Infectious Diseases online](https://federicagazzelloni.com/hmsidR/)
 
-- [Health Metrics and the Spread of Infectious Diseases](posts/hmsid/) for the main book hub.
-- [The hidden math that shapes our health](posts/hmsid/posts/012026/) for an accessible introduction to DALYs, risk exposure, epidemic prediction, AI models, and spatial analysis.
-- [Writing a book in R](posts/hmsid/posts/062025/) for the Quarto and R workflow behind the book.
+## Books and resources
