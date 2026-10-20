@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -167,12 +167,18 @@ window.Quarto = {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Books on Health Metrics, R, and Data Science – Federica Gazzelloni">
 <meta property="og:description" content="Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.">
+<meta property="og:image" content="https://federicagazzelloni.com/images/book_cover.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="988">
+<meta property="og:image:width" content="722">
 <meta name="twitter:title" content="Books on Health Metrics, R, and Data Science – Federica Gazzelloni">
 <meta name="twitter:description" content="Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.">
+<meta name="twitter:image" content="https://federicagazzelloni.com/images/book_cover.png">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="988">
+<meta name="twitter:image-width" content="722">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://federicagazzelloni.com/content/books/">
 </head>
 
@@ -209,6 +215,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../content/rpackages/index.html">
  <span class="dropdown-text">R Packages</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
     </ul>
   </li>
@@ -314,14 +324,10 @@ window.Quarto = {
 
 
 
-<p>This books section presents authored work by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization. It gives readers a structured path from the website’s articles and tutorials into longer-form technical resources.</p>
-<section id="start-with-the-book-resources" class="level2">
-<h2 class="anchored" data-anchor-id="start-with-the-book-resources">Start with the book resources</h2>
-<ul>
-<li><a href="posts/hmsid/">Health Metrics and the Spread of Infectious Diseases</a> for the main book hub.</li>
-<li><a href="posts/hmsid/posts/012026/">The hidden math that shapes our health</a> for an accessible introduction to DALYs, risk exposure, epidemic prediction, AI models, and spatial analysis.</li>
-<li><a href="posts/hmsid/posts/062025/">Writing a book in R</a> for the Quarto and R workflow behind the book.</li>
-</ul>
+<p>Explore my books and their companion code, datasets, and articles. Open a book overview for publication details and resources, or go straight to the free online edition.</p>
+<p><a href="https://federicagazzelloni.com/hmsidR/">Read Health Metrics and the Spread of Infectious Diseases online</a></p>
+<section id="books-and-resources" class="level2">
+<h2 class="anchored" data-anchor-id="books-and-resources">Books and resources</h2>
 
 
 
@@ -329,18 +335,21 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1767898234173" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1792500001621" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
 <div class="thumbnail"><a href="../../content/books/posts/hmsid/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/hmsid/posts/012026/featured.png"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="../../images/book_cover.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../../content/books/posts/hmsid/index.html" class="no-external">Health Metrics and the Spread of Infectious Diseases (HMSID)</a>
+<a href="../../content/books/posts/hmsid/index.html" class="no-external">Health Metrics and the Spread of Infectious Diseases</a>
 </h3>
+<div class="listing-subtitle">
+<a href="../../content/books/posts/hmsid/index.html" class="no-external">Machine Learning Applications and Spatial Modelling Analysis with R</a>
+</div>
 <div class="delink listing-description"><a href="../../content/books/posts/hmsid/index.html" class="no-external">
-<p>A comprehensive resource on health metrics and infectious disease spread.</p>
+<p>Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.</p>
 </a></div>
 </div>
 <div class="metadata">

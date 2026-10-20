@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="dcterms.date" content="2022-06-05">
 <meta name="description" content="Predictive modeling comparison in R using caret and tidymodels for preprocessing, resampling, training, and model evaluation.">
+
 <title>Predictive modeling – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
@@ -56,6 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="../../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../../../../site_libs/clipboard/clipboard.min.js"></script>
@@ -78,7 +82,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../../../site_libs/bootstrap/bootstrap-d8fff2e7d1f54d21ada73d4c2a5595e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../../../../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -104,13 +109,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script><script type="text/plain" cookie-consent="tracking">
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
+
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-119NQB71C8', { 'anonymize_ip': true});
-</script><script type="text/javascript" charset="UTF-8">
+</script>
+
+<script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"headline",
@@ -125,7 +135,11 @@ cookieconsent.run({
 "language":"en"
   });
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+
+
 <link rel="stylesheet" href="../../../../../../styles.css">
 <meta property="og:title" content="Predictive modeling – Federica Gazzelloni">
 <meta property="og:description" content="Predictive modeling comparison in R using caret and tidymodels for preprocessing, resampling, training, and model evaluation.">
@@ -143,13 +157,18 @@ cookieconsent.run({
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://federicagazzelloni.com/content/blog/posts/stats/posts/predictive_modeling/">
 </head>
+
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content"><img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content"></a>
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
+    <img src="../../../../../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="../../../../../../index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
     </a>
@@ -160,12 +179,12 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item dropdown ">
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Work</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/proj/index.html">
  <span class="dropdown-text">Projects</span></a>
   </li>  
@@ -173,14 +192,18 @@ cookieconsent.run({
     <a class="dropdown-item" href="../../../../../../content/rpackages/index.html">
  <span class="dropdown-text">R Packages</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualization</span></a>
+  </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Workshops</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops">    
+        <li>
     <a class="dropdown-item" href="../../../../../../about/workshops/index.html#the-carpentries">
  <span class="dropdown-text">The Carpentries</span></a>
   </li>  
@@ -189,13 +212,13 @@ cookieconsent.run({
  <span class="dropdown-text">R-Ladies Workshops and Talks</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Writing</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/blog/index.html">
  <span class="dropdown-text">Blog</span></a>
   </li>  
@@ -208,13 +231,13 @@ cookieconsent.run({
  <span class="dropdown-text">Papers</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-media" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Media</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-media">
-<li>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-media">    
+        <li>
     <a class="dropdown-item" href="../../../../../../content/podcasts/index.html">
  <span class="dropdown-text">Podcasts</span></a>
   </li>  
@@ -223,13 +246,13 @@ cookieconsent.run({
  <span class="dropdown-text">Talks</span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -238,18 +261,21 @@ cookieconsent.run({
 </a>
 </div>
       </div> <!-- /container-fluid -->
-    </nav><div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden">
-<i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="1005fb7dab80b3a3977a18ae1e6830c7" class="alert alert-danger hidden"><i class="bi bi-balloon-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Health Metrics and the Spread of Infectious Diseases</strong> is now available in print from Routledge!! <a href="https://amzn.to/4aHGseT">👉 Order your copy</a></p>
-</div>
-<i class="bi bi-x-lg quarto-announcement-action"></i>
-</div>
-</header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Predictive modeling</h1>
   <div class="quarto-categories">
     <div class="quarto-category">modeling</div>
@@ -278,50 +304,56 @@ cookieconsent.run({
   
 
 
-</header><section id="overview" class="level2"><h2 class="anchored" data-anchor-id="overview">Overview</h2>
+</header>
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>This post is dedicated to make a comparison between <strong>Caret</strong> and <strong>TidyModels</strong> R packages. Data modelling with R pass through data preprocessing and parameters assessments to predicting an outcome. Both set of packages can be used to achieve same results, with the purpose of finding the best predictive performance for data specific models.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="featured.png" class="img-fluid figure-img"></p>
-<figcaption>Predictive modeling - TreeMap</figcaption></figure>
+<figure class="figure">
+<p><img src="featured.png" class="img-fluid figure-img"></p>
+<figcaption>Predictive modeling - TreeMap</figcaption>
+</figure>
 </div>
 <p>The <strong>Caret</strong> package is the starting point for understanding how to manage models and produce unbiases predictions with R. As well as <strong>TidyModels</strong> meta package, it gives the opportunity to contruct a multivariate model syntax to manage several models to be applied on same set of data. <strong>TidyModels</strong> allows the use of a set of concatenated functions in partership with the <strong>TidyVerse</strong> grammar to build a structural model base which blends different models as one global model.</p>
 <p>The following is an attempt to a comparison between the two predictive model structures.</p>
-<hr></section><section id="caret-package" class="level2"><h2 class="anchored" data-anchor-id="caret-package">Caret package</h2>
+<hr>
+</section>
+<section id="caret-package" class="level2">
+<h2 class="anchored" data-anchor-id="caret-package">Caret package</h2>
 <p>The most important functions for this package, grouped by steps to modeling, are:</p>
 <ol type="1">
-<li>
-<p>Preprocessing (data cleaning/wrangling)</p>
+<li><p>Preprocessing (data cleaning/wrangling)</p>
 <ul>
 <li>preProcess()</li>
-</ul>
-</li>
-<li>
-<p>Data splitting and resampling</p>
+</ul></li>
+<li><p>Data splitting and resampling</p>
 <ul>
 <li>createDataPartition()</li>
 </ul>
-<!-- --><ul>
+<!-- -->
+<ul>
 <li><p>createResample()</p></li>
 <li><p>createTimeSlices()</p></li>
-</ul>
-</li>
-<li>
-<p>Model fit and prediction</p>
+</ul></li>
+<li><p>Model fit and prediction</p>
 <ul>
 <li>train()</li>
 </ul>
-<!-- --><ul>
+<!-- -->
+<ul>
 <li>predict()</li>
-</ul>
-</li>
-<li>
-<p>Model comparison</p>
+</ul></li>
+<li><p>Model comparison</p>
 <ul>
 <li>confusionMatrix()</li>
-</ul>
-</li>
+</ul></li>
 </ol>
-<hr></section><section id="tidymodels-meta-package" class="level2"><h2 class="anchored" data-anchor-id="tidymodels-meta-package">TidyModels meta package</h2>
+<hr>
+</section>
+<section id="tidymodels-meta-package" class="level2">
+<h2 class="anchored" data-anchor-id="tidymodels-meta-package">TidyModels meta package</h2>
 <p>This <a href="https://tidymodels.tidymodels.org/">“meta package”</a> is made of a set of packages for modeling, with the support of other well known packages for data manipulation and visualization such as broom, dplyr, ggplot2, purrr, infer, modeldata, and tibble; it includes:</p>
 <ul>
 <li>recipes (a preprocessor)</li>
@@ -333,15 +365,12 @@ cookieconsent.run({
 </ul>
 <p>The most important functions for this meta package, grouped by steps to modeling, are:</p>
 <ol type="1">
-<li>
-<p>Preprocessing (data cleaning/wrangling)</p>
+<li><p>Preprocessing (data cleaning/wrangling)</p>
 <ul>
 <li><p>recipes::recipe()</p></li>
 <li><p>recipes::step_<functions>()</functions></p></li>
-</ul>
-</li>
-<li>
-<p>Data splitting and resampling</p>
+</ul></li>
+<li><p>Data splitting and resampling</p>
 <ul>
 <li><p>rsample::initial_split()</p></li>
 <li><p>rsample::training()</p></li>
@@ -349,20 +378,16 @@ cookieconsent.run({
 <li><p>rsample::bootstraps()</p></li>
 <li><p>rsample::vfold_cv()</p></li>
 <li><p>tune::control_resamples()</p></li>
-</ul>
-</li>
-<li>
-<p>Model fit and prediction</p>
+</ul></li>
+<li><p>Model fit and prediction</p>
 <ul>
 <li><p>parsnip::<model_type>() %&gt;% set_mode() %&gt;% set_engine()</model_type></p></li>
 <li><p>parsnip::extract_fit_engine()</p></li>
 <li><p>parsnip::extract_fit_parsnip()</p></li>
 <li><p>parsnip::fit() stats::predict()</p></li>
 <li><p>tune::fit_resamples()</p></li>
-</ul>
-</li>
-<li>
-<p>Model workflow</p>
+</ul></li>
+<li><p>Model workflow</p>
 <ul>
 <li><p>workflows::workflow() %&gt;% add_model()</p></li>
 <li><p>workflows::add_formula()</p></li>
@@ -377,10 +402,8 @@ cookieconsent.run({
 <li><p>tune::last_fit()</p></li>
 <li><p>workflowsets/tune::collect_metrics()</p></li>
 <li><p>workflowsets/tune::collect_predictions()</p></li>
-</ul>
-</li>
-<li>
-<p>Model comparison</p>
+</ul></li>
+<li><p>Model comparison</p>
 <ul>
 <li><p>yardstick::conf_mat()</p></li>
 <li><p>yardstick::accuracy()</p></li>
@@ -388,10 +411,12 @@ cookieconsent.run({
 <li><p>yardstick::roc_curve()</p></li>
 <li><p>yardstick::roc_auc()</p></li>
 <li><p>yardstick::sensitivity()</p></li>
-</ul>
-</li>
+</ul></li>
 </ol>
-<hr></section><section id="machine-learning-algorithms-in-r" class="level2"><h2 class="anchored" data-anchor-id="machine-learning-algorithms-in-r">Machine learning algorithms in R</h2>
+<hr>
+</section>
+<section id="machine-learning-algorithms-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-algorithms-in-r">Machine learning algorithms in R</h2>
 <ul>
 <li>Linear discriminant analysis</li>
 <li>Regression</li>
@@ -403,175 +428,66 @@ cookieconsent.run({
 <li>etc.</li>
 </ul>
 <p>Resource: <a href="https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning">Practical Machine Learning</a></p>
-<hr></section><section id="caret-or-tidymodels" class="level2"><h2 class="anchored" data-anchor-id="caret-or-tidymodels">Caret or TidyModels?</h2>
+<hr>
+</section>
+<section id="caret-or-tidymodels" class="level2">
+<h2 class="anchored" data-anchor-id="caret-or-tidymodels">Caret or TidyModels?</h2>
 <p><a href="http://caret.r-forge.r-project.org/">Caret</a> <a href="https://www.tidymodels.org/start/models/">Tidymodels</a></p>
-<hr></section><section id="caret-example-with-spam-data" class="level2"><h2 class="anchored" data-anchor-id="caret-example-with-spam-data">Caret Example with SPAM Data</h2>
+<hr>
+</section>
+<section id="caret-example-with-spam-data" class="level2">
+<h2 class="anchored" data-anchor-id="caret-example-with-spam-data">Caret Example with SPAM Data</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/topepo/caret/">caret</a></span><span class="op">)</span>; <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">kernlab</span><span class="op">)</span>; <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">spam</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: ggplot2</code></pre>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(caret); <span class="fu">library</span>(kernlab); <span class="fu">data</span>(spam)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>inTrain <span class="ot">&lt;-</span> <span class="fu">createDataPartition</span>(<span class="at">y=</span>spam<span class="sc">$</span>type,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                              <span class="at">p=</span><span class="fl">0.75</span>, <span class="at">list=</span><span class="cn">FALSE</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>training <span class="ot">&lt;-</span> spam[inTrain,]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>testing <span class="ot">&lt;-</span> spam[<span class="sc">-</span>inTrain,]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># dim(training)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">32343</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>modelFit <span class="ot">&lt;-</span> <span class="fu">train</span>(type <span class="sc">~</span>.,<span class="at">data=</span>training, <span class="at">method=</span><span class="st">"glm"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># modelFit</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(modelFit,<span class="at">newdata=</span>testing)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># predictions</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>cm <span class="ot">&lt;-</span> <span class="fu">confusionMatrix</span>(predictions,testing<span class="sc">$</span>type)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>cm</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(cm<span class="sc">$</span>table,<span class="at">main=</span><span class="st">"Table"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Loading required package: lattice</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'kernlab'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following object is masked from 'package:ggplot2':
-
-    alpha</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">inTrain</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/caret/man/createDataPartition.html">createDataPartition</a></span><span class="op">(</span>y<span class="op">=</span><span class="va">spam</span><span class="op">$</span><span class="va">type</span>,</span>
-<span>                              p<span class="op">=</span><span class="fl">0.75</span>, list<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span></span>
-<span><span class="va">training</span> <span class="op">&lt;-</span> <span class="va">spam</span><span class="op">[</span><span class="va">inTrain</span>,<span class="op">]</span></span>
-<span><span class="va">testing</span> <span class="op">&lt;-</span> <span class="va">spam</span><span class="op">[</span><span class="op">-</span><span class="va">inTrain</span>,<span class="op">]</span></span>
-<span><span class="co"># dim(training)</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op">(</span><span class="fl">32343</span><span class="op">)</span></span>
-<span><span class="va">modelFit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/caret/man/train.html">train</a></span><span class="op">(</span><span class="va">type</span> <span class="op">~</span><span class="va">.</span>,data<span class="op">=</span><span class="va">training</span>, method<span class="op">=</span><span class="st">"glm"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred
-Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># modelFit</span></span>
-<span></span>
-<span><span class="va">predictions</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">modelFit</span>,newdata<span class="op">=</span><span class="va">testing</span><span class="op">)</span></span>
-<span><span class="co"># predictions</span></span>
-<span></span>
-<span><span class="va">cm</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/caret/man/confusionMatrix.html">confusionMatrix</a></span><span class="op">(</span><span class="va">predictions</span>,<span class="va">testing</span><span class="op">$</span><span class="va">type</span><span class="op">)</span></span>
-<span><span class="va">cm</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Confusion Matrix and Statistics
-
-          Reference
-Prediction nonspam spam
-   nonspam     659   52
-   spam         38  401
-                                          
-               Accuracy : 0.9217          
-                 95% CI : (0.9047, 0.9366)
-    No Information Rate : 0.6061          
-    P-Value [Acc &gt; NIR] : &lt;2e-16          
-                                          
-                  Kappa : 0.8352          
-                                          
- Mcnemar's Test P-Value : 0.1706          
-                                          
-            Sensitivity : 0.9455          
-            Specificity : 0.8852          
-         Pos Pred Value : 0.9269          
-         Neg Pred Value : 0.9134          
-             Prevalence : 0.6061          
-         Detection Rate : 0.5730          
-   Detection Prevalence : 0.6183          
-      Balanced Accuracy : 0.9153          
-                                          
-       'Positive' Class : nonspam         
-                                          </code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">cm</span><span class="op">$</span><span class="va">table</span>,main<span class="op">=</span><span class="st">"Table"</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section><section id="tidymodels-example-with-spam-data" class="level2"><h2 class="anchored" data-anchor-id="tidymodels-example-with-spam-data">TidyModels Example with SPAM Data</h2>
+</section>
+<section id="tidymodels-example-with-spam-data" class="level2">
+<h2 class="anchored" data-anchor-id="tidymodels-example-with-spam-data">TidyModels Example with SPAM Data</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidymodels.tidymodels.org">tidymodels</a></span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching packages ────────────────────────────────────── tidymodels 1.4.1 ──</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>✔ broom        1.0.10     ✔ rsample      1.3.1 
-✔ dials        1.4.2      ✔ tailor       0.1.0 
-✔ dplyr        1.1.4      ✔ tidyr        1.3.1 
-✔ infer        1.0.9      ✔ tune         2.0.1 
-✔ modeldata    1.5.1      ✔ workflows    1.3.0 
-✔ parsnip      1.3.3      ✔ workflowsets 1.1.1 
-✔ purrr        1.2.1      ✔ yardstick    1.3.2 
-✔ recipes      1.3.1      </code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Conflicts ───────────────────────────────────────── tidymodels_conflicts() ──
-✖ scales::alpha()          masks kernlab::alpha(), ggplot2::alpha()
-✖ dials::buffer()          masks kernlab::buffer()
-✖ rsample::calibration()   masks caret::calibration()
-✖ purrr::cross()           masks kernlab::cross()
-✖ purrr::discard()         masks scales::discard()
-✖ dplyr::filter()          masks stats::filter()
-✖ dplyr::lag()             masks stats::lag()
-✖ purrr::lift()            masks caret::lift()
-✖ yardstick::precision()   masks caret::precision()
-✖ yardstick::recall()      masks caret::recall()
-✖ yardstick::sensitivity() masks caret::sensitivity()
-✖ yardstick::specificity() masks caret::specificity()
-✖ recipes::step()          masks stats::step()</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://tidymodels.tidymodels.org/reference/tidymodels_prefer.html">tidymodels_prefer</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op">(</span><span class="fl">123</span><span class="op">)</span></span>
-<span><span class="va">split</span> <span class="op">&lt;-</span> <span class="fu">initial_split</span><span class="op">(</span><span class="va">spam</span>,<span class="fl">0.75</span>,strata<span class="op">=</span><span class="va">type</span><span class="op">)</span></span>
-<span><span class="va">training</span> <span class="op">&lt;-</span> <span class="fu">training</span><span class="op">(</span><span class="va">split</span><span class="op">)</span></span>
-<span><span class="va">testing</span> <span class="op">&lt;-</span> <span class="fu">testing</span><span class="op">(</span><span class="va">split</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">modelFit</span> <span class="op">&lt;-</span> <span class="fu">logistic_reg</span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span> </span>
-<span>  <span class="fu">set_engine</span><span class="op">(</span><span class="st">"glm"</span><span class="op">)</span> <span class="op">%&gt;%</span></span>
-<span>  <span class="fu">fit</span><span class="op">(</span><span class="va">type</span><span class="op">~</span><span class="va">.</span>,data<span class="op">=</span><span class="va">spam</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: glm.fit: fitted probabilities numerically 0 or 1 occurred</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># tidy(modelFit)</span></span>
-<span></span>
-<span><span class="va">predictions</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op">(</span><span class="va">modelFit</span>,new_data<span class="op">=</span><span class="va">testing</span><span class="op">)</span></span>
-<span><span class="co"># predictions</span></span>
-<span></span>
-<span><span class="va">testing</span><span class="op">$</span><span class="va">pred</span> <span class="op">&lt;-</span> <span class="va">predictions</span><span class="op">$</span><span class="va">.pred_class</span></span>
-<span><span class="va">cm</span> <span class="op">&lt;-</span> <span class="fu">yardstick</span><span class="fu">::</span><span class="fu"><a href="https://yardstick.tidymodels.org/reference/conf_mat.html">conf_mat</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">testing</span>, truth <span class="op">=</span> <span class="va">type</span>, estimate <span class="op">=</span> <span class="va">pred</span><span class="op">)</span></span>
-<span><span class="va">cm</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>          Truth
-Prediction nonspam spam
-   nonspam     668   50
-   spam         29  404</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/autoplot.html">autoplot</a></span><span class="op">(</span><span class="va">cm</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure"><p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidymodels)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tidymodels_prefer</span>()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>split <span class="ot">&lt;-</span> <span class="fu">initial_split</span>(spam,<span class="fl">0.75</span>,<span class="at">strata=</span>type)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>training <span class="ot">&lt;-</span> <span class="fu">training</span>(split)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>testing <span class="ot">&lt;-</span> <span class="fu">testing</span>(split)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>modelFit <span class="ot">&lt;-</span> <span class="fu">logistic_reg</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_engine</span>(<span class="st">"glm"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fit</span>(type<span class="sc">~</span>.,<span class="at">data=</span>spam)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># tidy(modelFit)</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(modelFit,<span class="at">new_data=</span>testing)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># predictions</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>testing<span class="sc">$</span>pred <span class="ot">&lt;-</span> predictions<span class="sc">$</span>.pred_class</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>cm <span class="ot">&lt;-</span> yardstick<span class="sc">::</span><span class="fu">conf_mat</span>(<span class="at">data =</span> testing, <span class="at">truth =</span> type, <span class="at">estimate =</span> pred)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>cm</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">autoplot</span>(cm)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
-</section><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -977,22 +893,23 @@ Prediction nonspam spam
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../../../LICENSE.md">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
 <p>This Blog is made with 💜 in Quarto</p>
 </a>
   </li>  
 </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0000-0002-4285-611X">
 <p><i class="ai  ai-orcid" aria-label="orcid"></i></p>
 </a>
@@ -1038,9 +955,11 @@ Prediction nonspam spam
     </a>
   </li>  
 </ul>
-</div>
+    </div>
   </div>
 </footer>
+
+
 
 
 <script src="../../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
