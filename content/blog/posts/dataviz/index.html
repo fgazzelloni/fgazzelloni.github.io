@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: Unlocking The Power of Data Visualization with R Website.">
+<meta name="description" content="Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations.">
 
-<title>Data Visualizations – Federica Gazzelloni</title>
+<title>Data Visualization – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,20 +79,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-favourite-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-favourite-projects'] = new List('listing-favourite-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,21 +165,27 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Data Visualizations – Federica Gazzelloni">
-<meta property="og:description" content="In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: Unlocking The Power of Data Visualization with R Website.">
+<meta property="og:title" content="Data Visualization – Federica Gazzelloni">
+<meta property="og:description" content="Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations.">
+<meta property="og:image" content="https://federicagazzelloni.com/content/blog/posts/dataviz/portfolio-preview.png">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Data Visualizations – Federica Gazzelloni">
-<meta name="twitter:description" content="In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: Unlocking The Power of Data Visualization with R Website.">
+<meta property="og:image:height" content="640">
+<meta property="og:image:width" content="800">
+<meta name="twitter:title" content="Data Visualization – Federica Gazzelloni">
+<meta name="twitter:description" content="Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations.">
+<meta name="twitter:image" content="https://federicagazzelloni.com/content/blog/posts/dataviz/portfolio-preview.png">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="640">
+<meta name="twitter:image-width" content="800">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://federicagazzelloni.com/content/blog/posts/dataviz/">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -267,6 +273,13 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://datametricus.com/"> <i class="bi bi-box-arrow-up-right" role="img" aria-label="DataMetricus — consulting and training (external website)">
+</i> 
+<span class="menu-text">DataMetricus</span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
@@ -282,390 +295,264 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Data Visualizations</h1>
-                  <div>
-        <div class="description">
-          In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: <a href="https://fgazzelloni.github.io/UPDVwR/"><strong>Unlocking The Power of Data Visualization with R Website</strong></a>.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Visualization</h1>
+</div>
+
+<div>
+  <div class="description">
+    Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Data visualization is a powerful tool that allows the transformation of complex data sets into comprehensible and insightful graphical representations. By presenting data visually, it enables the identification of patterns, trends, and correlations that might otherwise go unnoticed, making it easier to understand and communicate complex findings.</p>
-<p>One of the fundamental concepts in modern data visualization is the <strong>Grammar of Graphics</strong>, which provides a structured approach to creating visualizations layer by layer. This concept is clearly interpreted in tools like the <code>{ggplot2}</code> R package, part of the <code>{tidyverse}</code> ecosystem, developed by Hadley Wickham in 2005. The Grammar of Graphics helps guide the creation of clear and concise visualizations, offering users a framework for combining data, aesthetics, and geometries.</p>
-<p>Here you’ll find a collection of my favorite Data Visualizations, showcasing a variety of themes and data sets. Each visualization represents my approach to conveying meaningful insights through graphs and plots. Whether you are interested in exploring health metrics, economic trends, or the spread of infectious diseases, my work emphasizes the power of visual storytelling.</p>
-<p>For a more comprehensive experience, feel free to explore my full collection of plots and data visualizations at my <code>UPDVwR</code> website: <a href="https://fgazzelloni.github.io/UPDVwR/">Explore all Data Visualizations</a></p>
+
+<div class="dataviz-page">
+<section class="dataviz-hero" aria-labelledby="dataviz-portfolio-title">
+  <div class="dataviz-hero__content">
+    <p class="dataviz-eyebrow">My full portfolio · UPDVwR</p>
+    <h2 id="dataviz-portfolio-title" class="anchored">Unlocking the Power of Data Visualization with R</h2>
+    <p>Charts, maps, and visual stories created with R. Explore my complete collection on UPDVwR, with code and explanations behind the designs.</p>
+    <div class="dataviz-actions">
+      <a class="dataviz-button dataviz-button--primary" href="https://fgazzelloni.github.io/UPDVwR/">Explore the full portfolio <span aria-hidden="true">↗</span></a>
+      <a class="dataviz-button" href="#favourites">Browse my favourites <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+  <figure class="dataviz-hero__preview figure">
+    <a href="https://fgazzelloni.github.io/UPDVwR/" aria-label="Explore my complete data visualisation portfolio on UPDVwR">
+      <img src="portfolio-preview.png" alt="A collage of my R visualisations, including climate trends, maps, dot plots, and bar charts." width="800" height="640" fetchpriority="high" class="figure-img">
+    </a>
+    <figcaption>A selection from my 2023 TidyTuesday collection.</figcaption>
+  </figure>
 </section>
-<section id="featured-data-visualization-examples" class="level2">
-<h2 class="anchored" data-anchor-id="featured-data-visualization-examples">Featured data visualization examples</h2>
-<ul>
-<li><a href="posts/usecases/malaria/">Malaria data analysis in R</a> for public health data, WHO malaria map data, and epidemic context.</li>
-<li><a href="posts/oregonfrogs/">Oregon spotted frog data visualization</a> for ecological survey data, spatial context, and model output.</li>
-<li><a href="posts/ggstream/">Retail sales streamgraph with ggstream</a> for TidyTuesday retail data and streamgraph design.</li>
-<li><a href="posts/european_flights/">European flights data visualization</a> for airports, flight activity, and Sankey-style thinking.</li>
-<li><a href="posts/dubois2024/challenge01/">Du Bois Challenge 2024 data visualization</a> for recreating historical data portraits in R.</li>
-</ul>
 
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1707087600000" data-listing-file-modified-sort="1777812695976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2227">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="no-external">
-
-<img loading="lazy" src="https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="no-external">Du Bois Challenge 2024 Data Visualization in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="no-external">
-<p>R data visualization workflow for Du Bois Challenge 2024, recreating a historical data portrait with sf, patchwork, and tidyverse.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="no-external">
-<div class="listing-date">
-Feb 5, 2024
-</div>
-</a>
+<nav class="dataviz-collections" aria-label="Browse collections on the UPDVwR portfolio website">
+  <p>Explore the portfolio by collection</p>
+  <div>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/tidytuesday/index.html">TidyTuesday <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/chartchallenge/index.html">30 Day Chart Challenge <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/mapchallenge/index.html">30 Day Map Challenge <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/duboischallenge/index.html">Du Bois Challenge <span aria-hidden="true">↗</span></a>
+  </div>
+</nav>
+<section id="favourites" class="level2">
+<h2 class="anchored" data-anchor-id="favourites">My favourites</h2>
+<p>A curated selection from my work. Open a project to explore the data, design choices, and R code, or visit the <a href="https://fgazzelloni.github.io/UPDVwR/">full portfolio</a> for the wider collection.</p>
+<div id="listing-favourite-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1707087600000" data-listing-file-modified-sort="1777812695976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2227">
+<a href="../../../../content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Du Bois Challenge 2024 Data Visualization in R
+</h5>
+<div class="card-text listing-description delink">
+<p>R data visualization workflow for Du Bois Challenge 2024, recreating a historical data portrait with sf, patchwork, and…</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1699830000000" data-listing-file-modified-sort="1777822752818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="930">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/usecases/hiv/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="no-external">Epidemic transition metrics of HIV infections estimation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="no-external">Dataset: Global data on HIV epidemiology and response (aidsinfo.unaids.org)</a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="no-external">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1699830000000" data-listing-file-modified-sort="1777822752818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="930">
+<a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/usecases/hiv/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Epidemic transition metrics of HIV infections estimation
+</h5>
+<div class="card-text listing-description delink">
 <p>Health metrics analysis of HIV infection indicators using R, UNAIDS data, spatial methods, and epidemic transition measures.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/hiv/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1777822752754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1899">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/ggmap/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="no-external">How to get started with ggmap</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="no-external">Dataset: Asia Population Estimation</a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="no-external">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1777822752754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1899">
+<a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/ggmap/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to get started with ggmap
+</h5>
+<div class="card-text listing-description delink">
 <p>R mapping tutorial using ggmap, geocoding, and population data for major Asian cities and regions.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/ggmap/index.html" class="no-external">
-<div class="listing-date">
-Nov 7, 2023
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1693087200000" data-listing-file-modified-sort="1777812695747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2104">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/usecases/malaria/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="no-external">Malaria Data Analysis in R with WHO and World Bank Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="no-external">
-<p>Public health data analysis of malaria in R using WHO malaria map data, World Bank indicators, epidemic context, and visualization.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="no-external">
-<div class="listing-date">
-Aug 27, 2023
-</div>
-</a>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1693087200000" data-listing-file-modified-sort="1777812695747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2104">
+<a href="../../../../content/blog/posts/dataviz/posts/usecases/malaria/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/usecases/malaria/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Malaria Data Analysis in R with WHO and World Bank Data
+</h5>
+<div class="card-text listing-description delink">
+<p>Public health data analysis of malaria in R using WHO malaria map data, World Bank indicators, epidemic context, and…</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1675119600000" data-listing-file-modified-sort="1777812695861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="977">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/ggstream/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="no-external">Retail Sales Streamgraph in R with ggstream</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="no-external">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1675119600000" data-listing-file-modified-sort="1777812695861" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="977">
+<a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/ggstream/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Retail Sales Streamgraph in R with ggstream
+</h5>
+<div class="card-text listing-description delink">
 <p>R data visualization tutorial creating a retail sales streamgraph with ggstream, TidyTuesday data, tidyverse, and custom styling.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/ggstream/index.html" class="no-external">
-<div class="listing-date">
-Jan 31, 2023
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1665439200000" data-listing-file-modified-sort="1777803971136" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1964">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/yarn/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="no-external">Yarn: hierarchical edge bundling visualization</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="no-external">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1665439200000" data-listing-file-modified-sort="1777803971136" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1964">
+<a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/yarn/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yarn: hierarchical edge bundling visualization
+</h5>
+<div class="card-text listing-description delink">
 <p>Hierarchical edge bundling visualization in R using TidyTuesday Ravelry yarn data, igraph, and ggraph.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/yarn/index.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1659391200000" data-listing-file-modified-sort="1777812695804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="679">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/oregonfrogs/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="no-external">Oregon Spotted Frog Data Visualization in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="no-external">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1659391200000" data-listing-file-modified-sort="1777812695804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="679">
+<a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/oregonfrogs/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Oregon Spotted Frog Data Visualization in R
+</h5>
+<div class="card-text listing-description delink">
 <p>R data visualization tutorial using TidyTuesday Oregon spotted frog data, custom plots, spatial context, and package workflows.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/oregonfrogs/index.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1657576800000" data-listing-file-modified-sort="1777812695919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2068">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/european_flights/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="no-external">European Flights Data Visualization in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="no-external">
-<p>R tutorial visualizing European flights and airports with TidyTuesday data, Sankey-style thinking, waffle charts, and data wrangling.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="no-external">
-<div class="listing-date">
-Jul 12, 2022
-</div>
-</a>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1657576800000" data-listing-file-modified-sort="1777812695919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2068">
+<a href="../../../../content/blog/posts/dataviz/posts/european_flights/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/european_flights/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+European Flights Data Visualization in R
+</h5>
+<div class="card-text listing-description delink">
+<p>R tutorial visualizing European flights and airports with TidyTuesday data, Sankey-style thinking, waffle charts, and data…</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1649455200000" data-listing-file-modified-sort="1777803970422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/Statistics/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="no-external">Statistics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="no-external">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1649455200000" data-listing-file-modified-sort="1777803970422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="425">
+<a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/Statistics/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistics
+</h5>
+<div class="card-text listing-description delink">
 <p>R data visualization of wage distributions by education level using ggdist dotted distributions and the ISLR2 Wage dataset.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/Statistics/index.html" class="no-external">
-<div class="listing-date">
-Apr 9, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1647298800000" data-listing-file-modified-sort="1777803970653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1909">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/erasmus/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="no-external">Erasmus students exchange</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="no-external">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1647298800000" data-listing-file-modified-sort="1777803970653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1909">
+<a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/erasmus/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Erasmus students exchange
+</h5>
+<div class="card-text listing-description delink">
 <p>R network visualization of Erasmus student exchange flows across European countries using TidyTuesday mobility data.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/erasmus/index.html" class="no-external">
-<div class="listing-date">
-Mar 15, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1645398000000" data-listing-file-modified-sort="1777822752678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="677">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/dubois2023/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="no-external">DuBois Challenge 2022</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="no-external">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1645398000000" data-listing-file-modified-sort="1777822752678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="677">
+<a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/dubois2023/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DuBois Challenge 2022
+</h5>
+<div class="card-text listing-description delink">
 <p>R data visualization post recreating a Du Bois Challenge plate with TidyTuesday data and ggplot-based design.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/dubois2023/index.html" class="no-external">
-<div class="listing-date">
-Feb 21, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1644015600000" data-listing-file-modified-sort="1777803970479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="652">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/dogbreeds/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="no-external">Dog breeds</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="no-external">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1644015600000" data-listing-file-modified-sort="1777803970479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="652">
+<a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/dogbreeds/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dog breeds
+</h5>
+<div class="card-text listing-description delink">
 <p>R visualization walkthrough using TidyTuesday dog breed data, ggforce ellipses, and custom drawing techniques.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/dogbreeds/index.html" class="no-external">
-<div class="listing-date">
-Feb 5, 2022
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1642978800000" data-listing-file-modified-sort="1777803970893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1039">
-<div class="thumbnail"><a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/network/featured.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="no-external">Network of game mechanics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="no-external"></a>
+</div></a>
 </div>
-<div class="delink listing-description"><a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="no-external">
+<div class="g-col-1" data-index="12" data-listing-date-sort="1642978800000" data-listing-file-modified-sort="1777803970893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1039">
+<a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/network/featured.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Network of game mechanics
+</h5>
+<div class="card-text listing-description delink">
 <p>Network data visualization in R using board game mechanics data, igraph, ggraph, and TidyTuesday workflows.</p>
-</a></div>
 </div>
-<div class="metadata">
-<a href="../../../../content/blog/posts/dataviz/posts/network/index.html" class="no-external">
-<div class="listing-date">
-Jan 24, 2022
 </div>
-</a>
-</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+</section>
+</div>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1075,7 +962,7 @@ Jan 24, 2022
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.github.io">DataMetricus</a> | <a href="../../../../LICENSE.md">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.com/">DataMetricus</a> | <a href="../../../../LICENSE.md">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
