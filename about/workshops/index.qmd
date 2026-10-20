@@ -8,6 +8,8 @@ resources:
   - ../dslc/dslc-recordings.js
 ---
 
+::: {.workshops-content}
+
 Practical sessions on R, data visualisation, health modelling, spatial analysis, and reproducible workflows. Browse the recordings or explore workshop materials.
 
 ```{=html}
@@ -89,3 +91,5 @@ Selected recordings from the Data Science Learning Community book clubs and Proj
 Recordings from conferences on R, data science, and community learning.
 
 {{< include ../talks/_talks-body.qmd >}}
+
+:::

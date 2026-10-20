@@ -1,0 +1,22 @@
+--- a/about.qmd
++++ b/about.qmd
+@@ -46,7 +46,7 @@
+       <div class="dm-section-header">
+         <h2>Principal</h2>
+       </div>
+-      <p>DataMetricus was founded by a statistician and actuary with over two decades of experience conducting independent statistical and actuarial research within regulated and policy-facing environments.</p>
++      <p>DataMetricus was founded by <a href="https://federicagazzelloni.com/">Federica Gazzelloni</a>, an actuary, statistician, author, and instructor. Her work spans health metrics, actuarial modelling, spatial analysis, and reproducible research.</p>
+       <p>Professional work spans insurance, national health institutions, and policy-driven organisations across the USA, the UK, and Europe, encompassing model development and review, applied statistical analysis, and methodological research.</p>
+       <p>The practice delivers well-documented, methodologically explicit analytical work designed to integrate seamlessly into larger advisory or assurance programmes, providing independent modelling expertise aligned with institutional and regulatory standards.</p>
+     </div>
+--- a/contact.qmd
++++ b/contact.qmd
+@@ -41,7 +41,7 @@
+         </ol>
+ 
+         <div class="dm-availability">
+-          <strong>Current availability:</strong> Accepting new projects for Q2 - Q3 2026 onwards. Training enquiries accepted for any date. Please indicate your preferred start period in your message.
++          <strong>Project and training enquiries:</strong> Please include your preferred start date and any fixed deadlines. We will confirm availability when we discuss the scope of your project or training request.
+         </div>
+       </div>
+ 

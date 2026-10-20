@@ -43,7 +43,41 @@
   .book-actions { flex-direction: column; }
 }
 
+/* Data visualisation portfolio and favourite projects */
+.dataviz-page { max-width: 1200px; margin-inline: auto; }
+.dataviz-hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); padding: clamp(1.25rem, 3vw, 2.5rem); margin: 1rem 0 1.5rem; background: #193b49; color: #fff; border-radius: 12px; }
+.dataviz-eyebrow { margin: 0 0 1rem; color: #bfe4df; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.dataviz-hero h2 { margin: 0 0 1.1rem; border: 0; padding: 0; color: #fff; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.15; }
+.dataviz-hero__content > p:not(.dataviz-eyebrow) { color: #edf6f7; line-height: 1.65; }
+.dataviz-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+.dataviz-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 44px; padding: 0.7rem 1rem; border: 1px solid #bfe4df; border-radius: 5px; color: #fff; text-decoration: none; font-weight: 600; }
+.dataviz-button--primary { background: #bfe4df; color: #193b49; }
+.dataviz-button:hover { background: #fff; color: #193b49; }
+.dataviz-hero__preview { margin: 0; min-width: 0; }
+.dataviz-hero__preview a { display: block; border-radius: 7px; overflow: hidden; }
+.dataviz-hero__preview img { display: block; width: 100%; height: auto; }
+.dataviz-hero__preview figcaption { margin-top: 0.65rem; color: #d5e5ea; font-size: 0.85rem; }
+.dataviz-collections { padding: 1.1rem 1.25rem; margin-bottom: 2.5rem; background: #f3f6f8; border: 1px solid #dce3e8; border-radius: 8px; }
+.dataviz-collections p { margin: 0 0 0.5rem; color: #536473; font-size: 0.9rem; }
+.dataviz-collections > div { display: flex; flex-wrap: wrap; gap: 0.2rem 1.4rem; }
+.dataviz-collections a { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 44px; color: #264e60; font-weight: 600; text-underline-offset: 0.2em; }
+.dataviz-page .quarto-grid-item { border: 1px solid #dce3e8; border-radius: 8px; overflow: hidden; box-shadow: none; }
+.dataviz-page .listing-item-img-placeholder { background: #f3f6f8; }
+.dataviz-page .card-img-top { object-fit: contain; background: #f3f6f8; }
+.dataviz-page .listing-title { font-size: 1.1rem; line-height: 1.35; }
+.dataviz-page .listing-description { color: #536473; font-size: 0.95rem; }
+.dataviz-page a:focus-visible { outline: 3px solid #a34b23; outline-offset: 4px; }
+.dataviz-hero a:focus-visible { outline-color: #bfe4df; }
+@media (max-width: 800px) {
+  .dataviz-hero { grid-template-columns: 1fr; }
+}
+@media (max-width: 500px) {
+  .dataviz-actions { flex-direction: column; }
+  .dataviz-button { width: 100%; }
+}
+
 /* Workshop recordings and teaching resources */
+.workshops-content { width: 100%; max-width: 1080px; margin-inline: auto; }
 .workshop-jump-links { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.5rem 0 2.5rem; }
 .workshop-jump-links a {
   padding: 0.65rem 1rem;
@@ -62,9 +96,9 @@
 }
 .workshop-results, .workshop-meta { color: #536473; font-size: 0.9rem; }
 .workshop-results { margin: 1rem 0; }
-.workshop-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.workshop-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1080px; gap: 0.8rem; margin-bottom: 1.5rem; }
 .workshop-card { display: flex; flex-direction: column; min-width: 0; border: 1px solid #dce3e8; border-radius: 10px; background: #fff; color: #263043; overflow: hidden; }
-.workshop-thumbnail { display: block; position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #263043; }
+.workshop-thumbnail { display: block; position: relative; aspect-ratio: 16 / 9; max-height: 180px; overflow: hidden; background: #263043; }
 .workshop-thumbnail img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .workshop-play {
   position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -72,7 +106,7 @@
   border-radius: 50%; background: rgba(20, 36, 46, 0.9); color: white; font-size: 1.25rem;
 }
 .workshop-watch-label { position: absolute; bottom: 0.65rem; left: 0.75rem; padding: 0.2rem 0.5rem; background: #263043; color: white; border-radius: 3px; font-size: 0.8rem; }
-.workshop-card__body { display: flex; flex: 1; flex-direction: column; align-items: start; padding: 1rem; gap: 0.55rem; }
+.workshop-card__body { display: flex; flex: 1; flex-direction: column; align-items: start; padding: 0.85rem; gap: 0.45rem; }
 .workshop-card__body h3 { margin: 0; font-size: 1.1rem; line-height: 1.35; }
 .workshop-card__body p { margin: 0; }
 .workshop-tag { display: inline-block; padding: 0.2rem 0.6rem; background: #edf3f6; color: #264e60; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
@@ -180,6 +214,11 @@ main.content {
   font-size: clamp(1.15rem, 2vw, 1.45rem);
   line-height: 1.55;
 }
+
+.landing-consulting { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; margin: 1.25rem 0 0; color: #edf6f7; font-size: 1rem; }
+.landing-consulting a { color: #ffffff; font-weight: 700; text-decoration: underline; text-underline-offset: 0.2em; }
+.landing-consulting a:hover { text-decoration-thickness: 2px; }
+.landing-consulting a:focus-visible { outline: 3px solid #ffffff; outline-offset: 4px; }
 
 .landing-actions {
   display: flex;

@@ -49,6 +49,10 @@ title-block-banner: false
       <a href="https://federicagazzelloni.com/hmsidR/" class="landing-button">Read the Book</a>
       <a href="about/workshops/" class="landing-button">Workshops &amp; Talks</a>
     </div>
+    <p class="landing-consulting">
+      <a href="https://datametricus.com/">Work with me <span aria-hidden="true">↗</span></a>
+      <span>Consulting and training through DataMetricus.</span>
+    </p>
   </div>
 
   <div class="landing-hero__visual" aria-label="Federica Gazzelloni analytics platform">

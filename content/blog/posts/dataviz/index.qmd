@@ -1,32 +1,62 @@
 ---
-title: "Data Visualizations"
-description: "In this section, I showcase a curated collection of my favorite data visualizations created using R, highlighting various themes and datasets. For a full experience, please visit: [**Unlocking The Power of Data Visualization with R Website**](https://fgazzelloni.github.io/UPDVwR/)."
+title: "Data Visualization"
+description: "Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations."
+image: portfolio-preview.png
 listing:
+  id: favourite-projects
   contents: posts
   sort: "date desc"
-  categories: true
+  type: grid
+  grid-columns: 3
+  image-height: "220px"
+  fields: [image, title, description]
+  max-description-length: 130
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 page-navigation: true
 back-to-top-navigation: true
 ---
 
-## Overview
+::: {.dataviz-page}
 
-Data visualization is a powerful tool that allows the transformation of complex data sets into comprehensible and insightful graphical representations. By presenting data visually, it enables the identification of patterns, trends, and correlations that might otherwise go unnoticed, making it easier to understand and communicate complex findings.
+```{=html}
+<section class="dataviz-hero" aria-labelledby="dataviz-portfolio-title">
+  <div class="dataviz-hero__content">
+    <p class="dataviz-eyebrow">My full portfolio · UPDVwR</p>
+    <h2 id="dataviz-portfolio-title">Unlocking the Power of Data Visualization with R</h2>
+    <p>Charts, maps, and visual stories created with R. Explore my complete collection on UPDVwR, with code and explanations behind the designs.</p>
+    <div class="dataviz-actions">
+      <a class="dataviz-button dataviz-button--primary" href="https://fgazzelloni.github.io/UPDVwR/">Explore the full portfolio <span aria-hidden="true">↗</span></a>
+      <a class="dataviz-button" href="#favourites">Browse my favourites <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+  <figure class="dataviz-hero__preview">
+    <a href="https://fgazzelloni.github.io/UPDVwR/" aria-label="Explore my complete data visualisation portfolio on UPDVwR">
+      <img src="portfolio-preview.png" alt="A collage of my R visualisations, including climate trends, maps, dot plots, and bar charts." width="800" height="640" fetchpriority="high" />
+    </a>
+    <figcaption>A selection from my 2023 TidyTuesday collection.</figcaption>
+  </figure>
+</section>
 
-One of the fundamental concepts in modern data visualization is the **Grammar of Graphics**, which provides a structured approach to creating visualizations layer by layer. This concept is clearly interpreted in tools like the `{ggplot2}` R package, part of the `{tidyverse}` ecosystem, developed by Hadley Wickham in 2005. The Grammar of Graphics helps guide the creation of clear and concise visualizations, offering users a framework for combining data, aesthetics, and geometries.
+<nav class="dataviz-collections" aria-label="Browse collections on the UPDVwR portfolio website">
+  <p>Explore the portfolio by collection</p>
+  <div>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/tidytuesday/index.html">TidyTuesday <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/chartchallenge/index.html">30 Day Chart Challenge <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/mapchallenge/index.html">30 Day Map Challenge <span aria-hidden="true">↗</span></a>
+    <a href="https://fgazzelloni.github.io/UPDVwR/content/duboischallenge/index.html">Du Bois Challenge <span aria-hidden="true">↗</span></a>
+  </div>
+</nav>
+```
 
-Here you’ll find a collection of my favorite Data Visualizations, showcasing a variety of themes and data sets. Each visualization represents my approach to conveying meaningful insights through graphs and plots. Whether you are interested in exploring health metrics, economic trends, or the spread of infectious diseases, my work emphasizes the power of visual storytelling.
+## My favourites {#favourites}
 
-For a more comprehensive experience, feel free to explore my full collection of plots and data visualizations at my `UPDVwR` website: [Explore all Data Visualizations](https://fgazzelloni.github.io/UPDVwR/)
+A curated selection from my work. Open a project to explore the data, design choices, and R code, or visit the [full portfolio](https://fgazzelloni.github.io/UPDVwR/) for the wider collection.
 
-## Featured data visualization examples
+::: {#favourite-projects}
+:::
 
-- [Malaria data analysis in R](posts/usecases/malaria/) for public health data, WHO malaria map data, and epidemic context.
-- [Oregon spotted frog data visualization](posts/oregonfrogs/) for ecological survey data, spatial context, and model output.
-- [Retail sales streamgraph with ggstream](posts/ggstream/) for TidyTuesday retail data and streamgraph design.
-- [European flights data visualization](posts/european_flights/) for airports, flight activity, and Sankey-style thinking.
-- [Du Bois Challenge 2024 data visualization](posts/dubois2024/challenge01/) for recreating historical data portraits in R.
+:::
