@@ -79,20 +79,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-recent-work .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-recent-work'] = new List('listing-recent-work', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -387,80 +387,77 @@ window.Quarto = {
     <p class="book-feature__note">Available in print from <a href="https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782">Routledge</a>. Read about <a href="content/books/posts/hmsid/posts/062025/#publication-reflections">the writing journey</a>.</p>
   </div>
 </section>
-<div class="hero-content">
-  <center><a href="https://www.youtube.com/@federicagazzelloni" class="cta-button">SUBSCRIBE</a>
-    <p class="hero-subtitle" style="font-size: 1.5rem;">Subscribe for the latest tutorials and insights in Data Science and R Programming!</p>
-    <video width="60%" height="auto" autoplay="" loop="" muted="" playsinline="">
-    <source src="images/welcome-video.mp4" type="video/mp4">
-    </video>
-     </center>
-</div>
 <div class="column-page">
-<div style="margin-top: 10px; font-size: 3em;  font-weight: bold; text-align: center; background-color: #343a40; color: white;">
-<p>Latest content</p>
-</div>
-</div>
-<p><link rel="me" href="https://fosstodon.org/@fgazzelloni"></p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="home-lower">
+<section class="home-latest" aria-labelledby="recent-work-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-eyebrow">Recent work</p>
+      <h2 id="recent-work-title" class="anchored">Ideas, code, and practical guides</h2>
+      <p>Explore the latest from my writing, research, and analytical workflows.</p>
+    </div>
+    <a class="home-text-link" href="content/blog/">Browse the blog <span aria-hidden="true">→</span></a>
+  </div>
+<div id="listing-recent-work" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777823609154" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
-<a href="./content/blog/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="content/blog/posts/dataviz/portfolio-preview.png" style="height: 200;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Blog
-</h5>
-<div class="card-text listing-description delink">
-<p>A space for sharing fresh content, personal reflections, and valuable insights on topics spanning data visualization, data analytics, and beyond.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1772716138006" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
-<a href="./content/blog/posts/actuarial/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Actuarial Science Insights
-</h5>
-<div class="card-text listing-description delink">
-<p>Exploring the intersection of mathematics, statistics, and finance to assess and manage risk effectively.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1792509714417" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
-<a href="./content/blog/posts/dataviz/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="YXV0b21hdGlvbiUyQ2FpJTJDd29ya2Zsb3dzJTJDaW5mcmFzdHJ1Y3R1cmUlMkNuOG4=" data-listing-date-sort="1774908000000" data-listing-file-modified-sort="1792510827623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="715">
+<a href="./content/proj/posts/automation_workflow/posts/n8n_setup/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./content/blog/posts/dataviz/portfolio-preview.png" class="thumbnail-image card-img" style="height: 200;">
+<img loading="lazy" src="./content/proj/posts/automation_workflow/posts/n8n_setup/featured.png" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Data Visualization
+Building Your First Automation Assistant for Free with n8n and Oracle Cloud
 </h5>
 <div class="card-text listing-description delink">
-<p>Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations.</p>
+<p>Step-by-step n8n and Oracle Cloud Free Tier guide for building a personal automation assistant, RSS workflow, and…</p>
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+31 Mar 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TGVhZGVyc2hpcCUyQ0NhcmVlciUyMERldmVsb3BtZW50" data-listing-date-sort="1772665200000" data-listing-file-modified-sort="1792510827180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1228">
+<a href="./content/blog/posts/actuarial/posts/career-roadmap/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./content/blog/posts/actuarial/posts/career-roadmap/featured.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Actuarial Executive Career Roadmap
+</h5>
+<div class="card-text listing-description delink">
+<p>From Technical Mastery to Strategic Leadership</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+5 Mar 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UmlzayUyME1hbmFnZW1lbnQlMkNEZWNpc2lvbiUyME1ha2luZw==" data-listing-date-sort="1772665200000" data-listing-file-modified-sort="1792511061609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<a href="./content/blog/posts/actuarial/posts/riskassessments/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./content/blog/posts/actuarial/posts/riskassessments/featured.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Understanding Risk Assessments
+</h5>
+<div class="card-text listing-description delink">
+<p>A comprehensive guide to evaluating and mitigating risks using actuarial science principles.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+5 Mar 2026
 </div>
 </div>
 </div>
@@ -468,7 +465,32 @@ Data Visualization
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+</section>
+
+<section class="home-learning" aria-labelledby="home-learning-title">
+  <div class="home-learning__content">
+    <p class="home-eyebrow">Learn with me</p>
+    <h2 id="home-learning-title" class="anchored">From an idea to a working example</h2>
+    <p>Follow along with R tutorials, health metrics, and data science workflows. Watch a video or explore the recordings and materials from my workshops.</p>
+    <div class="home-learning__links">
+      <a class="book-button book-button--primary" href="https://www.youtube.com/@federicagazzelloni">Watch on YouTube <span aria-hidden="true">↗</span></a>
+      <a class="home-text-link" href="about/workshops/">Explore workshops <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <video class="home-learning__video" controls="" preload="none" playsinline="" aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo-highres-cutout.png">
+    <source src="images/welcome-video.mp4" type="video/mp4">
+    <p><a href="https://www.youtube.com/@federicagazzelloni">Watch my videos on YouTube.</a></p>
+  </video>
+</section>
+</div>
+</div>
+<p><link rel="me" href="https://fosstodon.org/@fgazzelloni"></p>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
