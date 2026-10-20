@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T16:51:55.931058+00:00",
+  "last_updated_at": "2026-10-20T16:51:55.931058+00:00",
+  "freshness_days": 45,
+  "topics": [
+    {
+      "id": "ai",
+      "title": "AI"
+    },
+    {
+      "id": "risk",
+      "title": "Actuarial & risk"
+    },
+    {
+      "id": "r-python",
+      "title": "R & Python"
+    },
+    {
+      "id": "health",
+      "title": "Health metrics & public health"
+    }
+  ],
+  "sources": {
+    "openai": {
+      "status": "ok",
+      "last_success_at": "2026-10-20T16:51:55.931058+00:00",
+      "entries": 1300
+    },
+    "aae": {
+      "status": "ok",
+      "last_success_at": "2026-10-20T16:51:55.931058+00:00",
+      "entries": 9
+    },
+    "r-project": {
+      "status": "ok",
+      "last_success_at": "2026-10-20T16:51:55.931058+00:00",
+      "entries": 66
+    },
+    "python": {
+      "status": "ok",
+      "last_success_at": "2026-10-20T16:51:55.931058+00:00",
+      "entries": 50
+    },
+    "ecdc": {
+      "status": "ok",
+      "last_success_at": "2026-10-20T16:51:55.931058+00:00",
+      "entries": 10
+    }
+  },
+  "items": [
+    {
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "source_id": "openai",
+      "publisher": "OpenAI",
+      "topic": "ai",
+      "language": null
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source_id": "openai",
+      "publisher": "OpenAI",
+      "topic": "ai",
+      "language": null
+    },
+    {
+      "title": "AAE submitted a response to EIOPA’s Consultations on draft RTS on valuation 1 and 2 and 3 – IRRD",
+      "url": "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
+      "published_at": "2026-10-15T07:27:15+00:00",
+      "source_id": "aae",
+      "publisher": "Actuarial Association of Europe",
+      "topic": "risk",
+      "language": null
+    },
+    {
+      "title": "Column: Diversity Is More Than a Number",
+      "url": "https://actuary.eu/column-diversity-is-more-than-a-number",
+      "published_at": "2026-10-13T08:13:56+00:00",
+      "source_id": "aae",
+      "publisher": "Actuarial Association of Europe",
+      "topic": "risk",
+      "language": null
+    },
+    {
+      "title": "Zulip Chat for the R Project",
+      "url": "https://blog.r-project.org/2026/09/22/zulip-chat-for-the-r-project",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "source_id": "r-project",
+      "publisher": "The R Project",
+      "topic": "r-python",
+      "language": "R"
+    },
+    {
+      "title": "Python 3.16.0 alpha 1 is now available",
+      "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available",
+      "published_at": "2026-10-13T00:00:00+00:00",
+      "source_id": "python",
+      "publisher": "Python Software Foundation",
+      "topic": "r-python",
+      "language": "Python"
+    },
+    {
+      "title": "Communicable disease threats report, 10 - 16 October, week 42",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-week-42",
+      "published_at": "2026-10-16T14:01:27+00:00",
+      "source_id": "ecdc",
+      "publisher": "European Centre for Disease Prevention and Control",
+      "topic": "health",
+      "language": null
+    },
+    {
+      "title": "Weekly respiratory virus update, week 41, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-41-october-2026",
+      "published_at": "2026-10-16T12:56:49+00:00",
+      "source_id": "ecdc",
+      "publisher": "European Centre for Disease Prevention and Control",
+      "topic": "health",
+      "language": null
+    }
+  ]
+}
