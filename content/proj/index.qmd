@@ -1,4 +1,5 @@
 ---
+pagetitle: "AI Automation and Health Metrics Projects"
 title: "Projects in AI Automation and Performance Metrics"
 description: "Projects by Federica Gazzelloni on AI automation workflows, health performance metrics, R analysis, and reproducible data systems."
 listing:

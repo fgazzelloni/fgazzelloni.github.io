@@ -1,4 +1,5 @@
 ---
+pagetitle: "R Workshops and Data Science Talks"
 title: "Workshops & Talks"
 description: "Explore The Carpentries workshops, R-Ladies recordings, DSLC book clubs, and conference talks by Federica Gazzelloni."
 page-layout: full

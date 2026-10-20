@@ -6,7 +6,7 @@ website:
     type: danger
     position: below-navbar
   title: "Federica Gazzelloni"
-  description: "Data Science Portfolio"  
+  description: "Health metrics, actuarial science, statistics, R and Python workflows, books, and reproducible research by Federica Gazzelloni."
   favicon: "images/logo-website-removebg.png"
   site-url: "https://federicagazzelloni.com"
   repo-url: "https://github.com/fgazzelloni/fgazzelloni.github.io"
@@ -50,6 +50,8 @@ website:
             href: about/workshops/index.qmd#conference-talks
       - text: "Writing"
         menu:
+          - text: "Newsletter"
+            href: content/newsletter/index.qmd
           - text: "Blog"
             href: content/blog/index.qmd
           - text: "Books"
@@ -61,14 +63,15 @@ website:
       - text: "About"
         href: about.qmd
     right:
-      - text: "DataMetricus"
+      - text: '<img src="/images/datametricus-logo.png" class="datametricus-nav-logo" alt="" /> DataMetricus'
         href: "https://datametricus.com/"
-        icon: box-arrow-up-right
         aria-label: "DataMetricus — consulting and training (external website)"
   page-footer:
     left: |
       Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: [Federica Gazzelloni](https://federicagazzelloni.com)<br>Powered by: [DataMetricus](https://datametricus.com/) | <a href="/LICENSE.md">MIT License</a>.
     right: 
+      - text: "Newsletter"
+        href: content/newsletter/index.qmd
       - text: "{{< ai orcid >}}"
         href: "https://orcid.org/0000-0002-4285-611X"
       - text: "{{< ai google-scholar >}}"

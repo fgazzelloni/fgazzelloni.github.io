@@ -1,4 +1,5 @@
 ---
+pagetitle: "R Data Visualization Portfolio"
 title: "Data Visualization"
 description: "Explore my full R data visualisation portfolio and a selection of my favourite projects, with code and explanations."
 image: portfolio-preview.png

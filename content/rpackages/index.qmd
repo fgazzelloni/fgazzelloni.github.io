@@ -1,4 +1,5 @@
 ---
+pagetitle: "R Packages for Health Metrics and Data Visualization"
 title: "R Packages for Health Metrics, Data Visualization, and Teaching"
 description: "R packages by Federica Gazzelloni for health metrics, ecological data, spatial analysis, data visualization, and reproducible teaching workflows."
 listing:

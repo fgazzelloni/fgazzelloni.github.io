@@ -8,6 +8,7 @@
     const response = await fetch('data/news.json', {cache: 'no-store'});
     if (!response.ok) throw new Error('News unavailable');
     const data = await response.json();
+    container.replaceChildren();
     const now = Date.now();
     const cutoff = now - data.freshness_days * 86400000;
     for (const topic of data.topics) {

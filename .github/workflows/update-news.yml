@@ -32,12 +32,14 @@ jobs:
           token: ${{ secrets.NEWS_DEPLOY_TOKEN }}
       - name: Refresh published selection
         run: python scripts/update-news.py --output published/data/news.json
+      - name: Embed headlines in published HTML
+        run: python scripts/render-news.py --site published
       - name: Publish data and request Pages build
         working-directory: published
         env:
           GH_TOKEN: ${{ secrets.NEWS_DEPLOY_TOKEN }}
         run: |
-          git add data/news.json
+          git add data/news.json index.html
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

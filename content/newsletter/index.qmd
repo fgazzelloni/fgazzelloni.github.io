@@ -1,0 +1,37 @@
+---
+title: "Notes on Data and Learning"
+description: "Federica Gazzelloni’s newsletter on data, statistics, actuarial science, reproducibility, AI, and learning through practice."
+page-layout: article
+toc: false
+---
+
+My newsletter brings together working reflections on data, statistics, actuarial science, reproducibility, AI, and the ways we learn to work with them.
+
+I explore the questions behind analytical work: how we frame a problem, what our models measure, and what changes when we put them into practice.
+
+::: {.book-actions}
+[Read on Substack ↗](https://federicagazzelloni.substack.com/){.book-button .book-button--primary}
+[Subscribe](https://federicagazzelloni.substack.com/subscribe){.book-button}
+:::
+
+## Selected issues
+
+### [When Performance Is Not Learning](https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n30)
+
+**N.30 · 2 October 2026**
+
+How evaluation scores depend on the questions, data, metrics, and conditions used to produce them.
+
+### [When the Model Changes the Data](https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n29)
+
+**N.29 · 18 September 2026**
+
+How decisions supported by a model shape future observations and create feedback loops in analytical work.
+
+### [Before the Pipeline, There Is a Question](https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n28)
+
+**N.28 · 13 September 2026**
+
+Why defining an analytical question matters when AI helps prepare data, build workflows, and interpret results.
+
+[Browse the full archive on Substack →](https://federicagazzelloni.substack.com/archive)

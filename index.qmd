@@ -1,4 +1,5 @@
 ---
+pagetitle: "Health Metrics, Actuarial Science and R"
 description: "Federica Gazzelloni shares health metrics, infectious disease analytics, R workflows, AI automation, actuarial science, books, podcasts, and teaching resources."
 listing:
   id: recent-work
@@ -112,6 +113,13 @@ title-block-banner: false
 </section>
 ```
 
+## Explore my work
+
+Browse my [R data visualization portfolio](content/blog/posts/dataviz/),
+[R packages](content/rpackages/), and [AI automation and health metrics projects](content/proj/).
+For practical learning, explore my [statistics tutorials in R](content/blog/posts/stats/)
+and [workshop recordings and materials](about/workshops/).
+
 ::: {.column-page}
 ::: {.home-lower}
 
@@ -133,6 +141,16 @@ title-block-banner: false
 ```{=html}
 </section>
 
+<section class="home-newsletter" aria-labelledby="home-newsletter-title">
+  <p class="home-eyebrow">My newsletter</p>
+  <h2 id="home-newsletter-title">Notes on Data and Learning</h2>
+  <p>Reflections on data, statistics, modelling, and what we learn through practice.</p>
+  <div class="book-actions" aria-label="Newsletter links">
+    <a class="book-button book-button--primary" href="https://federicagazzelloni.substack.com/subscribe">Subscribe on Substack <span aria-hidden="true">↗</span></a>
+    <a class="home-text-link" href="content/newsletter/">Explore the newsletter <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
 <link rel="stylesheet" href="scripts/news.css">
 <section class="home-news" aria-labelledby="home-news-title">
   <div class="home-section-heading">
@@ -144,7 +162,7 @@ title-block-banner: false
   </div>
   <div id="news-topics" class="news-grid"></div>
   <p id="news-status" class="news-status" role="status">Loading recent headlines…</p>
-  <noscript><p>Enable JavaScript to view the latest selection, or <a href="data/news.json">read the headline data</a>.</p></noscript>
+  <noscript><p>Headlines reflect the last website update. Dates and publishers are shown for each article.</p></noscript>
 </section>
 <script src="scripts/news.js" defer></script>
 

@@ -1,4 +1,5 @@
 ---
+pagetitle: "Health Metrics and Infectious Disease Modelling with R"
 title: "Health Metrics and the Spread of Infectious Diseases"
 subtitle: "Machine Learning Applications and Spatial Modelling Analysis with R"
 description: "Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles."

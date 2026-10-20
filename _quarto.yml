@@ -11,6 +11,7 @@ project:
     - scripts/news.css
   post-render:
     - scripts/normalize-sitemap.R
+    - python3 scripts/render-news.py
 
 metadata-files:
   - _website.yml

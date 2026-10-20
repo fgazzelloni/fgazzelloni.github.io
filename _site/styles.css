@@ -588,3 +588,30 @@ main.content {
     width: 100%;
   }
 }
+
+/* Newsletter introduction on the homepage. */
+.home-newsletter {
+  margin-block: 2rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border-left: 4px solid #1c5263;
+  background: #f4f8f9;
+}
+
+.home-newsletter h2 {
+  margin-top: 0;
+}
+
+.home-newsletter .book-actions {
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* DataMetricus identity in the navbar. */
+.navbar .datametricus-nav-logo {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: contain;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
