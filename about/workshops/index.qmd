@@ -72,7 +72,7 @@ Selected workshops delivered for the CDC, the University of Washington and NNLM,
 
 ## R-Ladies {#r-ladies-workshops-and-talks}
 
-Watch sessions delivered for R-Ladies chapters. Open a card’s details to find the abstract, preparation notes, code, and other materials.
+Explore sessions I presented, co-taught, or hosted for R-Ladies chapters. Watch the recordings or open a card’s details for code and materials. The Roots of AI currently links to workshop materials.
 
 {{< include ../rladies/_rladies-body.qmd >}}
 

@@ -17,7 +17,7 @@ document.querySelectorAll('[data-workshop-browser]').forEach((browser) => {
       card.hidden = !matches;
       if (matches) visible += 1;
     });
-    status.textContent = `${visible} of ${cards.length} recordings · newest first`;
+    status.textContent = `${visible} of ${cards.length} sessions · newest first`;
     empty.hidden = visible !== 0;
   }
 

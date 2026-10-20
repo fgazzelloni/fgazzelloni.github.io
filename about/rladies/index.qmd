@@ -6,6 +6,6 @@ resources:
   - ../workshops/workshop-filters.js
 ---
 
-Browse recordings and materials from sessions delivered for R-Ladies chapters. For other teaching events, visit [Workshops & Talks](/about/workshops/index.qmd).
+Browse recordings and materials from sessions I presented, co-taught, or hosted for R-Ladies chapters. For other teaching events, visit [Workshops & Talks](/about/workshops/index.qmd).
 
 {{< include _rladies-body.qmd >}}

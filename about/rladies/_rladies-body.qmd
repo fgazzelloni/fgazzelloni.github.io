@@ -1,21 +1,220 @@
 ```{=html}
 <div class="workshop-browser" data-workshop-browser>
   <div class="workshop-controls" hidden>
-    <label for="workshop-search">Find a recording
+    <label for="workshop-search">Find a session
       <input id="workshop-search" type="search" placeholder="Search by title, topic, host, or year" />
     </label>
     <label for="workshop-topic">Topic
       <select id="workshop-topic">
         <option value="all">All topics</option>
-        <option>Quarto</option>
+        <option>AI &amp; machine learning</option>
+        <option>Community</option>
         <option>Data visualisation</option>
+        <option>Data wrangling</option>
         <option>Health modelling</option>
+        <option>Python</option>
+        <option>Quarto</option>
+        <option>R fundamentals</option>
+        <option>Reproducible workflows</option>
         <option>Spatial analysis</option>
       </select>
     </label>
   </div>
-  <p class="workshop-results" role="status" aria-live="polite">4 recordings · newest first</p>
+  <p class="workshop-results" role="status" aria-live="polite">17 sessions · 16 recordings · newest first</p>
   <div class="workshop-grid">
+```
+
+```{=html}
+<article class="workshop-card" data-topic="AI &amp; machine learning">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=v8bx-BYvIZo" aria-label="Watch Introduction to Machine Learning in Epidemiology with R on YouTube">
+    <img src="https://i.ytimg.com/vi/v8bx-BYvIZo/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">AI &amp; machine learning</span>
+    <h3>Introduction to Machine Learning in Epidemiology with R</h3>
+    <p class="workshop-meta"><time datetime="2026-09-28">28 September 2026</time> · R-Ladies Rome</p>
+    <p>Build a regression model with gradient descent, then explore training, evaluation, and interpretation with mlr3.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2026/meetup/09282026_federicagazzelloni.html">Event recap and resources</a></li>
+        <li><a href="https://federicagazzelloni.com/Intro-to-ml-in-epidemiology-with-r/">Workshop materials and interactive app</a></li>
+        <li><a href="https://github.com/fgazzelloni/Intro-to-ml-in-epidemiology-with-r">Code repository</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=v8bx-BYvIZo">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="AI &amp; machine learning">
+  <div class="workshop-card__body">
+    <span class="workshop-tag">AI &amp; machine learning</span>
+    <h3>The Roots of AI: NLP and N-gram Models in R</h3>
+    <p class="workshop-meta"><time datetime="2026-04-23">23 April 2026</time> · R-Ladies Rome</p>
+    <p>Explore tokenisation, n-grams, and next-word prediction to connect statistical language models with modern AI.</p>
+    <p class="workshop-meta">Materials available</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://www.meetup.com/rladies-rome/events/313880594/">Event details</a></li>
+        <li><a href="https://github.com/Fgazzelloni/nlp-ngrams-r">Workshop materials and code</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://github.com/Fgazzelloni/nlp-ngrams-r">Workshop materials <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Reproducible workflows">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=Sa8NPcaNYLo" aria-label="Watch Git &amp; GitHub: Practical Version Control for Data Work on YouTube">
+    <img src="https://i.ytimg.com/vi/Sa8NPcaNYLo/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Reproducible workflows</span>
+    <h3>Git &amp; GitHub: Practical Version Control for Data Work</h3>
+    <p class="workshop-meta"><time datetime="2026-01-29">29 January 2026</time> · R-Ladies Rome</p>
+    <p>Understand the terminal, local repositories, staging, commits, and collaboration through GitHub.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2026/meetup/01292026_federicagazzelloni.html">Event recap and resources</a></li>
+        <li><a href="https://tinyurl.com/ms5n8z9h">Slides</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=Sa8NPcaNYLo">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Health modelling">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=yBIFKiyfupc" aria-label="Watch From Basics to Advanced Health Analytics: Exploring Diabetes Data on YouTube">
+    <img src="https://i.ytimg.com/vi/yBIFKiyfupc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Health modelling</span>
+    <h3>From Basics to Advanced Health Analytics: Exploring Diabetes Data</h3>
+    <p class="workshop-meta"><time datetime="2025-12-17">17 December 2025</time> · R-Ladies Rome</p>
+    <p>An exploratory analysis of simulated diabetes data, co-taught with Rafaela Ribeiro Lucas and Lucy Michaels.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2025/meetup/12172025_organizers.html">Event recap and resources</a></li>
+        <li><a href="https://rladiesrome.github.io/Principles-of-data-Analysis-in-R/02-exploring-diabetes-data.html">Workshop materials and code</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=yBIFKiyfupc">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Python">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=dGdMu0_M208" aria-label="Watch Speaking Many Languages: Finding Power and Joy in R and Python on YouTube">
+    <img src="https://i.ytimg.com/vi/dGdMu0_M208/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Python</span>
+    <h3>Speaking Many Languages: Finding Power and Joy in R and Python</h3>
+    <p class="workshop-meta"><time datetime="2025-06-16">16 June 2025</time> · R-Ladies Rome · PyData Roma Capitale · Rome R Users Group</p>
+    <p>A keynote at INGV on working across R and Python, with side-by-side examples. The video contains the full community event.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2025/meetup/06162025_INGV.html">Event recap and resources</a></li>
+        <li><a href="https://speaking-many-languages.my.canva.site/">Presentation</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=dGdMu0_M208">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Python">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=PVnTzUIsbAI" aria-label="Watch From R to Python: A Gentle Introduction on YouTube">
+    <img src="https://i.ytimg.com/vi/PVnTzUIsbAI/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Python</span>
+    <h3>From R to Python: A Gentle Introduction</h3>
+    <p class="workshop-meta"><time datetime="2025-04-27">27 April 2025</time> · R-Ladies Rome</p>
+    <p>Move from familiar R concepts to Python, with practical examples for data analysis.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2025/meetup/04272025_FedericaGazzelloni.html">Event recap and resources</a></li>
+        <li><a href="https://rladiesrome.quarto.pub/from-r-to-python-a-gentle-introduction/">Slides</a></li>
+        <li><a href="https://fgazzelloni.quarto.pub/from-r-to-python-a-gentle-introduction/">Workshop booklet</a></li>
+        <li><a href="https://github.com/Fgazzelloni/From-R-to-Python-A-Gentle-Introduction">Code repository</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=PVnTzUIsbAI">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="AI &amp; machine learning">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=tah6-upp2qw" aria-label="Watch AI, Actuarial Science, and R: A New Era of Risk Modeling on YouTube">
+    <img src="https://i.ytimg.com/vi/tah6-upp2qw/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">AI &amp; machine learning</span>
+    <h3>AI, Actuarial Science, and R: A New Era of Risk Modeling</h3>
+    <p class="workshop-meta"><time datetime="2025-03-27">27 March 2025</time> · R-Ladies Rome</p>
+    <p>Explore artificial intelligence and statistical methods in actuarial work, insurance, and risk modelling.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2025/meetup/03272025_FedericaGazzelloni.html">Event recap and resources</a></li>
+        <li><a href="https://fgazzelloni.quarto.pub/ai-actuarial-science-and-r/">Presentation</a></li>
+        <li><a href="https://github.com/Fgazzelloni/AI-Actuarial-Science-and-R">Code repository</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=tah6-upp2qw">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Data wrangling">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=cejCvutHbO0" aria-label="Watch Data Wrangling Practice with R on YouTube">
+    <img src="https://i.ytimg.com/vi/cejCvutHbO0/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Data wrangling</span>
+    <h3>Data Wrangling Practice with R</h3>
+    <p class="workshop-meta"><time datetime="2024-09-30">30 September 2024</time> · R-Ladies Rome</p>
+    <p>Practise importing, cleaning, reshaping, and joining data with the tidyverse.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2024/meetup/09302024/">Event recap and resources</a></li>
+        <li><a href="https://rladiesrome.quarto.pub/data-wrangling-practice-with-r/">Tutorial</a></li>
+        <li><a href="https://github.com/Fgazzelloni/20240930-DWPwR">Code repository</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=cejCvutHbO0">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
 ```
 
 ```{=html}
@@ -82,6 +281,122 @@
 ```{=html}
     </details>
     <a class="workshop-watch" href="https://www.youtube.com/watch?v=YdzLoshrsI4">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Data visualisation">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=sLxp-ZhwMbE" aria-label="Watch Data Visualization Practice Session on YouTube">
+    <img src="https://i.ytimg.com/vi/sLxp-ZhwMbE/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Data visualisation</span>
+    <h3>Data Visualization Practice Session</h3>
+    <p class="workshop-meta"><time datetime="2023-12-15">15 December 2023</time> · R-Ladies Rome</p>
+    <p>A live coding session in Italian and English, using Gapminder data to build and export a ggplot2 scatterplot.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2023/meetup/12152023/">Event recap and resources</a></li>
+        <li><a href="https://github.com/Fgazzelloni/RLR_DataViz-Practice/">Code repository</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=sLxp-ZhwMbE">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Community">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=b3d5xd81QCc" aria-label="Watch Career Development Talk on YouTube">
+    <img src="https://i.ytimg.com/vi/b3d5xd81QCc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Community</span>
+    <h3>Career Development Talk</h3>
+    <p class="workshop-meta"><time datetime="2023-10-27">27 October 2023</time> · R-Ladies Rome</p>
+    <p>A community discussion with R-Ladies Rome organisers and members, sharing career experiences in data science and statistics.</p>
+    <details class="workshop-details">
+      <summary>Session details</summary>
+      <p>Group discussion covering career advice, personal experiences, and academic statistics career paths.</p>
+      <a href="https://rladiesrome.org/talks/2023/meetup/10272023/index.html">Event recap</a>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=b3d5xd81QCc">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="R fundamentals">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=7Q9RGCXw6_c" aria-label="Watch Mastering R II: The Journey Continues on YouTube">
+    <img src="https://i.ytimg.com/vi/7Q9RGCXw6_c/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">R fundamentals</span>
+    <h3>Mastering R II: The Journey Continues</h3>
+    <p class="workshop-meta"><time datetime="2023-09-22">22 September 2023</time> · R-Ladies Rome</p>
+    <p>Analyse insurance data, create visualisations, explore modelling, and bring the results into a report.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2023/meetup/09222023/">Event recap and resources</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=7Q9RGCXw6_c">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Community">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=i1IoNiKJNk8" aria-label="Watch R/Bioconductor Watch Party: Event Recap on YouTube">
+    <img src="https://i.ytimg.com/vi/i1IoNiKJNk8/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Community</span>
+    <h3>R/Bioconductor Watch Party: Event Recap</h3>
+    <p class="workshop-meta"><time datetime="2023-08-28">28 August 2023</time> · R-Ladies Rome</p>
+    <p>A hosted recap of the in-person BioC2023 watch party at Sapienza University, with links to the original conference talks.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2023/meetup/08282023/">Event recap and resources</a></li>
+        <li><a href="https://rladiesrome.quarto.pub/rbioconductor-watch-party/">Event presentation</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=i1IoNiKJNk8">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="R fundamentals">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=WG21XyzwKu0" aria-label="Watch Mastering R: An Intensive Crash Course for Data Enthusiasts! on YouTube">
+    <img src="https://i.ytimg.com/vi/WG21XyzwKu0/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">R fundamentals</span>
+    <h3>Mastering R: An Intensive Crash Course for Data Enthusiasts!</h3>
+    <p class="workshop-meta"><time datetime="2023-07-27">27 July 2023</time> · R-Ladies Rome</p>
+    <p>Get started with R, RStudio, tidyverse, and ggplot2 through a TidyTuesday data analysis.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+      <ul>
+        <li><a href="https://rladiesrome.org/talks/2023/meetup/07272023/">Event recap and resources</a></li>
+      </ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=WG21XyzwKu0">Watch on YouTube <span aria-hidden="true">↗</span></a>
   </div>
 </article>
 ```
@@ -156,10 +471,11 @@ This video is perfect for students of science, healthcare professionals, or anyo
   </div>
 </article>
 ```
-
 ```{=html}
   </div>
-  <p class="workshop-empty" hidden>No recordings match your search. Try another topic or search term.</p>
+  <p class="workshop-empty" hidden>No sessions match your search. Try another topic or search term.</p>
 </div>
 <script src="/about/workshops/workshop-filters.js" defer></script>
 ```
+
+Explore the [full R-Ladies Rome event archive](https://rladiesrome.org/talks/), including sessions by guest speakers.
