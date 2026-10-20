@@ -1,6 +1,11 @@
 ---
 title: "R-Ladies"
 description: "R-Ladies community talks, tutorials, and events involving Federica Gazzelloni and R-Ladies chapters around the world."
+page-layout: full
+resources:
+  - ../workshops/workshop-filters.js
 ---
+
+Browse recordings and materials from sessions delivered for R-Ladies chapters. For other teaching events, visit [Workshops & Talks](/about/workshops/index.qmd).
 
 {{< include _rladies-body.qmd >}}

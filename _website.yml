@@ -38,12 +38,16 @@ website:
             href: content/rpackages/index.qmd
           - text: "Data Visualization"
             href: content/blog/posts/dataviz/index.qmd
-      - text: "Workshops"
+      - text: "Workshops & Talks"
         menu:
+          - text: "Overview"
+            href: about/workshops/index.qmd
           - text: "The Carpentries"
             href: about/workshops/index.qmd#the-carpentries
-          - text: "R-Ladies Workshops and Talks"
+          - text: "R-Ladies"
             href: about/workshops/index.qmd#r-ladies-workshops-and-talks
+          - text: "Conference talks"
+            href: about/workshops/index.qmd#conference-talks
       - text: "Writing"
         menu:
           - text: "Blog"
@@ -52,12 +56,8 @@ website:
             href: content/books/index.qmd
           - text: "Papers"
             href: about/papers/index.qmd
-      - text: "Media"
-        menu:
-          - text: "Podcasts"
-            href: content/podcasts/index.qmd
-          - text: "Talks"
-            href: about/talks/index.qmd
+      - text: "Podcasts"
+        href: content/podcasts/index.qmd
       - text: "About"
         href: about.qmd
   page-footer:

@@ -1,58 +1,83 @@
 ---
-title: "Workshops"
-description: "The Carpentries and R-Ladies workshops and talks taught by Federica Gazzelloni."
+title: "Workshops & Talks"
+description: "Explore The Carpentries workshops, R-Ladies recordings, and conference talks by Federica Gazzelloni."
+page-layout: full
+toc: false
+resources:
+  - workshop-filters.js
 ---
 
-## The Carpentries
+Practical sessions on R, data visualisation, health modelling, spatial analysis, and reproducible workflows. Browse the recordings or explore workshop materials.
 
-Selected workshops delivered for the CDC, the University of Washington and NNLM, and the Helmholtz Information & Data Science Academy.
+```{=html}
+<nav class="workshop-jump-links" aria-label="Workshop sections">
+  <a href="#the-carpentries">The Carpentries</a>
+  <a href="#r-ladies-workshops-and-talks">R-Ladies</a>
+  <a href="#conference-talks">Conference talks</a>
+</nav>
+```
 
-### CDC Centers for Disease Control
+## The Carpentries {#the-carpentries}
 
-**Data Analysis and Visualization with R**
+Selected workshops delivered for the CDC, the University of Washington and NNLM, and the Helmholtz Information & Data Science Academy. These cards link to the workshop websites and shared notes.
 
-Date: 2024-08-19 to 2024-08-20 \| Centers for Disease Control
+```{=html}
+<div class="workshop-grid workshop-grid--resources">
+  <article class="workshop-card workshop-card--resource">
+    <div class="workshop-card__body">
+      <span class="workshop-tag">R workflows</span>
+      <h3>Data Analysis and Visualization with R</h3>
+      <p class="workshop-meta">19–20 August 2024 · CDC</p>
+      <div class="workshop-resource-links">
+        <a href="https://rrlove-cdc.github.io/2024-08-19-cdc-online/">Workshop website</a>
+        <a href="https://pad.carpentries.org/2024-08-19-cdc-online">Shared notes (Etherpad)</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card workshop-card--resource">
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Genomics</span>
+      <h3>Data Carpentry Genomics</h3>
+      <p class="workshop-meta">10–13 June 2024 · CDC</p>
+      <div class="workshop-resource-links">
+        <a href="https://fgazzelloni.github.io/2024-06-10-cdc-online/">Workshop website</a>
+        <a href="https://pad.carpentries.org/2024-06-10-cdc-online">Shared notes (Etherpad)</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card workshop-card--resource">
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Library skills</span>
+      <h3>Library Carpentry</h3>
+      <p class="workshop-meta">19–21 March 2024 · University of Washington / NNLM Region 5</p>
+      <div class="workshop-resource-links">
+        <a href="https://nnlm-ncds.github.io/2024-03-19-nnlm-uw-online/">Workshop website</a>
+        <a href="https://pad.carpentries.org/2024-03-19-nnlm-uw-online">Shared notes (Etherpad)</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card workshop-card--resource">
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Reproducible workflows</span>
+      <h3>Software Carpentry: Shell, Git, and R</h3>
+      <p class="workshop-meta">12–13 February 2024 · Helmholtz Information &amp; Data Science Academy</p>
+      <div class="workshop-resource-links">
+        <a href="https://macrobiotus.github.io/2024-02-12-helmholtz-online/">Workshop website</a>
+        <a href="https://pad.carpentries.org/2024-02-12-helmholtz-online">Shared notes (Etherpad)</a>
+      </div>
+    </div>
+  </article>
+</div>
+```
 
-Website: <https://rrlove-cdc.github.io/2024-08-19-cdc-online/>
+## R-Ladies {#r-ladies-workshops-and-talks}
 
-EtherPad: <https://pad.carpentries.org/2024-08-19-cdc-online>
-
-------------------------------------------------------------------------
-
-**Data Carpentry Genomics**
-
-Date: 2024-06-10 to 2024-06-13 \| Centers for Disease Control
-
-Website: <https://fgazzelloni.github.io/2024-06-10-cdc-online/>
-
-EtherPad: <https://pad.carpentries.org/2024-06-10-cdc-online>
-
-------------------------------------------------------------------------
-
-### University of Washington
-
-**Network of the National Library of Medicine (NNLM) Region 5 Library Carpentry**
-
-Date: March 19-21 2024 \| Network of the National Library of Medicine (NNLM)
-
-Website: <https://nnlm-ncds.github.io/2024-03-19-nnlm-uw-online/>
-
-EtherPad: <https://pad.carpentries.org/2024-03-19-nnlm-uw-online>
-
-------------------------------------------------------------------------
-
-### Helmholtz Information & Data Science Academy
-
-**Software Carpentry (Shell, Git, and programming with R)**
-
-Date: February 12-13 2024 \| Helmholtz Online
-
-Website: <https://macrobiotus.github.io/2024-02-12-helmholtz-online/>
-
-EtherPad: <https://pad.carpentries.org/2024-02-12-helmholtz-online>
-
-## R-Ladies Workshops and Talks
-
-Selected tutorials, workshops, and talks delivered for R-Ladies chapters, including events organised by R-Ladies Rome and collaborations with other chapters.
+Watch sessions delivered for R-Ladies chapters. Open a card’s details to find the abstract, preparation notes, code, and other materials.
 
 {{< include ../rladies/_rladies-body.qmd >}}
+
+## Conference talks {#conference-talks}
+
+Recordings from conferences on R, data science, and community learning.
+
+{{< include ../talks/_talks-body.qmd >}}

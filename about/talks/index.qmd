@@ -1,16 +1,9 @@
 ---
 title: "Talks"
 description: "Selected talks by Federica Gazzelloni on data science, Shiny, R programming, health metrics, and community learning."
+page-layout: full
 ---
 
-### ShinyConf2024 - Shiny4Good Talk
+Find all teaching sessions and recordings in [Workshops & Talks](/about/workshops/index.qmd).
 
-**Date**: April 2024
-
-**Abstract**: This talk will offer insights gained from active participation in the **Data Science Learning Community** through participation in **Shiny book clubs**. By exploring the unique dynamics of these forums, I will highlight the collaborative and knowledge-sharing atmosphere that the Data Science Learning Community cultivates. The talk will draw examples from the book clubs to illustrate how practical discussions and exercises amplify the learning experience.
-
-#beginner #Shiny4Good #shinyapp #showcase #rstats #datascience
-
-{{< video https://youtu.be/10wndNaUtpg >}}
-
-
+{{< include _talks-body.qmd >}}

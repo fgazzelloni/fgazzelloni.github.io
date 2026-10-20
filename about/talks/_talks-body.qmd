@@ -1,0 +1,28 @@
+```{=html}
+<div class="workshop-grid">
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=10wndNaUtpg" aria-label="Watch ShinyConf 2024: Shiny4Good on YouTube">
+      <img src="https://i.ytimg.com/vi/10wndNaUtpg/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Shiny &amp; community</span>
+      <h3>ShinyConf 2024: Shiny4Good</h3>
+      <p class="workshop-meta"><time datetime="2024-04">April 2024</time> · ShinyConf</p>
+      <p>How Shiny book clubs support practical learning and knowledge sharing in the Data Science Learning Community.</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+```
+
+**Abstract**: This talk will offer insights gained from active participation in the **Data Science Learning Community** through participation in **Shiny book clubs**. By exploring the unique dynamics of these forums, I will highlight the collaborative and knowledge-sharing atmosphere that the Data Science Learning Community cultivates. The talk will draw examples from the book clubs to illustrate how practical discussions and exercises amplify the learning experience.
+
+Topics: beginner, Shiny4Good, Shiny apps, R, data science.
+
+```{=html}
+      </details>
+      <a class="workshop-watch" href="https://www.youtube.com/watch?v=10wndNaUtpg">Watch on YouTube <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+</div>
+```

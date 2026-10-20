@@ -116,7 +116,7 @@ cookieconsent.run({
 <link rel="canonical" href="https://federicagazzelloni.com/about/rladies/">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,17 +157,25 @@ cookieconsent.run({
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshops</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops--talks" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshops &amp; Talks</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops--talks">    
+        <li>
+    <a class="dropdown-item" href="../../about/workshops/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="../../about/workshops/index.html#the-carpentries">
  <span class="dropdown-text">The Carpentries</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../about/workshops/index.html#r-ladies-workshops-and-talks">
- <span class="dropdown-text">R-Ladies Workshops and Talks</span></a>
+ <span class="dropdown-text">R-Ladies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about/workshops/index.html#conference-talks">
+ <span class="dropdown-text">Conference talks</span></a>
   </li>  
     </ul>
   </li>
@@ -190,21 +198,10 @@ cookieconsent.run({
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-media" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Media</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-media">    
-        <li>
-    <a class="dropdown-item" href="../../content/podcasts/index.html">
- <span class="dropdown-text">Podcasts</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../content/podcasts/index.html"> 
+<span class="menu-text">Podcasts</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/talks/index.html">
- <span class="dropdown-text">Talks</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
@@ -225,12 +222,12 @@ cookieconsent.run({
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -244,7 +241,7 @@ cookieconsent.run({
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -256,28 +253,89 @@ cookieconsent.run({
 </header>
 
 
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-<blockquote class="blockquote">
-<p>Sharing the mission with the open source community</p>
-</blockquote>
-</section>
-<section id="r-ladies-dc" class="level3">
-<h3 class="anchored" data-anchor-id="r-ladies-dc"><code>R-Ladies DC</code></h3>
-<p><strong>Date</strong>: September 2022</p>
-<p><strong>Abstract</strong>: This tutorial is meant for people new to spatial analysis and modeling with RStudio but comfortable in making simple data visualization with ggplot2. In this video, you will learn how to make a map with RStudio, and how to use data modeling for making spatial model analysis.</p>
-<p><strong>Material</strong>: It is helpful to have the following R packages installed beforehand: {tidyverse}, {ggthemes}, {maptools}, {ggmap}, {sf}, {spocc}, {dismo}, {SpatialEpi}, and {oregonfrogs} dataset from</p>
-<p><code>remotes::install_github("fgazzelloni/oregonfrogs")</code></p>
+<p>Browse recordings and materials from sessions delivered for R-Ladies chapters. For other teaching events, visit <a href="../../about/workshops/index.html">Workshops &amp; Talks</a>.</p>
+<div class="workshop-browser" data-workshop-browser="">
+  <div class="workshop-controls" hidden="">
+    <label for="workshop-search">Find a recording
+      <input id="workshop-search" type="search" placeholder="Search by title, topic, host, or year">
+    </label>
+    <label for="workshop-topic">Topic
+      <select id="workshop-topic">
+        <option value="all">All topics</option>
+        <option>Quarto</option>
+        <option>Data visualisation</option>
+        <option>Health modelling</option>
+        <option>Spatial analysis</option>
+      </select>
+    </label>
+  </div>
+  <p class="workshop-results" role="status" aria-live="polite">4 recordings · newest first</p>
+  <div class="workshop-grid">
+<article class="workshop-card" data-topic="Quarto">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=KVMwJvoM9CE" aria-label="Watch Building a website with R and Quarto on YouTube">
+    <img src="https://i.ytimg.com/vi/KVMwJvoM9CE/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Quarto</span>
+    <h3 class="anchored">Building a website with R and Quarto</h3>
+    <p class="workshop-meta"><time datetime="2024-06">June 2024</time> · R-Ladies NYC &amp; R-Ladies Rome</p>
+    <p>Learn the basics of Quarto, build a personal website, and publish your work online.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+<p><strong>Abstract</strong>: In this video, you’ll learn how to make a website in <code>R</code> with <code>Quarto.</code> We’ll explore the basics of <code>Quarto</code> and how to publish a website. The tutorial is designed to be accessible to beginners, with no prior experience required. By the end of the session, you will have a fully functional website that you can use to showcase your projects and achievements.</p>
+<p><strong>Material</strong>:</p>
 <ul>
-<li>GitHub Repo: <a href="https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R" class="uri">https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R</a></li>
-<li>Book: <a href="https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R" class="uri">https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R</a></li>
+<li>Github repository: <a href="https://github.com/Fgazzelloni/building_a_website_in_r" class="uri">https://github.com/Fgazzelloni/building_a_website_in_r</a></li>
+<li>Final version of the Website: <a href="https://fgazzelloni.quarto.pub/my-website-in-r–quarto/" class="uri">https://fgazzelloni.quarto.pub/my-website-in-r–quarto/</a></li>
 </ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/oYRnA-8ncPU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
-</section>
-<section id="r-ladies-nyc-r-ladies-rome" class="level3">
-<h3 class="anchored" data-anchor-id="r-ladies-nyc-r-ladies-rome"><code>R-Ladies NYC &amp; R-Ladies Rome</code></h3>
-<p><strong>Date</strong>: April 2023</p>
+<p><strong>Resources</strong>:</p>
+<ul>
+<li>Quarto Docs: <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></li>
+<li>CSS customization for your website: <a href="https://www.w3schools.com/css/" class="uri">https://www.w3schools.com/css/</a></li>
+<li>Background image (change - “pink” with your favorite pick): <a href="https://www.pexels.com/search/pink/" class="uri">https://www.pexels.com/search/pink/</a></li>
+</ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=KVMwJvoM9CE">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+<article class="workshop-card" data-topic="Data visualisation">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=YdzLoshrsI4" aria-label="Watch Replicating Du Bois with R on YouTube">
+    <img src="https://i.ytimg.com/vi/YdzLoshrsI4/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Data visualisation</span>
+    <h3 class="anchored">Replicating Du Bois with R</h3>
+    <p class="workshop-meta"><time datetime="2024-03">March 2024</time> · R-Ladies Cambridge</p>
+    <p>Recreate a Du Bois challenge plate with ggplot2 and explore its colours and visual design.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+<p><strong>Abstract</strong>: In this video, you’ll learn how to use <code>{ggplot2}</code> to replicate one of the ongoing #DuboisChallenge2024 plates. The original plates are part of W.E.B. Du Bois’s legacy from back in 1900, showcased at the Paris Exposition. I’ll be using modern tools such as R. We’ll explore the colors used in the plates and delve into the intricacies of the challenge by understanding the perspective of hand-made graphs in the <strong>‘Duboisian’ style</strong>.</p>
+<p><strong>Material</strong>:</p>
+<ul>
+<li>GitHub Repo: <a href="https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R" class="uri">https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R</a></li>
+<li>WebSite Collection: <a href="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/" class="uri">https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/</a></li>
+</ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=YdzLoshrsI4">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+<article class="workshop-card" data-topic="Health modelling">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=-3mcwchd-w4" aria-label="Watch Modelling infectious diseases with R on YouTube">
+    <img src="https://i.ytimg.com/vi/-3mcwchd-w4/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Health modelling</span>
+    <h3 class="anchored">Modelling infectious diseases with R</h3>
+    <p class="workshop-meta"><time datetime="2023-04">April 2023</time> · R-Ladies NYC &amp; R-Ladies Rome</p>
+    <p>Explore deterministic SIR models and a Bayesian workflow for disease transmission.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
 <p><strong>Abstract</strong>: In this video, you will learn about Modeling infectious diseases with R using both deterministic and Bayesian SIR model methods. We will explore both Deterministic and Bayesian SIR model methods, and learn how to use the well-known SIR model to understand how epidemics unfold and how to prevent their spread.</p>
 <p>This video is perfect for students of science, healthcare professionals, or anyone who wants to gain a deeper understanding of how to use R for Modeling infectious diseases.</p>
 <p><strong>Agenda</strong>:</p>
@@ -290,41 +348,42 @@ cookieconsent.run({
 <p><strong>Material</strong>:</p>
 <ul>
 <li>GitHub Repo: <a href="https://github.com/Fgazzelloni/sir-model-with-R/" class="uri">https://github.com/Fgazzelloni/sir-model-with-R/</a></li>
+<li><a href="https://www.youtube.com/watch?v=-3mcwchd-w4&amp;t=4684s">Jump to the SIR model segment</a></li>
 </ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/-3mcwchd-w4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
-</section>
-<section id="r-ladies-cambridge" class="level3">
-<h3 class="anchored" data-anchor-id="r-ladies-cambridge"><code>R-Ladies Cambridge</code></h3>
-<p><strong>Date</strong>: March 2024</p>
-<p><strong>Abstract</strong>: In this video, you’ll learn how to use <code>{ggplot2}</code> to replicate one of the ongoing #DuboisChallenge2024 plates. The original plates are part of W.E.B. Du Bois’s legacy from back in 1900, showcased at the Paris Exposition. I’ll be using modern tools such as R. We’ll explore the colors used in the plates and delve into the intricacies of the challenge by understanding the perspective of hand-made graphs in the <strong>‘Duboisian’ style</strong>.</p>
-<p><strong>Material</strong>:</p>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=-3mcwchd-w4">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+<article class="workshop-card" data-topic="Spatial analysis">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=oYRnA-8ncPU" aria-label="Watch Spatial modelling with R on YouTube">
+    <img src="https://i.ytimg.com/vi/oYRnA-8ncPU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Spatial analysis</span>
+    <h3 class="anchored">Spatial modelling with R</h3>
+    <p class="workshop-meta"><time datetime="2022-09">September 2022</time> · R-Ladies DC</p>
+    <p>Make maps and explore spatial models with R, using the oregonfrogs dataset.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+<p><strong>Abstract</strong>: This tutorial is meant for people new to spatial analysis and modeling with RStudio but comfortable in making simple data visualization with ggplot2. In this video, you will learn how to make a map with RStudio, and how to use data modeling for making spatial model analysis.</p>
+<p><strong>Material</strong>: It is helpful to have the following R packages installed beforehand: {tidyverse}, {ggthemes}, {maptools}, {ggmap}, {sf}, {spocc}, {dismo}, {SpatialEpi}, and {oregonfrogs} dataset from</p>
+<p><code>remotes::install_github("fgazzelloni/oregonfrogs")</code></p>
 <ul>
-<li>GitHub Repo: <a href="https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R" class="uri">https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R</a></li>
-<li>WebSite Collection: <a href="https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/" class="uri">https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/</a></li>
+<li>GitHub Repo: <a href="https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R" class="uri">https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R</a></li>
+<li>Book: <a href="https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R" class="uri">https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R</a></li>
 </ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YdzLoshrsI4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
-</section>
-<section id="r-ladies-nyc-r-ladies-rome-1" class="level3">
-<h3 class="anchored" data-anchor-id="r-ladies-nyc-r-ladies-rome-1"><code>R-Ladies NYC &amp; R-Ladies Rome</code></h3>
-<p><strong>Date</strong>: June 2024</p>
-<p><strong>Abstract</strong>: In this video, you’ll learn how to make a website in <code>R</code> with <code>Quarto.</code> We’ll explore the basics of <code>Quarto</code> and how to publish a website. The tutorial is designed to be accessible to beginners, with no prior experience required. By the end of the session, you will have a fully functional website that you can use to showcase your projects and achievements.</p>
-<p><strong>Material</strong>:</p>
-<ul>
-<li>Github repository: <a href="https://github.com/Fgazzelloni/building_a_website_in_r" class="uri">https://github.com/Fgazzelloni/building_a_website_in_r</a></li>
-<li>Final version of the Website: <a href="https://fgazzelloni.quarto.pub/my-website-in-r–quarto/" class="uri">https://fgazzelloni.quarto.pub/my-website-in-r–quarto/</a></li>
-</ul>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KVMwJvoM9CE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p><strong>Resources</strong>:</p>
-<ul>
-<li>Quarto Docs: <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></li>
-<li>CSS customization for your website: <a href="https://www.w3schools.com/css/" class="uri">https://www.w3schools.com/css/</a></li>
-<li>Background image (change - “pink” with your favorite pick): <a href="https://www.pexels.com/search/pink/" class="uri">https://www.pexels.com/search/pink/</a></li>
-</ul>
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=oYRnA-8ncPU">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+  </div>
+  <p class="workshop-empty" hidden="">No recordings match your search. Try another topic or search term.</p>
+</div>
+<script src="../../about/workshops/workshop-filters.js" defer=""></script>
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

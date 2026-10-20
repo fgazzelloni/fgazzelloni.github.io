@@ -1,27 +1,106 @@
-###
+```{=html}
+<div class="workshop-browser" data-workshop-browser>
+  <div class="workshop-controls" hidden>
+    <label for="workshop-search">Find a recording
+      <input id="workshop-search" type="search" placeholder="Search by title, topic, host, or year" />
+    </label>
+    <label for="workshop-topic">Topic
+      <select id="workshop-topic">
+        <option value="all">All topics</option>
+        <option>Quarto</option>
+        <option>Data visualisation</option>
+        <option>Health modelling</option>
+        <option>Spatial analysis</option>
+      </select>
+    </label>
+  </div>
+  <p class="workshop-results" role="status" aria-live="polite">4 recordings · newest first</p>
+  <div class="workshop-grid">
+```
 
-> Sharing the mission with the open source community
+```{=html}
+<article class="workshop-card" data-topic="Quarto">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=KVMwJvoM9CE" aria-label="Watch Building a website with R and Quarto on YouTube">
+    <img src="https://i.ytimg.com/vi/KVMwJvoM9CE/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Quarto</span>
+    <h3>Building a website with R and Quarto</h3>
+    <p class="workshop-meta"><time datetime="2024-06">June 2024</time> · R-Ladies NYC &amp; R-Ladies Rome</p>
+    <p>Learn the basics of Quarto, build a personal website, and publish your work online.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+```
 
-### `R-Ladies DC`
+**Abstract**: In this video, you'll learn how to make a website in `R` with `Quarto.` We'll explore the basics of `Quarto` and how to publish a website. The tutorial is designed to be accessible to beginners, with no prior experience required. By the end of the session, you will have a fully functional website that you can use to showcase your projects and achievements.
 
-**Date**: September 2022
+**Material**:
 
-**Abstract**: This tutorial is meant for people new to spatial analysis and modeling with RStudio but comfortable in making simple data visualization with ggplot2. In this video, you will learn how to make a map with RStudio, and how to use data modeling for making spatial model analysis.
+-   Github repository: <https://github.com/Fgazzelloni/building_a_website_in_r>
+-   Final version of the Website: <https://fgazzelloni.quarto.pub/my-website-in-r–quarto/>
 
-**Material**: It is helpful to have the following R packages installed beforehand: {tidyverse}, {ggthemes}, {maptools}, {ggmap}, {sf}, {spocc}, {dismo}, {SpatialEpi}, and {oregonfrogs} dataset from
 
-`remotes::install_github("fgazzelloni/oregonfrogs")`
 
--   GitHub Repo: <https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R>
--   Book: <https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R>
+**Resources**:
 
-{{< video https://www.youtube.com/watch?v=oYRnA-8ncPU >}}
+-   Quarto Docs: <https://quarto.org/docs/websites/>
+-   CSS customization for your website: <https://www.w3schools.com/css/>
+-   Background image (change - “pink” with your favorite pick): <https://www.pexels.com/search/pink/>
 
-------------------------------------------------------------------------
+```{=html}
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=KVMwJvoM9CE">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
 
-### `R-Ladies NYC & R-Ladies Rome`
+```{=html}
+<article class="workshop-card" data-topic="Data visualisation">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=YdzLoshrsI4" aria-label="Watch Replicating Du Bois with R on YouTube">
+    <img src="https://i.ytimg.com/vi/YdzLoshrsI4/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Data visualisation</span>
+    <h3>Replicating Du Bois with R</h3>
+    <p class="workshop-meta"><time datetime="2024-03">March 2024</time> · R-Ladies Cambridge</p>
+    <p>Recreate a Du Bois challenge plate with ggplot2 and explore its colours and visual design.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+```
 
-**Date**: April 2023
+**Abstract**: In this video, you'll learn how to use `{ggplot2}` to replicate one of the ongoing #DuboisChallenge2024 plates. The original plates are part of W.E.B. Du Bois's legacy from back in 1900, showcased at the Paris Exposition. I'll be using modern tools such as R. We'll explore the colors used in the plates and delve into the intricacies of the challenge by understanding the perspective of hand-made graphs in the **'Duboisian' style**.
+
+**Material**:
+
+-   GitHub Repo: <https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R>
+-   WebSite Collection: <https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/>
+
+```{=html}
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=YdzLoshrsI4">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
+
+```{=html}
+<article class="workshop-card" data-topic="Health modelling">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=-3mcwchd-w4" aria-label="Watch Modelling infectious diseases with R on YouTube">
+    <img src="https://i.ytimg.com/vi/-3mcwchd-w4/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Health modelling</span>
+    <h3>Modelling infectious diseases with R</h3>
+    <p class="workshop-meta"><time datetime="2023-04">April 2023</time> · R-Ladies NYC &amp; R-Ladies Rome</p>
+    <p>Explore deterministic SIR models and a Bayesian workflow for disease transmission.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+```
 
 **Abstract**: In this video, you will learn about Modeling infectious diseases with R using both deterministic and Bayesian SIR model methods. We will explore both Deterministic and Bayesian SIR model methods, and learn how to use the well-known SIR model to understand how epidemics unfold and how to prevent their spread.
 
@@ -37,41 +116,50 @@ This video is perfect for students of science, healthcare professionals, or anyo
 **Material**:
 
 -   GitHub Repo: <https://github.com/Fgazzelloni/sir-model-with-R/>
+-   [Jump to the SIR model segment](https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s)
 
-{{< video https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s >}}
+```{=html}
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=-3mcwchd-w4">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
 
-------------------------------------------------------------------------
+```{=html}
+<article class="workshop-card" data-topic="Spatial analysis">
+  <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=oYRnA-8ncPU" aria-label="Watch Spatial modelling with R on YouTube">
+    <img src="https://i.ytimg.com/vi/oYRnA-8ncPU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+    <span class="workshop-play" aria-hidden="true">▶</span>
+    <span class="workshop-watch-label">Watch recording</span>
+  </a>
+  <div class="workshop-card__body">
+    <span class="workshop-tag">Spatial analysis</span>
+    <h3>Spatial modelling with R</h3>
+    <p class="workshop-meta"><time datetime="2022-09">September 2022</time> · R-Ladies DC</p>
+    <p>Make maps and explore spatial models with R, using the oregonfrogs dataset.</p>
+    <details class="workshop-details">
+      <summary>Session details &amp; materials</summary>
+```
 
-### `R-Ladies Cambridge`
+**Abstract**: This tutorial is meant for people new to spatial analysis and modeling with RStudio but comfortable in making simple data visualization with ggplot2. In this video, you will learn how to make a map with RStudio, and how to use data modeling for making spatial model analysis.
 
-**Date**: March 2024
+**Material**: It is helpful to have the following R packages installed beforehand: {tidyverse}, {ggthemes}, {maptools}, {ggmap}, {sf}, {spocc}, {dismo}, {SpatialEpi}, and {oregonfrogs} dataset from
 
-**Abstract**: In this video, you'll learn how to use `{ggplot2}` to replicate one of the ongoing #DuboisChallenge2024 plates. The original plates are part of W.E.B. Du Bois's legacy from back in 1900, showcased at the Paris Exposition. I'll be using modern tools such as R. We'll explore the colors used in the plates and delve into the intricacies of the challenge by understanding the perspective of hand-made graphs in the **'Duboisian' style**.
+`remotes::install_github("fgazzelloni/oregonfrogs")`
 
-**Material**:
+-   GitHub Repo: <https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R>
+-   Book: <https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R>
 
--   GitHub Repo: <https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R>
--   WebSite Collection: <https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/>
+```{=html}
+    </details>
+    <a class="workshop-watch" href="https://www.youtube.com/watch?v=oYRnA-8ncPU">Watch on YouTube <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+```
 
-{{< video https://www.youtube.com/watch?v=YdzLoshrsI4 >}}
-
-------------------------------------------------------------------------
-
-### `R-Ladies NYC & R-Ladies Rome`
-
-**Date**: June 2024
-
-**Abstract**: In this video, you'll learn how to make a website in `R` with `Quarto.` We'll explore the basics of `Quarto` and how to publish a website. The tutorial is designed to be accessible to beginners, with no prior experience required. By the end of the session, you will have a fully functional website that you can use to showcase your projects and achievements.
-
-**Material**:
-
--   Github repository: <https://github.com/Fgazzelloni/building_a_website_in_r>
--   Final version of the Website: <https://fgazzelloni.quarto.pub/my-website-in-r–quarto/>
-
-{{< video https://www.youtube.com/watch?v=KVMwJvoM9CE >}}
-
-**Resources**:
-
--   Quarto Docs: <https://quarto.org/docs/websites/>
--   CSS customization for your website: <https://www.w3schools.com/css/>
--   Background image (change - “pink” with your favorite pick): <https://www.pexels.com/search/pink/>
+```{=html}
+  </div>
+  <p class="workshop-empty" hidden>No recordings match your search. Try another topic or search term.</p>
+</div>
+<script src="/about/workshops/workshop-filters.js" defer></script>
+```
