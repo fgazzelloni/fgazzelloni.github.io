@@ -8,6 +8,7 @@ project:
   resources:
     - data/news.json
     - scripts/news.js
+    - scripts/news.css
   post-render:
     - scripts/normalize-sitemap.R
 

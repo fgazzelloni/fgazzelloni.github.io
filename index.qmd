@@ -133,6 +133,7 @@ title-block-banner: false
 ```{=html}
 </section>
 
+<link rel="stylesheet" href="scripts/news.css">
 <section class="home-news" aria-labelledby="home-news-title">
   <div class="home-section-heading">
     <div>

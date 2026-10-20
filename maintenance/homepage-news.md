@@ -1,6 +1,6 @@
 # Homepage news
 
-The homepage loads `data/news.json` from this website. Publisher feeds are fetched only by `scripts/update-news.py` (Python 3 standard library). The selection contains titles, links, publishers and dates, without summaries or article text. `data/news-feeds.json` controls sources and the 45-day freshness window. R and Python each receive a place when both have eligible entries. Each refresh replaces the selection, caps topics at two, and deduplicates links and titles globally.
+The homepage loads `data/news.json` from this website. Its dedicated `scripts/news.css` avoids relying on cached copies of the site-wide stylesheet. Publisher feeds are fetched only by `scripts/update-news.py` (Python 3 standard library). The selection contains titles, links, publishers and dates, without summaries or article text. `data/news-feeds.json` controls sources and the 45-day freshness window. R and Python each receive a place when both have eligible entries. Each refresh replaces the selection, caps topics at two, and deduplicates links and titles globally.
 
 ## Local maintenance
 
