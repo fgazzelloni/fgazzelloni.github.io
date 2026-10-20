@@ -5,6 +5,9 @@ project:
     - "*.qmd"
     - "about/**/*.qmd"
     - "content/**/*.qmd"
+  resources:
+    - data/news.json
+    - scripts/news.js
   post-render:
     - scripts/normalize-sitemap.R
 

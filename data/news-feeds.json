@@ -1,0 +1,55 @@
+{
+  "freshness_days": 45,
+  "topics": [
+    {
+      "id": "ai",
+      "title": "AI"
+    },
+    {
+      "id": "risk",
+      "title": "Actuarial & risk"
+    },
+    {
+      "id": "r-python",
+      "title": "R & Python"
+    },
+    {
+      "id": "health",
+      "title": "Health metrics & public health"
+    }
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "publisher": "OpenAI",
+      "topic": "ai",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "aae",
+      "publisher": "Actuarial Association of Europe",
+      "topic": "risk",
+      "url": "https://actuary.eu/feed/"
+    },
+    {
+      "id": "r-project",
+      "publisher": "The R Project",
+      "topic": "r-python",
+      "language": "R",
+      "url": "https://blog.r-project.org/index.xml"
+    },
+    {
+      "id": "python",
+      "publisher": "Python Software Foundation",
+      "topic": "r-python",
+      "language": "Python",
+      "url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "ecdc",
+      "publisher": "European Centre for Disease Prevention and Control",
+      "topic": "health",
+      "url": "https://www.ecdc.europa.eu/en/taxonomy/term/2942/feed"
+    }
+  ]
+}

@@ -133,6 +133,20 @@ title-block-banner: false
 ```{=html}
 </section>
 
+<section class="home-news" aria-labelledby="home-news-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-eyebrow">Beyond my own work</p>
+      <h2 id="home-news-title">News I’m following</h2>
+      <p>Recent headlines from the organisations behind the research, tools, and ideas.</p>
+    </div>
+  </div>
+  <div id="news-topics" class="news-grid"></div>
+  <p id="news-status" class="news-status" role="status">Loading recent headlines…</p>
+  <noscript><p>Enable JavaScript to view the latest selection, or <a href="data/news.json">read the headline data</a>.</p></noscript>
+</section>
+<script src="scripts/news.js" defer></script>
+
 <section class="home-learning" aria-labelledby="home-learning-title">
   <div class="home-learning__content">
     <p class="home-eyebrow">Learn with me</p>
