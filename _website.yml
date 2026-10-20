@@ -40,12 +40,12 @@ website:
             href: content/blog/posts/dataviz/index.qmd
       - text: "Workshops & Talks"
         menu:
-          - text: "Overview"
-            href: about/workshops/index.qmd
           - text: "The Carpentries"
             href: about/workshops/index.qmd#the-carpentries
           - text: "R-Ladies"
             href: about/workshops/index.qmd#r-ladies-workshops-and-talks
+          - text: "DSLC"
+            href: about/workshops/index.qmd#dslc
           - text: "Conference talks"
             href: about/workshops/index.qmd#conference-talks
       - text: "Writing"

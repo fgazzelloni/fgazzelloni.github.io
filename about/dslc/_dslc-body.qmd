@@ -1,0 +1,251 @@
+```{=html}
+<div class="workshop-browser" data-dslc-recordings>
+  <p class="workshop-results" role="status" aria-live="polite" data-dslc-status>12 selected recordings</p>
+  <div class="workshop-grid" id="dslc-recording-grid">
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=pjZingkFrVA" aria-label="Watch Introduction to Health Metrics on YouTube">
+      <img src="https://i.ytimg.com/vi/pjZingkFrVA/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Health Metrics</span>
+      <h3>Introduction to Health Metrics</h3>
+      <p class="workshop-meta"><time datetime="2025-01-31">31 January 2025</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>An introduction to my book and the ideas behind measuring population health.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=pjZingkFrVA">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://federicagazzelloni.com/hmsidR/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=9jF8ffpK92c" aria-label="Watch Spatial Data Modelling and Visualisation on YouTube">
+      <img src="https://i.ytimg.com/vi/9jF8ffpK92c/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Health Metrics</span>
+      <h3>Spatial Data Modelling and Visualisation</h3>
+      <p class="workshop-meta"><time datetime="2025-05-23">23 May 2025</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>Explore spatial modelling and visualisation in the Health Metrics book club.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=9jF8ffpK92c">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://federicagazzelloni.com/hmsidR/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=KDngQp3h8DU" aria-label="Watch Introducing the oregonfrogs Package on YouTube">
+      <img src="https://i.ytimg.com/vi/KDngQp3h8DU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Project Club</span>
+      <h3>Introducing the oregonfrogs Package</h3>
+      <p class="workshop-meta">DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>A demonstration of my R data package and examples of how to use it.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=KDngQp3h8DU">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://fgazzelloni.github.io/oregonfrogs/index.html">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=GjT2d3NSrXw" aria-label="Watch Predictive Modelling and Beyond on YouTube">
+      <img src="https://i.ytimg.com/vi/GjT2d3NSrXw/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Health Metrics</span>
+      <h3>Predictive Modelling and Beyond</h3>
+      <p class="workshop-meta"><time datetime="2025-05-02">2 May 2025</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>A discussion of predictive modelling in the Health Metrics book club.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=GjT2d3NSrXw">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://federicagazzelloni.com/hmsidR/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=u8jhX7Gu_6U" aria-label="Watch Advanced Data Visualisation Techniques on YouTube">
+      <img src="https://i.ytimg.com/vi/u8jhX7Gu_6U/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Health Metrics</span>
+      <h3>Advanced Data Visualisation Techniques</h3>
+      <p class="workshop-meta"><time datetime="2025-05-30">30 May 2025</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>Explore the advanced visualisation chapter of my book.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=u8jhX7Gu_6U">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://federicagazzelloni.com/hmsidR/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card">
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=iVMgUV_9-Vs" aria-label="Watch Statistical Modelling of Spatial Data on YouTube">
+      <img src="https://i.ytimg.com/vi/iVMgUV_9-Vs/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Spatial Data Science</span>
+      <h3>Statistical Modelling of Spatial Data</h3>
+      <p class="workshop-meta"><time datetime="2023-07-15">15 July 2023</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>A book club discussion of statistical approaches to spatial data.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=iVMgUV_9-Vs">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://r4ds.github.io/bookclub-spatial/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=zHhC9fsvEIk" aria-label="Watch COVID-19 Outbreaks: Part 2 on YouTube">
+      <img src="https://i.ytimg.com/vi/zHhC9fsvEIk/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Health Metrics</span>
+      <h3>COVID-19 Outbreaks: Part 2</h3>
+      <p class="workshop-meta"><time datetime="2025-06-20">20 June 2025</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>An applied infectious disease example from the Health Metrics book club.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=zHhC9fsvEIk">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://federicagazzelloni.com/hmsidR/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=HpVfRDtcuSg" aria-label="Watch Predictive Modelling for Computational Genomics on YouTube">
+      <img src="https://i.ytimg.com/vi/HpVfRDtcuSg/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Computational Genomics</span>
+      <h3>Predictive Modelling for Computational Genomics</h3>
+      <p class="workshop-meta"><time datetime="2022-12-09">9 December 2022</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>A tidymodels perspective on supervised machine learning for genomics.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=HpVfRDtcuSg">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://compgenomr.github.io/book/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=n6iYUY0HUWc" aria-label="Watch Iterative Search on YouTube">
+      <img src="https://i.ytimg.com/vi/n6iYUY0HUWc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Tidy Modeling with R</span>
+      <h3>Iterative Search</h3>
+      <p class="workshop-meta"><time datetime="2023-08-22">22 August 2023</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>Explore iterative search for tuning predictive models.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=n6iYUY0HUWc">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://www.tmwr.org/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=-LPLarw1dvU" aria-label="Watch Ensembles of Models on YouTube">
+      <img src="https://i.ytimg.com/vi/-LPLarw1dvU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Tidy Modeling with R</span>
+      <h3>Ensembles of Models</h3>
+      <p class="workshop-meta"><time datetime="2023-10-24">24 October 2023</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>Discuss ways to combine models in a predictive modelling workflow.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=-LPLarw1dvU">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://www.tmwr.org/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=FJGqfqdb3zA" aria-label="Watch Function Factories on YouTube">
+      <img src="https://i.ytimg.com/vi/FJGqfqdb3zA/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Advanced R</span>
+      <h3>Function Factories</h3>
+      <p class="workshop-meta"><time datetime="2024-06-06">6 June 2024</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>A discussion of functions that create other functions, from Advanced R cohort 8.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=FJGqfqdb3zA">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://adv-r.hadley.nz/">Materials</a>
+      </div>
+    </div>
+  </article>
+  <article class="workshop-card" data-dslc-extra>
+    <a class="workshop-thumbnail" href="https://www.youtube.com/watch?v=EstytFNjrWc" aria-label="Watch Making Talks Work for Diverse Audiences on YouTube">
+      <img src="https://i.ytimg.com/vi/EstytFNjrWc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360" />
+      <span class="workshop-play" aria-hidden="true">▶</span>
+      <span class="workshop-watch-label">Watch recording</span>
+    </a>
+    <div class="workshop-card__body">
+      <span class="workshop-tag">Project Club</span>
+      <h3>Making Talks Work for Diverse Audiences</h3>
+      <p class="workshop-meta"><time datetime="2023-10-14">14 October 2023</time> · DSLC</p>
+      <details class="workshop-details">
+        <summary>Session details</summary>
+        <p>Sharing practical experience from organising talks for R-Ladies chapters.</p>
+      </details>
+      <div class="workshop-card-actions">
+        <a class="workshop-watch" href="https://www.youtube.com/watch?v=EstytFNjrWc">Watch <span aria-hidden="true">↗</span></a>
+        <a class="workshop-materials" href="https://github.com/rladies/meetup-presentations_rome">Materials</a>
+      </div>
+    </div>
+  </article>
+  </div>
+  <button class="dslc-toggle" type="button" aria-expanded="false" aria-controls="dslc-recording-grid" hidden>Show all 12 recordings</button>
+</div>
+<script src="/about/dslc/dslc-recordings.js" defer></script>
+```
+
+[Browse more of my recordings on the DSLC channel](https://www.youtube.com/@dslcvids/search?query=Federica).

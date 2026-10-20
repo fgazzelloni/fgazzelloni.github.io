@@ -1,10 +1,11 @@
 ---
 title: "Workshops & Talks"
-description: "Explore The Carpentries workshops, R-Ladies recordings, and conference talks by Federica Gazzelloni."
+description: "Explore The Carpentries workshops, R-Ladies recordings, DSLC book clubs, and conference talks by Federica Gazzelloni."
 page-layout: full
 toc: false
 resources:
   - workshop-filters.js
+  - ../dslc/dslc-recordings.js
 ---
 
 Practical sessions on R, data visualisation, health modelling, spatial analysis, and reproducible workflows. Browse the recordings or explore workshop materials.
@@ -13,6 +14,7 @@ Practical sessions on R, data visualisation, health modelling, spatial analysis,
 <nav class="workshop-jump-links" aria-label="Workshop sections">
   <a href="#the-carpentries">The Carpentries</a>
   <a href="#r-ladies-workshops-and-talks">R-Ladies</a>
+  <a href="#dslc">DSLC</a>
   <a href="#conference-talks">Conference talks</a>
 </nav>
 ```
@@ -75,6 +77,12 @@ Selected workshops delivered for the CDC, the University of Washington and NNLM,
 Explore sessions I presented, co-taught, or hosted for R-Ladies chapters. Watch the recordings or open a card’s details for code and materials. The Roots of AI currently links to workshop materials.
 
 {{< include ../rladies/_rladies-body.qmd >}}
+
+## DSLC {#dslc}
+
+Selected recordings from the Data Science Learning Community book clubs and Project Club. Start with my book, spatial modelling, and the oregonfrogs package, or explore the wider selection.
+
+{{< include ../dslc/_dslc-body.qmd >}}
 
 ## Conference talks {#conference-talks}
 
