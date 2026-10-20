@@ -173,7 +173,7 @@
 .scrolling-banner {
   background-color: #64748b;  /* #007a79; #fbd8da;  */
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(1rem, 2.5vw, 2rem);
   color: white;
   font-weight: 700;
   margin-top: -1rem !important;
@@ -209,7 +209,7 @@ main.content {
   padding: 4rem 6vw 3rem;
   background:
     linear-gradient(115deg, rgba(49, 55, 75, 0.96), rgba(28, 82, 99, 0.92)),
-    url("images/homepage-transparent.png");
+    url("images/homepage-background.webp");
   background-size: cover;
   background-position: center right;
   color: #ffffff;
@@ -445,13 +445,10 @@ main.content {
 
 @media (max-width: 768px) {
 
-  /* Keep changing banner text inside the viewport without moving the hero. */
+  /* Keep banner text readable within the mobile viewport. */
   .scrolling-banner {
     margin-top: 0 !important;
     padding: 0.65rem 1rem !important;
-    min-height: 5.5rem;
-    display: grid;
-    place-items: center;
     font-size: 1rem;
     line-height: 1.4;
     overflow-wrap: anywhere;

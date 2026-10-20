@@ -29,23 +29,27 @@ title-block-banner: false
 
 ```{=html}
 <div class="scrolling-banner">
-  <p class="multipleStrings"></p>
+  <p class="multipleStrings">Welcome to my Website</p>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
 <script>
-  new TypeIt(".multipleStrings", {
-      strings: [
-      "Welcome to my Website",
-      "AI-augmented analytics for health, risk, and decision-making",
-      "Health Metrics and the Spread of Infectious Diseases",
-      "New book in progress: Mortality 🔍 Analytics - more info coming soon 🔥"
-      ],
-      breakLines: false,
-      loop: true,
-      speed: 45
-  }).go();
+  window.addEventListener("DOMContentLoaded", function () {
+    if (!window.TypeIt || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    document.querySelector(".multipleStrings").textContent = "";
+    new TypeIt(".multipleStrings", {
+        strings: [
+        "Welcome to my Website",
+        "AI-augmented analytics for health, risk, and decision-making",
+        "Health Metrics and the Spread of Infectious Diseases",
+        "New book in progress: Mortality 🔍 Analytics - more info coming soon 🔥"
+        ],
+        breakLines: false,
+        loop: true,
+        speed: 45
+    }).go();
+  });
 </script>
 
 <section class="landing-hero" aria-labelledby="landing-title">
@@ -67,7 +71,7 @@ title-block-banner: false
   </div>
 
   <div class="landing-hero__visual" aria-label="Federica Gazzelloni analytics platform">
-    <img src="images/homepage-logo-highres-cutout.png" alt="Federica Gazzelloni DataMetricus AI analytics identity" />
+    <img src="images/homepage-logo.webp" width="780" height="880" fetchpriority="high" decoding="async" alt="Federica Gazzelloni DataMetricus AI analytics identity" />
     <div class="landing-proof">
       <span>Author</span>
       <span>Health Metrics Research</span>
@@ -98,7 +102,7 @@ title-block-banner: false
 ```{=html}
 <section class="book-feature" aria-labelledby="featured-book-title">
   <a href="content/books/posts/hmsid/" aria-label="About Health Metrics and the Spread of Infectious Diseases">
-    <img class="book-feature__cover" src="images/book_cover.png" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" loading="lazy" />
+    <img class="book-feature__cover" src="images/book-cover.webp" width="380" height="520" decoding="async" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" loading="lazy" />
   </a>
   <div>
     <p class="book-feature__eyebrow">Featured book · CRC Press · 2025</p>
@@ -176,7 +180,7 @@ and [workshop recordings and materials](about/workshops/).
       <a class="home-text-link" href="about/workshops/">Explore workshops <span aria-hidden="true">→</span></a>
     </div>
   </div>
-  <video class="home-learning__video" controls preload="none" playsinline aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo-highres-cutout.png">
+  <video class="home-learning__video" controls preload="none" playsinline aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo.webp">
     <source src="images/welcome-video.mp4" type="video/mp4">
     <p><a href="https://www.youtube.com/@federicagazzelloni">Watch my videos on YouTube.</a></p>
   </video>

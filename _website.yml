@@ -68,7 +68,7 @@ website:
         aria-label: "DataMetricus — consulting and training (external website)"
   page-footer:
     left: |
-      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: [Federica Gazzelloni](https://federicagazzelloni.com)<br>Powered by: [DataMetricus](https://datametricus.com/) | <a href="/LICENSE.md">MIT License</a>.
+      Copyright © 2026 Federica Gazzelloni<br>Designer & Maintainer: [Federica Gazzelloni](/about.html)<br>Powered by: [DataMetricus](https://datametricus.com/) | <a href="/LICENSE.md">MIT License</a>.
     right: 
       - text: "Newsletter"
         href: content/newsletter/index.qmd
