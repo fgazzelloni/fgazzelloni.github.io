@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://federicagazzelloni.com/</loc>
-    <lastmod>2026-10-20T18:17:44.833Z</lastmod>
+    <lastmod>2026-10-21T17:29:31.912Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/posts/oregonfrogs/</loc>
-    <lastmod>2026-05-03T12:51:34.926Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.736Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/</loc>
@@ -14,11 +14,11 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/posts/performance_metrics/posts/health_index/</loc>
-    <lastmod>2026-05-03T12:51:35.045Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.704Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/posts/automation_workflow/posts/n8n_setup/</loc>
-    <lastmod>2026-10-20T18:14:47.393Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.707Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/</loc>
@@ -26,75 +26,83 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/posts/the-new-science-of-fighting-infectious-disease/</loc>
-    <lastmod>2026-05-03T12:51:35.219Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.183Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/posts/from-plague-bills-to-predictive-algorithms/</loc>
-    <lastmod>2026-05-03T12:51:35.279Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.184Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/</loc>
     <lastmod>2026-05-03T15:53:29.465Z</lastmod>
   </url>
   <url>
-    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/</loc>
-    <lastmod>2026-10-20T12:40:01.620Z</lastmod>
+    <loc>https://federicagazzelloni.com/content/books/posts/masta/</loc>
+    <lastmod>2026-10-21T16:52:01.133Z</lastmod>
   </url>
   <url>
-    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/</loc>
-    <lastmod>2026-10-20T17:43:18.450Z</lastmod>
+    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/</loc>
+    <lastmod>2026-10-21T16:53:45.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/content/books/posts/cp2/</loc>
+    <lastmod>2026-10-21T16:55:58.391Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/simpson_paradox/</loc>
-    <lastmod>2026-10-20T12:52:13.415Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.730Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/predictive_modeling/</loc>
-    <lastmod>2026-10-20T12:51:28.089Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.727Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/multiple_testing/</loc>
-    <lastmod>2026-05-03T10:26:27.878Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.730Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/bayesian_statistics/</loc>
-    <lastmod>2026-05-03T15:39:12.885Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.729Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/yarn/</loc>
-    <lastmod>2026-05-03T10:26:11.136Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.718Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/hiv/</loc>
-    <lastmod>2026-05-03T15:39:12.818Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.723Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/network/</loc>
-    <lastmod>2026-05-03T10:26:10.893Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.713Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggmap/</loc>
-    <lastmod>2026-05-03T15:39:12.754Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.720Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/erasmus/</loc>
-    <lastmod>2026-05-03T10:26:10.653Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.717Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/dubois2023/</loc>
-    <lastmod>2026-05-03T15:39:12.678Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.715Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/Statistics/</loc>
-    <lastmod>2026-05-03T10:26:10.422Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.711Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/riskassessments/</loc>
-    <lastmod>2026-10-20T18:14:47.394Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.171Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/</loc>
     <lastmod>2026-03-05T13:08:58.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/content/apps/</loc>
+    <lastmod>2026-10-21T17:05:07.790Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/workshops/</loc>
@@ -106,59 +114,63 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/papers/</loc>
-    <lastmod>2026-05-03T10:05:36.196Z</lastmod>
+    <lastmod>2026-10-21T17:36:43.488Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about.html</loc>
-    <lastmod>2026-09-29T10:43:14.294Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.145Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/book/</loc>
-    <lastmod>2026-10-20T12:40:31.176Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.742Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/profile/</loc>
-    <lastmod>2026-09-29T10:43:14.481Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.146Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/about/talks/</loc>
     <lastmod>2026-10-20T13:14:58.884Z</lastmod>
   </url>
   <url>
+    <loc>https://federicagazzelloni.com/consultancy.html</loc>
+    <lastmod>2026-10-21T16:52:01.134Z</lastmod>
+  </url>
+  <url>
     <loc>https://federicagazzelloni.com/content/blog/</loc>
-    <lastmod>2026-05-03T15:53:29.154Z</lastmod>
+    <lastmod>2026-10-21T16:52:01.135Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/actuarial/posts/career-roadmap/</loc>
-    <lastmod>2026-10-20T18:14:47.393Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.173Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/</loc>
-    <lastmod>2026-10-20T17:43:18.449Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.157Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/dogbreeds/</loc>
-    <lastmod>2026-05-03T10:26:10.479Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.722Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/dubois2024/challenge01/</loc>
-    <lastmod>2026-05-03T12:51:35.976Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.716Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/european_flights/</loc>
-    <lastmod>2026-05-03T12:51:35.919Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.719Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/ggstream/</loc>
-    <lastmod>2026-05-03T12:51:35.861Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.713Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/oregonfrogs/</loc>
-    <lastmod>2026-05-03T12:51:35.804Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.721Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/dataviz/posts/usecases/malaria/</loc>
-    <lastmod>2026-05-03T12:51:35.747Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.723Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/</loc>
@@ -166,39 +178,43 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/linear_prediction/</loc>
-    <lastmod>2026-10-20T12:51:28.066Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.726Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/plain_vanilla/</loc>
-    <lastmod>2026-05-03T12:51:35.574Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.729Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/blog/posts/stats/posts/rladies/</loc>
-    <lastmod>2026-05-03T12:51:35.512Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.728Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/books/</loc>
-    <lastmod>2026-10-20T12:40:01.622Z</lastmod>
+    <lastmod>2026-10-21T17:05:07.789Z</lastmod>
   </url>
   <url>
-    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/posts/012026/</loc>
-    <lastmod>2026-10-20T12:40:01.624Z</lastmod>
+    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/</loc>
+    <lastmod>2026-10-21T16:57:50.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://federicagazzelloni.com/content/books/posts/hmsid/posts/062025/</loc>
+    <lastmod>2026-10-21T16:58:38.709Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/newsletter/</loc>
-    <lastmod>2026-10-20T17:44:31.200Z</lastmod>
+    <lastmod>2026-10-21T17:00:27.275Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/posts/bills-of-mortality-to-ai/</loc>
-    <lastmod>2026-05-03T10:26:45.493Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.186Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/posts/the-accounting-of-human-suffering/</loc>
-    <lastmod>2026-05-03T10:26:45.609Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.186Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/podcasts/posts/valuing-human-life-in-a-spreadsheet/</loc>
-    <lastmod>2026-05-03T10:26:45.723Z</lastmod>
+    <lastmod>2026-10-21T16:53:45.185Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/posts/automation_workflow/</loc>
@@ -210,14 +226,14 @@
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/proj/posts/performance_metrics/posts/performance/</loc>
-    <lastmod>2026-05-03T10:26:45.840Z</lastmod>
+    <lastmod>2026-10-21T17:01:16.025Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/posts/hmsidwR/</loc>
-    <lastmod>2026-10-20T12:40:01.623Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.735Z</lastmod>
   </url>
   <url>
     <loc>https://federicagazzelloni.com/content/rpackages/posts/typeR/</loc>
-    <lastmod>2026-05-03T15:39:13.152Z</lastmod>
+    <lastmod>2026-10-21T16:58:38.735Z</lastmod>
   </url>
 </urlset>
