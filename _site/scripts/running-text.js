@@ -14,8 +14,20 @@
     const banner = document.querySelector(".multipleStrings");
     if (!banner) return;
     banner.textContent = messages[0];
-    if (reducedMotion.matches) return;
     let message = 0;
+
+    // Keep every message available without a character-by-character animation.
+    // A longer pause also gives readers time to finish the longer messages.
+    if (reducedMotion.matches) {
+      function rotate() {
+        if (!banner.isConnected) return;
+        message = (message + 1) % messages.length;
+        banner.textContent = messages[message];
+        timer = window.setTimeout(rotate, 8000);
+      }
+      timer = window.setTimeout(rotate, 8000);
+      return;
+    }
     let letters = Array.from(messages[0]);
     let position = letters.length;
     let deleting = true;
@@ -51,5 +63,10 @@
   }
   window.addEventListener("pageshow", start);
   window.addEventListener("pagehide", () => window.clearTimeout(timer));
-  reducedMotion.addEventListener("change", start);
+  // Older Safari versions expose only the legacy MediaQueryList listener.
+  if (typeof reducedMotion.addEventListener === "function") {
+    reducedMotion.addEventListener("change", start);
+  } else if (typeof reducedMotion.addListener === "function") {
+    reducedMotion.addListener(start);
+  }
 })();
