@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Yarn: hierarchical edge bundling visualization"
 ---
 
 
@@ -20,7 +22,7 @@ This post is all about **hierarchical edge bundling visualization**, the dataset
 
 The picture below is the result of the hierarchical edge bundling visualization.
 
-![Hierarchical Edge Bundling Visualization](featured.png){width="50%"}
+![Hierarchical Edge Bundling Visualization](featured.png){width="50%" fig-alt="Hierarchical Edge Bundling Visualization"}
 
 First thing load the libraries and set the fonts:
 

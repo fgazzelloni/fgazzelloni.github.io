@@ -13,6 +13,8 @@ categories:
   - Machine Learning
 layout: single
 page-layout: full
+image: featured.png
+image-alt: "Illustration for hmsidwR R-package"
 ---
 
 ## Overview
@@ -29,7 +31,7 @@ VIGNETTE: <https://fgazzelloni.github.io/hmsidwR/>
 :::
 
 ::: {.column width="20%"}
-![](featured.png)
+![hmsidwR R-package](featured.png){fig-alt="hmsidwR R-package"}
 :::
 :::::
 

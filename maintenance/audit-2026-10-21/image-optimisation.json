@@ -1,0 +1,44 @@
+[
+  {
+    "original": "content/podcasts/posts/the-new-science-of-fighting-infectious-disease/featured.png",
+    "derivative": "content/podcasts/posts/the-new-science-of-fighting-infectious-disease/featured.webp",
+    "original_bytes": 8894472,
+    "derivative_bytes": 122476
+  },
+  {
+    "original": "content/podcasts/posts/from-plague-bills-to-predictive-algorithms/featured.png",
+    "derivative": "content/podcasts/posts/from-plague-bills-to-predictive-algorithms/featured.webp",
+    "original_bytes": 8632621,
+    "derivative_bytes": 114784
+  },
+  {
+    "original": "content/podcasts/posts/valuing-human-life-in-a-spreadsheet/featured.png",
+    "derivative": "content/podcasts/posts/valuing-human-life-in-a-spreadsheet/featured.webp",
+    "original_bytes": 8632621,
+    "derivative_bytes": 114784
+  },
+  {
+    "original": "content/podcasts/posts/the-accounting-of-human-suffering/featured.png",
+    "derivative": "content/podcasts/posts/the-accounting-of-human-suffering/featured.webp",
+    "original_bytes": 8632621,
+    "derivative_bytes": 114784
+  },
+  {
+    "original": "content/podcasts/posts/bills-of-mortality-to-ai/featured.png",
+    "derivative": "content/podcasts/posts/bills-of-mortality-to-ai/featured.webp",
+    "original_bytes": 8632621,
+    "derivative_bytes": 114784
+  },
+  {
+    "original": "content/blog/posts/actuarial/posts/riskassessments/featured.png",
+    "derivative": "content/blog/posts/actuarial/posts/riskassessments/featured.webp",
+    "original_bytes": 5927006,
+    "derivative_bytes": 165712
+  },
+  {
+    "original": "images/profile.png",
+    "derivative": "images/profile.webp",
+    "original_bytes": 1715193,
+    "derivative_bytes": 110624
+  }
+]

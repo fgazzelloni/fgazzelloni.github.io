@@ -2,7 +2,7 @@
 title: "From Plague Bills To Predictive Algorithms"
 description: "Podcast episode tracing health intelligence from John Graunt's Bills of Mortality to DALYs, machine learning, and outbreak prediction."
 date: '2026-02-08'
-image: featured.png
+image: featured.webp
 slug: podcast-from-plague-bills-to-predictive-algorithms
 toc: true
 categories:
@@ -13,6 +13,7 @@ summary: |
 
 execute: 
   eval: false
+image-alt: "Illustration for From Plague Bills To Predictive Algorithms"
 ---
 
 

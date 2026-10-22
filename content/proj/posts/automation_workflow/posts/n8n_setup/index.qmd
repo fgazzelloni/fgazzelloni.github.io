@@ -19,6 +19,7 @@ toc: true
 toc-location: left
 execute: 
   eval: false
+image-alt: "Illustration for Building Your First Automation Assistant for Free with n8n and Oracle Cloud"
 ---
 
 ## Overview
@@ -36,7 +37,7 @@ But what really changes productivity is not a single tool. It is building a **sm
 :::
 
 ::: {.column width="40%"}
-![](featured.png){width=90%}
+![Building Your First Automation Assistant for Free with n8n and Oracle Cloud](featured.png){width=90% fig-alt="Building Your First Automation Assistant for Free with n8n and Oracle Cloud"}
 :::
 ::::
 
@@ -221,7 +222,7 @@ Once the foundation is stable, you can expand to include:
 
 Below is a visual representation of the final workflow described in this post. This image illustrates the steps involved in the automation process:
 
-![](images/n8n-workflow.png){width=100%}
+![](images/n8n-workflow.png){width=100% fig-alt="n8n workflow diagram connecting steps in the automation assistant."}
 
 ## Final Advice
 

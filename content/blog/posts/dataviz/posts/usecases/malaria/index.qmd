@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Malaria Data Analysis in R with WHO and World Bank Data"
 ---
 
 ## Overview
@@ -20,7 +22,7 @@ This post explores malaria data analysis in R using WHO malaria map data, World 
 
 [^1]: worldbank_data source: <https://databank.worldbank.org/reports.aspx?source=2&series=SH.MLR.INCD.P3&country=#>
 
-![The case of Malaria](featured.png)
+![The case of Malaria](featured.png){fig-alt="The case of Malaria"}
 
 The Malaria case is somehow a concerning case, eradicated all over the World except for some areas in the Africa's continent, the highlight of cases of domestic origins are considered epidemics.
 

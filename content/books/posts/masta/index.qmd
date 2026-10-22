@@ -1,0 +1,23 @@
+---
+title: "MASTA — Mortality Analytics"
+subtitle: "Statistical Methods for Multi-Cause Attribution"
+description: "A book in progress by Federica Gazzelloni and Sarah Cuschieri on mortality analytics and multi-cause attribution."
+page-layout: article
+---
+
+[Book in progress]{.status-badge}
+
+*Mortality Analytics: Statistical Methods for Multi-Cause Attribution* is a book project by **Federica Gazzelloni and Sarah Cuschieri**.
+
+## The question behind the book
+
+How can we study mortality when several causes contribute to a death? MASTA explores statistical methods for multi-cause attribution and the interpretation of mortality data.
+
+The project connects mortality analysis with questions about how deaths are recorded, how causes relate to one another, and what statistical methods can help us understand those relationships.
+
+## Current stage
+
+The book is in development. Further details and resources will be shared as the work progresses.
+
+[Follow my newsletter ↗](https://federicagazzelloni.substack.com/){.book-button}
+[Explore all books](../../index.qmd){.home-text-link}

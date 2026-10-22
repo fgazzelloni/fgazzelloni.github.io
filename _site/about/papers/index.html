@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Authored and co-authored publications by Federica Gazzelloni, including scholarly work in health metrics, data science, and statistics.">
+<meta name="description" content="Selected authored and co-authored papers by Federica Gazzelloni, with publication details and links to Google Scholar.">
 
 <title>Papers – Federica Gazzelloni</title>
 <style>
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -106,11 +126,11 @@ cookieconsent.run({
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Papers – Federica Gazzelloni">
-<meta property="og:description" content="Authored and co-authored publications by Federica Gazzelloni, including scholarly work in health metrics, data science, and statistics.">
+<meta property="og:description" content="Selected authored and co-authored papers by Federica Gazzelloni, with publication details and links to Google Scholar.">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:title" content="Papers – Federica Gazzelloni">
-<meta name="twitter:description" content="Authored and co-authored publications by Federica Gazzelloni, including scholarly work in health metrics, data science, and statistics.">
+<meta name="twitter:description" content="Selected authored and co-authored papers by Federica Gazzelloni, with publication details and links to Google Scholar.">
 <meta name="twitter:creator" content="@fgazzelloni">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://federicagazzelloni.com/about/papers/">
@@ -124,8 +144,8 @@ cookieconsent.run({
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
-    <img src="../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    <img src="../../images/logo-website-removebg.png" alt="Federica Gazzelloni home" class="navbar-logo light-content">
+    <img src="../../images/logo-website-removebg.png" alt="Federica Gazzelloni home" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
@@ -138,63 +158,63 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Work</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools--teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tools &amp; Teaching</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tools--teaching">    
         <li>
-    <a class="dropdown-item" href="../../content/proj/index.html">
- <span class="dropdown-text">Projects</span></a>
+    <a class="dropdown-item" href="../../about/workshops/index.html">
+ <span class="dropdown-text">Workshops &amp; Materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualisation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/rpackages/index.html">
  <span class="dropdown-text">R Packages</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
- <span class="dropdown-text">Data Visualization</span></a>
+    <a class="dropdown-item" href="../../content/apps/index.html">
+ <span class="dropdown-text">Shiny Apps</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops--talks" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshops &amp; Talks</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops--talks">    
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#the-carpentries">
- <span class="dropdown-text">The Carpentries</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#r-ladies-workshops-and-talks">
- <span class="dropdown-text">R-Ladies</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#dslc">
- <span class="dropdown-text">DSLC</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#conference-talks">
- <span class="dropdown-text">Conference talks</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Writing</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
-        <li>
-    <a class="dropdown-item" href="../../content/newsletter/index.html">
- <span class="dropdown-text">Newsletter</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../content/blog/index.html">
- <span class="dropdown-text">Blog</span></a>
-  </li>  
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
         <li>
     <a class="dropdown-item" href="../../content/books/index.html">
- <span class="dropdown-text">Books</span></a>
+ <span class="dropdown-text">All Books &amp; Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/hmsid/index.html">
+ <span class="dropdown-text">HMSID</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/cp2/index.html">
+ <span class="dropdown-text">CP2 — ACTEX</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/masta/index.html">
+ <span class="dropdown-text">MASTA — In Progress</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-notes--research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Notes &amp; Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-notes--research">    
+        <li>
+    <a class="dropdown-item" href="../../content/blog/index.html">
+ <span class="dropdown-text">Notes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://federicagazzelloni.substack.com/">
+ <span class="dropdown-text"><span class="newsletter-nav">Newsletter ↗</span></span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../about/papers/index.html">
@@ -203,8 +223,8 @@ cookieconsent.run({
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/podcasts/index.html"> 
-<span class="menu-text">Podcasts</span></a>
+    <a class="nav-link" href="../../consultancy.html"> 
+<span class="menu-text">Consultancy</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -214,7 +234,7 @@ cookieconsent.run({
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://datametricus.com/"> 
-<span class="menu-text"><img src="../../images/datametricus-logo.png" class="datametricus-nav-logo" alt=""> DataMetricus</span></a>
+<span class="menu-text"><img src="../../images/datametricus-logo.png" class="datametricus-nav-logo" alt=""> DataMetricus ↗</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -246,7 +266,7 @@ cookieconsent.run({
 
 <div>
   <div class="description">
-    Authored and co-authored publications by Federica Gazzelloni, including scholarly work in health metrics, data science, and statistics.
+    Selected authored and co-authored papers by Federica Gazzelloni, with publication details and links to Google Scholar.
   </div>
 </div>
 
@@ -263,8 +283,25 @@ cookieconsent.run({
 </header>
 
 
-<section id="authored-co-authored-publications" class="level3">
-<h3 class="anchored" data-anchor-id="authored-co-authored-publications">Authored &amp; Co-authored Publications</h3>
+<p>My research spans health metrics, population health, burden of disease, and statistical methods.</p>
+<p><a href="https://scholar.google.com/citations?user=Xes0-r0AAAAJ&amp;hl=en" class="book-button">View my full publication list on Google Scholar ↗</a></p>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
+<p>The papers below come from the bibliography maintained with this website. For the full list and recent additions, see my Google Scholar profile.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Charalampous_2022_ncd" class="csl-entry" role="listitem">
+Charalampous, Periklis, Vanessa Gorasso, Dietrich Plass, Sara M Pires, Elena von der Lippe, Alibek Mereke, Jane Idavain, et al. 2022. <span>“Burden of Non-Communicable Disease Studies in Europe: A Systematic Review of Data Sources and Methodological Choices.”</span> <em>European Journal of Public Health</em> 32 (2): 289–96. <a href="https://doi.org/10.1093/eurpub/ckab218">https://doi.org/10.1093/eurpub/ckab218</a>.
+</div>
+<div id="ref-Charalampous_2023" class="csl-entry" role="listitem">
+Charalampous, Periklis, Juanita A. Haagsma, Lea S. Jakobsen, Vanessa Gorasso, Isabel Noguer, Alicia Padron-Monedero, Rodrigo Sarmiento, et al. 2023. <span>“Burden of Infectious Disease Studies in Europe and the United Kingdom: A Review of Methodological Design Choices.”</span> <em>Epidemiology and Infection</em> 151. <a href="https://doi.org/10.1017/s0950268823000031">https://doi.org/10.1017/s0950268823000031</a>.
+</div>
+<div id="ref-Charalampous_2022" class="csl-entry" role="listitem">
+Charalampous, Periklis, Elena Pallari, Vanessa Gorasso, Elena von der Lippe, Brecht Devleesschauwer, Sara M. Pires, Dietrich Plass, et al. 2022. <span>“Methodological Considerations in Injury Burden of Disease Studies Across Europe: A Systematic Literature Review.”</span> <em><span>BMC</span> Public Health</em> 22 (1). <a href="https://doi.org/10.1186/s12889-022-13925-z">https://doi.org/10.1186/s12889-022-13925-z</a>.
+</div>
+<div id="ref-Vasco_Santos_2021" class="csl-entry" role="listitem">
+Santos, J Vasco, A Padron Monedero, B Bikbov, DA Grad, D Plass, E-A Mechili, F Gazzelloni, et al. 2021. <span>“The State of Health in the European Union in 2019.”</span> <em>European Journal of Public Health</em> 31 (Supplement<span>_</span>3). <a href="https://doi.org/10.1093/eurpub/ckab164.043">https://doi.org/10.1093/eurpub/ckab164.043</a>.
+</div>
+</div>
 
 
 </section>
@@ -679,13 +716,13 @@ cookieconsent.run({
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.com/">DataMetricus</a> | <a href="../../LICENSE.md">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="../../about.html">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.com/">DataMetricus</a> | <a href="../../LICENSE.md">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
-<p>This Blog is made with 💜 in Quarto</p>
+<p>Made with 💜 in Quarto</p>
 </a>
   </li>  
 </ul>

@@ -1,37 +1,16 @@
 ---
 title: "Papers"
-description: "Authored and co-authored publications by Federica Gazzelloni, including scholarly work in health metrics, data science, and statistics."
+description: "Selected authored and co-authored papers by Federica Gazzelloni, with publication details and links to Google Scholar."
+nocite: '@*'
 ---
 
-### Authored & Co-authored Publications
+My research spans health metrics, population health, burden of disease, and statistical methods.
 
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
+[View my full publication list on Google Scholar ↗](https://scholar.google.com/citations?user=Xes0-r0AAAAJ&hl=en){.book-button}
 
-library(scholar)
-library(tidyverse)
+## Selected publications
 
+The papers below come from the bibliography maintained with this website. For the full list and recent additions, see my Google Scholar profile.
 
-id <- 'Xes0-r0AAAAJ'
-```
-
-```{r}
-#| echo: false
-p <- get_publications(id)
-pp <- p%>%
-  select(year,journal,title,author,pubid)%>%
-  filter(!journal=="")%>%
-  arrange(desc(year)) %>%
-  rename_with(~str_to_title(.x))%>%
-  mutate(N = rev(row_number()),
-         .before = everything()) 
-```
-
-```{r}
-#| echo: false
-knitr::kable(pp, 
-             format = 'html', 
-             caption = 'List of Publications 2020 to Present')
-```
+::: {#refs}
+:::

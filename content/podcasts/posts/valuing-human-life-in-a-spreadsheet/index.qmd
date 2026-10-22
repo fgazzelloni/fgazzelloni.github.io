@@ -2,7 +2,7 @@
 title: "Valuing Human Life in a Spreadsheet"
 description: "Podcast episode on life expectancy, simulated data, health metrics formulas, and spreadsheet-based public health analysis."
 date: '2026-02-09'
-image: featured.png
+image: featured.webp
 slug: podcast-valuing-human-life-in-a-spreadsheet
 toc: true
 categories:
@@ -13,6 +13,7 @@ summary: |
 
 execute: 
   eval: false
+image-alt: "Illustration for Valuing Human Life in a Spreadsheet"
 ---
 
 

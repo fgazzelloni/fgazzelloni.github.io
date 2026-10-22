@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.">
+<meta name="description" content="Books by Federica Gazzelloni: Health Metrics and the Spread of Infectious Diseases, CP2 through ACTEX, and MASTA — Mortality Analytics in progress.">
 
-<title>Books on Health Metrics, R, and Data Science – Federica Gazzelloni</title>
+<title>Books &amp; Resources – Federica Gazzelloni</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/logo-website-removebg.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -76,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -134,64 +103,29 @@ cookieconsent.run({
   
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Books on Health Metrics, R, and Data Science – Federica Gazzelloni">
-<meta property="og:description" content="Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.">
-<meta property="og:image" content="https://federicagazzelloni.com/images/book_cover.png">
+<meta property="og:title" content="Books &amp; Resources – Federica Gazzelloni">
+<meta property="og:description" content="Books by Federica Gazzelloni: Health Metrics and the Spread of Infectious Diseases, CP2 through ACTEX, and MASTA — Mortality Analytics in progress.">
 <meta property="og:site_name" content="Federica Gazzelloni">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="988">
-<meta property="og:image:width" content="722">
-<meta name="twitter:title" content="Books on Health Metrics, R, and Data Science – Federica Gazzelloni">
-<meta name="twitter:description" content="Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.">
-<meta name="twitter:image" content="https://federicagazzelloni.com/images/book_cover.png">
+<meta name="twitter:title" content="Books &amp; Resources – Federica Gazzelloni">
+<meta name="twitter:description" content="Books by Federica Gazzelloni: Health Metrics and the Spread of Infectious Diseases, CP2 through ACTEX, and MASTA — Mortality Analytics in progress.">
 <meta name="twitter:creator" content="@fgazzelloni">
-<meta name="twitter:image-height" content="988">
-<meta name="twitter:image-width" content="722">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://federicagazzelloni.com/content/books/">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo light-content">
-    <img src="../../images/logo-website-removebg.png" alt="me-ai2" class="navbar-logo dark-content">
+    <img src="../../images/logo-website-removebg.png" alt="Federica Gazzelloni home" class="navbar-logo light-content">
+    <img src="../../images/logo-website-removebg.png" alt="Federica Gazzelloni home" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Federica Gazzelloni</span>
@@ -204,63 +138,63 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Work</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tools--teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tools &amp; Teaching</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-work">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tools--teaching">    
         <li>
-    <a class="dropdown-item" href="../../content/proj/index.html">
- <span class="dropdown-text">Projects</span></a>
+    <a class="dropdown-item" href="../../about/workshops/index.html">
+ <span class="dropdown-text">Workshops &amp; Materials</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
+ <span class="dropdown-text">Data Visualisation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/rpackages/index.html">
  <span class="dropdown-text">R Packages</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/blog/posts/dataviz/index.html">
- <span class="dropdown-text">Data Visualization</span></a>
+    <a class="dropdown-item" href="../../content/apps/index.html">
+ <span class="dropdown-text">Shiny Apps</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshops--talks" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Workshops &amp; Talks</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshops--talks">    
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#the-carpentries">
- <span class="dropdown-text">The Carpentries</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#r-ladies-workshops-and-talks">
- <span class="dropdown-text">R-Ladies</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#dslc">
- <span class="dropdown-text">DSLC</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../about/workshops/index.html#conference-talks">
- <span class="dropdown-text">Conference talks</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-writing" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Writing</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-writing">    
-        <li>
-    <a class="dropdown-item" href="../../content/newsletter/index.html">
- <span class="dropdown-text">Newsletter</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../content/blog/index.html">
- <span class="dropdown-text">Blog</span></a>
-  </li>  
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
         <li>
     <a class="dropdown-item" href="../../content/books/index.html">
- <span class="dropdown-text">Books</span></a>
+ <span class="dropdown-text">All Books &amp; Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/hmsid/index.html">
+ <span class="dropdown-text">HMSID</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/cp2/index.html">
+ <span class="dropdown-text">CP2 — ACTEX</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../content/books/posts/masta/index.html">
+ <span class="dropdown-text">MASTA — In Progress</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-notes--research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Notes &amp; Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-notes--research">    
+        <li>
+    <a class="dropdown-item" href="../../content/blog/index.html">
+ <span class="dropdown-text">Notes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://federicagazzelloni.substack.com/">
+ <span class="dropdown-text"><span class="newsletter-nav">Newsletter ↗</span></span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../about/papers/index.html">
@@ -269,8 +203,8 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/podcasts/index.html"> 
-<span class="menu-text">Podcasts</span></a>
+    <a class="nav-link" href="../../consultancy.html"> 
+<span class="menu-text">Consultancy</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
@@ -280,7 +214,7 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://datametricus.com/"> 
-<span class="menu-text"><img src="../../images/datametricus-logo.png" class="datametricus-nav-logo" alt=""> DataMetricus</span></a>
+<span class="menu-text"><img src="../../images/datametricus-logo.png" class="datametricus-nav-logo" alt=""> DataMetricus ↗</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -298,75 +232,71 @@ window.Quarto = {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Books on Health Metrics, R, and Data Science</h1>
-                  <div>
-        <div class="description">
-          Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization.
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Books &amp; Resources</h1>
+</div>
+
+<div>
+  <div class="description">
+    Books by Federica Gazzelloni: Health Metrics and the Spread of Infectious Diseases, CP2 through ACTEX, and MASTA — Mortality Analytics in progress.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
-
-<p>Explore my books and their companion code, datasets, and articles. Open a book overview for publication details and resources, or go straight to the free online edition.</p>
-<p><a href="https://federicagazzelloni.com/hmsidR/">Read Health Metrics and the Spread of Infectious Diseases online</a></p>
-<section id="books-and-resources" class="level2">
-<h2 class="anchored" data-anchor-id="books-and-resources">Books and resources</h2>
+</header>
 
 
-
+<p>Explore my books and their supporting materials. Access differs by title: HMSID has a free online edition, CP2 is forthcoming through ACTEX with paid access, and MASTA is in progress.</p>
+<div class="portfolio-grid">
+<div class="portfolio-card">
+<p><span class="status-badge">Published · Free online edition</span></p>
+<section id="hmsid" class="level2">
+<h2 class="anchored" data-anchor-id="hmsid">HMSID</h2>
+<p><strong>Health Metrics and the Spread of Infectious Diseases</strong></p>
+<p>Health metrics, machine learning, and spatial modelling with R. Find the book, code and data, podcasts, and video recordings in one place.</p>
+<p><a href="../../content/books/posts/hmsid/index.html" class="book-button">Book &amp; resources</a></p>
 </section>
+</div>
+<div class="portfolio-card">
+<p><span class="status-badge">Forthcoming · ACTEX</span></p>
+<section id="cp2" class="level2">
+<h2 class="anchored" data-anchor-id="cp2">CP2</h2>
+<p><strong>Actuarial modelling and supporting materials</strong></p>
+<p>Forthcoming through ACTEX. Access will require sign-up and purchase; visit Actuarial University for availability updates.</p>
+<p><a href="../../content/books/posts/cp2/index.html" class="book-button">CP2 &amp; ACTEX access</a></p>
+</section>
+</div>
+<div class="portfolio-card">
+<p><span class="status-badge">In progress</span></p>
+<section id="masta" class="level2">
+<h2 class="anchored" data-anchor-id="masta">MASTA</h2>
+<p><strong>Mortality Analytics: Statistical Methods for Multi-Cause Attribution</strong></p>
+<p>A book project by Federica Gazzelloni and Sarah Cuschieri exploring mortality analytics and multi-cause attribution.</p>
+<p><a href="../../content/books/posts/masta/index.html" class="book-button">About MASTA</a></p>
+</section>
+</div>
+</div>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1792518198450" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<div class="thumbnail"><a href="../../content/books/posts/hmsid/index.html" class="no-external">
 
-<img loading="lazy" src="../../images/book_cover.png" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../content/books/posts/hmsid/index.html" class="no-external">Health Metrics and the Spread of Infectious Diseases</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../content/books/posts/hmsid/index.html" class="no-external">Machine Learning Applications and Spatial Modelling Analysis with R</a>
-</div>
-<div class="delink listing-description"><a href="../../content/books/posts/hmsid/index.html" class="no-external">
-<p>Read the book online for free, find the printed edition, and explore companion R code, datasets, and related articles.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../../content/books/posts/hmsid/index.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -776,13 +706,13 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="https://federicagazzelloni.com">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.com/">DataMetricus</a> | <a href="../../LICENSE.md">MIT License</a>.</p>
+<p>Copyright © 2026 Federica Gazzelloni<br>Designer &amp; Maintainer: <a href="../../about.html">Federica Gazzelloni</a><br>Powered by: <a href="https://datametricus.com/">DataMetricus</a> | <a href="../../LICENSE.md">MIT License</a>.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
-<p>This Blog is made with 💜 in Quarto</p>
+<p>Made with 💜 in Quarto</p>
 </a>
   </li>  
 </ul>

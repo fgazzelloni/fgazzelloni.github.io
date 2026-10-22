@@ -1,0 +1,19 @@
+---
+title: "CP2 — Actuarial Modelling"
+description: "CP2 book and supporting study materials by Federica Gazzelloni, forthcoming through ACTEX."
+page-layout: article
+---
+
+[Forthcoming · ACTEX]{.status-badge}
+
+My CP2 book and supporting materials focus on actuarial modelling and communicating analytical work.
+
+## Forthcoming release
+
+The CP2 book is **still to be released**. It will be available through ACTEX; access to the book and supporting materials will require sign-up and purchase. These materials will not be provided as free downloads on this website.
+
+[Visit Actuarial University ↗](https://actuarialuniversity.com/){.book-button}
+
+Visit Actuarial University for updates on availability and access.
+
+[Explore all books](../../index.qmd)

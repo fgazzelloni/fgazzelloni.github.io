@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for DuBois Challenge 2022"
 ---
 
 ```{r}
@@ -24,7 +26,7 @@ This week is all about **#DuBoisChallenge2022**, I choose plate number 14.
 
 
 
-![Plate 14: ILLITERACY](featured.png){width="40%"}
+![Plate 14: ILLITERACY](featured.png){width="40%" fig-alt="Plate 14: ILLITERACY"}
 
 ### Load #TidyTuesday 2022/07 data
 

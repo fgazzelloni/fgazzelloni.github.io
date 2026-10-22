@@ -2,7 +2,7 @@
 title: "The Accounting of Human Suffering"
 description: "Podcast episode explaining DALYs, YLLs, YLDs, disability weights, and how health metrics quantify disease burden."
 date: '2026-02-26'
-image: featured.png
+image: featured.webp
 slug: podcast-the-accounting-of-human-suffering
 toc: true
 categories:
@@ -14,6 +14,7 @@ summary: |
 
 execute: 
   eval: false
+image-alt: "Illustration for The Accounting of Human Suffering"
 ---
 
 

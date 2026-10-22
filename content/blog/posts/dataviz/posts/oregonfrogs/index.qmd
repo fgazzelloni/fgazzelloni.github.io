@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Oregon Spotted Frog Data Visualization in R"
 ---
 
 
@@ -22,7 +24,7 @@ This #TidyTuesday week 31 is all about **Oregon Spotted a frog: Rana Pretiosa**.
 
 Load the {tidyverse} and the data from: [#TidyTuesday GitHub repo](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-02)
 
-![Oregon Spotted a Frog!](featured.png)
+![Oregon Spotted a Frog!](featured.png){fig-alt="Oregon Spotted a Frog!"}
 ```{r}
 library(tidyverse)
 ```

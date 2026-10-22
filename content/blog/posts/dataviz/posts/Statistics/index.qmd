@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Statistics"
 ---
 
 
@@ -17,7 +19,7 @@ execute:
 
 This is one of my favourite visualizations. It looks like very simple, and straight forward with the use of the `ggdist::stat_dots` function to make dotted distributions of the wages by highest educational status reached.
 
-![Wage Distribution vs Education](featured.png)
+![Wage Distribution vs Education](featured.png){fig-alt="Wage Distribution vs Education"}
 
 The Tidyverse libraries needed for the data manipulation:
 

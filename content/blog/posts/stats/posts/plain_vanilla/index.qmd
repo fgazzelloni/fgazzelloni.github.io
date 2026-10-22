@@ -11,7 +11,8 @@ categories:
   - machine-learning
   - artificial-neural-networks
 margin-header: |
-     ![By giphy.com](https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif)
+     ![By giphy.com](https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif){fig-alt="Decorative animation."}
+image-alt: "Illustration for Plain Vanilla Neural Network from Scratch in R"
 ---
 
 ## Overview
@@ -20,13 +21,13 @@ This tutorial builds a plain vanilla neural network from scratch in R. It is aim
 
 In the world of artificial intelligence, understanding the fundamentals of neural networks is essential. One of the simplest yet powerful architectures is the **Artificial Neural Network (ANN) with a single hidden layer, often referred to as a "plain vanilla" network**. This blog post aims to provide a comprehensive guide to building such a network from scratch, focusing on key concepts like activation functions, weights, and the backpropagation algorithm outside the library boxes.
 
-![Target vs Response](featured.png)
+![Target vs Response](featured.png){fig-alt="Target vs Response"}
 
 ## Example of construction of Plain vanilla network architecture
 
 ANN's (Artificial Neural Networks) is the simplest implementation of deep learning model architectures that mimic the human brain's neural network. The simplest form of ANN is a single-layer network, also known as a "plain vanilla" network. This network consists of an input layer, a hidden layer, and an output layer. The hidden layer transforms the input data into a new set of features, which are then used to predict the response variable.
 
-<center>![](images/10_02_single-layer.png){width="400"}</center>
+<center>![](images/10_02_single-layer.png){width="400" fig-alt="Single-layer neural network showing inputs connected through weights to an output."}</center>
 
 In the image above, we have some predictors $x_i$ that are fed into the hidden layer, which then transforms them into a new set of features $h_k(x)$, which are then used to predict the response variable $y$.
 
@@ -309,7 +310,7 @@ Now, that we have the `feedforward` function, we need to compute the derivative 
 
 Here is a recap of the definition of derivative formula, which is applied any time the output released by the activation function is met in the network. And so, a new minimum is found. It will be more clear through the end of the post.
 
-<center>![](images/10_derivative.png){width="400"}</center>
+<center>![](images/10_derivative.png){width="400" fig-alt="Derivative diagram used in the neural-network optimisation explanation."}</center>
 
 So, it is fundamental to define the derivative of the activation function needed for computing the gradient. For this example, we will use the derivative of the `sigmoid` function.
 

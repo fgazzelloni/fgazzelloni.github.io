@@ -1,0 +1,31 @@
+---
+title: "DataMetricus Consultancy"
+description: "Statistical and actuarial consultancy, health metrics, reproducible research, quantitative training, and AI workflow automation through DataMetricus."
+page-layout: article
+---
+
+I offer quantitative consultancy and training through **DataMetricus**, bringing together actuarial methods, statistics, health metrics, and reproducible research in R and Python.
+
+## How I can help
+
+- **Statistical and actuarial modelling:** develop and review analytical methods, assumptions, and results.
+- **Health metrics:** work with population health indicators, mortality, and disease burden.
+- **Reproducible research:** connect data preparation, analysis, visualisation, and reporting in documented workflows.
+- **Training:** help analysts and research teams build practical skills in R, Python, and reproducible methods.
+
+## AI and workflow automation
+
+Workflow automation connects recurring tasks so they can be repeated consistently. AI can assist with selected steps, such as organising information or preparing a first draft, while statistical checks and human review remain part of the process.
+
+For example, a research-monitoring workflow can collect updates from selected sources, organise them by topic, and prepare a reading list for review. The goal is to reduce repetitive handling while keeping sources and decisions traceable.
+
+[Explore an automation example](content/proj/posts/automation_workflow/posts/n8n_setup/)
+
+## Discuss a project
+
+Visit DataMetricus for services and project enquiries. A short description of your question, available data, and intended output is a useful starting point.
+
+[Visit DataMetricus ↗](https://datametricus.com/){.book-button .book-button--primary}
+[Contact DataMetricus ↗](https://datametricus.com/contact.html){.book-button}
+
+[Browse analytical projects](content/proj/index.qmd){.home-text-link}

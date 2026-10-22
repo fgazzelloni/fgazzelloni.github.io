@@ -11,6 +11,7 @@ tags:
   - Strategic Leadership
   - AI
   - Corporate Strategy
+image-alt: "Illustration for The Actuarial Executive Career Roadmap"
 ---
 
 The Actuarial Executive Career Roadmap: From Technical Mastery to Strategic Leadership

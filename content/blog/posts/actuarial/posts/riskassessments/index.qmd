@@ -11,6 +11,7 @@ tags:
   - Probability
   - Data Analysis
   - Financial Modeling
+image-alt: "Illustration for Understanding Risk Assessments"
 ---
 
 Risk assessments are at the core of actuarial science, providing the foundation for informed decision-making in uncertain environments. This post explores the key concepts, methodologies, and applications of risk assessments.

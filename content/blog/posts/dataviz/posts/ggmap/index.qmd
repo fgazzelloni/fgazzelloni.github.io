@@ -11,6 +11,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for How to get started with ggmap"
 ---
 
 ## Overview
@@ -19,7 +21,7 @@ For this `#30DayMapChallenge 2023 Day6 - Asia` let's explore the Population esti
 
 Also, we will be looking at how to get started with `{ggmap}` to find the `geocodes` for the major cities in Asia.
 
-![Asia Population](featured.png)
+![Asia Population](featured.png){fig-alt="Asia Population"}
 
 ## Asia Cities and Population by Wikipedia.org
 

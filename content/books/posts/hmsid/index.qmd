@@ -16,11 +16,12 @@ page-layout: article
 title-block-banner: true
 page-navigation: true
 back-to-top-navigation: true
+image-alt: "Illustration for Health Metrics and the Spread of Infectious Diseases"
 ---
 
 ```{=html}
 <section class="book-feature" aria-label="About the book">
-  <img class="book-feature__cover" src="/images/book_cover.png" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" />
+  <img class="book-feature__cover" src="/images/book-cover.webp" width="380" height="520" alt="Cover of Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni" />
   <div>
     <p class="book-feature__eyebrow">Federica Gazzelloni · First edition · 2025</p>
     <p>A practical guide to health metrics and infectious disease analysis with R. The book brings together metric calculations, machine learning, data visualisation, and spatial modelling, with applications to COVID-19 and malaria.</p>
@@ -52,9 +53,18 @@ The book is written for researchers, data scientists, public health professional
 - [Package source code on GitHub](https://github.com/Fgazzelloni/hmsidwR) — source files and issue reporting.
 - [Writing a book in R](posts/062025/index.qmd) — the writing workflow and reflections on publication.
 
+## Podcasts and video learning
+
+- [Health Data Science: Metrics, AI & Spatial Modelling ↗](https://www.youtube.com/watch?v=OdD9F8aIZA4&list=PLYRYv0aVtuOK94aZYTnQjBpmSVjs6nJ3Q) — the introductory video on my channel, based on the book.
+- [HMSID book-club video course ↗](https://www.youtube.com/watch?v=Usb_dcfonN8&list=PLYRYv0aVtuOIJd-retInIsaVZzIWUNZcw) — the playlist on my channel brings together recorded discussions from the Data Science Learning Community (DSLC).
+- [Listen to the podcasts](/content/podcasts/index.qmd) — conversations about health metrics, mortality, and infectious disease analysis.
+- [Selected recordings and materials](/about/workshops/index.qmd#dslc) — individual sessions and related resources.
+
 ## Publication and citation
 
-**First edition · CRC Press / Chapman & Hall · 2025**
+The free online edition developed alongside the book. Its legacy June 2023 date records the agreement with the editor, rather than the print publication date. The first print edition was published by CRC Press in 2025.
+
+**Print edition · CRC Press / Chapman & Hall · 2025**
 
 > Gazzelloni, Federica. (2025). *Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R*. CRC Press.
 

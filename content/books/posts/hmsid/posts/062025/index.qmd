@@ -9,6 +9,7 @@ categories:
 summary: "My Book Writing Journey"
 execute: 
   eval: false
+image-alt: "Illustration for Writing a book in R"
 ---
 
 ## Overview
@@ -23,7 +24,7 @@ Below, I explain how I structured the book, organised the code, automated the re
 :::
 
 ::: {.column width="40%"}
-![HMSIDr Book](featured.png)
+![HMSIDr Book](featured.png){fig-alt="HMSIDr Book"}
 :::
 :::::
 
@@ -220,7 +221,7 @@ tm_shape(world) +
   tm_layout(frame = FALSE)
 ```
 
-![Dalys](images/dalys.png)
+![Dalys](images/dalys.png){fig-alt="Diagram of disability-adjusted life years, combining years of life lost and years lived with disability."}
 
 
 

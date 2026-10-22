@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Dog breeds"
 ---
 
 
@@ -24,7 +26,7 @@ So that, I decided to get some extra inspiration and used the `ggforce::geom_ell
 library(tidyverse)
 ```
 
-![Dog breeds](featured.png)
+![Dog breeds](featured.png){fig-alt="Dog breeds"}
 
 The data set for this week #TidyTuesday contains **Dog breeds** information, in three datasets.To load the data:
 

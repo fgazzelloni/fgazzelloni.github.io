@@ -15,6 +15,8 @@ layout: single
 page-layout: full
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Oregon Spotted Frog R Package with mlr3 Machine Learning"
 ---
 
 #### Updated June 2023
@@ -31,7 +33,7 @@ More info about it will follow. For now this project is all about how to use `{m
 :::
 
 ::: {.column width="20%"}
-![](featured.png)
+![Oregon Spotted Frog R Package with mlr3 Machine Learning](featured.png){fig-alt="Oregon Spotted Frog R Package with mlr3 Machine Learning"}
 :::
 :::::
 

@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Network of game mechanics"
 ---
 
 
@@ -21,7 +23,7 @@ The dataset I've used for making this network comes from [**#TidyTuesday**](http
 
 The picture below is the result of the network visualization.
 
-![Board games](featured.png)
+![Board games](featured.png){fig-alt="Board games"}
 
 The first step is to load the library needed for making the manipulations. I usually load **{tidyverse}** package because it contains a series of sub packages and functions that are all that is needed for this first part of the data wrangling. Also, it provides the **pipe `%>%` operator**, which is useful for linking different functions through subsetting the dataset.
 

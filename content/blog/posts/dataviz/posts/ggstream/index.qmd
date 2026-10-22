@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Retail Sales Streamgraph in R with ggstream"
 ---
 
 
@@ -22,7 +24,7 @@ This post is all about **Retail Sales with ggstream**, the dataset comes from [#
 The picture below is the result of the ggstream visualization.
 
 <center>
-![Retail Sales with ggstream](featured.png)
+![Retail Sales with ggstream](featured.png){fig-alt="Retail Sales with ggstream"}
 </center>
 
 Load libraries

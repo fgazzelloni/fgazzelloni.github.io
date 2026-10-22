@@ -11,6 +11,7 @@ categories:
 summary: "Discover the hidden mathematical concepts that are revolutionizing our understanding of public health. From Disability-Adjusted Life Years to AI-driven epidemic predictions, explore five surprising truths that reshape how we measure and improve the health of nations."
 execute: 
   eval: false
+image-alt: "Illustration for The Hidden Math That Shapes Our Health: 5 Surprising Truths from Data Science"
 ---
 
 ## Overview

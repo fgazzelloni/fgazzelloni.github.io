@@ -1,0 +1,886 @@
+{
+  "pages": 55,
+  "missing_local_targets": [
+    [
+      "index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/books/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/books/posts/hmsid/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/books/posts/hmsid/index.html",
+      "a",
+      "https://fgazzelloni.github.io/hmsidwR/"
+    ],
+    [
+      "content/books/posts/hmsid/posts/062025/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/books/posts/hmsid/posts/012026/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/content/tidytuesday/index.html"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/content/chartchallenge/index.html"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/content/mapchallenge/index.html"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/content/duboischallenge/index.html"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "a",
+      "https://fgazzelloni.github.io/UPDVwR/"
+    ],
+    [
+      "content/rpackages/posts/hmsidwR/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "content/rpackages/posts/hmsidwR/index.html",
+      "a",
+      "https://fgazzelloni.github.io/hmsidwR/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://fgazzelloni.github.io/2024-06-10-cdc-online/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/Intro-to-ml-in-epidemiology-with-r/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://fgazzelloni.github.io/oregonfrogs/index.html"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "about/workshops/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ],
+    [
+      "about/rladies/index.html",
+      "a",
+      "https://federicagazzelloni.com/Intro-to-ml-in-epidemiology-with-r/"
+    ],
+    [
+      "about/rladies/index.html",
+      "a",
+      "https://fgazzelloni.github.io/How-to-Spatial-Modeling-with-R"
+    ],
+    [
+      "about/book/index.html",
+      "a",
+      "https://federicagazzelloni.com/hmsidR/"
+    ]
+  ],
+  "unresolved_fragments": [],
+  "metadata_accessibility": [
+    [
+      "index.html",
+      "image missing alt",
+      "./content/proj/posts/automation_workflow/posts/n8n_setup/featured.webp"
+    ],
+    [
+      "index.html",
+      "image missing alt",
+      "./content/blog/posts/actuarial/posts/career-roadmap/featured.webp"
+    ],
+    [
+      "index.html",
+      "image missing alt",
+      "./content/blog/posts/actuarial/posts/riskassessments/featured.webp"
+    ],
+    [
+      "content/proj/index.html",
+      "image missing alt",
+      "posts/automation_workflow/posts/n8n_setup/featured.webp"
+    ],
+    [
+      "content/proj/index.html",
+      "image missing alt",
+      "../../content/proj/posts/automation_workflow/posts/n8n_setup/featured.webp"
+    ],
+    [
+      "content/proj/index.html",
+      "image missing alt",
+      "posts/performance_metrics/posts/health_index/featured.png"
+    ],
+    [
+      "content/proj/index.html",
+      "image missing alt",
+      "posts/performance_metrics/posts/performance/featured.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/index.html",
+      "image missing alt",
+      "posts/health_index/featured.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/index.html",
+      "image missing alt",
+      "posts/performance/featured.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/posts/health_index/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/posts/performance/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/posts/performance/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-5-1.png"
+    ],
+    [
+      "content/proj/posts/performance_metrics/posts/performance/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-7-1.png"
+    ],
+    [
+      "content/proj/posts/automation_workflow/index.html",
+      "image missing alt",
+      "../../../../content/proj/posts/automation_workflow/posts/n8n_setup/featured.webp"
+    ],
+    [
+      "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/proj/posts/automation_workflow/posts/n8n_setup/index.html",
+      "image missing alt",
+      "images/n8n-workflow.png"
+    ],
+    [
+      "content/books/index.html",
+      "image missing alt",
+      "../../images/book_cover.png"
+    ],
+    [
+      "content/books/posts/hmsid/index.html",
+      "image missing alt",
+      "../../../../content/books/posts/hmsid/posts/012026/featured.png"
+    ],
+    [
+      "content/books/posts/hmsid/index.html",
+      "image missing alt",
+      "../../../../content/books/posts/hmsid/posts/062025/featured.png"
+    ],
+    [
+      "content/books/posts/hmsid/posts/062025/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/books/posts/hmsid/posts/062025/index.html",
+      "image missing alt",
+      "images/dalys.png"
+    ],
+    [
+      "content/blog/index.html",
+      "image missing alt",
+      "../../content/blog/posts/dataviz/portfolio-preview.png"
+    ],
+    [
+      "content/blog/index.html",
+      "image missing alt",
+      "posts/stats/posts/plain_vanilla/featured.png"
+    ],
+    [
+      "content/blog/index.html",
+      "image missing alt",
+      "posts/actuarial/posts/career-roadmap/featured.webp"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/usecases/hiv/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/ggmap/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/usecases/malaria/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/ggstream/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/yarn/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/oregonfrogs/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/european_flights/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/Statistics/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/erasmus/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/dubois2023/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/dogbreeds/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/index.html",
+      "image missing alt",
+      "posts/network/featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/Statistics/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/ggstream/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/network/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/dubois2023/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html",
+      "image missing alt",
+      "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/dubois2024/challenge01/index.html",
+      "image missing alt",
+      "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/erasmus/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/erasmus/index.html",
+      "image missing alt",
+      "images/er-network.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/yarn/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/european_flights/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/ggmap/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/oregonfrogs/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/dogbreeds/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/usecases/malaria/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/dataviz/posts/usecases/hiv/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/actuarial/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/actuarial/posts/career-roadmap/featured.webp"
+    ],
+    [
+      "content/blog/posts/actuarial/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/actuarial/posts/riskassessments/featured.webp"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/plain_vanilla/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "posts/rladies/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/linear_prediction/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/simpson_paradox/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/bayesian_statistics/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/predictive_modeling/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/index.html",
+      "image missing alt",
+      "../../../../content/blog/posts/stats/posts/multiple_testing/featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/linear_prediction/index.html",
+      "image missing alt",
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif"
+    ],
+    [
+      "content/blog/posts/stats/posts/linear_prediction/index.html",
+      "image missing alt",
+      "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif"
+    ],
+    [
+      "content/blog/posts/stats/posts/predictive_modeling/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/rladies/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "images/10_02_single-layer.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-6-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-11-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-11-2.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-11-3.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-13-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-15-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "images/10_derivative.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-23-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-25-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/plain_vanilla/index.html",
+      "image missing alt",
+      "index_files/figure-html/unnamed-chunk-27-1.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/bayesian_statistics/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/multiple_testing/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/blog/posts/stats/posts/simpson_paradox/index.html",
+      "image missing alt",
+      "https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif"
+    ],
+    [
+      "content/podcasts/index.html",
+      "image missing alt",
+      "../../content/podcasts/posts/the-accounting-of-human-suffering/featured.png"
+    ],
+    [
+      "content/podcasts/index.html",
+      "image missing alt",
+      "../../content/podcasts/posts/valuing-human-life-in-a-spreadsheet/featured.png"
+    ],
+    [
+      "content/podcasts/index.html",
+      "image missing alt",
+      "../../content/podcasts/posts/bills-of-mortality-to-ai/featured.png"
+    ],
+    [
+      "content/podcasts/index.html",
+      "image missing alt",
+      "../../content/podcasts/posts/from-plague-bills-to-predictive-algorithms/featured.png"
+    ],
+    [
+      "content/podcasts/index.html",
+      "image missing alt",
+      "../../content/podcasts/posts/the-new-science-of-fighting-infectious-disease/featured.png"
+    ],
+    [
+      "content/rpackages/index.html",
+      "image missing alt",
+      "posts/typeR/featured.png"
+    ],
+    [
+      "content/rpackages/index.html",
+      "image missing alt",
+      "posts/hmsidwR/featured.png"
+    ],
+    [
+      "content/rpackages/index.html",
+      "image missing alt",
+      "posts/oregonfrogs/featured.png"
+    ],
+    [
+      "content/rpackages/posts/typeR/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/rpackages/posts/hmsidwR/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "content/rpackages/posts/oregonfrogs/index.html",
+      "image missing alt",
+      "featured.png"
+    ],
+    [
+      "about/book/index.html",
+      "image missing alt",
+      "../../images/book_cover.png"
+    ]
+  ],
+  "external_urls": [
+    "http://caret.r-forge.r-project.org/",
+    "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
+    "https://actuary.eu/column-diversity-is-more-than-a-number",
+    "https://adv-r.hadley.nz/",
+    "https://amzn.to/3N7zZjH",
+    "https://amzn.to/4aHGseT",
+    "https://apps.who.int/gho/data/",
+    "https://bit.ly/3OUhT1x",
+    "https://bit.ly/3YMfol8",
+    "https://bit.ly/3mU4tbJ",
+    "https://bit.ly/40dboLg",
+    "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available",
+    "https://blog.r-project.org/2026/09/22/zulip-chat-for-the-r-project",
+    "https://briatte.github.io/ggnet/",
+    "https://bsky.app/profile/fgazzelloni.bsky.social",
+    "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js",
+    "https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js",
+    "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6",
+    "https://compgenomr.github.io/book/",
+    "https://cran.r-project.org/web/packages/cheese/vignettes/cheese.html",
+    "https://cran.r-project.org/web/packages/ggmap/readme/README.html",
+    "https://cran.r-project.org/web/packages/widyr/index.html",
+    "https://databank.worldbank.org/reports.aspx?source=2&series=SH.MLR.INCD.P3&country=#",
+    "https://datametricus.com/",
+    "https://developers.google.com/maps",
+    "https://doi.org/10.1016/S0140-6736(20)30925-9",
+    "https://exts.ggplot2.tidyverse.org/ggraph.html",
+    "https://federicagazzelloni.substack.com/",
+    "https://federicagazzelloni.substack.com/archive",
+    "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n28",
+    "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n29",
+    "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n30",
+    "https://federicagazzelloni.substack.com/subscribe",
+    "https://fgazzelloni.quarto.pub/ai-actuarial-science-and-r/",
+    "https://fgazzelloni.quarto.pub/from-r-to-python-a-gentle-introduction/",
+    "https://fgazzelloni.quarto.pub/my-website-in-r\u2013quarto/",
+    "https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/",
+    "https://fosstodon.org/@fgazzelloni",
+    "https://geocompr.robinlovelace.net/eco.html",
+    "https://ggplot2-book.org/arranging-plots",
+    "https://ggplot2-book.org/networks.html",
+    "https://ggraph.data-imaginist.com/",
+    "https://ghdx.healthdata.org/record/ihme-data/gbd-2019-disability-weights",
+    "https://ghdx.healthdata.org/record/ihme-data/global-life-expectancy-all-cause-mortality-and-cause-specific-mortality-forecasts-2022-2050",
+    "https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning",
+    "https://github.com/Fgazzelloni/20240930-DWPwR",
+    "https://github.com/Fgazzelloni/AI-Actuarial-Science-and-R",
+    "https://github.com/Fgazzelloni/From-R-to-Python-A-Gentle-Introduction",
+    "https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R",
+    "https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R",
+    "https://github.com/Fgazzelloni/RLR_DataViz-Practice/",
+    "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/globe.R",
+    "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/network_plot.R",
+    "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/roc_plot.R",
+    "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/vip_plot.R",
+    "https://github.com/Fgazzelloni/TidyTuesday/tree/main/data/2022/w31_frogs/container",
+    "https://github.com/Fgazzelloni/building_a_website_in_r",
+    "https://github.com/Fgazzelloni/hmsidwR",
+    "https://github.com/Fgazzelloni/nlp-ngrams-r",
+    "https://github.com/Fgazzelloni/oregonfrogs",
+    "https://github.com/Fgazzelloni/sir-model-with-R/",
+    "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge01",
+    "https://github.com/davidsjoberg/ggstream",
+    "https://github.com/fgazzelloni",
+    "https://github.com/fgazzelloni/Intro-to-ml-in-epidemiology-with-r",
+    "https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new",
+    "https://github.com/hannaehrlich/maldrugres_SSA",
+    "https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-01-25/readme.md",
+    "https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-10-11",
+    "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-07-12",
+    "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-02",
+    "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-12-13",
+    "https://github.com/rladies/meetup-presentations_rome",
+    "https://github.com/tristanoprofetto/neural-networks/blob/main/ANN/Regressor/feedforward.R",
+    "https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif",
+    "https://i.ytimg.com/vi/-3mcwchd-w4/hqdefault.jpg",
+    "https://i.ytimg.com/vi/-LPLarw1dvU/hqdefault.jpg",
+    "https://i.ytimg.com/vi/10wndNaUtpg/hqdefault.jpg",
+    "https://i.ytimg.com/vi/7Q9RGCXw6_c/hqdefault.jpg",
+    "https://i.ytimg.com/vi/9jF8ffpK92c/hqdefault.jpg",
+    "https://i.ytimg.com/vi/EstytFNjrWc/hqdefault.jpg",
+    "https://i.ytimg.com/vi/FJGqfqdb3zA/hqdefault.jpg",
+    "https://i.ytimg.com/vi/GjT2d3NSrXw/hqdefault.jpg",
+    "https://i.ytimg.com/vi/HpVfRDtcuSg/hqdefault.jpg",
+    "https://i.ytimg.com/vi/KDngQp3h8DU/hqdefault.jpg",
+    "https://i.ytimg.com/vi/KVMwJvoM9CE/hqdefault.jpg",
+    "https://i.ytimg.com/vi/PVnTzUIsbAI/hqdefault.jpg",
+    "https://i.ytimg.com/vi/Sa8NPcaNYLo/hqdefault.jpg",
+    "https://i.ytimg.com/vi/WG21XyzwKu0/hqdefault.jpg",
+    "https://i.ytimg.com/vi/YdzLoshrsI4/hqdefault.jpg",
+    "https://i.ytimg.com/vi/b3d5xd81QCc/hqdefault.jpg",
+    "https://i.ytimg.com/vi/cejCvutHbO0/hqdefault.jpg",
+    "https://i.ytimg.com/vi/dGdMu0_M208/hqdefault.jpg",
+    "https://i.ytimg.com/vi/i1IoNiKJNk8/hqdefault.jpg",
+    "https://i.ytimg.com/vi/iVMgUV_9-Vs/hqdefault.jpg",
+    "https://i.ytimg.com/vi/n6iYUY0HUWc/hqdefault.jpg",
+    "https://i.ytimg.com/vi/oYRnA-8ncPU/hqdefault.jpg",
+    "https://i.ytimg.com/vi/pjZingkFrVA/hqdefault.jpg",
+    "https://i.ytimg.com/vi/sLxp-ZhwMbE/hqdefault.jpg",
+    "https://i.ytimg.com/vi/tah6-upp2qw/hqdefault.jpg",
+    "https://i.ytimg.com/vi/u8jhX7Gu_6U/hqdefault.jpg",
+    "https://i.ytimg.com/vi/v8bx-BYvIZo/hqdefault.jpg",
+    "https://i.ytimg.com/vi/yBIFKiyfupc/hqdefault.jpg",
+    "https://i.ytimg.com/vi/zHhC9fsvEIk/hqdefault.jpg",
+    "https://igraph.org/",
+    "https://linkedin.com/in/federicagazzelloni",
+    "https://macrobiotus.github.io/2024-02-12-helmholtz-online/",
+    "https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif",
+    "https://n8n.io",
+    "https://nnlm-ncds.github.io/2024-03-19-nnlm-uw-online/",
+    "https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator",
+    "https://openai.com/index/itau-generative-ai",
+    "https://openai.com/index/low-resource-programming-languages",
+    "https://orcid.org/0000-0002-4285-611X",
+    "https://pad.carpentries.org/2024-02-12-helmholtz-online",
+    "https://pad.carpentries.org/2024-03-19-nnlm-uw-online",
+    "https://pad.carpentries.org/2024-06-10-cdc-online",
+    "https://pad.carpentries.org/2024-08-19-cdc-online",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4140376/",
+    "https://quarto.org",
+    "https://quarto.org/docs/websites/",
+    "https://r-graph-gallery.com/hierarchical-edge-bundling.html",
+    "https://r-graph-gallery.com/web-streamchart-with-ggstream.html",
+    "https://r-spatial.org/book/14-Areal.html#contiguous-neighbours",
+    "https://r4ds.github.io/bookclub-spatial/",
+    "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png",
+    "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg",
+    "https://rladiesrome.github.io/Principles-of-data-Analysis-in-R/02-exploring-diabetes-data.html",
+    "https://rladiesrome.org/talks/",
+    "https://rladiesrome.org/talks/2023/meetup/07272023/",
+    "https://rladiesrome.org/talks/2023/meetup/08282023/",
+    "https://rladiesrome.org/talks/2023/meetup/09222023/",
+    "https://rladiesrome.org/talks/2023/meetup/10272023/index.html",
+    "https://rladiesrome.org/talks/2023/meetup/12152023/",
+    "https://rladiesrome.org/talks/2024/meetup/09302024/",
+    "https://rladiesrome.org/talks/2025/meetup/03272025_FedericaGazzelloni.html",
+    "https://rladiesrome.org/talks/2025/meetup/04272025_FedericaGazzelloni.html",
+    "https://rladiesrome.org/talks/2025/meetup/06162025_INGV.html",
+    "https://rladiesrome.org/talks/2025/meetup/12172025_organizers.html",
+    "https://rladiesrome.org/talks/2026/meetup/01292026_federicagazzelloni.html",
+    "https://rladiesrome.org/talks/2026/meetup/09282026_federicagazzelloni.html",
+    "https://rladiesrome.quarto.pub/data-wrangling-practice-with-r/",
+    "https://rladiesrome.quarto.pub/from-r-to-python-a-gentle-introduction/",
+    "https://rladiesrome.quarto.pub/rbioconductor-watch-party/",
+    "https://rrlove-cdc.github.io/2024-08-19-cdc-online/",
+    "https://scholar.google.com/citations?hl=en&user=Xes0-r0AAAAJ",
+    "https://sefiks.com/2017/08/11/softplus-as-a-neural-networks-activation-function/",
+    "https://spatialsample.tidymodels.org/articles/spatialsample.html",
+    "https://speaking-many-languages.my.canva.site/",
+    "https://steemit.com/programming/@dkmathstats/plotting-math-functions-in-r",
+    "https://tidygraph.data-imaginist.com/index.html",
+    "https://tidymodels.tidymodels.org/",
+    "https://tinyurl.com/ms5n8z9h",
+    "https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464",
+    "https://twitter.com/FGazzelloni",
+    "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-week-42",
+    "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-41-october-2026",
+    "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1566469/full",
+    "https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8",
+    "https://www.gs.washington.edu/academics/courses/akey/56008/lecture/lecture10.pdf",
+    "https://www.healthdata.org/news-release/lancet-latest-global-disease-estimates-reveal-perfect-storm-rising-chronic-diseases-and",
+    "https://www.jstatsoft.org/article/view/v080i01",
+    "https://www.meetup.com/rladies-rome/events/313880594/",
+    "https://www.pexels.com/search/pink/",
+    "https://www.r-bloggers.com/2017/09/mapping-the-largest-cities-in-asia-using-r/",
+    "https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782",
+    "https://www.statlearning.com/",
+    "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(23)00063-0/fulltext",
+    "https://www.tidymodels.org/start/models/",
+    "https://www.tmwr.org/",
+    "https://www.w3schools.com/css/",
+    "https://www.youtube.com/@dslcvids/search?query=Federica",
+    "https://www.youtube.com/@federicagazzelloni",
+    "https://www.youtube.com/watch?v=-3mcwchd-w4",
+    "https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s",
+    "https://www.youtube.com/watch?v=-LPLarw1dvU",
+    "https://www.youtube.com/watch?v=10wndNaUtpg",
+    "https://www.youtube.com/watch?v=7Q9RGCXw6_c",
+    "https://www.youtube.com/watch?v=9jF8ffpK92c",
+    "https://www.youtube.com/watch?v=CqOfi41LfDw",
+    "https://www.youtube.com/watch?v=EstytFNjrWc",
+    "https://www.youtube.com/watch?v=FJGqfqdb3zA",
+    "https://www.youtube.com/watch?v=GjT2d3NSrXw",
+    "https://www.youtube.com/watch?v=HpVfRDtcuSg",
+    "https://www.youtube.com/watch?v=KDngQp3h8DU",
+    "https://www.youtube.com/watch?v=KVMwJvoM9CE",
+    "https://www.youtube.com/watch?v=PVnTzUIsbAI",
+    "https://www.youtube.com/watch?v=Sa8NPcaNYLo",
+    "https://www.youtube.com/watch?v=WG21XyzwKu0",
+    "https://www.youtube.com/watch?v=YdzLoshrsI4",
+    "https://www.youtube.com/watch?v=b3d5xd81QCc",
+    "https://www.youtube.com/watch?v=cejCvutHbO0",
+    "https://www.youtube.com/watch?v=dGdMu0_M208",
+    "https://www.youtube.com/watch?v=i1IoNiKJNk8",
+    "https://www.youtube.com/watch?v=iVMgUV_9-Vs",
+    "https://www.youtube.com/watch?v=n6iYUY0HUWc",
+    "https://www.youtube.com/watch?v=oYRnA-8ncPU",
+    "https://www.youtube.com/watch?v=pjZingkFrVA",
+    "https://www.youtube.com/watch?v=sLxp-ZhwMbE",
+    "https://www.youtube.com/watch?v=tah6-upp2qw",
+    "https://www.youtube.com/watch?v=u8jhX7Gu_6U",
+    "https://www.youtube.com/watch?v=v8bx-BYvIZo",
+    "https://www.youtube.com/watch?v=yBIFKiyfupc",
+    "https://www.youtube.com/watch?v=zHhC9fsvEIk",
+    "https://x.com/FGazzelloni"
+  ],
+  "largest_assets": [
+    [
+      "content/podcasts/posts/the-new-science-of-fighting-infectious-disease/featured.png",
+      8894472
+    ],
+    [
+      "content/podcasts/posts/from-plague-bills-to-predictive-algorithms/featured.png",
+      8632621
+    ],
+    [
+      "content/podcasts/posts/valuing-human-life-in-a-spreadsheet/featured.png",
+      8632621
+    ],
+    [
+      "content/podcasts/posts/the-accounting-of-human-suffering/featured.png",
+      8632621
+    ],
+    [
+      "content/podcasts/posts/bills-of-mortality-to-ai/featured.png",
+      8632621
+    ],
+    [
+      "content/blog/posts/actuarial/posts/riskassessments/featured.png",
+      5927006
+    ],
+    [
+      "content/proj/posts/performance_metrics/posts/performance/featured.png",
+      2045767
+    ],
+    [
+      "images/profile.png",
+      1715193
+    ],
+    [
+      "content/blog/posts/dataviz/posts/oregonfrogs/featured.png",
+      1629301
+    ],
+    [
+      "images/welcome-video.mp4",
+      1554896
+    ],
+    [
+      "content/blog/posts/dataviz/posts/erasmus/images/er-network.png",
+      1455855
+    ],
+    [
+      "content/blog/posts/actuarial/posts/career-roadmap/featured.png",
+      1351872
+    ],
+    [
+      "content/books/posts/hmsid/posts/012026/featured.png",
+      1099094
+    ],
+    [
+      "content/blog/posts/dataviz/posts/yarn/featured.png",
+      868029
+    ],
+    [
+      "content/blog/posts/dataviz/posts/dogbreeds/featured.png",
+      844025
+    ]
+  ],
+  "classification_note": "Absolute links to separately deployed projects are not local missing files. All 11 unique project destinations returned HTTP 200 in live-links.json. Unresolved fragment scan covers local files only.",
+  "genuine_missing_local_targets": []
+}

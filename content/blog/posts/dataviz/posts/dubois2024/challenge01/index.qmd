@@ -10,6 +10,7 @@ categories:
 layout: single
 execute: 
    eval: false
+image-alt: "Illustration for Du Bois Challenge 2024 Data Visualization in R"
 ---
 
 ## Overview
@@ -20,11 +21,11 @@ My contributions to the #DuboisChallenge2024.
 
 ::: columns
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg)
+![](https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg){fig-alt="Original W. E. B. Du Bois data portrait, plate 6."}
 :::
 
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png)
+![](https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png){fig-alt="My recreation of Du Bois plate 6 for the 2024 challenge."}
 :::
 :::
 

@@ -2,7 +2,7 @@
 title: "Bills of Mortality to AI"
 description: "Podcast episode connecting John Graunt's Bills of Mortality with modern health metrics, data science, and public health analytics."
 date: '2026-02-08'
-image: featured.png
+image: featured.webp
 slug: podcast-bills-of-mortality-to-ai
 toc: true
 categories:
@@ -13,6 +13,7 @@ summary: |
 
 execute: 
   eval: false
+image-alt: "Illustration for Bills of Mortality to AI"
 ---
 
 

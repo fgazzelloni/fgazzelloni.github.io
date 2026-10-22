@@ -16,6 +16,8 @@ execute:
 editor: 
   markdown: 
     wrap: 72
+image: featured.png
+image-alt: "Illustration for Epidemic transition metrics of HIV infections estimation"
 ---
 
 ## Overview
@@ -24,7 +26,7 @@ HIV infections data is from the `aidsinfo.unaids.org`. The data contains
 Global values from 2010 to 2022 for `HIV estimate`,
 `HIV incidence of mortality`, `HIV prevalence`, and `HIV deaths`.
 
-![HIV infections](featured.png)
+![HIV infections](featured.png){fig-alt="HIV infections"}
 
 National data for the 2010 and 2020 are included in this dataset.
 

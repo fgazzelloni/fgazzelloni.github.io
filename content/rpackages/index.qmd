@@ -45,7 +45,7 @@ The tab currently features packages covering different aspects of data analysis 
 
 -   [`{oregonfrogs}`](posts/oregonfrogs/): A package for analyzing and visualizing Oregon frog population data.
 -   [`{hmsidwR}`](posts/hmsidwR/): Tools for health metrics data collection as long as extra tools for unzipping data and for spatial interpolation using inverse distance weighting.
--   [`{typeR}`](posts/typeR/): A package providing utilities for working with type-safe data structures in R providing live coding simulations.
+-   [`{typeR}`](posts/typeR/): Simulates typing an R script in the console, character by character, for teaching, demonstrations, and video recordings.
 
 Additional packages and updates will appear as projects mature or are made public.
 

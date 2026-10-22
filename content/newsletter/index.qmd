@@ -10,7 +10,7 @@ My newsletter brings together working reflections on data, statistics, actuarial
 I explore the questions behind analytical work: how we frame a problem, what our models measure, and what changes when we put them into practice.
 
 ::: {.book-actions}
-[Read on Substack ↗](https://federicagazzelloni.substack.com/){.book-button .book-button--primary}
+[Read on Substack ↗](https://federicagazzelloni.substack.com/){.book-button .newsletter-button}
 [Subscribe](https://federicagazzelloni.substack.com/subscribe){.book-button}
 :::
 

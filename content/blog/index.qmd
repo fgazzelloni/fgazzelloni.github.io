@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Notes"
 description: "A space for sharing fresh content, personal reflections, and valuable insights on topics spanning data visualization, data analytics, and beyond."
 listing:
   contents:
@@ -18,18 +18,15 @@ page-navigation: true
 back-to-top-navigation: true
 ---
 
-Welcome to my **Blog** section! My goal is to provide valuable information and perspectives that can help readers navigate the ever-evolving landscape of data science and programming.
+Working notes, technical examples, and reflections on statistics, actuarial science, data visualisation, and learning through practice.
 
-Here, I share my thoughts on a variety of topics, including:
+These pages collect individual ideas and analytical examples. My [*Notes on Data and Learning* newsletter](../newsletter/index.qmd) brings together broader reflections and updates on Substack.
 
-- **Data Visualization**: Showcasing effective visualizations and discussing techniques for conveying complex data
-- **Data Analytics**: Discussions on methodologies, best practices, and emerging trends in data analysis
-- **Actuarial Science**: Exploring the intersection of mathematics, statistics, and finance to assess and manage risk effectively
+## Explore the notes
 
-## Start with these topic paths
+- [Statistics and R](posts/stats/) — modelling, prediction, Bayesian statistics, and practical analytical workflows.
+- [Data visualisation](posts/dataviz/) — maps, networks, public health examples, and visual storytelling.
+- [Actuarial science](posts/actuarial/) — risk, modelling, and professional practice.
+- [Automation and analytical projects](../proj/) — practical workflow notes and health metrics examples.
 
-- [Statistics tutorials in R](posts/stats/) for modelling, prediction, Bayesian statistics, neural networks, and applied statistical workflows.
-- [Data visualization projects](posts/dataviz/) for R-based visual storytelling with public health, maps, networks, and TidyTuesday datasets.
-- [Actuarial science notes](posts/actuarial/) for risk, career pathways, and actuarial modelling context.
-
-Whether you're just starting out or have years of experience, I hope you'll discover content that inspires, informs, and supports your growth!
+Some posts document earlier projects. Dates and original examples are retained as part of that record.

@@ -27,43 +27,43 @@ website:
   reader-mode: true
   navbar: 
     logo: "images/logo-website-removebg.png"
-    logo-alt: "me-ai2"
+    logo-alt: "Federica Gazzelloni home"
     collapse: true 
     left:
-      - text: "Work"
+      - text: "Tools & Teaching"
         menu:
-          - text: "Projects"
-            href: content/proj/index.qmd
+          - text: "Workshops & Materials"
+            href: about/workshops/index.qmd
+          - text: "Data Visualisation"
+            href: content/blog/posts/dataviz/index.qmd
           - text: "R Packages"
             href: content/rpackages/index.qmd
-          - text: "Data Visualization"
-            href: content/blog/posts/dataviz/index.qmd
-      - text: "Workshops & Talks"
+          - text: "Shiny Apps"
+            href: content/apps/index.qmd
+      - text: "Books"
         menu:
-          - text: "The Carpentries"
-            href: about/workshops/index.qmd#the-carpentries
-          - text: "R-Ladies"
-            href: about/workshops/index.qmd#r-ladies-workshops-and-talks
-          - text: "DSLC"
-            href: about/workshops/index.qmd#dslc
-          - text: "Conference talks"
-            href: about/workshops/index.qmd#conference-talks
-      - text: "Writing"
-        menu:
-          - text: "Newsletter"
-            href: content/newsletter/index.qmd
-          - text: "Blog"
-            href: content/blog/index.qmd
-          - text: "Books"
+          - text: "All Books & Resources"
             href: content/books/index.qmd
+          - text: "HMSID"
+            href: content/books/posts/hmsid/index.qmd
+          - text: "CP2 — ACTEX"
+            href: content/books/posts/cp2/index.qmd
+          - text: "MASTA — In Progress"
+            href: content/books/posts/masta/index.qmd
+      - text: "Notes & Research"
+        menu:
+          - text: "Notes"
+            href: content/blog/index.qmd
+          - text: '<span class="newsletter-nav">Newsletter ↗</span>'
+            href: https://federicagazzelloni.substack.com/
           - text: "Papers"
             href: about/papers/index.qmd
-      - text: "Podcasts"
-        href: content/podcasts/index.qmd
+      - text: "Consultancy"
+        href: consultancy.qmd
       - text: "About"
         href: about.qmd
     right:
-      - text: '<img src="/images/datametricus-logo.png" class="datametricus-nav-logo" alt="" /> DataMetricus'
+      - text: '<img src="/images/datametricus-logo.png" class="datametricus-nav-logo" alt="" /> DataMetricus ↗'
         href: "https://datametricus.com/"
         aria-label: "DataMetricus — consulting and training (external website)"
   page-footer:
@@ -90,7 +90,7 @@ website:
         href: index.xml  
         
     center:  
-      - text: "This Blog is made with 💜 in Quarto"
+      - text: "Made with 💜 in Quarto"
         href: "https://quarto.org"
     background: "#64748b"    
 lang: en    

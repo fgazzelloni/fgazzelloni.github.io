@@ -10,9 +10,10 @@ categories:
 summary: "The key to resolving Simpson’s Paradox is to recognise that the question “is men or women the best choise of the next managerial postion” is a causal one."
 execute: 
   eval: false
+image-alt: "Illustration for Understanding Simpson's Paradox: A Simple Explanation"
 ---
 
-<center>![](https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif)</center>
+<center>![](https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif){fig-alt="Decorative animation."}</center>
 
 `Simpson's Paradox` is a statistical phenomenon where a trend appears in different groups of data but disappears or reverses when these groups are combined. This paradox highlights the importance of considering confounding variables and understanding the causal relationship between variables.
 

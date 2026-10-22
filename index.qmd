@@ -32,40 +32,22 @@ title-block-banner: false
   <p class="multipleStrings">Welcome to my Website</p>
 </div>
 
-<script defer src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-
-<script>
-  window.addEventListener("DOMContentLoaded", function () {
-    if (!window.TypeIt || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    document.querySelector(".multipleStrings").textContent = "";
-    new TypeIt(".multipleStrings", {
-        strings: [
-        "Welcome to my Website",
-        "AI-augmented analytics for health, risk, and decision-making",
-        "Health Metrics and the Spread of Infectious Diseases",
-        "New book in progress: Mortality 🔍 Analytics - more info coming soon 🔥"
-        ],
-        breakLines: false,
-        loop: true,
-        speed: 45
-    }).go();
-  });
-</script>
+<script defer src="scripts/running-text.js"></script>
 
 <section class="landing-hero" aria-labelledby="landing-title">
   <div class="landing-hero__content">
-    <p class="landing-kicker">AI-first analytics · health metrics · R workflows</p>
+    <p class="landing-kicker">Actuarial science · health metrics · reproducible research</p>
     <h1 id="landing-title">AI-Augmented Analytics for Health, Risk, and Decision-Making</h1>
     <p class="landing-lede">
       I design analytical workflows that combine AI, statistics, R, and health metrics to turn complex data into practical decisions.
     </p>
     <div class="landing-actions" aria-label="Primary homepage actions">
-      <a href="content/proj/posts/automation_workflow/" class="landing-button landing-button--primary">Explore AI Workflows</a>
-      <a href="https://federicagazzelloni.com/hmsidR/" class="landing-button">Read the Book</a>
+      <a href="content/books/" class="landing-button landing-button--primary">Explore Books</a>
+      <a href="content/apps/" class="landing-button">Try the Apps</a>
       <a href="about/workshops/" class="landing-button">Workshops &amp; Talks</a>
     </div>
     <p class="landing-consulting">
-      <a href="https://datametricus.com/">Work with me <span aria-hidden="true">↗</span></a>
+      <a href="consultancy.html">Consultancy <span aria-hidden="true">↗</span></a>
       <span>Consulting and training through DataMetricus.</span>
     </p>
   </div>
@@ -76,24 +58,15 @@ title-block-banner: false
       <span>Author</span>
       <span>Health Metrics Research</span>
       <span>R Educator</span>
-      <span>AI Workflow Builder</span>
+      <span>Actuary &amp; Statistician</span>
     </div>
   </div>
 </section>
 
-<section class="landing-pathways" aria-label="Main website pathways">
-  <a href="content/proj/posts/automation_workflow/" class="landing-pathway">
-    <span>AI Workflows</span>
-    <strong>Build repeatable systems for research, monitoring, and decision support.</strong>
-  </a>
-  <a href="content/books/posts/hmsid/" class="landing-pathway">
-    <span>About the book</span>
-    <strong>Explore Health Metrics and the Spread of Infectious Diseases, with code, data, and related articles.</strong>
-  </a>
-  <a href="content/blog/posts/stats/" class="landing-pathway">
-    <span>R &amp; Statistical Modelling</span>
-    <strong>Learn practical R workflows for models, visualization, and reproducible analysis.</strong>
-  </a>
+<section class="landing-pathways" aria-label="Explore tools, teaching, and research">
+  <a href="about/workshops/" class="landing-pathway"><span>Tools &amp; Teaching</span><strong>Workshops, recordings, and materials to learn through practice.</strong></a>
+  <a href="content/rpackages/" class="landing-pathway"><span>R Packages &amp; Apps</span><strong>Explore reusable tools and interactive analytical examples.</strong></a>
+  <a href="content/blog/" class="landing-pathway"><span>Notes &amp; Research</span><strong>Follow the questions behind the code, models, and data.</strong></a>
 </section>
 ```
 
@@ -117,12 +90,36 @@ title-block-banner: false
 </section>
 ```
 
-## Explore my work
+## Books in progress and further reading
 
-Browse my [R data visualization portfolio](content/blog/posts/dataviz/),
-[R packages](content/rpackages/), and [AI automation and health metrics projects](content/proj/).
-For practical learning, explore my [statistics tutorials in R](content/blog/posts/stats/)
-and [workshop recordings and materials](about/workshops/).
+::: {.portfolio-grid}
+::: {.portfolio-card}
+[Book in progress]{.status-badge}
+
+### MASTA — Mortality Analytics
+
+*Statistical Methods for Multi-Cause Attribution*, by Federica Gazzelloni and Sarah Cuschieri. How can we study mortality when several causes contribute to a death?
+
+[Explore MASTA](content/books/posts/masta/index.qmd){.book-button}
+:::
+::: {.portfolio-card}
+[Forthcoming · ACTEX]{.status-badge}
+
+### CP2 — Actuarial Modelling
+
+Forthcoming book and supporting materials through ACTEX. Access will require sign-up and purchase.
+
+[CP2 access details](content/books/posts/cp2/index.qmd){.book-button}
+:::
+:::
+
+[Explore all books and resources](content/books/index.qmd){.home-text-link}
+
+## Tools, teaching, and consultancy
+
+Explore my [data visualisation portfolio](content/blog/posts/dataviz/), [R packages](content/rpackages/), and [Shiny apps](content/apps/). Learn with [workshops and recorded materials](about/workshops/) or [statistics notes in R](content/blog/posts/stats/).
+
+For statistical modelling, health metrics, reproducible research, and AI workflow automation, read about [DataMetricus consultancy](consultancy.qmd).
 
 ::: {.column-page}
 ::: {.home-lower}
@@ -131,11 +128,11 @@ and [workshop recordings and materials](about/workshops/).
 <section class="home-latest" aria-labelledby="recent-work-title">
   <div class="home-section-heading">
     <div>
-      <p class="home-eyebrow">Recent work</p>
-      <h2 id="recent-work-title">Ideas, code, and practical guides</h2>
-      <p>Explore the latest from my writing, research, and analytical workflows.</p>
+      <p class="home-eyebrow">Selected guides</p>
+      <h2 id="recent-work-title">Notes, code, and practical guides</h2>
+      <p>Explore selected notes and practical examples from my writing, research, and analytical workflows.</p>
     </div>
-    <a class="home-text-link" href="content/blog/">Browse the blog <span aria-hidden="true">→</span></a>
+    <a class="home-text-link" href="content/blog/">Browse the notes <span aria-hidden="true">→</span></a>
   </div>
 ```
 
@@ -150,9 +147,25 @@ and [workshop recordings and materials](about/workshops/).
   <h2 id="home-newsletter-title">Notes on Data and Learning</h2>
   <p>Reflections on data, statistics, modelling, and what we learn through practice.</p>
   <div class="book-actions" aria-label="Newsletter links">
-    <a class="book-button book-button--primary" href="https://federicagazzelloni.substack.com/subscribe">Subscribe on Substack <span aria-hidden="true">↗</span></a>
+    <a class="book-button newsletter-button" href="https://federicagazzelloni.substack.com/subscribe">Subscribe on Substack <span aria-hidden="true">↗</span></a>
     <a class="home-text-link" href="content/newsletter/">Explore the newsletter <span aria-hidden="true">→</span></a>
   </div>
+</section>
+
+<section class="home-learning" aria-labelledby="home-learning-title">
+  <div class="home-learning__content">
+    <p class="home-eyebrow">Learn with me</p>
+    <h2 id="home-learning-title">From an idea to a working example</h2>
+    <p>Follow along with R tutorials, health metrics, and data science workflows. Watch a video or explore the recordings and materials from my workshops.</p>
+    <div class="home-learning__links">
+      <a class="book-button book-button--primary" href="https://www.youtube.com/@federicagazzelloni">Watch on YouTube <span aria-hidden="true">↗</span></a>
+      <a class="home-text-link" href="about/workshops/">Explore workshops <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <video class="home-learning__video" controls preload="none" playsinline aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo.webp">
+    <source src="images/welcome-video.mp4" type="video/mp4">
+    <p><a href="https://www.youtube.com/@federicagazzelloni">Watch my videos on YouTube.</a></p>
+  </video>
 </section>
 
 <link rel="stylesheet" href="scripts/news.css">
@@ -170,21 +183,6 @@ and [workshop recordings and materials](about/workshops/).
 </section>
 <script src="scripts/news.js" defer></script>
 
-<section class="home-learning" aria-labelledby="home-learning-title">
-  <div class="home-learning__content">
-    <p class="home-eyebrow">Learn with me</p>
-    <h2 id="home-learning-title">From an idea to a working example</h2>
-    <p>Follow along with R tutorials, health metrics, and data science workflows. Watch a video or explore the recordings and materials from my workshops.</p>
-    <div class="home-learning__links">
-      <a class="book-button book-button--primary" href="https://www.youtube.com/@federicagazzelloni">Watch on YouTube <span aria-hidden="true">↗</span></a>
-      <a class="home-text-link" href="about/workshops/">Explore workshops <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-  <video class="home-learning__video" controls preload="none" playsinline aria-label="Welcome to Federica Gazzelloni’s data science channel" poster="images/homepage-logo.webp">
-    <source src="images/welcome-video.mp4" type="video/mp4">
-    <p><a href="https://www.youtube.com/@federicagazzelloni">Watch my videos on YouTube.</a></p>
-  </video>
-</section>
 ```
 
 :::

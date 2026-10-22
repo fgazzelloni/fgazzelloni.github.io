@@ -11,6 +11,8 @@ layout: single
 page-layout: full
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for R-Ladies Events Stats"
 ---
 
 ## Overview
@@ -29,7 +31,7 @@ dat <- dplyr::bind_rows(events)
 :::
 
 ::: {.column width="20%"}
-![RLadies Wordcloud](featured.png)
+![RLadies Wordcloud](featured.png){fig-alt="RLadies Wordcloud"}
 :::
 :::
 

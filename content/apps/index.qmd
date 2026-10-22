@@ -1,0 +1,62 @@
+---
+title: "Shiny Apps"
+description: "Interactive R Shiny projects by Federica Gazzelloni: Oregon Frogs, pathogen data, word prediction, and historical COVID-19 applications."
+page-layout: full
+---
+
+Interactive applications from my R programming and analytical work. These earlier projects explore spatial data, health metrics, and language models.
+
+Apps open in a separate tab and may take a moment to start. The previews show their initial screens; older applications may rely on services or packages that have changed since development.
+
+## Explore the apps
+
+::: {.portfolio-grid}
+::: {.portfolio-card}
+![](/images/apps/oregon-frogs.webp){fig-alt="Oregon Frogs application with habitat, sex, and water filters."}
+
+[2023 · R Shiny example]{.status-badge}
+
+### Oregon Frogs
+
+An interactive spatial application exploring Oregon spotted frog observations through habitat and scenario filters.
+
+[Open app ↗](https://federica-gazzelloni.shinyapps.io/oregonfrogsShiny/){.book-button target="_blank" rel="noopener"}
+
+[Related R package](../rpackages/posts/oregonfrogs/index.qmd)
+:::
+::: {.portfolio-card}
+![](/images/apps/pathogens.webp){fig-alt="Pathogens 2019 application preview."}
+
+[2023 · Historical data]{.status-badge}
+
+### Pathogens 2019
+
+An interactive application for exploring pathogen-related data for 2019. This is a historical analytical example.
+
+[Open app ↗](https://federica-gazzelloni.shinyapps.io/Pathogens2019_Shiny_App/){.book-button target="_blank" rel="noopener"}
+:::
+::: {.portfolio-card}
+![](/images/apps/word-prediction.webp){fig-alt="Word Prediction application with sentence input and a Predict Next Word button."}
+
+[2023 · Language modelling]{.status-badge}
+
+### Word Prediction
+
+Enter a phrase and request a predicted next word. An earlier natural-language modelling project developed in R.
+
+[Open app ↗](https://federica-gazzelloni.shinyapps.io/NLP-Word-Prediction/){.book-button target="_blank" rel="noopener"}
+:::
+:::
+
+## Historical applications
+
+These projects document earlier analytical work. They should not be used as a source of current public health information.
+
+- **COVID-19 Dashboard (2020):** [open the historical app ↗](https://federica-gazzelloni.shinyapps.io/covid19_dashboard/){target="_blank" rel="noopener"}. Data currency and current functionality have not been verified.
+- **COVID-19 Analytics (2020)** — archived.
+- **Italy COVID-19 Map (2021)** — archived.
+- **Corporate Reputation (2022)** — archived.
+- **Dynamic Panel Example (2021)** — archived.
+- **Random (2020)** — archived.
+
+Archived applications are listed as part of the development record and have no launch button.

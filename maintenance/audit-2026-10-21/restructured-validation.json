@@ -1,0 +1,18 @@
+{
+  "pages": 59,
+  "missing_local_targets": [],
+  "unresolved_fragments": [],
+  "missing_alt_elements": 0,
+  "h1_failures": [],
+  "previous_page_paths_preserved": true,
+  "new_pages": [
+    "consultancy.html",
+    "content/apps/index.html",
+    "content/books/posts/cp2/index.html",
+    "content/books/posts/masta/index.html"
+  ],
+  "stylesheet_matches_source": true,
+  "sitemap_locations": 59,
+  "navbar_present_on_all_pages": true,
+  "footer_about_link_preserved": true
+}

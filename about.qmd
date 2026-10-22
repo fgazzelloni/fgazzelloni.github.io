@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: images/profile.png
+image: images/profile.webp
 image-alt: "Federica Gazzelloni"
 cap-location: bottom
 description: "Professional profile of Federica Gazzelloni, statistician, actuary, data scientist, author, and instructor."

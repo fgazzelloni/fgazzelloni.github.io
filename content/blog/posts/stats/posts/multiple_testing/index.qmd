@@ -13,6 +13,7 @@ execute:
   echo: true
   warning: false
   message: false
+image-alt: "Illustration for Multiple Hypothesis Testing"
 ---
 
 ## Overview
@@ -23,7 +24,7 @@ Sometimes answering a research question means evaluating the different combinati
 
 The following are the fundamental steps for understanding how to proceed when multiple hypothesis testing is needed.
 
-![Hypothesis Testing](featured.png)
+![Hypothesis Testing](featured.png){fig-alt="Hypothesis Testing"}
 
 Image credits: Hypothesis Testing On Linear `Regression-medium.com`
 

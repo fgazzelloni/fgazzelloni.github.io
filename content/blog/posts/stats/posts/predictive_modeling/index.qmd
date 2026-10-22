@@ -11,13 +11,14 @@ categories: modeling
 layout: single
 execute: 
   eval: false
+image-alt: "Illustration for Predictive modeling"
 ---
 
 ## Overview
 
 This post is dedicated to make a comparison between **Caret** and **TidyModels** R packages. Data modelling with R pass through data preprocessing and parameters assessments to predicting an outcome. Both set of packages can be used to achieve same results, with the purpose of finding the best predictive performance for data specific models.
 
-![Predictive modeling - TreeMap](featured.png)
+![Predictive modeling - TreeMap](featured.png){fig-alt="Predictive modeling - TreeMap"}
 
 The **Caret** package is the starting point for understanding how to manage models and produce unbiases predictions with R. As well as **TidyModels** meta package, it gives the opportunity to contruct a multivariate model syntax to manage several models to be applied on same set of data. **TidyModels** allows the use of a set of concatenated functions in partership with the **TidyVerse** grammar to build a structural model base which blends different models as one global model.
 

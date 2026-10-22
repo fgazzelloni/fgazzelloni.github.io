@@ -1,0 +1,98 @@
+[
+  {
+    "page": "/",
+    "width": 320,
+    "scrollWidth": 320,
+    "horizontalOverflow": false
+  },
+  {
+    "page": "/",
+    "width": 375,
+    "scrollWidth": 375,
+    "horizontalOverflow": false,
+    "headingWidth": 334.203125,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/",
+    "width": 430,
+    "scrollWidth": 430,
+    "horizontalOverflow": false,
+    "headingWidth": 389.203125,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/",
+    "width": 768,
+    "scrollWidth": 768,
+    "horizontalOverflow": false,
+    "headingWidth": 727.203125,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "horizontalOverflow": false,
+    "headingWidth": 476.9140625,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "horizontalOverflow": false,
+    "headingWidth": 678.2578125,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/",
+    "width": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "headingWidth": 349.203125,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/content/apps/",
+    "width": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "headingWidth": 339,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/content/books/posts/masta/",
+    "width": 320,
+    "scrollWidth": 320,
+    "horizontalOverflow": false,
+    "headingWidth": 269,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/consultancy.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "horizontalOverflow": false,
+    "headingWidth": 269,
+    "menuButton": true,
+    "imagesMissing": 0
+  },
+  {
+    "page": "/content/books/posts/cp2/",
+    "width": 320,
+    "scrollWidth": 320,
+    "horizontalOverflow": false,
+    "headingWidth": 269,
+    "menuButton": true,
+    "imagesMissing": 0
+  }
+]

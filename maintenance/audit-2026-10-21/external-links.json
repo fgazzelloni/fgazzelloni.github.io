@@ -1,0 +1,1023 @@
+[
+  {
+    "url": "http://caret.r-forge.r-project.org/",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
+    "status": 403
+  },
+  {
+    "url": "https://actuary.eu/column-diversity-is-more-than-a-number",
+    "status": 403
+  },
+  {
+    "url": "https://adv-r.hadley.nz/",
+    "status": 206,
+    "final": "https://adv-r.hadley.nz/"
+  },
+  {
+    "url": "https://amzn.to/3N7zZjH",
+    "status": 200,
+    "final": "https://www.amazon.it/dp/1032625783?psc=1&pd_rd_i=1032625783&content-id=amzn1.sym.67f8cf21-ade4-4299-b433-69e404eeecf1&pf_rd_p=67f8cf21-ade4-4299-b433-69e404eeecf1&pf_rd_r=YD1R56WCJ8G520QH653A&pd_rd_wg=vSAdd&pd_rd_w=ug4kr&pd_rd_r=3b8c40be-c334-493c-98fe-5f7b123b7ef4&linkCode=sl1&tag=gfedanalytics-20&linkId=819272fd96cf97eb1fb9414c7cff11db&language=en_GB&ref_=as_li_ss_tl"
+  },
+  {
+    "url": "https://amzn.to/4aHGseT",
+    "status": 200,
+    "final": "https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783?pd_rd_w=ug4kr&content-id=amzn1.sym.67f8cf21-ade4-4299-b433-69e404eeecf1&pf_rd_p=67f8cf21-ade4-4299-b433-69e404eeecf1&pf_rd_r=YD1R56WCJ8G520QH653A&pd_rd_wg=vSAdd&pd_rd_r=3b8c40be-c334-493c-98fe-5f7b123b7ef4&pd_rd_i=1032625783&psc=1&linkCode=sl1&tag=gfedanalytics-20&linkId=6277e6b64a23993ae082f4ea4cb6b69a&language=en_US&ref_=as_li_ss_tl"
+  },
+  {
+    "url": "https://apps.who.int/gho/data/",
+    "status": 200,
+    "final": "https://www.who.int/data/gho/legacy"
+  },
+  {
+    "url": "https://bit.ly/3OUhT1x",
+    "status": 206,
+    "final": "https://apps.who.int/malaria/maps/threats/?theme=prevention&mapType=prevention:0&insecticideClass=PYRETHROIDS&insecticideTypes=&assayTypes=MOLECULAR_ASSAY,BIOCHEMICAL_ASSAY,SYNERGIST-INSECTICIDE_BIOASSAY&synergistTypes=&species=&vectorSpecies=&surveyTypes=&deletionType=HRP2_PROPORTION_DELETION&plasmodiumSpecies=P._FALCIPARUM&drug=DRUG_AL&mmType=1&endemicity=false&countryMode=false&storyMode=false&storyModeStep=0&filterOpen=false&filtersMode=filters&years=2010,2018#/maps?theme=prevention&mapType=prevention:0&bounds=[[-195.87387674162954,-57.21353783177627],[195.87387674162568,78.01264223123633]]&insecticideClass=PYRETHROIDS&insecticideTypes=&assayTypes=MOLECULAR_ASSAY,BIOCHEMICAL_ASSAY,SYNERGIST-INSECTICIDE_BIOASSAY&synergistTypes=&species=&vectorSpecies=&surveyTypes=&mmType=1&excludeLowerPatients=false&excludeLowerSamples=false&endemicity=false&storyMode=false&storyModeStep=0&years=2010,2023"
+  },
+  {
+    "url": "https://bit.ly/3YMfol8",
+    "status": 206,
+    "final": "https://vizhub.healthdata.org/gbd-results/"
+  },
+  {
+    "url": "https://bit.ly/3mU4tbJ",
+    "status": 200,
+    "final": "https://www.who.int/data/gho/data/major-themes/health-and-well-being#:~:text=The%20WHO%20constitution%20states:%20\"Health,of%20mental%20disorders%20or%20disabilities."
+  },
+  {
+    "url": "https://bit.ly/40dboLg",
+    "status": 404
+  },
+  {
+    "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available",
+    "status": 206,
+    "final": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/"
+  },
+  {
+    "url": "https://blog.r-project.org/2026/09/22/zulip-chat-for-the-r-project",
+    "status": 206,
+    "final": "https://blog.r-project.org/2026/09/22/zulip-chat-for-the-r-project/"
+  },
+  {
+    "url": "https://briatte.github.io/ggnet/",
+    "status": 206,
+    "final": "https://briatte.github.io/ggnet/"
+  },
+  {
+    "url": "https://bsky.app/profile/fgazzelloni.bsky.social",
+    "status": 200,
+    "final": "https://bsky.app/profile/fgazzelloni.bsky.social"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js",
+    "status": 206,
+    "final": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js",
+    "status": 206,
+    "final": "https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6",
+    "status": 200,
+    "final": "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"
+  },
+  {
+    "url": "https://compgenomr.github.io/book/",
+    "status": 206,
+    "final": "https://compgenomr.github.io/book/"
+  },
+  {
+    "url": "https://cran.r-project.org/web/packages/cheese/vignettes/cheese.html",
+    "status": 206,
+    "final": "https://cran.r-project.org/web/packages/cheese/vignettes/cheese.html"
+  },
+  {
+    "url": "https://cran.r-project.org/web/packages/ggmap/readme/README.html",
+    "status": 206,
+    "final": "https://cran.r-project.org/web/packages/ggmap/readme/README.html"
+  },
+  {
+    "url": "https://cran.r-project.org/web/packages/widyr/index.html",
+    "status": 206,
+    "final": "https://cran.r-project.org/web/packages/widyr/index.html"
+  },
+  {
+    "url": "https://databank.worldbank.org/reports.aspx?source=2&series=SH.MLR.INCD.P3&country=#",
+    "status": 206,
+    "final": "https://databank.worldbank.org/reports.aspx?source=2&series=SH.MLR.INCD.P3&country="
+  },
+  {
+    "url": "https://datametricus.com/",
+    "status": 206,
+    "final": "https://datametricus.com/"
+  },
+  {
+    "url": "https://developers.google.com/maps",
+    "status": 200,
+    "final": "https://developers.google.com/maps"
+  },
+  {
+    "url": "https://doi.org/10.1016/S0140-6736(20)30925-9",
+    "status": 200,
+    "final": "https://linkinghub.elsevier.com/retrieve/pii/S0140673620309259"
+  },
+  {
+    "url": "https://exts.ggplot2.tidyverse.org/ggraph.html",
+    "status": 206,
+    "final": "https://exts.ggplot2.tidyverse.org/ggraph.html"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/archive",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/archive"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n28",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n28"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n29",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n29"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n30",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/p/notes-on-data-and-learning-n30"
+  },
+  {
+    "url": "https://federicagazzelloni.substack.com/subscribe",
+    "status": 200,
+    "final": "https://federicagazzelloni.substack.com/subscribe"
+  },
+  {
+    "url": "https://fgazzelloni.quarto.pub/ai-actuarial-science-and-r/",
+    "status": 206,
+    "final": "https://fgazzelloni.quarto.pub/ai-actuarial-science-and-r/"
+  },
+  {
+    "url": "https://fgazzelloni.quarto.pub/from-r-to-python-a-gentle-introduction/",
+    "status": 206,
+    "final": "https://fgazzelloni.quarto.pub/from-r-to-python-a-gentle-introduction/"
+  },
+  {
+    "url": "https://fgazzelloni.quarto.pub/my-website-in-r\u2013quarto/",
+    "error": "'ascii' codec can't encode character '\\u2013' in position 20: ordinal not in range(128)"
+  },
+  {
+    "url": "https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/",
+    "status": 206,
+    "final": "https://fgazzelloni.quarto.pub/unlocking-the-power-of-data-visualization-with-r/duboischallenge/"
+  },
+  {
+    "url": "https://fosstodon.org/@fgazzelloni",
+    "status": 206,
+    "final": "https://fosstodon.org/@fgazzelloni"
+  },
+  {
+    "url": "https://geocompr.robinlovelace.net/eco.html",
+    "status": 206,
+    "final": "https://geocompr.robinlovelace.net/eco.html"
+  },
+  {
+    "url": "https://ggplot2-book.org/arranging-plots",
+    "status": 206,
+    "final": "https://ggplot2-book.org/arranging-plots"
+  },
+  {
+    "url": "https://ggplot2-book.org/networks.html",
+    "status": 206,
+    "final": "https://ggplot2-book.org/networks.html"
+  },
+  {
+    "url": "https://ggraph.data-imaginist.com/",
+    "status": 206,
+    "final": "https://ggraph.data-imaginist.com/"
+  },
+  {
+    "url": "https://ghdx.healthdata.org/record/ihme-data/gbd-2019-disability-weights",
+    "status": 200,
+    "final": "https://ghdx.healthdata.org/record/ihme-data/gbd-2019-disability-weights"
+  },
+  {
+    "url": "https://ghdx.healthdata.org/record/ihme-data/global-life-expectancy-all-cause-mortality-and-cause-specific-mortality-forecasts-2022-2050",
+    "status": 200,
+    "final": "https://ghdx.healthdata.org/record/ihme-data/global-life-expectancy-all-cause-mortality-and-cause-specific-mortality-forecasts-2022-2050"
+  },
+  {
+    "url": "https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning",
+    "status": 206,
+    "final": "https://github.com/DataScienceSpecialization/courses/tree/master/08_PracticalMachineLearning"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/20240930-DWPwR",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/20240930-DWPwR"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/AI-Actuarial-Science-and-R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/AI-Actuarial-Science-and-R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/From-R-to-Python-A-Gentle-Introduction",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/From-R-to-Python-A-Gentle-Introduction"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/How-to-Spatial-Modeling-with-R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/R-Ladies-Cambridge-Dataviz-lunch-Replicating-Du-Bois-with-R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/RLR_DataViz-Practice/",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/RLR_DataViz-Practice/"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/globe.R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/globe.R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/network_plot.R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/network_plot.R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/roc_plot.R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/roc_plot.R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/vip_plot.R",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/TidyTuesday/blob/main/data/2022/w31_frogs/container/scripts/vip_plot.R"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/TidyTuesday/tree/main/data/2022/w31_frogs/container",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/TidyTuesday/tree/main/data/2022/w31_frogs/container"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/building_a_website_in_r",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/building_a_website_in_r"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/hmsidwR",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/hmsidwR"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/nlp-ngrams-r",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/nlp-ngrams-r"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/oregonfrogs",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/oregonfrogs"
+  },
+  {
+    "url": "https://github.com/Fgazzelloni/sir-model-with-R/",
+    "status": 206,
+    "final": "https://github.com/Fgazzelloni/sir-model-with-R/"
+  },
+  {
+    "url": "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge01",
+    "status": 206,
+    "final": "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge/2024/challenge01"
+  },
+  {
+    "url": "https://github.com/davidsjoberg/ggstream",
+    "status": 206,
+    "final": "https://github.com/davidsjoberg/ggstream"
+  },
+  {
+    "url": "https://github.com/fgazzelloni",
+    "status": 206,
+    "final": "https://github.com/fgazzelloni"
+  },
+  {
+    "url": "https://github.com/fgazzelloni/Intro-to-ml-in-epidemiology-with-r",
+    "status": 206,
+    "final": "https://github.com/fgazzelloni/Intro-to-ml-in-epidemiology-with-r"
+  },
+  {
+    "url": "https://github.com/fgazzelloni/fgazzelloni.github.io/issues/new",
+    "status": 206,
+    "final": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffgazzelloni%2Ffgazzelloni.github.io%2Fissues%2Fnew"
+  },
+  {
+    "url": "https://github.com/hannaehrlich/maldrugres_SSA",
+    "status": 206,
+    "final": "https://github.com/hannaehrlich/maldrugres_SSA"
+  },
+  {
+    "url": "https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-01-25/readme.md",
+    "status": 206,
+    "final": "https://github.com/rfordatascience/tidytuesday/blob/main/data/2022/2022-01-25/readme.md"
+  },
+  {
+    "url": "https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-10-11",
+    "status": 206,
+    "final": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-10-11"
+  },
+  {
+    "url": "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-07-12",
+    "status": 206,
+    "final": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-07-12"
+  },
+  {
+    "url": "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-08-02",
+    "status": 206,
+    "final": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-08-02"
+  },
+  {
+    "url": "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-12-13",
+    "status": 206,
+    "final": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-12-13"
+  },
+  {
+    "url": "https://github.com/rladies/meetup-presentations_rome",
+    "status": 206,
+    "final": "https://github.com/rladies/meetup-presentations_rome"
+  },
+  {
+    "url": "https://github.com/tristanoprofetto/neural-networks/blob/main/ANN/Regressor/feedforward.R",
+    "status": 206,
+    "final": "https://github.com/tristanoprofetto/neural-networks/blob/main/ANN/Regressor/feedforward.R"
+  },
+  {
+    "url": "https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif",
+    "status": 206,
+    "final": "https://i.giphy.com/media/KX5nwoDX97AtPvKBF6/giphy.gif"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/-3mcwchd-w4/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/-3mcwchd-w4/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/-LPLarw1dvU/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/-LPLarw1dvU/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/10wndNaUtpg/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/10wndNaUtpg/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/7Q9RGCXw6_c/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/7Q9RGCXw6_c/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/9jF8ffpK92c/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/9jF8ffpK92c/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/EstytFNjrWc/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/EstytFNjrWc/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/FJGqfqdb3zA/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/FJGqfqdb3zA/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/GjT2d3NSrXw/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/GjT2d3NSrXw/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/HpVfRDtcuSg/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/HpVfRDtcuSg/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/KDngQp3h8DU/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/KDngQp3h8DU/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/KVMwJvoM9CE/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/KVMwJvoM9CE/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/PVnTzUIsbAI/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/PVnTzUIsbAI/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/Sa8NPcaNYLo/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/Sa8NPcaNYLo/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/WG21XyzwKu0/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/WG21XyzwKu0/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/YdzLoshrsI4/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/YdzLoshrsI4/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/b3d5xd81QCc/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/b3d5xd81QCc/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/cejCvutHbO0/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/cejCvutHbO0/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/dGdMu0_M208/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/dGdMu0_M208/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/i1IoNiKJNk8/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/i1IoNiKJNk8/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/iVMgUV_9-Vs/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/iVMgUV_9-Vs/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/n6iYUY0HUWc/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/n6iYUY0HUWc/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/oYRnA-8ncPU/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/oYRnA-8ncPU/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/pjZingkFrVA/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/pjZingkFrVA/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/sLxp-ZhwMbE/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/sLxp-ZhwMbE/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/tah6-upp2qw/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/tah6-upp2qw/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/u8jhX7Gu_6U/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/u8jhX7Gu_6U/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/v8bx-BYvIZo/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/v8bx-BYvIZo/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/yBIFKiyfupc/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/yBIFKiyfupc/hqdefault.jpg"
+  },
+  {
+    "url": "https://i.ytimg.com/vi/zHhC9fsvEIk/hqdefault.jpg",
+    "status": 206,
+    "final": "https://i.ytimg.com/vi/zHhC9fsvEIk/hqdefault.jpg"
+  },
+  {
+    "url": "https://igraph.org/",
+    "status": 206,
+    "final": "https://igraph.org/"
+  },
+  {
+    "url": "https://linkedin.com/in/federicagazzelloni",
+    "status": 200,
+    "final": "https://linkedin.com/in/federicagazzelloni"
+  },
+  {
+    "url": "https://macrobiotus.github.io/2024-02-12-helmholtz-online/",
+    "status": 206,
+    "final": "https://macrobiotus.github.io/2024-02-12-helmholtz-online/"
+  },
+  {
+    "url": "https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif",
+    "status": 206,
+    "final": "https://media.giphy.com/media/aQt5QYJm0FZo4/giphy.gif"
+  },
+  {
+    "url": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif",
+    "status": 206,
+    "final": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif"
+  },
+  {
+    "url": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif",
+    "status": 206,
+    "final": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif"
+  },
+  {
+    "url": "https://n8n.io",
+    "status": 200,
+    "final": "https://n8n.io"
+  },
+  {
+    "url": "https://nnlm-ncds.github.io/2024-03-19-nnlm-uw-online/",
+    "status": 206,
+    "final": "https://nnlm-ncds.github.io/2024-03-19-nnlm-uw-online/"
+  },
+  {
+    "url": "https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator",
+    "status": 200,
+    "final": "https://open.spotify.com/embed/show/43CSCODQFQkZ05u3Up5OD6/video?utm_source=generator"
+  },
+  {
+    "url": "https://openai.com/index/itau-generative-ai",
+    "status": 403
+  },
+  {
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "status": 403
+  },
+  {
+    "url": "https://orcid.org/0000-0002-4285-611X",
+    "status": 206,
+    "final": "https://orcid.org/0000-0002-4285-611X"
+  },
+  {
+    "url": "https://pad.carpentries.org/2024-02-12-helmholtz-online",
+    "status": 200,
+    "final": "https://pad.carpentries.org/2024-02-12-helmholtz-online"
+  },
+  {
+    "url": "https://pad.carpentries.org/2024-03-19-nnlm-uw-online",
+    "status": 200,
+    "final": "https://pad.carpentries.org/2024-03-19-nnlm-uw-online"
+  },
+  {
+    "url": "https://pad.carpentries.org/2024-06-10-cdc-online",
+    "status": 200,
+    "final": "https://pad.carpentries.org/2024-06-10-cdc-online"
+  },
+  {
+    "url": "https://pad.carpentries.org/2024-08-19-cdc-online",
+    "status": 200,
+    "final": "https://pad.carpentries.org/2024-08-19-cdc-online"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4140376/",
+    "status": 200,
+    "final": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4140376/"
+  },
+  {
+    "url": "https://quarto.org",
+    "status": 206,
+    "final": "https://quarto.org"
+  },
+  {
+    "url": "https://quarto.org/docs/websites/",
+    "status": 206,
+    "final": "https://quarto.org/docs/websites/"
+  },
+  {
+    "url": "https://r-graph-gallery.com/hierarchical-edge-bundling.html",
+    "status": 206,
+    "final": "https://r-graph-gallery.com/hierarchical-edge-bundling.html"
+  },
+  {
+    "url": "https://r-graph-gallery.com/web-streamchart-with-ggstream.html",
+    "status": 206,
+    "final": "https://r-graph-gallery.com/web-streamchart-with-ggstream.html"
+  },
+  {
+    "url": "https://r-spatial.org/book/14-Areal.html#contiguous-neighbours",
+    "status": 206,
+    "final": "https://r-spatial.org/book/14-Areal.html#contiguous-neighbours"
+  },
+  {
+    "url": "https://r4ds.github.io/bookclub-spatial/",
+    "status": 206,
+    "final": "https://r4ds.github.io/bookclub-spatial/"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png",
+    "status": 206,
+    "final": "https://raw.githubusercontent.com/Fgazzelloni/DuboisChallenge2024_FG/main/2024/challenge01/challenge01.png"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg",
+    "status": 206,
+    "final": "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge01/original-plate-06.jpg"
+  },
+  {
+    "url": "https://rladiesrome.github.io/Principles-of-data-Analysis-in-R/02-exploring-diabetes-data.html",
+    "status": 206,
+    "final": "https://rladiesrome.github.io/Principles-of-data-Analysis-in-R/02-exploring-diabetes-data.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2023/meetup/07272023/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2023/meetup/07272023/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2023/meetup/08282023/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2023/meetup/08282023/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2023/meetup/09222023/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2023/meetup/09222023/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2023/meetup/10272023/index.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2023/meetup/10272023/index.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2023/meetup/12152023/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2023/meetup/12152023/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2024/meetup/09302024/",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2024/meetup/09302024/"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2025/meetup/03272025_FedericaGazzelloni.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2025/meetup/03272025_FedericaGazzelloni.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2025/meetup/04272025_FedericaGazzelloni.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2025/meetup/04272025_FedericaGazzelloni.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2025/meetup/06162025_INGV.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2025/meetup/06162025_INGV.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2025/meetup/12172025_organizers.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2025/meetup/12172025_organizers.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2026/meetup/01292026_federicagazzelloni.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2026/meetup/01292026_federicagazzelloni.html"
+  },
+  {
+    "url": "https://rladiesrome.org/talks/2026/meetup/09282026_federicagazzelloni.html",
+    "status": 206,
+    "final": "https://rladiesrome.org/talks/2026/meetup/09282026_federicagazzelloni.html"
+  },
+  {
+    "url": "https://rladiesrome.quarto.pub/data-wrangling-practice-with-r/",
+    "status": 206,
+    "final": "https://rladiesrome.quarto.pub/data-wrangling-practice-with-r/"
+  },
+  {
+    "url": "https://rladiesrome.quarto.pub/from-r-to-python-a-gentle-introduction/",
+    "status": 206,
+    "final": "https://rladiesrome.quarto.pub/from-r-to-python-a-gentle-introduction/"
+  },
+  {
+    "url": "https://rladiesrome.quarto.pub/rbioconductor-watch-party/",
+    "status": 206,
+    "final": "https://rladiesrome.quarto.pub/rbioconductor-watch-party/"
+  },
+  {
+    "url": "https://rrlove-cdc.github.io/2024-08-19-cdc-online/",
+    "status": 206,
+    "final": "https://rrlove-cdc.github.io/2024-08-19-cdc-online/"
+  },
+  {
+    "url": "https://scholar.google.com/citations?hl=en&user=Xes0-r0AAAAJ",
+    "status": 200,
+    "final": "https://scholar.google.com/citations?hl=en&user=Xes0-r0AAAAJ"
+  },
+  {
+    "url": "https://sefiks.com/2017/08/11/softplus-as-a-neural-networks-activation-function/",
+    "status": 406
+  },
+  {
+    "url": "https://spatialsample.tidymodels.org/articles/spatialsample.html",
+    "status": 206,
+    "final": "https://spatialsample.tidymodels.org/articles/spatialsample.html"
+  },
+  {
+    "url": "https://speaking-many-languages.my.canva.site/",
+    "status": 200,
+    "final": "https://speaking-many-languages.my.canva.site/"
+  },
+  {
+    "url": "https://steemit.com/programming/@dkmathstats/plotting-math-functions-in-r",
+    "status": 200,
+    "final": "https://steemit.com/programming/@dkmathstats/plotting-math-functions-in-r"
+  },
+  {
+    "url": "https://tidygraph.data-imaginist.com/index.html",
+    "status": 206,
+    "final": "https://tidygraph.data-imaginist.com/index.html"
+  },
+  {
+    "url": "https://tidymodels.tidymodels.org/",
+    "status": 206,
+    "final": "https://tidymodels.tidymodels.org/"
+  },
+  {
+    "url": "https://tinyurl.com/ms5n8z9h",
+    "status": 200,
+    "final": "https://www.canva.com/design/DAG_aqf91R0/J_JrCP-gNV-l33dPtNUAAw/view?utm_content=DAG_aqf91R0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb0e4f91ccd"
+  },
+  {
+    "url": "https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464",
+    "status": 403
+  },
+  {
+    "url": "https://twitter.com/FGazzelloni",
+    "status": 200,
+    "final": "https://x.com/FGazzelloni"
+  },
+  {
+    "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-week-42",
+    "status": 206,
+    "final": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-10-16-october-week-42"
+  },
+  {
+    "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-41-october-2026",
+    "status": 206,
+    "final": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-41-october-2026"
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1566469/full",
+    "status": 206,
+    "final": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1566469/full"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8",
+    "status": 200,
+    "final": "https://www.googletagmanager.com/gtag/js?id=G-119NQB71C8"
+  },
+  {
+    "url": "https://www.gs.washington.edu/academics/courses/akey/56008/lecture/lecture10.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.healthdata.org/news-release/lancet-latest-global-disease-estimates-reveal-perfect-storm-rising-chronic-diseases-and",
+    "status": 403
+  },
+  {
+    "url": "https://www.jstatsoft.org/article/view/v080i01",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://www.meetup.com/rladies-rome/events/313880594/",
+    "status": 206,
+    "final": "https://www.meetup.com/rladies-rome/events/313880594/"
+  },
+  {
+    "url": "https://www.pexels.com/search/pink/",
+    "status": 403
+  },
+  {
+    "url": "https://www.r-bloggers.com/2017/09/mapping-the-largest-cities-in-asia-using-r/",
+    "status": 206,
+    "final": "https://www.r-bloggers.com/2017/09/mapping-the-largest-cities-in-asia-using-r/"
+  },
+  {
+    "url": "https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782",
+    "status": 206,
+    "final": "https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782"
+  },
+  {
+    "url": "https://www.statlearning.com/",
+    "status": 206,
+    "final": "https://www.statlearning.com/"
+  },
+  {
+    "url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(23)00063-0/fulltext",
+    "status": 403
+  },
+  {
+    "url": "https://www.tidymodels.org/start/models/",
+    "status": 206,
+    "final": "https://www.tidymodels.org/start/models/"
+  },
+  {
+    "url": "https://www.tmwr.org/",
+    "status": 206,
+    "final": "https://www.tmwr.org/"
+  },
+  {
+    "url": "https://www.w3schools.com/css/",
+    "status": 200,
+    "final": "https://www.w3schools.com/css/"
+  },
+  {
+    "url": "https://www.youtube.com/@dslcvids/search?query=Federica",
+    "status": 200,
+    "final": "https://www.youtube.com/@dslcvids/search?query=Federica&cbrd=1&ucbcb=1"
+  },
+  {
+    "url": "https://www.youtube.com/@federicagazzelloni",
+    "status": 200,
+    "final": "https://www.youtube.com/@federicagazzelloni?cbrd=1&ucbcb=1"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-3mcwchd-w4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=-3mcwchd-w4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=-3mcwchd-w4&t=4684s"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-LPLarw1dvU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=-LPLarw1dvU"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=10wndNaUtpg",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=10wndNaUtpg"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7Q9RGCXw6_c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=7Q9RGCXw6_c"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=9jF8ffpK92c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=9jF8ffpK92c"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=CqOfi41LfDw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=CqOfi41LfDw"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=EstytFNjrWc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=EstytFNjrWc"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FJGqfqdb3zA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=FJGqfqdb3zA"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GjT2d3NSrXw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=GjT2d3NSrXw"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=HpVfRDtcuSg",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=HpVfRDtcuSg"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KDngQp3h8DU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=KDngQp3h8DU"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KVMwJvoM9CE",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=KVMwJvoM9CE"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=PVnTzUIsbAI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=PVnTzUIsbAI"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Sa8NPcaNYLo",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Sa8NPcaNYLo"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=WG21XyzwKu0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=WG21XyzwKu0"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=YdzLoshrsI4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=YdzLoshrsI4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=b3d5xd81QCc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=b3d5xd81QCc"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cejCvutHbO0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=cejCvutHbO0"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=dGdMu0_M208",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=dGdMu0_M208"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=i1IoNiKJNk8",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=i1IoNiKJNk8"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iVMgUV_9-Vs",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=iVMgUV_9-Vs"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=n6iYUY0HUWc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=n6iYUY0HUWc"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oYRnA-8ncPU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=oYRnA-8ncPU"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pjZingkFrVA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=pjZingkFrVA"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=sLxp-ZhwMbE",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=sLxp-ZhwMbE"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tah6-upp2qw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=tah6-upp2qw"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=u8jhX7Gu_6U",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=u8jhX7Gu_6U"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=v8bx-BYvIZo",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=v8bx-BYvIZo"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yBIFKiyfupc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=yBIFKiyfupc"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zHhC9fsvEIk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=zHhC9fsvEIk"
+  },
+  {
+    "url": "https://x.com/FGazzelloni",
+    "status": 200,
+    "final": "https://x.com/FGazzelloni"
+  }
+]

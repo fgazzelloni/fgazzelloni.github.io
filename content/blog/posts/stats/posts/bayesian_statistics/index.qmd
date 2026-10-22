@@ -11,6 +11,7 @@ categories:
 summary: "Looking at bayesian model comparisons"
 execute: 
   eval: false
+image-alt: "Illustration for Bayesian Statistics model comparison"
 ---
 
 ## Overview
@@ -21,7 +22,7 @@ In this post I'll go through some differences between *Bayesian statistical pack
 :::
 
 ::: {.column width="40%"}
-![Bayesian Statistics](featured.png){width="400px"}
+![Bayesian Statistics](featured.png){width="400px" fig-alt="Bayesian Statistics"}
 :::
 :::
 

@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for European Flights Data Visualization in R"
 ---
 
 
@@ -20,7 +22,7 @@ This tutorial visualizes European flights and airports in R using TidyTuesday da
 
 This #TidyTuesday week 28 is all about **European flights**. I was looking for a visualization that would represent the differences among countries in terms of the number of airports versus number of flights. I looked on the internet for getting some inspiration and then landed on Pintarest, where I found exactly what I was hoping for: a Sankey! First of all, **What is a Sankey?** The answer is clearer after you make one of your own. In short, it is a network graph connecting diffent groups with a ribbon. A few things that made me think about a lot were the requirements for the type of data to combine, the consequent label results, and the grouping.
 
-![European Flights](featured.png)
+![European Flights](featured.png){fig-alt="European Flights"}
 ```{r}
 library(tidyverse)
 ```

@@ -1,21 +1,43 @@
 ---
-title: "Books on Health Metrics, R, and Data Science"
-description: "Books by Federica Gazzelloni on health metrics, infectious disease analytics, R programming, data science, and data visualization."
-listing:
-  contents: posts/hmsid/index.qmd
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Books & Resources"
+description: "Books by Federica Gazzelloni: Health Metrics and the Spread of Infectious Diseases, CP2 through ACTEX, and MASTA — Mortality Analytics in progress."
 page-layout: full
-title-block-banner: true
-page-navigation: true
-back-to-top-navigation: true
 ---
 
-Explore my books and their companion code, datasets, and articles. Open a book overview for publication details and resources, or go straight to the free online edition.
+Explore my books and their supporting materials. Access differs by title: HMSID has a free online edition, CP2 is forthcoming through ACTEX with paid access, and MASTA is in progress.
 
-[Read Health Metrics and the Spread of Infectious Diseases online](https://federicagazzelloni.com/hmsidR/)
+::: {.portfolio-grid}
+::: {.portfolio-card}
+[Published · Free online edition]{.status-badge}
 
-## Books and resources
+## HMSID
+
+**Health Metrics and the Spread of Infectious Diseases**
+
+Health metrics, machine learning, and spatial modelling with R. Find the book, code and data, podcasts, and video recordings in one place.
+
+[Book & resources](posts/hmsid/index.qmd){.book-button}
+:::
+::: {.portfolio-card}
+[Forthcoming · ACTEX]{.status-badge}
+
+## CP2
+
+**Actuarial modelling and supporting materials**
+
+Forthcoming through ACTEX. Access will require sign-up and purchase; visit Actuarial University for availability updates.
+
+[CP2 & ACTEX access](posts/cp2/index.qmd){.book-button}
+:::
+::: {.portfolio-card}
+[In progress]{.status-badge}
+
+## MASTA
+
+**Mortality Analytics: Statistical Methods for Multi-Cause Attribution**
+
+A book project by Federica Gazzelloni and Sarah Cuschieri exploring mortality analytics and multi-cause attribution.
+
+[About MASTA](posts/masta/index.qmd){.book-button}
+:::
+:::

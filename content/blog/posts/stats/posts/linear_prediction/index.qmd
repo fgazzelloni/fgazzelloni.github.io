@@ -12,6 +12,7 @@ categories:
 summary: "William Farr's Data on Cholera in London, 1849 is used to digg into a linear model output and compared with that made by geom_smooth(method='lm')"
 execute: 
   eval: false
+image-alt: "Illustration for How geom_smooth Makes Linear Model Predictions in R"
 ---
 
 ## Overview
@@ -28,7 +29,7 @@ $$
 :::
 
 ::: {.column width="20%"}
-<center>![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif)</center>
+<center>![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTIzNW90ZGV3dnJhMTc3czF6MWtxOWlmZDd1bzM0ZDl2NmxjOTk3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WozRHfDOlVZqVjhlf/giphy.gif){fig-alt="Decorative animation."}</center>
 :::
 :::
 
@@ -214,7 +215,7 @@ ggsave(plot,filename="featured.png",
 
 > Think about that!
 
-<center>![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif)</center>
+<center>![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJqZGFycDB0bGp4YzlhMGNiMjE3YXl0eXA4NWRmejFzNW1ha2NlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2Cy90VMhfoA9BC/giphy.gif){fig-alt="Decorative animation."}</center>
 
 <br>
 

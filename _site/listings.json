@@ -68,13 +68,6 @@
     ]
   },
   {
-    "listing": "/content/books/posts/hmsid/index.html",
-    "items": [
-      "/content/books/posts/hmsid/posts/012026/index.html",
-      "/content/books/posts/hmsid/posts/062025/index.html"
-    ]
-  },
-  {
     "listing": "/content/blog/posts/actuarial/index.html",
     "items": [
       "/content/blog/posts/actuarial/posts/career-roadmap/index.html",
@@ -120,9 +113,10 @@
     ]
   },
   {
-    "listing": "/content/books/index.html",
+    "listing": "/content/books/posts/hmsid/index.html",
     "items": [
-      "/content/books/posts/hmsid/index.html"
+      "/content/books/posts/hmsid/posts/012026/index.html",
+      "/content/books/posts/hmsid/posts/062025/index.html"
     ]
   },
   {

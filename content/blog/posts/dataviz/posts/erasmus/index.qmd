@@ -10,6 +10,8 @@ categories:
 layout: single
 execute: 
   eval: false
+image: featured.png
+image-alt: "Illustration for Erasmus students exchange"
 ---
 
 
@@ -17,7 +19,7 @@ execute:
 
 This week 10 of #TidyTuesday 2022 theme is #Erasmus students exchange in the European countries.
 
-![Erasmus students exchange](featured.png)
+![Erasmus students exchange](featured.png){fig-alt="Erasmus students exchange"}
 
 The data set is from Erasmus student mobility, Data.Europa.eu and Wimdu.co to discover the most popular Erasmus destinations.
 
@@ -251,7 +253,7 @@ erasmus_network%>%
 
 Or a simplified version:
 
-![network](images/er-network.png)
+![network](images/er-network.png){fig-alt="Network visualisation of Erasmus connections."}
 
 Let's select Top 5 sending countries:
 

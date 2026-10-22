@@ -29,7 +29,7 @@ Buy the printed edition:
 
 ::: {.column width="40%"}
 
-![Editor CRC Press - Chapman & Hall](/images/book_cover.png){width="50%" height="auto"}
+![Editor CRC Press - Chapman & Hall](/images/book_cover.png){width="50%" height="auto" fig-alt="Editor CRC Press - Chapman & Hall"}
 :::
 ::::
 

@@ -232,7 +232,7 @@ main.content {
   max-width: 900px;
   margin: 0;
   color: #ffffff;
-  font-size: clamp(2.6rem, 6vw, 5.6rem);
+  font-size: clamp(2.4rem, 5.5vw, 5.1rem);
   line-height: 0.98;
   font-weight: 800;
   letter-spacing: 0;
@@ -478,7 +478,7 @@ main.content {
   }
 
   .landing-hero h1 {
-    font-size: clamp(1.9rem, 7.5vw, 2.6rem);
+    font-size: clamp(1.8rem, 7vw, 2.4rem);
     line-height: 1.1;
     overflow-wrap: break-word;
     hyphens: none;
@@ -611,4 +611,41 @@ main.content {
   object-fit: contain;
   margin-right: 0.3rem;
   vertical-align: middle;
+}
+
+/* Books, consultancy, and application gallery */
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 265px), 1fr)); gap: 1.25rem; margin-block: 1.5rem; }
+.portfolio-card { min-width: 0; padding: 1.5rem; background: #f3f6f8; border: 1px solid #dce3e8; border-radius: 10px; color: #263043; }
+.portfolio-card h2, .portfolio-card h3 { margin-top: 1rem; border: 0; padding: 0; color: #263043; }
+.portfolio-card p { overflow-wrap: anywhere; }
+.portfolio-card img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; margin-bottom: 1rem; border-radius: 5px; background: white; }
+.status-badge { display: inline-block; padding: 0.3rem 0.65rem; border: 1px solid #b6c9cf; border-radius: 4px; background: #e3edf0; color: #264e60; font-size: 0.8rem; font-weight: 700; }
+.newsletter-nav { display: inline-block; border-left: 4px solid #ff6719; padding-left: 0.65rem; color: #ff6719; font-weight: 700; }
+.newsletter-button { background: #ff6719; color: #20252c; border-color: #ff6719; }
+.newsletter-button:hover { background: #e85b10; color: #20252c; }
+.portfolio-card a:focus-visible, .navbar a:focus-visible { outline: 3px solid #b34b00; outline-offset: 3px; }
+.navbar .nav-link > .menu-text { white-space: nowrap; }
+.navbar .datametricus-nav-logo { display: inline-block; }
+@media (min-width: 992px) and (max-width: 1399px) {
+  .navbar .navbar-title { font-size: 1.1rem; }
+  .navbar-brand img { max-height: 64px; }
+  .navbar .nav-link { font-size: 1rem; padding-inline: 0.4rem; }
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+  .navbar .navbar-title { font-size: 0.95rem; }
+  .navbar-brand img { max-height: 48px; }
+  .navbar .nav-link { font-size: 0.85rem; padding-inline: 0.3rem; }
+}
+@media (max-width: 768px) {
+  .nav-footer-right { min-width: 0; max-width: 100%; }
+  .nav-footer-right .footer-items { display: flex; flex-wrap: wrap; justify-content: center; }
+}
+
+.navbar a:focus-visible { outline-color: #ffffff; }
+.navbar .dropdown-menu a:focus-visible { outline-color: #a83c00; }
+@media (max-width: 360px) {
+  .navbar .navbar-title { font-size: 0.75rem; }
+  .navbar-brand img { max-height: 24px; }
+  .navbar .navbar-brand-container { margin-inline: 0 !important; }
+  .navbar-brand-container .navbar-brand { margin-right: 0.25rem; }
 }

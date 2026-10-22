@@ -9,6 +9,8 @@ series:
 categories: 
 layout: single
 page-layout: full
+image: featured.png
+image-alt: "Illustration for Measuring Health Performance"
 ---
 
 ## Overview
@@ -21,7 +23,7 @@ Here is a spec of my latest project where I am collecting all that I learned sin
 :::
 
 ::: {.column width="20%"}
-![](featured.png)
+![Measuring Health Performance](featured.png){fig-alt="Measuring Health Performance"}
 :::
 :::
 
@@ -131,7 +133,7 @@ Looking at the Global impact of some infectious diseases, such as: Ebola.
 
 The impact of Ebola on DALYs in 2019 can be assessed by comparing the number of DALYs due to Ebola in 2019 to the DALYs caused by other diseases or conditions during the same period.
 
-According to the Global Health Data Exchange (GHDx), the estimated global DALY rate for Ebola virus disease in 2019 was 0.0005, which is relatively low compared to other leading causes of DALYs, such as cardiovascular diseases, lower respiratory infections, and neonatal disorders. See [IHME Ebola — Level 3 cause](https://bit.ly/40dboLg)
+For the estimates and methods used in GBD 2019, see the [IHME Ebola virus disease — Level 3 cause factsheet](https://www.healthdata.org/sites/default/files/disease_and_injury/gbd_2019/topic_pdf/cause/843.pdf).
 
 Import data on global burden of disease (GBD) for a given year, here I already downloaded the cvs file and save it as RData.
 

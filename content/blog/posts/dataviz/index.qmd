@@ -19,6 +19,7 @@ page-layout: full
 title-block-banner: false
 page-navigation: true
 back-to-top-navigation: true
+image-alt: "Illustration for Data Visualization"
 ---
 
 ::: {.dataviz-page}
