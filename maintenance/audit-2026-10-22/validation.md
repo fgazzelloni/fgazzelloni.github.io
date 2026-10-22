@@ -28,3 +28,8 @@ Started 22 October 2026 at 11:54 UTC. All seven tests passed; selected eight hea
 > The requested URL returned error: 403
 
 The schedule is active, but automatic publication is not working. The credential in `NEWS_DEPLOY_TOKEN` needs repository write authorization checked (including repository selection, Contents write permission, and any required organisation approval). After correcting access, rerun the workflow and verify successful deployment plus changed served JSON and homepage. No credential or repository permission was changed in this review.
+
+
+## Resolved: news token permissions
+
+The user approved saving repository-scoped Contents/Pages read-write permissions on the existing token. The successful final refresh and public verification are recorded in `maintenance/homepage-news.md`. Served news now reports `2026-10-22T16:51:04.803623+00:00`; all eight headlines match the homepage. The earlier token blocker is resolved. An overlapping full-site publication temporarily overwrote the first refresh; rerunning the updater restored fresh news.

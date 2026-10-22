@@ -32,3 +32,12 @@ Live GitHub Pages settings were inspected: branch deployment (`legacy`), `gh-pag
 4. Confirm the Pages build succeeds and inspect the public `data/news.json` and homepage timestamp. Subsequent runs are scheduled at minute 17 every six hours (UTC). GitHub schedules can be delayed and can be disabled on inactive public repositories; monitor failed runs and token expiry.
 
 Publication was approved on 20 October 2026. No repository settings or secrets were changed; `NEWS_DEPLOY_TOKEN` was absent at the activation check. Until activation and a successful public check, automatic updates are not confirmed active. A later normal site publication can overwrite the JSON with the local copy: run the updater before publishing, or let the next scheduled refresh replace it. If deployment moves to Netlify, adapt the deployment step before relying on this workflow.
+
+
+## Token repair verified — 22 October 2026
+
+The existing **Homepage news updater** fine-grained token had no selected repository and no repository permissions. With user approval, its access was restricted to `fgazzelloni/fgazzelloni.github.io`, with Contents and Pages read/write plus required Metadata read. The existing expiry remains 18 January 2027. No credential value was displayed, regenerated, or copied.
+
+Run https://github.com/fgazzelloni/fgazzelloni.github.io/actions/runs/39815727660 passed and pushed `08c684f`. A full-site publication (`b12bc8b`) one minute later replaced the refreshed JSON with the older local copy. A second approved refresh, https://github.com/fgazzelloni/fgazzelloni.github.io/actions/runs/39817484330, succeeded, followed by successful Pages deployment https://github.com/fgazzelloni/fgazzelloni.github.io/actions/runs/39817525920.
+
+Public verification: `data/news.json` reports `last_updated_at` = `2026-10-22T16:51:04.803623+00:00` (18:51 Rome time), and all eight headlines are present in the served homepage HTML. Automatic publication now has a verified successful path; future scheduled runs and token expiry still require normal operational attention. Refresh the local news JSON before full-site publication, or rerun the news workflow afterward, to avoid overwriting fresh news with an older local snapshot.
