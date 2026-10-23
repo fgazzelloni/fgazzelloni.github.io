@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T04:51:30.872068+00:00",
-  "last_updated_at": "2026-10-23T04:51:30.872068+00:00",
+  "checked_at": "2026-10-23T11:40:45.533626+00:00",
+  "last_updated_at": "2026-10-23T11:40:45.533626+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-23T04:51:30.872068+00:00",
-      "entries": 1315
+      "last_success_at": "2026-10-23T11:40:45.533626+00:00",
+      "entries": 1316
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-23T04:51:30.872068+00:00",
+      "last_success_at": "2026-10-23T11:40:45.533626+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-23T04:51:30.872068+00:00",
+      "last_success_at": "2026-10-23T11:40:45.533626+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-23T04:51:30.872068+00:00",
+      "last_success_at": "2026-10-23T11:40:45.533626+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-23T04:51:30.872068+00:00",
+      "last_success_at": "2026-10-23T11:40:45.533626+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Build more responsive apps with the Decisions API",
-      "url": "https://openai.com/index/decisions-api",
-      "published_at": "2026-10-22T19:00:00+00:00",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "published_at": "2026-10-23T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "published_at": "2026-10-22T06:00:00+00:00",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "published_at": "2026-10-22T19:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
@@ -104,18 +104,18 @@
       "language": "Python"
     },
     {
-      "title": "Respiratory infections season",
-      "url": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season",
-      "published_at": "2026-10-22T09:59:31+00:00",
+      "title": "Weekly respiratory virus update, week 42, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-42-october-2026",
+      "published_at": "2026-10-23T09:37:37+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
       "language": null
     },
     {
-      "title": "Protect yourself and others during the cold season",
-      "url": "https://www.ecdc.europa.eu/en/news-events/protect-yourself-and-others-during-cold-season",
-      "published_at": "2026-10-22T09:59:28+00:00",
+      "title": "Respiratory infections season",
+      "url": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season",
+      "published_at": "2026-10-22T09:59:31+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
