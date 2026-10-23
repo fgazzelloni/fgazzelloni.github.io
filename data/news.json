@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T17:08:44.006479+00:00",
-  "last_updated_at": "2026-10-23T17:08:44.006479+00:00",
+  "checked_at": "2026-10-23T21:25:40.607933+00:00",
+  "last_updated_at": "2026-10-23T21:25:40.607933+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,27 +24,27 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-23T17:08:44.006479+00:00",
-      "entries": 1317
+      "last_success_at": "2026-10-23T21:25:40.607933+00:00",
+      "entries": 1318
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-23T17:08:44.006479+00:00",
+      "last_success_at": "2026-10-23T21:25:40.607933+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-23T17:08:44.006479+00:00",
+      "last_success_at": "2026-10-23T21:25:40.607933+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-23T17:08:44.006479+00:00",
+      "last_success_at": "2026-10-23T21:25:40.607933+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-23T17:08:44.006479+00:00",
+      "last_success_at": "2026-10-23T21:25:40.607933+00:00",
       "entries": 10
     }
   },
@@ -59,9 +59,9 @@
       "language": null
     },
     {
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "published_at": "2026-10-23T00:00:00+00:00",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "published_at": "2026-10-23T10:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
