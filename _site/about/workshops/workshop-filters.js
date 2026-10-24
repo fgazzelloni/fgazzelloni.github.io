@@ -2,7 +2,11 @@ document.querySelectorAll('[data-workshop-browser]').forEach((browser) => {
   const controls = browser.querySelector('.workshop-controls');
   const search = browser.querySelector('input[type="search"]');
   const topic = browser.querySelector('select');
-  const cards = Array.from(browser.querySelectorAll('.workshop-card'));
+  const cards = Array.from(browser.querySelectorAll('.workshop-card'))
+    .sort((a, b) => (b.querySelector('time')?.dateTime || '')
+      .localeCompare(a.querySelector('time')?.dateTime || ''));
+  // Newly imported older recaps belong among existing cards, not above them.
+  browser.querySelector('.workshop-grid').append(...cards);
   const status = browser.querySelector('.workshop-results');
   const empty = browser.querySelector('.workshop-empty');
   const normalise = (text) => text.toLocaleLowerCase().trim();

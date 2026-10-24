@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "id": "https://rladiesrome.org/talks/2026/meetup/10232026_federicagazzelloni.html",
+      "title": "Machine Learning in Epidemiology with R — Part 2",
+      "date": "2026-10-23",
+      "host": "R-Ladies Rome",
+      "kind": "workshop",
+      "role": "presenter",
+      "topic": "AI & machine learning",
+      "summary": "Read heart-data random forest results, then prepare, fit, and evaluate a neural network with Keras and mlr3.",
+      "recap_url": "https://rladiesrome.org/talks/2026/meetup/10232026_federicagazzelloni.html",
+      "source": "rladies/website-italy-rladiesrome",
+      "recording_url": "https://youtu.be/Zi4eCdxLLIo",
+      "materials": [
+        {
+          "label": "Workshop guide and code",
+          "url": "https://github.com/fgazzelloni/machine-learning-in-epidemiology-with-r"
+        }
+      ],
+      "image_url": "https://secure.meetupstatic.com/photos/event/b/4/a/5/highres_536566245.webp?w=1080"
+    }
+  ]
+}
