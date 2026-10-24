@@ -1,0 +1,3 @@
+# Render the two workshop pages without unrelated whole-site post-render tasks.
+project:
+  post-render: []
