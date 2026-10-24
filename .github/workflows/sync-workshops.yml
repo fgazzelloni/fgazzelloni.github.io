@@ -1,0 +1,82 @@
+name: Prepare workshop updates
+
+on:
+  schedule:
+    - cron: '43 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: teaching-events-import
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      IMPORT_BRANCH: codex/refresh-teaching-events
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reuse the pending review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git show-ref --verify --quiet "refs/remotes/origin/$IMPORT_BRANCH"; then
+            git switch --track "origin/$IMPORT_BRANCH"
+            git merge --no-edit "origin/${{ github.event.repository.default_branch }}"
+          else
+            git switch -c "$IMPORT_BRANCH"
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements-workshops.txt
+      - name: Install importer dependency
+        run: python -m pip install -r scripts/requirements-workshops.txt
+      - name: Test teaching imports
+        run: python -m unittest discover -s scripts/workshop-tests -p 'test_sync_workshops.py' -v
+      - name: Read published recap sources
+        run: python scripts/sync-workshops.py
+      - name: Detect changes
+        id: changes
+        run: |
+          if ! git diff --quiet -- data/teaching-events.json about/rladies/_rladies-body.qmd; then
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: quarto-dev/quarto-actions/setup@v2
+        if: steps.changes.outputs.changed == 'true'
+      - name: Render workshop pages for review
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          quarto render about/rladies/index.qmd --profile workshop-preview
+          quarto render about/workshops/index.qmd --profile workshop-preview
+          python scripts/check-workshop-pages.py
+      - uses: actions/upload-artifact@v4
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          name: workshop-preview
+          path: _site/
+          retention-days: 14
+      - name: Commit prepared cards
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git add data/teaching-events.json about/rladies/_rladies-body.qmd
+          git commit -m 'Refresh teaching events from R-Ladies Rome recaps'
+      - name: Open or update the review
+        run: |
+          # Also retry a PR creation that failed after an earlier successful push.
+          BASE_BRANCH='${{ github.event.repository.default_branch }}'
+          if test "$(git rev-list --count "origin/$BASE_BRANCH..HEAD")" = 0; then exit 0; fi
+          git push origin "HEAD:$IMPORT_BRANCH"
+          EXISTING_PR=$(gh pr list --base "$BASE_BRANCH" --head "$IMPORT_BRANCH" --state open --json number --jq '.[0].number // empty')
+          if test -z "$EXISTING_PR"; then
+            gh pr create --draft --base "$BASE_BRANCH" --head "$IMPORT_BRANCH" \
+              --title 'Update workshops and talks' --body-file scripts/workshop-pr-body.md
+          fi
