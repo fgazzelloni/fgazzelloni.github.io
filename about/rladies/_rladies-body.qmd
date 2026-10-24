@@ -20,7 +20,7 @@
       </select>
     </label>
   </div>
-  <p class="workshop-results" role="status" aria-live="polite">18 sessions · 17 recordings · newest first</p>
+  <p class="workshop-results" role="status" aria-live="polite">18 sessions · 17 recordings</p>
   <div class="workshop-grid">
 <!-- BEGIN IMPORTED TEACHING EVENTS -->
 <article class="workshop-card" data-topic="AI &amp; machine learning" data-event-id="https://rladiesrome.org/talks/2026/meetup/10232026_federicagazzelloni.html">

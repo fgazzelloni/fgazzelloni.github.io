@@ -213,8 +213,8 @@ def render_body(body, events):
     result = before + START + '\n' + generated + '\n' + END + after
     count = len(re.findall(r'<article class="workshop-card"', result))
     recordings = len(re.findall(r'<a class="workshop-thumbnail"', result))
-    return re.sub(r'\d+ sessions · \d+ recordings · newest first',
-                  f'{count} sessions · {recordings} recordings · newest first', result)
+    return re.sub(r'\d+ sessions · \d+ recordings(?: · newest first)?',
+                  f'{count} sessions · {recordings} recordings', result)
 
 
 def sync(root, documents, verify_published=False):
