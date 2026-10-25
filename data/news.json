@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T11:32:18.979776+00:00",
-  "last_updated_at": "2026-10-25T11:32:18.979776+00:00",
+  "checked_at": "2026-10-25T16:21:32.129973+00:00",
+  "last_updated_at": "2026-10-25T16:21:32.129973+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,27 +24,27 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-25T11:32:18.979776+00:00",
+      "last_success_at": "2026-10-25T16:21:32.129973+00:00",
       "entries": 1318
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-25T11:32:18.979776+00:00",
+      "last_success_at": "2026-10-25T16:21:32.129973+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-25T11:32:18.979776+00:00",
+      "last_success_at": "2026-10-25T16:21:32.129973+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-25T11:32:18.979776+00:00",
+      "last_success_at": "2026-10-25T16:21:32.129973+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-25T11:32:18.979776+00:00",
+      "last_success_at": "2026-10-25T16:21:32.129973+00:00",
       "entries": 10
     }
   },
