@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-26T04:48:57.648756+00:00",
-  "last_updated_at": "2026-10-26T04:48:57.648756+00:00",
+  "checked_at": "2026-10-26T13:05:18.565154+00:00",
+  "last_updated_at": "2026-10-26T13:05:18.565154+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,27 +24,27 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-26T04:48:57.648756+00:00",
+      "last_success_at": "2026-10-26T13:05:18.565154+00:00",
       "entries": 1318
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-26T04:48:57.648756+00:00",
+      "last_success_at": "2026-10-26T13:05:18.565154+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-26T04:48:57.648756+00:00",
+      "last_success_at": "2026-10-26T13:05:18.565154+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-26T04:48:57.648756+00:00",
+      "last_success_at": "2026-10-26T13:05:18.565154+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-26T04:48:57.648756+00:00",
+      "last_success_at": "2026-10-26T13:05:18.565154+00:00",
       "entries": 10
     }
   },
@@ -68,18 +68,18 @@
       "language": null
     },
     {
-      "title": "AAE submitted a response to EIOPA’s Consultations on draft RTS on valuation 1 and 2 and 3 – IRRD",
-      "url": "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
-      "published_at": "2026-10-15T07:27:15+00:00",
+      "title": "AAE submitted a response to the Commission’s targeted consultation on fair access to financial services for cancer survivors",
+      "url": "https://actuary.eu/aae-submitted-a-response-to-the-commissions-targeted-consultation-on-fair-access-to-financial-services-for-cancer-survivors",
+      "published_at": "2026-10-26T08:36:44+00:00",
       "source_id": "aae",
       "publisher": "Actuarial Association of Europe",
       "topic": "risk",
       "language": null
     },
     {
-      "title": "Column: Diversity Is More Than a Number",
-      "url": "https://actuary.eu/column-diversity-is-more-than-a-number",
-      "published_at": "2026-10-13T08:13:56+00:00",
+      "title": "AAE submitted a response to EIOPA’s Consultations on draft RTS on valuation 1 and 2 and 3 – IRRD",
+      "url": "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
+      "published_at": "2026-10-15T07:27:15+00:00",
       "source_id": "aae",
       "publisher": "Actuarial Association of Europe",
       "topic": "risk",
