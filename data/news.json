@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T12:13:17.760449+00:00",
-  "last_updated_at": "2026-10-27T12:13:17.760449+00:00",
+  "checked_at": "2026-10-27T18:02:48.527871+00:00",
+  "last_updated_at": "2026-10-27T18:02:48.527871+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-27T12:13:17.760449+00:00",
-      "entries": 1325
+      "last_success_at": "2026-10-27T18:02:48.527871+00:00",
+      "entries": 1327
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-27T12:13:17.760449+00:00",
+      "last_success_at": "2026-10-27T18:02:48.527871+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-27T12:13:17.760449+00:00",
+      "last_success_at": "2026-10-27T18:02:48.527871+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-27T12:13:17.760449+00:00",
+      "last_success_at": "2026-10-27T18:02:48.527871+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-27T12:13:17.760449+00:00",
+      "last_success_at": "2026-10-27T18:02:48.527871+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "published_at": "2026-10-26T22:00:00+00:00",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "published_at": "2026-10-27T07:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "published_at": "2026-10-26T14:30:00+00:00",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "published_at": "2026-10-26T22:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
