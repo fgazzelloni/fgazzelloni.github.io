@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-27T22:15:15.271662+00:00",
-  "last_updated_at": "2026-10-27T22:15:15.271662+00:00",
+  "checked_at": "2026-10-28T05:44:29.569020+00:00",
+  "last_updated_at": "2026-10-28T05:44:29.569020+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-27T22:15:15.271662+00:00",
-      "entries": 1328
+      "last_success_at": "2026-10-28T05:44:29.569020+00:00",
+      "entries": 1331
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-27T22:15:15.271662+00:00",
+      "last_success_at": "2026-10-28T05:44:29.569020+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-27T22:15:15.271662+00:00",
+      "last_success_at": "2026-10-28T05:44:29.569020+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-27T22:15:15.271662+00:00",
+      "last_success_at": "2026-10-28T05:44:29.569020+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-27T22:15:15.271662+00:00",
+      "last_success_at": "2026-10-28T05:44:29.569020+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "published_at": "2026-10-27T07:00:00+00:00",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "published_at": "2026-10-27T15:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "published_at": "2026-10-27T00:00:00+00:00",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "published_at": "2026-10-27T07:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
