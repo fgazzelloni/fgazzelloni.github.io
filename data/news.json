@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-30T05:50:53.748910+00:00",
-  "last_updated_at": "2026-10-30T05:50:53.748910+00:00",
+  "checked_at": "2026-10-30T12:57:12.220296+00:00",
+  "last_updated_at": "2026-10-30T12:57:12.220296+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,27 +24,27 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-10-30T05:50:53.748910+00:00",
+      "last_success_at": "2026-10-30T12:57:12.220296+00:00",
       "entries": 1337
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-10-30T05:50:53.748910+00:00",
+      "last_success_at": "2026-10-30T12:57:12.220296+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-10-30T05:50:53.748910+00:00",
+      "last_success_at": "2026-10-30T12:57:12.220296+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-10-30T05:50:53.748910+00:00",
+      "last_success_at": "2026-10-30T12:57:12.220296+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-10-30T05:50:53.748910+00:00",
+      "last_success_at": "2026-10-30T12:57:12.220296+00:00",
       "entries": 10
     }
   },
@@ -104,18 +104,18 @@
       "language": "Python"
     },
     {
-      "title": "Weekly respiratory virus update, week 42, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-42-october-2026",
-      "published_at": "2026-10-23T09:37:37+00:00",
+      "title": "Weekly respiratory virus update, week 43, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-43-october-2026",
+      "published_at": "2026-10-30T09:26:27+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
       "language": null
     },
     {
-      "title": "Respiratory infections season",
-      "url": "https://www.ecdc.europa.eu/en/news-events/respiratory-infections-season",
-      "published_at": "2026-10-22T09:59:31+00:00",
+      "title": "Weekly respiratory virus update, week 42, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-42-october-2026",
+      "published_at": "2026-10-23T09:37:37+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
