@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T14:17:19.315188+00:00",
-  "last_updated_at": "2026-11-03T14:17:19.315188+00:00",
+  "checked_at": "2026-11-03T23:25:07.715026+00:00",
+  "last_updated_at": "2026-11-03T23:25:07.715026+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
-      "entries": 1349
+      "last_success_at": "2026-11-03T23:25:07.715026+00:00",
+      "entries": 1354
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
+      "last_success_at": "2026-11-03T23:25:07.715026+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
+      "last_success_at": "2026-11-03T23:25:07.715026+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
+      "last_success_at": "2026-11-03T23:25:07.715026+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
+      "last_success_at": "2026-11-03T23:25:07.715026+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "published_at": "2026-11-03T08:00:00+00:00",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "published_at": "2026-11-03T12:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "published_at": "2026-11-02T18:00:00+00:00",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "published_at": "2026-11-03T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
