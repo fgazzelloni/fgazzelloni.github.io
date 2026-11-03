@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-03T00:59:04.008611+00:00",
-  "last_updated_at": "2026-11-03T00:59:04.008611+00:00",
+  "checked_at": "2026-11-03T14:17:19.315188+00:00",
+  "last_updated_at": "2026-11-03T14:17:19.315188+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-03T00:59:04.008611+00:00",
-      "entries": 1346
+      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
+      "entries": 1349
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-03T00:59:04.008611+00:00",
+      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-03T00:59:04.008611+00:00",
+      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-03T00:59:04.008611+00:00",
+      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-03T00:59:04.008611+00:00",
+      "last_success_at": "2026-11-03T14:17:19.315188+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "published_at": "2026-11-02T15:30:00+00:00",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "published_at": "2026-11-03T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "published_at": "2026-11-02T15:00:00+00:00",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "published_at": "2026-11-02T18:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
