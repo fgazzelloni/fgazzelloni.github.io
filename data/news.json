@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-06T06:48:14.891505+00:00",
-  "last_updated_at": "2026-11-06T06:48:14.891505+00:00",
+  "checked_at": "2026-11-06T19:25:26.033470+00:00",
+  "last_updated_at": "2026-11-06T19:25:26.033470+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-06T06:48:14.891505+00:00",
-      "entries": 1366
+      "last_success_at": "2026-11-06T19:25:26.033470+00:00",
+      "entries": 1368
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-06T06:48:14.891505+00:00",
+      "last_success_at": "2026-11-06T19:25:26.033470+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-06T06:48:14.891505+00:00",
+      "last_success_at": "2026-11-06T19:25:26.033470+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-06T06:48:14.891505+00:00",
+      "last_success_at": "2026-11-06T19:25:26.033470+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-06T06:48:14.891505+00:00",
+      "last_success_at": "2026-11-06T19:25:26.033470+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "published_at": "2026-11-05T20:00:00+00:00",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "published_at": "2026-11-06T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "published_at": "2026-11-05T17:00:00+00:00",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "published_at": "2026-11-06T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
@@ -104,18 +104,18 @@
       "language": "Python"
     },
     {
-      "title": "Weekly respiratory virus update, week 43, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-43-october-2026",
-      "published_at": "2026-10-30T09:26:27+00:00",
+      "title": "Weekly respiratory virus update, week 44, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-44-october-2026",
+      "published_at": "2026-11-06T12:15:16+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
       "language": null
     },
     {
-      "title": "Weekly respiratory virus update, week 42, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-42-october-2026",
-      "published_at": "2026-10-23T09:37:37+00:00",
+      "title": "Weekly respiratory virus update, week 43, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-43-october-2026",
+      "published_at": "2026-10-30T09:26:27+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
