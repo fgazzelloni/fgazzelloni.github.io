@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-09T06:32:00.213305+00:00",
-  "last_updated_at": "2026-11-09T06:32:00.213305+00:00",
+  "checked_at": "2026-11-09T22:23:04.726072+00:00",
+  "last_updated_at": "2026-11-09T22:23:04.726072+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-09T06:32:00.213305+00:00",
-      "entries": 1368
+      "last_success_at": "2026-11-09T22:23:04.726072+00:00",
+      "entries": 1372
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-09T06:32:00.213305+00:00",
+      "last_success_at": "2026-11-09T22:23:04.726072+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-09T06:32:00.213305+00:00",
+      "last_success_at": "2026-11-09T22:23:04.726072+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-09T06:32:00.213305+00:00",
+      "last_success_at": "2026-11-09T22:23:04.726072+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-09T06:32:00.213305+00:00",
+      "last_success_at": "2026-11-09T22:23:04.726072+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "published_at": "2026-11-06T08:00:00+00:00",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "published_at": "2026-11-09T19:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "published_at": "2026-11-06T00:00:00+00:00",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "published_at": "2026-11-09T13:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
