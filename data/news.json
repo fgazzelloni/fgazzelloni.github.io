@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T07:19:55.797088+00:00",
-  "last_updated_at": "2026-11-10T07:19:55.797088+00:00",
+  "checked_at": "2026-11-10T19:44:48.239289+00:00",
+  "last_updated_at": "2026-11-10T19:44:48.239289+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-10T07:19:55.797088+00:00",
-      "entries": 1372
+      "last_success_at": "2026-11-10T19:44:48.239289+00:00",
+      "entries": 1376
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-10T07:19:55.797088+00:00",
+      "last_success_at": "2026-11-10T19:44:48.239289+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-10T07:19:55.797088+00:00",
+      "last_success_at": "2026-11-10T19:44:48.239289+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-10T07:19:55.797088+00:00",
+      "last_success_at": "2026-11-10T19:44:48.239289+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-10T07:19:55.797088+00:00",
+      "last_success_at": "2026-11-10T19:44:48.239289+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "published_at": "2026-11-09T19:00:00+00:00",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "published_at": "2026-11-10T12:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "published_at": "2026-11-09T13:00:00+00:00",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "published_at": "2026-11-10T10:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
