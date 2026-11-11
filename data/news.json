@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T06:23:27.262450+00:00",
-  "last_updated_at": "2026-11-11T06:23:27.262450+00:00",
+  "checked_at": "2026-11-11T19:37:20.614712+00:00",
+  "last_updated_at": "2026-11-11T19:37:20.614712+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-11T06:23:27.262450+00:00",
-      "entries": 1379
+      "last_success_at": "2026-11-11T19:37:20.614712+00:00",
+      "entries": 1381
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-11T06:23:27.262450+00:00",
+      "last_success_at": "2026-11-11T19:37:20.614712+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-11T06:23:27.262450+00:00",
+      "last_success_at": "2026-11-11T19:37:20.614712+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-11T06:23:27.262450+00:00",
+      "last_success_at": "2026-11-11T19:37:20.614712+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-11T06:23:27.262450+00:00",
+      "last_success_at": "2026-11-11T19:37:20.614712+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "published_at": "2026-11-10T12:00:00+00:00",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "published_at": "2026-11-11T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "published_at": "2026-11-10T10:00:00+00:00",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "published_at": "2026-11-11T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
