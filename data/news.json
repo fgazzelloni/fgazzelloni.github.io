@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12T07:12:23.988218+00:00",
-  "last_updated_at": "2026-11-12T07:12:23.988218+00:00",
+  "checked_at": "2026-11-12T19:55:27.100804+00:00",
+  "last_updated_at": "2026-11-12T19:55:27.100804+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-12T07:12:23.988218+00:00",
-      "entries": 1381
+      "last_success_at": "2026-11-12T19:55:27.100804+00:00",
+      "entries": 1383
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-12T07:12:23.988218+00:00",
+      "last_success_at": "2026-11-12T19:55:27.100804+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-12T07:12:23.988218+00:00",
+      "last_success_at": "2026-11-12T19:55:27.100804+00:00",
       "entries": 66
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-12T07:12:23.988218+00:00",
+      "last_success_at": "2026-11-12T19:55:27.100804+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-12T07:12:23.988218+00:00",
+      "last_success_at": "2026-11-12T19:55:27.100804+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "published_at": "2026-11-12T00:00:00+00:00",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "published_at": "2026-11-12T09:30:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "published_at": "2026-11-11T08:00:00+00:00",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "published_at": "2026-11-12T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
@@ -104,18 +104,18 @@
       "language": "Python"
     },
     {
-      "title": "Weekly respiratory virus update, week 44, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-44-october-2026",
-      "published_at": "2026-11-06T12:15:16+00:00",
+      "title": "Social media card: Flu season is on its way",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/social-media-card-flu-season-its-way",
+      "published_at": "2026-11-12T08:10:31+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
       "language": null
     },
     {
-      "title": "Weekly respiratory virus update, week 43, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-43-october-2026",
-      "published_at": "2026-10-30T09:26:27+00:00",
+      "title": "Social media card: Vaccination can stop a bout of flu from becoming serious",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/social-media-card-vaccination-can-stop-bout-flu-becoming-serious",
+      "published_at": "2026-11-12T08:10:20+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
