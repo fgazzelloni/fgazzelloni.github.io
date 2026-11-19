@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-18T20:32:36.460215+00:00",
-  "last_updated_at": "2026-11-18T20:32:36.460215+00:00",
+  "checked_at": "2026-11-19T07:27:43.216762+00:00",
+  "last_updated_at": "2026-11-19T07:27:43.216762+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-18T20:32:36.460215+00:00",
-      "entries": 1411
+      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
+      "entries": 1413
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-18T20:32:36.460215+00:00",
+      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-18T20:32:36.460215+00:00",
+      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
       "entries": 20
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-18T20:32:36.460215+00:00",
+      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-18T20:32:36.460215+00:00",
+      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "published_at": "2026-11-18T08:00:00+00:00",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "published_at": "2026-11-18T10:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "published_at": "2026-11-18T06:00:00+00:00",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "published_at": "2026-11-18T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
