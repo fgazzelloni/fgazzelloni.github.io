@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-19T07:27:43.216762+00:00",
-  "last_updated_at": "2026-11-19T07:27:43.216762+00:00",
+  "checked_at": "2026-11-19T20:38:36.148009+00:00",
+  "last_updated_at": "2026-11-19T20:38:36.148009+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
-      "entries": 1413
+      "last_success_at": "2026-11-19T20:38:36.148009+00:00",
+      "entries": 1414
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
+      "last_success_at": "2026-11-19T20:38:36.148009+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
+      "last_success_at": "2026-11-19T20:38:36.148009+00:00",
       "entries": 20
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
+      "last_success_at": "2026-11-19T20:38:36.148009+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-19T07:27:43.216762+00:00",
+      "last_success_at": "2026-11-19T20:38:36.148009+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "published_at": "2026-11-18T10:00:00+00:00",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "published_at": "2026-11-19T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "published_at": "2026-11-18T08:00:00+00:00",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "published_at": "2026-11-18T10:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
