@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-20T07:18:01.789229+00:00",
-  "last_updated_at": "2026-11-20T07:18:01.789229+00:00",
+  "checked_at": "2026-11-20T20:22:41.975526+00:00",
+  "last_updated_at": "2026-11-20T20:22:41.975526+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-20T07:18:01.789229+00:00",
-      "entries": 1418
+      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
+      "entries": 1420
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-20T07:18:01.789229+00:00",
+      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-20T07:18:01.789229+00:00",
+      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
       "entries": 20
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-20T07:18:01.789229+00:00",
+      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-20T07:18:01.789229+00:00",
+      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "published_at": "2026-11-19T08:00:00+00:00",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "published_at": "2026-11-20T10:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "published_at": "2026-11-19T00:00:00+00:00",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "published_at": "2026-11-20T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
@@ -104,18 +104,18 @@
       "language": "Python"
     },
     {
-      "title": "European SARS-CoV-2 and influenza virus Bioinformatics External Quality Assessment (ESIB-EQA), 2025",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/european-sars-cov-2-and-influenza-virus-bioinformatics-external-quality",
-      "published_at": "2026-11-16T09:42:07+00:00",
+      "title": "Weekly respiratory virus update, week 46, October 2026",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-46-october-2026",
+      "published_at": "2026-11-20T12:40:08+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
       "language": null
     },
     {
-      "title": "Weekly respiratory virus update, week 45, October 2026",
-      "url": "https://www.ecdc.europa.eu/en/publications-data/weekly-respiratory-virus-update-week-45-october-2026",
-      "published_at": "2026-11-13T13:17:18+00:00",
+      "title": "European SARS-CoV-2 and influenza virus Bioinformatics External Quality Assessment (ESIB-EQA), 2025",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/european-sars-cov-2-and-influenza-virus-bioinformatics-external-quality",
+      "published_at": "2026-11-16T09:42:07+00:00",
       "source_id": "ecdc",
       "publisher": "European Centre for Disease Prevention and Control",
       "topic": "health",
