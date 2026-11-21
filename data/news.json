@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-20T20:22:41.975526+00:00",
-  "last_updated_at": "2026-11-20T20:22:41.975526+00:00",
+  "checked_at": "2026-11-21T07:09:59.076411+00:00",
+  "last_updated_at": "2026-11-21T07:09:59.076411+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,27 +24,27 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
-      "entries": 1420
+      "last_success_at": "2026-11-21T07:09:59.076411+00:00",
+      "entries": 1421
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
+      "last_success_at": "2026-11-21T07:09:59.076411+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
+      "last_success_at": "2026-11-21T07:09:59.076411+00:00",
       "entries": 20
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
+      "last_success_at": "2026-11-21T07:09:59.076411+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-20T20:22:41.975526+00:00",
+      "last_success_at": "2026-11-21T07:09:59.076411+00:00",
       "entries": 10
     }
   },
@@ -59,8 +59,8 @@
       "language": null
     },
     {
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
       "published_at": "2026-11-20T00:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
