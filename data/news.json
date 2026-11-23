@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-23T07:40:23.798109+00:00",
-  "last_updated_at": "2026-11-23T07:40:23.798109+00:00",
+  "checked_at": "2026-11-23T23:54:40.381168+00:00",
+  "last_updated_at": "2026-11-23T23:54:40.381168+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,62 +24,61 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-23T07:40:23.798109+00:00",
-      "entries": 1422
+      "last_success_at": "2026-11-23T23:54:40.381168+00:00",
+      "entries": 1425
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-23T07:40:23.798109+00:00",
+      "last_success_at": "2026-11-23T23:54:40.381168+00:00",
       "entries": 9
     },
     "r-project": {
-      "status": "ok",
-      "last_success_at": "2026-11-23T07:40:23.798109+00:00",
-      "entries": 20
+      "status": "unavailable",
+      "last_success_at": "2026-11-23T07:40:23.798109+00:00"
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-23T07:40:23.798109+00:00",
+      "last_success_at": "2026-11-23T23:54:40.381168+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-23T07:40:23.798109+00:00",
+      "last_success_at": "2026-11-23T23:54:40.381168+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "published_at": "2026-11-22T00:00:00+00:00",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "published_at": "2026-11-23T21:20:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "published_at": "2026-11-20T10:00:00+00:00",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "published_at": "2026-11-23T08:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "AAE submitted a response to the Commission’s targeted consultation on fair access to financial services for cancer survivors",
-      "url": "https://actuary.eu/aae-submitted-a-response-to-the-commissions-targeted-consultation-on-fair-access-to-financial-services-for-cancer-survivors",
-      "published_at": "2026-10-26T08:36:44+00:00",
+      "title": "In Memory of Jeroen van den Bosch",
+      "url": "https://actuary.eu/in-memory-of-jeroen-van-den-bosch",
+      "published_at": "2026-11-23T12:58:02+00:00",
       "source_id": "aae",
       "publisher": "Actuarial Association of Europe",
       "topic": "risk",
       "language": null
     },
     {
-      "title": "AAE submitted a response to EIOPA’s Consultations on draft RTS on valuation 1 and 2 and 3 – IRRD",
-      "url": "https://actuary.eu/aae-submitted-a-response-to-eiopas-consultations-on-draft-rts-on-valuation-1-and-2-and-3-irrd",
-      "published_at": "2026-10-15T07:27:15+00:00",
+      "title": "AAE submitted a response to the Commission’s targeted consultation on fair access to financial services for cancer survivors",
+      "url": "https://actuary.eu/aae-submitted-a-response-to-the-commissions-targeted-consultation-on-fair-access-to-financial-services-for-cancer-survivors",
+      "published_at": "2026-10-26T08:36:44+00:00",
       "source_id": "aae",
       "publisher": "Actuarial Association of Europe",
       "topic": "risk",
