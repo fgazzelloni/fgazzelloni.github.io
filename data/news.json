@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-24T09:55:27.242472+00:00",
-  "last_updated_at": "2026-11-24T09:55:27.242472+00:00",
+  "checked_at": "2026-11-24T22:27:43.512819+00:00",
+  "last_updated_at": "2026-11-24T22:27:43.512819+00:00",
   "freshness_days": 45,
   "topics": [
     {
@@ -24,44 +24,44 @@
   "sources": {
     "openai": {
       "status": "ok",
-      "last_success_at": "2026-11-24T09:55:27.242472+00:00",
-      "entries": 1425
+      "last_success_at": "2026-11-24T22:27:43.512819+00:00",
+      "entries": 1429
     },
     "aae": {
       "status": "ok",
-      "last_success_at": "2026-11-24T09:55:27.242472+00:00",
+      "last_success_at": "2026-11-24T22:27:43.512819+00:00",
       "entries": 9
     },
     "r-project": {
       "status": "ok",
-      "last_success_at": "2026-11-24T09:55:27.242472+00:00",
+      "last_success_at": "2026-11-24T22:27:43.512819+00:00",
       "entries": 20
     },
     "python": {
       "status": "ok",
-      "last_success_at": "2026-11-24T09:55:27.242472+00:00",
+      "last_success_at": "2026-11-24T22:27:43.512819+00:00",
       "entries": 50
     },
     "ecdc": {
       "status": "ok",
-      "last_success_at": "2026-11-24T09:55:27.242472+00:00",
+      "last_success_at": "2026-11-24T22:27:43.512819+00:00",
       "entries": 10
     }
   },
   "items": [
     {
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "published_at": "2026-11-23T21:20:00+00:00",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "published_at": "2026-11-24T13:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
       "language": null
     },
     {
-      "title": "Connected intelligence for in-house legal",
-      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-      "published_at": "2026-11-23T08:00:00+00:00",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "published_at": "2026-11-24T11:00:00+00:00",
       "source_id": "openai",
       "publisher": "OpenAI",
       "topic": "ai",
